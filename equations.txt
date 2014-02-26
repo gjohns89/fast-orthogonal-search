@@ -1,0 +1,5 @@
+sepallength*2+petalwidth
+petalwidth*petalwidth
+sepallength+5*petalwidth
+sepalwidth+3
+force

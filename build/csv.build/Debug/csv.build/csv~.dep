@@ -1,0 +1,11 @@
+000000005309809c000000000000008f c3d63c324e5f92c1f5cf6b5b86bff924 ffffffffffffffffffffffffffffffff 66992 /Users/greggjohns/Documents/C projects/csv/build/csv.build/Debug/csv.build/Objects-normal/x86_64/main.o
+0000000004753e5e00000000000014e4 8d4dd49a9c83ba10bdf350b6434702b1 ffffffffffffffffffffffffffffffff 0 /Users/greggjohns/Documents/C projects/csv/build/csv.build/Debug/csv.build/Objects-normal/x86_64/arff_value.o
+000000004a11eb240000000000001424 a286eca4e9e5cf340acca200c738d534 ffffffffffffffffffffffffffffffff 0 /Users/greggjohns/Documents/C projects/csv/build/csv.build/Debug/csv.build/Objects-normal/x86_64/arff_utils.o
+0000000004753e5e0000000000001bbd b91ce6e590f90f42842d745c08dc6b15 ffffffffffffffffffffffffffffffff 0 /Users/greggjohns/Documents/C projects/csv/build/csv.build/Debug/csv.build/Objects-normal/x86_64/arff_token.o
+000000004e292af9000000000000598d a17022a090cbd754dc314311562fcd97 ffffffffffffffffffffffffffffffff 0 /Users/greggjohns/Documents/C projects/csv/build/csv.build/Debug/csv.build/Objects-normal/x86_64/arff_scanner.o
+000000000438c1dd00000000000058e2 1006acfa59ef3fcff282a089868467a7 ffffffffffffffffffffffffffffffff 0 /Users/greggjohns/Documents/C projects/csv/build/csv.build/Debug/csv.build/Objects-normal/x86_64/arff_parser.o
+000000004e292af90000000000004ad7 d8c9d317ee5a2153861ba0b69c35c360 ffffffffffffffffffffffffffffffff 0 /Users/greggjohns/Documents/C projects/csv/build/csv.build/Debug/csv.build/Objects-normal/x86_64/arff_lexer.o
+000000004e64d57a0000000000001687 03265056a5efc5b5aa463ca1063dd570 ffffffffffffffffffffffffffffffff 0 /Users/greggjohns/Documents/C projects/csv/build/csv.build/Debug/csv.build/Objects-normal/x86_64/arff_instance.o
+00000000000000000000000000001b0f 3bd5d9205f3112dcaa83cc9f477142ea ffffffffffffffffffffffffffffffff 0 /Users/greggjohns/Documents/C projects/csv/build/csv.build/Debug/csv.build/Objects-normal/x86_64/arff_data.o
+000000004a11eb24000000000000052d b4491321c5cb01e9291ff342fa67da2d ffffffffffffffffffffffffffffffff 0 /Users/greggjohns/Documents/C projects/csv/build/csv.build/Debug/csv.build/Objects-normal/x86_64/arff_attr.o
+ffffffffffffffffffffffffffffffff ffffffffffffffffffffffffffffffff ffffffffffffffffffffffffffffffff 0 /Users/greggjohns/Documents/C projects/csv/build/Debug/csv

@@ -1,0 +1,1217 @@
+Tcsv
+v7
+r0
+t415096684.634124
+cCheck dependencies
+cCompileC build/csv.build/Debug/csv.build/Objects-normal/x86_64/main.o "/Users/greggjohns/Documents/C projects/csv/main.cpp" normal x86_64 c++ com.apple.compilers.gcc.4_2
+cCompileC build/csv.build/Debug/csv.build/Objects-normal/x86_64/arff_attr.o "/Users/greggjohns/Documents/C projects/csv/arff/arff_attr.cpp" normal x86_64 c++ com.apple.compilers.gcc.4_2
+cCompileC build/csv.build/Debug/csv.build/Objects-normal/x86_64/arff_data.o "/Users/greggjohns/Documents/C projects/csv/arff/arff_data.cpp" normal x86_64 c++ com.apple.compilers.gcc.4_2
+cCompileC build/csv.build/Debug/csv.build/Objects-normal/x86_64/arff_instance.o "/Users/greggjohns/Documents/C projects/csv/arff/arff_instance.cpp" normal x86_64 c++ com.apple.compilers.gcc.4_2
+cCompileC build/csv.build/Debug/csv.build/Objects-normal/x86_64/arff_lexer.o "/Users/greggjohns/Documents/C projects/csv/arff/arff_lexer.cpp" normal x86_64 c++ com.apple.compilers.gcc.4_2
+cCompileC build/csv.build/Debug/csv.build/Objects-normal/x86_64/arff_parser.o "/Users/greggjohns/Documents/C projects/csv/arff/arff_parser.cpp" normal x86_64 c++ com.apple.compilers.gcc.4_2
+cCompileC build/csv.build/Debug/csv.build/Objects-normal/x86_64/arff_scanner.o "/Users/greggjohns/Documents/C projects/csv/arff/arff_scanner.cpp" normal x86_64 c++ com.apple.compilers.gcc.4_2
+cCompileC build/csv.build/Debug/csv.build/Objects-normal/x86_64/arff_token.o "/Users/greggjohns/Documents/C projects/csv/arff/arff_token.cpp" normal x86_64 c++ com.apple.compilers.gcc.4_2
+cCompileC build/csv.build/Debug/csv.build/Objects-normal/x86_64/arff_utils.o "/Users/greggjohns/Documents/C projects/csv/arff/arff_utils.cpp" normal x86_64 c++ com.apple.compilers.gcc.4_2
+cCompileC build/csv.build/Debug/csv.build/Objects-normal/x86_64/arff_value.o "/Users/greggjohns/Documents/C projects/csv/arff/arff_value.cpp" normal x86_64 c++ com.apple.compilers.gcc.4_2
+cCompileC build/csv.build/Debug/csv.build/Objects-normal/x86_64/muParser.o "/Users/greggjohns/Documents/C projects/csv/muparser/muParser.cpp" normal x86_64 c++ com.apple.compilers.gcc.4_2
+cCompileC build/csv.build/Debug/csv.build/Objects-normal/x86_64/muParserBase.o "/Users/greggjohns/Documents/C projects/csv/muparser/muParserBase.cpp" normal x86_64 c++ com.apple.compilers.gcc.4_2
+cCompileC build/csv.build/Debug/csv.build/Objects-normal/x86_64/muParserBytecode.o "/Users/greggjohns/Documents/C projects/csv/muparser/muParserBytecode.cpp" normal x86_64 c++ com.apple.compilers.gcc.4_2
+cCompileC build/csv.build/Debug/csv.build/Objects-normal/x86_64/muParserCallback.o "/Users/greggjohns/Documents/C projects/csv/muparser/muParserCallback.cpp" normal x86_64 c++ com.apple.compilers.gcc.4_2
+cCompileC build/csv.build/Debug/csv.build/Objects-normal/x86_64/muParserDLL.o "/Users/greggjohns/Documents/C projects/csv/muparser/muParserDLL.cpp" normal x86_64 c++ com.apple.compilers.gcc.4_2
+cCompileC build/csv.build/Debug/csv.build/Objects-normal/x86_64/muParserError.o "/Users/greggjohns/Documents/C projects/csv/muparser/muParserError.cpp" normal x86_64 c++ com.apple.compilers.gcc.4_2
+cCompileC build/csv.build/Debug/csv.build/Objects-normal/x86_64/muParserInt.o "/Users/greggjohns/Documents/C projects/csv/muparser/muParserInt.cpp" normal x86_64 c++ com.apple.compilers.gcc.4_2
+cCompileC build/csv.build/Debug/csv.build/Objects-normal/x86_64/muParserTest.o "/Users/greggjohns/Documents/C projects/csv/muparser/muParserTest.cpp" normal x86_64 c++ com.apple.compilers.gcc.4_2
+cCompileC build/csv.build/Debug/csv.build/Objects-normal/x86_64/muParserTokenReader.o "/Users/greggjohns/Documents/C projects/csv/muparser/muParserTokenReader.cpp" normal x86_64 c++ com.apple.compilers.gcc.4_2
+cCompileC build/csv.build/Debug/csv.build/Objects-normal/x86_64/fos_candidate.o "/Users/greggjohns/Documents/C projects/csv/fos_core/fos_candidate.cpp" normal x86_64 c++ com.apple.compilers.gcc.4_2
+cCompileC build/csv.build/Debug/csv.build/Objects-normal/x86_64/fos_model.o "/Users/greggjohns/Documents/C projects/csv/fos_core/fos_model.cpp" normal x86_64 c++ com.apple.compilers.gcc.4_2
+cCompileC build/csv.build/Debug/csv.build/Objects-normal/x86_64/fos_simulation.o "/Users/greggjohns/Documents/C projects/csv/fos_core/fos_simulation.cpp" normal x86_64 c++ com.apple.compilers.gcc.4_2
+cLd "/Users/greggjohns/Documents/C projects/csv/build/Debug/csv" normal x86_64
+
+N/Developer/SDKs/MacOSX10.6.sdk
+c000000004A769DAB00000000000000EE
+t1249287595
+s238
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/math.h
+c000000004A5C14A000000000000004F1
+t1247548576
+s1265
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/signal.h
+c000000004A5C14A700000000000014F0
+t1247548583
+s5360
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/stdio.h
+c000000004A5C14A70000000000004174
+t1247548583
+s16756
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/stdlib.h
+c000000004A5C14A70000000000002DF5
+t1247548583
+s11765
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/string.h
+c000000004A5C14A70000000000001731
+t1247548583
+s5937
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/sys/stat.h
+c000000004A73D6550000000000004A1D
+t1249105493
+s18973
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/lib/gcc/i686-apple-darwin10/4.2.1/include/omp.h
+c000000004A1199040000000000000AE9
+t1242667268
+s2793
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/lib/gcc/i686-apple-darwin10/4.2.1/include/stdarg.h
+c000000004A11EB2400000000000010DD
+t1242688292
+s4317
+
+N/Users/greggjohns/Documents/C projects/csv/arff/arff_attr.cpp
+c0000000053098A8F0000000000000116
+t1393134223
+s278
+i"arff_attr.h"
+
+N/Users/greggjohns/Documents/C projects/csv/arff/arff_attr.h
+c0000000053098A9D00000000000003A6
+t1393134237
+s934
+i<string>
+i"arff_value.h"
+
+N/Users/greggjohns/Documents/C projects/csv/arff/arff_data.cpp
+c00000000530A6FA80000000000001215
+t1393192872
+s4629
+i"arff_data.h"
+
+N/Users/greggjohns/Documents/C projects/csv/arff/arff_data.h
+c0000000053098AD50000000000000E51
+t1393134293
+s3665
+i<string>
+i<vector>
+i<map>
+i"arff_utils.h"
+i"arff_instance.h"
+i"arff_attr.h"
+
+N/Users/greggjohns/Documents/C projects/csv/arff/arff_instance.cpp
+c0000000053098ABC000000000000025A
+t1393134268
+s602
+i"arff_instance.h"
+
+N/Users/greggjohns/Documents/C projects/csv/arff/arff_instance.h
+c0000000053098AE300000000000004EC
+t1393134307
+s1260
+i<vector>
+i"arff_utils.h"
+i"arff_value.h"
+
+N/Users/greggjohns/Documents/C projects/csv/arff/arff_lexer.cpp
+c0000000053098AC600000000000011C9
+t1393134278
+s4553
+i"arff_lexer.h"
+
+N/Users/greggjohns/Documents/C projects/csv/arff/arff_lexer.h
+c0000000053098AF50000000000000E7F
+t1393134325
+s3711
+i<string>
+i"arff_utils.h"
+i"arff_scanner.h"
+i"arff_token.h"
+
+N/Users/greggjohns/Documents/C projects/csv/arff/arff_parser.cpp
+c0000000053098B0B00000000000012AF
+t1393134347
+s4783
+i"arff_parser.h"
+i"arff_token.h"
+
+N/Users/greggjohns/Documents/C projects/csv/arff/arff_parser.h
+c0000000053098B230000000000000541
+t1393134371
+s1345
+i<string>
+i"arff_lexer.h"
+i"arff_data.h"
+
+N/Users/greggjohns/Documents/C projects/csv/arff/arff_scanner.cpp
+c0000000053098B2D0000000000000649
+t1393134381
+s1609
+i"arff_scanner.h"
+
+N/Users/greggjohns/Documents/C projects/csv/arff/arff_scanner.h
+c0000000053098AFF000000000000091C
+t1393134335
+s2332
+i<stdio.h>
+i<string>
+i"arff_utils.h"
+
+N/Users/greggjohns/Documents/C projects/csv/arff/arff_token.cpp
+c0000000053098B3A00000000000006B4
+t1393134394
+s1716
+i"arff_token.h"
+
+N/Users/greggjohns/Documents/C projects/csv/arff/arff_token.h
+c0000000053098B160000000000000AA5
+t1393134358
+s2725
+i<string>
+i"arff_utils.h"
+
+N/Users/greggjohns/Documents/C projects/csv/arff/arff_utils.cpp
+c0000000053098B470000000000000388
+t1393134407
+s904
+i<stdexcept>
+i"arff_utils.h"
+
+N/Users/greggjohns/Documents/C projects/csv/arff/arff_utils.h
+c000000004E64D57A0000000000000771
+t1315231098
+s1905
+i<stdarg.h>
+i<string>
+i<sstream>
+
+N/Users/greggjohns/Documents/C projects/csv/arff/arff_value.cpp
+c0000000053098B510000000000001379
+t1393134417
+s4985
+i"arff_value.h"
+
+N/Users/greggjohns/Documents/C projects/csv/arff/arff_value.h
+c0000000053098AA50000000000001031
+t1393134245
+s4145
+i<string>
+i"arff_utils.h"
+
+N/Users/greggjohns/Documents/C projects/csv/build/Debug/csv
+t1393403884
+s1089720
+
+N/Users/greggjohns/Documents/C projects/csv/build/csv.build/Debug/csv.build/Objects-normal/x86_64/arff_attr.o
+t1393134279
+s43984
+
+N/Users/greggjohns/Documents/C projects/csv/build/csv.build/Debug/csv.build/Objects-normal/x86_64/arff_data.o
+t1393192873
+s444824
+
+N/Users/greggjohns/Documents/C projects/csv/build/csv.build/Debug/csv.build/Objects-normal/x86_64/arff_instance.o
+t1393134310
+s89896
+
+N/Users/greggjohns/Documents/C projects/csv/build/csv.build/Debug/csv.build/Objects-normal/x86_64/arff_lexer.o
+t1393134361
+s59832
+
+N/Users/greggjohns/Documents/C projects/csv/build/csv.build/Debug/csv.build/Objects-normal/x86_64/arff_parser.o
+t1393134373
+s126472
+
+N/Users/greggjohns/Documents/C projects/csv/build/csv.build/Debug/csv.build/Objects-normal/x86_64/arff_scanner.o
+t1393134386
+s82672
+
+N/Users/greggjohns/Documents/C projects/csv/build/csv.build/Debug/csv.build/Objects-normal/x86_64/arff_token.o
+t1393134395
+s82572
+
+N/Users/greggjohns/Documents/C projects/csv/build/csv.build/Debug/csv.build/Objects-normal/x86_64/arff_utils.o
+t1393134410
+s77904
+
+N/Users/greggjohns/Documents/C projects/csv/build/csv.build/Debug/csv.build/Objects-normal/x86_64/arff_value.o
+t1393134418
+s97244
+
+N/Users/greggjohns/Documents/C projects/csv/build/csv.build/Debug/csv.build/Objects-normal/x86_64/csv.LinkFileList
+c00000000530C4E720000000000000994
+t1393315442
+s2452
+
+N/Users/greggjohns/Documents/C projects/csv/build/csv.build/Debug/csv.build/Objects-normal/x86_64/error.o
+t1393186143
+s80680
+
+N/Users/greggjohns/Documents/C projects/csv/build/csv.build/Debug/csv.build/Objects-normal/x86_64/fos_candidate-4E7DE2C08FB27452.o
+t2
+s0
+
+N/Users/greggjohns/Documents/C projects/csv/build/csv.build/Debug/csv.build/Objects-normal/x86_64/fos_candidate.o
+t1393369980
+s92692
+
+N/Users/greggjohns/Documents/C projects/csv/build/csv.build/Debug/csv.build/Objects-normal/x86_64/fos_model-38B9A667E63145C.o
+t2
+s0
+
+N/Users/greggjohns/Documents/C projects/csv/build/csv.build/Debug/csv.build/Objects-normal/x86_64/fos_model.o
+t1393403425
+s353016
+
+N/Users/greggjohns/Documents/C projects/csv/build/csv.build/Debug/csv.build/Objects-normal/x86_64/fos_simulation-F48E58BAE153345E.o
+t2
+s0
+
+N/Users/greggjohns/Documents/C projects/csv/build/csv.build/Debug/csv.build/Objects-normal/x86_64/fos_simulation.o
+t1393403884
+s418148
+
+N/Users/greggjohns/Documents/C projects/csv/build/csv.build/Debug/csv.build/Objects-normal/x86_64/fos_trainer.o
+t1393301173
+s202692
+
+N/Users/greggjohns/Documents/C projects/csv/build/csv.build/Debug/csv.build/Objects-normal/x86_64/main.o
+t1393403475
+s532096
+
+N/Users/greggjohns/Documents/C projects/csv/build/csv.build/Debug/csv.build/Objects-normal/x86_64/matrix.o
+t2
+s0
+
+N/Users/greggjohns/Documents/C projects/csv/build/csv.build/Debug/csv.build/Objects-normal/x86_64/muParser.o
+t1393194946
+s258052
+
+N/Users/greggjohns/Documents/C projects/csv/build/csv.build/Debug/csv.build/Objects-normal/x86_64/muParserBase.o
+t1393194948
+s1002708
+
+N/Users/greggjohns/Documents/C projects/csv/build/csv.build/Debug/csv.build/Objects-normal/x86_64/muParserBytecode.o
+t1393194947
+s252116
+
+N/Users/greggjohns/Documents/C projects/csv/build/csv.build/Debug/csv.build/Objects-normal/x86_64/muParserCallback.o
+t1393194948
+s114592
+
+N/Users/greggjohns/Documents/C projects/csv/build/csv.build/Debug/csv.build/Objects-normal/x86_64/muParserDLL.o
+t1393194948
+s1436
+
+N/Users/greggjohns/Documents/C projects/csv/build/csv.build/Debug/csv.build/Objects-normal/x86_64/muParserError.o
+t1393194949
+s176688
+
+N/Users/greggjohns/Documents/C projects/csv/build/csv.build/Debug/csv.build/Objects-normal/x86_64/muParserInt.o
+t1393194949
+s253440
+
+N/Users/greggjohns/Documents/C projects/csv/build/csv.build/Debug/csv.build/Objects-normal/x86_64/muParserTest.o
+t1393194951
+s679452
+
+N/Users/greggjohns/Documents/C projects/csv/build/csv.build/Debug/csv.build/Objects-normal/x86_64/muParserTokenReader.o
+t1393194950
+s609276
+
+N/Users/greggjohns/Documents/C projects/csv/build/csv.build/Debug/csv.build/Objects-normal/x86_64/rand.o
+t1393186144
+s79532
+
+N/Users/greggjohns/Documents/C projects/csv/error.cpp
+c000000004D19F61E0000000000000751
+t1293547038
+s1873
+i"error.h"
+i<exception>
+i<signal.h>
+i<sys/stat.h>
+i<string>
+i<iostream>
+i<sstream>
+
+N/Users/greggjohns/Documents/C projects/csv/error.h
+c000000004D88F5300000000000000B57
+t1300821296
+s2903
+i<string>
+i<sstream>
+
+N/Users/greggjohns/Documents/C projects/csv/fos_candidate.cpp
+c00000000530D068F000000000000044A
+t1393362575
+s1098
+i"fos_candidate.h"
+
+N/Users/greggjohns/Documents/C projects/csv/fos_candidate.h
+c00000000530D05B00000000000000348
+t1393362352
+s840
+i<string>
+i"muParser.h"
+
+N/Users/greggjohns/Documents/C projects/csv/fos_core/fos_candidate.cpp
+c00000000530D237A0000000000000525
+t1393369978
+s1317
+i"fos_candidate.h"
+
+N/Users/greggjohns/Documents/C projects/csv/fos_core/fos_candidate.h
+c00000000530D23300000000000000362
+t1393369904
+s866
+i<string>
+i"muParser.h"
+
+N/Users/greggjohns/Documents/C projects/csv/fos_core/fos_config.h
+c00000000530D8021000000000000017F
+t1393393697
+s383
+
+N/Users/greggjohns/Documents/C projects/csv/fos_core/fos_model.cpp
+c00000000530DA61F00000000000008A8
+t1393403423
+s2216
+i"fos_model.h"
+
+N/Users/greggjohns/Documents/C projects/csv/fos_core/fos_model.h
+c00000000530D89D8000000000000040F
+t1393396184
+s1039
+i<string>
+i<vector>
+i"fos_candidate.h"
+i"muParser.h"
+
+N/Users/greggjohns/Documents/C projects/csv/fos_core/fos_simulation.cpp
+c00000000530DA7E900000000000026AC
+t1393403881
+s9900
+i"fos_simulation.h"
+
+N/Users/greggjohns/Documents/C projects/csv/fos_core/fos_simulation.h
+c00000000530DA59E000000000000069D
+t1393403294
+s1693
+i<string>
+i<vector>
+i<cstdlib>
+i<cstring>
+i<cmath>
+i<iostream>
+i<locale>
+i<limits>
+i<ios>
+i<iomanip>
+i<numeric>
+i<fstream>
+i"fos_model.h"
+i"fos_candidate.h"
+i"arff_parser.h"
+i"arff_attr.h"
+i"muParser.h"
+i"fos_config.h"
+
+N/Users/greggjohns/Documents/C projects/csv/fos_model.cpp
+c00000000530C32A400000000000005C1
+t1393308324
+s1473
+i"fos_model.h"
+
+N/Users/greggjohns/Documents/C projects/csv/fos_model.h
+c00000000530C30560000000000000339
+t1393307734
+s825
+i<string>
+i<vector>
+i"fos_candidate.h"
+i"muParser.h"
+
+N/Users/greggjohns/Documents/C projects/csv/fos_simulation.cpp
+c00000000530D07830000000000001760
+t1393362819
+s5984
+i"fos_simulation.h"
+
+N/Users/greggjohns/Documents/C projects/csv/fos_simulation.h
+c00000000530D03140000000000000655
+t1393361684
+s1621
+i<string>
+i<vector>
+i<cstdlib>
+i<cstring>
+i<cmath>
+i<iostream>
+i<locale>
+i<limits>
+i<ios>
+i<iomanip>
+i<numeric>
+i<fstream>
+i"fos_model.h"
+i"fos_candidate.h"
+i"arff_parser.h"
+i"arff_attr.h"
+i"muParser.h"
+
+N/Users/greggjohns/Documents/C projects/csv/fos_trainer.cpp
+c00000000530C16B40000000000000274
+t1393301172
+s628
+i"fos_trainer.h"
+
+N/Users/greggjohns/Documents/C projects/csv/fos_trainer.h
+c00000000530C056800000000000001EC
+t1393296744
+s492
+
+N/Users/greggjohns/Documents/C projects/csv/linear_algebra/matrix.cpp
+c000000004F43C47A00000000000025B7
+t1329841274
+s9655
+i"matrix.h"
+i"rand.h"
+i"error.h"
+i<fstream>
+
+N/Users/greggjohns/Documents/C projects/csv/linear_algebra/matrix.h
+c000000004D713A9E0000000000001123
+t1299266206
+s4387
+i<vector>
+i<map>
+i<string>
+
+N/Users/greggjohns/Documents/C projects/csv/main.cpp
+c00000000530DA6510000000000002814
+t1393403473
+s10260
+i"muParserTest.h"
+i<stdlib.h>
+i<crtdbg.h>
+i<cstdlib>
+i<cstring>
+i<cmath>
+i<string>
+i<iostream>
+i<locale>
+i<limits>
+i<ios>
+i<iomanip>
+i<numeric>
+i<fstream>
+i"muParser.h"
+i"arff_parser.h"
+i"arff_attr.h"
+i"fos_simulation.h"
+
+N/Users/greggjohns/Documents/C projects/csv/matrix.cpp
+c000000004F43C47A00000000000025B7
+t1329841274
+s9655
+i"matrix.h"
+i"rand.h"
+i"error.h"
+i<fstream>
+
+N/Users/greggjohns/Documents/C projects/csv/matrix.h
+c000000004D713A9E0000000000001123
+t1299266206
+s4387
+i<vector>
+i<map>
+i<string>
+
+N/Users/greggjohns/Documents/C projects/csv/muparser/muParser.cpp
+c0000000050D5F22E00000000000036B5
+t1356198446
+s14005
+i"muParser.h"
+i"muParserTemplateMagic.h"
+i<cmath>
+i<algorithm>
+i<numeric>
+
+N/Users/greggjohns/Documents/C projects/csv/muparser/muParser.h
+c0000000050D5F22E000000000000114F
+t1356198446
+s4431
+i<vector>
+i"muParserBase.h"
+i"muParserTemplateMagic.h"
+
+N/Users/greggjohns/Documents/C projects/csv/muparser/muParserBase.cpp
+c0000000050D5F22E000000000000FF9B
+t1356198446
+s65435
+i"muParserBase.h"
+i"muParserTemplateMagic.h"
+i<cassert>
+i<cmath>
+i<memory>
+i<vector>
+i<deque>
+i<sstream>
+i<locale>
+i<omp.h>
+
+N/Users/greggjohns/Documents/C projects/csv/muparser/muParserBase.h
+c0000000050D5F22E0000000000002E4F
+t1356198446
+s11855
+i<cmath>
+i<string>
+i<iostream>
+i<map>
+i<memory>
+i<locale>
+i"muParserDef.h"
+i"muParserStack.h"
+i"muParserTokenReader.h"
+i"muParserBytecode.h"
+i"muParserError.h"
+
+N/Users/greggjohns/Documents/C projects/csv/muparser/muParserBytecode.cpp
+c0000000050D5F22E00000000000052F1
+t1356198446
+s21233
+i"muParserBytecode.h"
+i<cassert>
+i<string>
+i<stack>
+i<vector>
+i<iostream>
+i"muParserDef.h"
+i"muParserError.h"
+i"muParserToken.h"
+i"muParserStack.h"
+i"muParserTemplateMagic.h"
+
+N/Users/greggjohns/Documents/C projects/csv/muparser/muParserBytecode.h
+c0000000050D5F22E000000000000117E
+t1356198446
+s4478
+i<cassert>
+i<string>
+i<stack>
+i<vector>
+i"muParserDef.h"
+i"muParserError.h"
+i"muParserToken.h"
+
+N/Users/greggjohns/Documents/C projects/csv/muparser/muParserCallback.cpp
+c000000004F1C9EC20000000000003814
+t1327275714
+s14356
+i"muParserCallback.h"
+
+N/Users/greggjohns/Documents/C projects/csv/muparser/muParserCallback.h
+c000000004F1C9EF400000000000014AE
+t1327275764
+s5294
+i"muParserDef.h"
+
+N/Users/greggjohns/Documents/C projects/csv/muparser/muParserDLL.cpp
+c000000004F1C9EC2000000000000898E
+t1327275714
+s35214
+i<windows.h>
+i"muParserDLL.h"
+i"muParser.h"
+i"muParserInt.h"
+i"muParserError.h"
+
+N/Users/greggjohns/Documents/C projects/csv/muparser/muParserDLL.h
+c00000000506138060000000000003642
+t1348548614
+s13890
+
+N/Users/greggjohns/Documents/C projects/csv/muparser/muParserDef.h
+c0000000050D5F22E0000000000003917
+t1356198446
+s14615
+i<iostream>
+i<string>
+i<sstream>
+i<map>
+i"muParserFixes.h"
+
+N/Users/greggjohns/Documents/C projects/csv/muparser/muParserError.cpp
+c0000000050D5F22E0000000000003599
+t1356198446
+s13721
+i"muParserError.h"
+
+N/Users/greggjohns/Documents/C projects/csv/muparser/muParserError.h
+c0000000050D5F22E0000000000001CFA
+t1356198446
+s7418
+i<cassert>
+i<stdexcept>
+i<string>
+i<sstream>
+i<vector>
+i<memory>
+i"muParserDef.h"
+
+N/Users/greggjohns/Documents/C projects/csv/muparser/muParserFixes.h
+c0000000050D5F22E0000000000000992
+t1356198446
+s2450
+
+N/Users/greggjohns/Documents/C projects/csv/muparser/muParserInt.cpp
+c000000004F1C9EC200000000000027A8
+t1327275714
+s10152
+i"muParserInt.h"
+i<cmath>
+i<algorithm>
+i<numeric>
+
+N/Users/greggjohns/Documents/C projects/csv/muparser/muParserInt.h
+c0000000050D5F22E000000000000147C
+t1356198446
+s5244
+i"muParserBase.h"
+i<vector>
+
+N/Users/greggjohns/Documents/C projects/csv/muparser/muParserStack.h
+c000000004F1C9EC2000000000000100C
+t1327275714
+s4108
+i<cassert>
+i<string>
+i<stack>
+i<vector>
+i"muParserError.h"
+i"muParserToken.h"
+
+N/Users/greggjohns/Documents/C projects/csv/muparser/muParserTemplateMagic.h
+c0000000050D5F22E0000000000001676
+t1356198446
+s5750
+i<cmath>
+i"muParserError.h"
+
+N/Users/greggjohns/Documents/C projects/csv/muparser/muParserTest.cpp
+c0000000050D5F22E000000000000F6A7
+t1356198446
+s63143
+i"muParserTest.h"
+i<cstdio>
+i<cmath>
+i<iostream>
+i<limits>
+
+N/Users/greggjohns/Documents/C projects/csv/muparser/muParserTest.h
+c0000000050D5F22E0000000000001FC7
+t1356198446
+s8135
+i<string>
+i<cstdlib>
+i<numeric>
+i"muParser.h"
+i"muParserInt.h"
+
+N/Users/greggjohns/Documents/C projects/csv/muparser/muParserToken.h
+c0000000050D5F22E0000000000003304
+t1356198446
+s13060
+i<cassert>
+i<string>
+i<stack>
+i<vector>
+i<memory>
+i"muParserError.h"
+i"muParserCallback.h"
+
+N/Users/greggjohns/Documents/C projects/csv/muparser/muParserTokenReader.cpp
+c0000000050D5F22E00000000000085A4
+t1356198446
+s34212
+i<cassert>
+i<cstdio>
+i<cstring>
+i<map>
+i<stack>
+i<string>
+i"muParserTokenReader.h"
+i"muParserBase.h"
+
+N/Users/greggjohns/Documents/C projects/csv/muparser/muParserTokenReader.h
+c0000000050D5F22E000000000000180C
+t1356198446
+s6156
+i<cassert>
+i<cstdio>
+i<cstring>
+i<list>
+i<map>
+i<memory>
+i<stack>
+i<string>
+i"muParserDef.h"
+i"muParserToken.h"
+
+N/Users/greggjohns/Documents/C projects/csv/rand.cpp
+c000000004D077BCE0000000000001BFE
+t1292336078
+s7166
+i<string.h>
+i<math.h>
+i<stdlib.h>
+i"rand.h"
+i"error.h"
+
+N/Users/greggjohns/Documents/C projects/csv/rand.h
+c000000004D07906A00000000000012CA
+t1292341354
+s4810
+i<vector>
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies415096683#415096683#0(0"0(0#1#0"4493903168#0"0#
+
+CCompileC build/csv.build/Debug/csv.build/Objects-normal/x86_64/arff_attr.o "/Users/greggjohns/Documents/C projects/csv/arff/arff_attr.cpp" normal x86_64 c++ com.apple.compilers.gcc.4_2
+s414827078.660158
+e414827079.389233
+r1
+xCompileC
+xbuild/csv.build/Debug/csv.build/Objects-normal/x86_64/arff_attr.o
+x/Users/greggjohns/Documents/C projects/csv/arff/arff_attr.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@69"Compile /Users/greggjohns/Documents/C projects/csv/arff/arff_attr.cpp414827078#414827079#0(0"0(0#0#61"/Users/greggjohns/Documents/C projects/csv/arff/arff_attr.cpp4541931152#1300"    cd "/Users/greggjohns/Documents/C projects/csv"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote "/Users/greggjohns/Documents/C projects/csv/build/csv.build/Debug/csv.build/csv-generated-files.hmap" "-I/Users/greggjohns/Documents/C projects/csv/build/csv.build/Debug/csv.build/csv-own-target-headers.hmap" "-I/Users/greggjohns/Documents/C projects/csv/build/csv.build/Debug/csv.build/csv-all-target-headers.hmap" -iquote "/Users/greggjohns/Documents/C projects/csv/build/csv.build/Debug/csv.build/csv-project-headers.hmap" "-F/Users/greggjohns/Documents/C projects/csv/build/Debug" "-I/Users/greggjohns/Documents/C projects/csv/build/Debug/include" "-I/Users/greggjohns/Documents/C projects/csv/build/csv.build/Debug/csv.build/DerivedSources/x86_64" "-I/Users/greggjohns/Documents/C projects/csv/build/csv.build/Debug/csv.build/DerivedSources" -c "/Users/greggjohns/Documents/C projects/csv/arff/arff_attr.cpp" -o "/Users/greggjohns/Documents/C projects/csv/build/csv.build/Debug/csv.build/Objects-normal/x86_64/arff_attr.o"0#
+
+CCompileC build/csv.build/Debug/csv.build/Objects-normal/x86_64/arff_data.o "/Users/greggjohns/Documents/C projects/csv/arff/arff_data.cpp" normal x86_64 c++ com.apple.compilers.gcc.4_2
+s414887745.755203
+e414887745.756350
+r1
+xCompileC
+xbuild/csv.build/Debug/csv.build/Objects-normal/x86_64/arff_data.o
+x/Users/greggjohns/Documents/C projects/csv/arff/arff_data.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@69"Compile /Users/greggjohns/Documents/C projects/csv/arff/arff_data.cpp414887745#414887745#0(0"0(0#0#61"/Users/greggjohns/Documents/C projects/csv/arff/arff_data.cpp4505902736#1300"    cd "/Users/greggjohns/Documents/C projects/csv"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote "/Users/greggjohns/Documents/C projects/csv/build/csv.build/Debug/csv.build/csv-generated-files.hmap" "-I/Users/greggjohns/Documents/C projects/csv/build/csv.build/Debug/csv.build/csv-own-target-headers.hmap" "-I/Users/greggjohns/Documents/C projects/csv/build/csv.build/Debug/csv.build/csv-all-target-headers.hmap" -iquote "/Users/greggjohns/Documents/C projects/csv/build/csv.build/Debug/csv.build/csv-project-headers.hmap" "-F/Users/greggjohns/Documents/C projects/csv/build/Debug" "-I/Users/greggjohns/Documents/C projects/csv/build/Debug/include" "-I/Users/greggjohns/Documents/C projects/csv/build/csv.build/Debug/csv.build/DerivedSources/x86_64" "-I/Users/greggjohns/Documents/C projects/csv/build/csv.build/Debug/csv.build/DerivedSources" -c "/Users/greggjohns/Documents/C projects/csv/arff/arff_data.cpp" -o "/Users/greggjohns/Documents/C projects/csv/build/csv.build/Debug/csv.build/Objects-normal/x86_64/arff_data.o"0#
+
+CCompileC build/csv.build/Debug/csv.build/Objects-normal/x86_64/arff_instance.o "/Users/greggjohns/Documents/C projects/csv/arff/arff_instance.cpp" normal x86_64 c++ com.apple.compilers.gcc.4_2
+s414827109.345390
+e414827110.009098
+r1
+xCompileC
+xbuild/csv.build/Debug/csv.build/Objects-normal/x86_64/arff_instance.o
+x/Users/greggjohns/Documents/C projects/csv/arff/arff_instance.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@73"Compile /Users/greggjohns/Documents/C projects/csv/arff/arff_instance.cpp414827109#414827110#0(0"0(0#0#65"/Users/greggjohns/Documents/C projects/csv/arff/arff_instance.cpp4501876368#1308"    cd "/Users/greggjohns/Documents/C projects/csv"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote "/Users/greggjohns/Documents/C projects/csv/build/csv.build/Debug/csv.build/csv-generated-files.hmap" "-I/Users/greggjohns/Documents/C projects/csv/build/csv.build/Debug/csv.build/csv-own-target-headers.hmap" "-I/Users/greggjohns/Documents/C projects/csv/build/csv.build/Debug/csv.build/csv-all-target-headers.hmap" -iquote "/Users/greggjohns/Documents/C projects/csv/build/csv.build/Debug/csv.build/csv-project-headers.hmap" "-F/Users/greggjohns/Documents/C projects/csv/build/Debug" "-I/Users/greggjohns/Documents/C projects/csv/build/Debug/include" "-I/Users/greggjohns/Documents/C projects/csv/build/csv.build/Debug/csv.build/DerivedSources/x86_64" "-I/Users/greggjohns/Documents/C projects/csv/build/csv.build/Debug/csv.build/DerivedSources" -c "/Users/greggjohns/Documents/C projects/csv/arff/arff_instance.cpp" -o "/Users/greggjohns/Documents/C projects/csv/build/csv.build/Debug/csv.build/Objects-normal/x86_64/arff_instance.o"0#
+
+CCompileC build/csv.build/Debug/csv.build/Objects-normal/x86_64/arff_lexer.o "/Users/greggjohns/Documents/C projects/csv/arff/arff_lexer.cpp" normal x86_64 c++ com.apple.compilers.gcc.4_2
+s414827160.924855
+e414827161.513241
+r1
+xCompileC
+xbuild/csv.build/Debug/csv.build/Objects-normal/x86_64/arff_lexer.o
+x/Users/greggjohns/Documents/C projects/csv/arff/arff_lexer.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@70"Compile /Users/greggjohns/Documents/C projects/csv/arff/arff_lexer.cpp414827160#414827161#0(0"0(0#0#62"/Users/greggjohns/Documents/C projects/csv/arff/arff_lexer.cpp4501876368#1302"    cd "/Users/greggjohns/Documents/C projects/csv"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote "/Users/greggjohns/Documents/C projects/csv/build/csv.build/Debug/csv.build/csv-generated-files.hmap" "-I/Users/greggjohns/Documents/C projects/csv/build/csv.build/Debug/csv.build/csv-own-target-headers.hmap" "-I/Users/greggjohns/Documents/C projects/csv/build/csv.build/Debug/csv.build/csv-all-target-headers.hmap" -iquote "/Users/greggjohns/Documents/C projects/csv/build/csv.build/Debug/csv.build/csv-project-headers.hmap" "-F/Users/greggjohns/Documents/C projects/csv/build/Debug" "-I/Users/greggjohns/Documents/C projects/csv/build/Debug/include" "-I/Users/greggjohns/Documents/C projects/csv/build/csv.build/Debug/csv.build/DerivedSources/x86_64" "-I/Users/greggjohns/Documents/C projects/csv/build/csv.build/Debug/csv.build/DerivedSources" -c "/Users/greggjohns/Documents/C projects/csv/arff/arff_lexer.cpp" -o "/Users/greggjohns/Documents/C projects/csv/build/csv.build/Debug/csv.build/Objects-normal/x86_64/arff_lexer.o"0#
+
+CCompileC build/csv.build/Debug/csv.build/Objects-normal/x86_64/arff_parser.o "/Users/greggjohns/Documents/C projects/csv/arff/arff_parser.cpp" normal x86_64 c++ com.apple.compilers.gcc.4_2
+s414827172.385990
+e414827173.342513
+r1
+xCompileC
+xbuild/csv.build/Debug/csv.build/Objects-normal/x86_64/arff_parser.o
+x/Users/greggjohns/Documents/C projects/csv/arff/arff_parser.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@71"Compile /Users/greggjohns/Documents/C projects/csv/arff/arff_parser.cpp414827172#414827173#0(0"0(0#0#63"/Users/greggjohns/Documents/C projects/csv/arff/arff_parser.cpp4501876368#1304"    cd "/Users/greggjohns/Documents/C projects/csv"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote "/Users/greggjohns/Documents/C projects/csv/build/csv.build/Debug/csv.build/csv-generated-files.hmap" "-I/Users/greggjohns/Documents/C projects/csv/build/csv.build/Debug/csv.build/csv-own-target-headers.hmap" "-I/Users/greggjohns/Documents/C projects/csv/build/csv.build/Debug/csv.build/csv-all-target-headers.hmap" -iquote "/Users/greggjohns/Documents/C projects/csv/build/csv.build/Debug/csv.build/csv-project-headers.hmap" "-F/Users/greggjohns/Documents/C projects/csv/build/Debug" "-I/Users/greggjohns/Documents/C projects/csv/build/Debug/include" "-I/Users/greggjohns/Documents/C projects/csv/build/csv.build/Debug/csv.build/DerivedSources/x86_64" "-I/Users/greggjohns/Documents/C projects/csv/build/csv.build/Debug/csv.build/DerivedSources" -c "/Users/greggjohns/Documents/C projects/csv/arff/arff_parser.cpp" -o "/Users/greggjohns/Documents/C projects/csv/build/csv.build/Debug/csv.build/Objects-normal/x86_64/arff_parser.o"0#
+
+CCompileC build/csv.build/Debug/csv.build/Objects-normal/x86_64/arff_scanner.o "/Users/greggjohns/Documents/C projects/csv/arff/arff_scanner.cpp" normal x86_64 c++ com.apple.compilers.gcc.4_2
+s414827185.782371
+e414827186.336772
+r1
+xCompileC
+xbuild/csv.build/Debug/csv.build/Objects-normal/x86_64/arff_scanner.o
+x/Users/greggjohns/Documents/C projects/csv/arff/arff_scanner.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@72"Compile /Users/greggjohns/Documents/C projects/csv/arff/arff_scanner.cpp414827185#414827186#0(0"0(0#0#64"/Users/greggjohns/Documents/C projects/csv/arff/arff_scanner.cpp4483178128#1306"    cd "/Users/greggjohns/Documents/C projects/csv"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote "/Users/greggjohns/Documents/C projects/csv/build/csv.build/Debug/csv.build/csv-generated-files.hmap" "-I/Users/greggjohns/Documents/C projects/csv/build/csv.build/Debug/csv.build/csv-own-target-headers.hmap" "-I/Users/greggjohns/Documents/C projects/csv/build/csv.build/Debug/csv.build/csv-all-target-headers.hmap" -iquote "/Users/greggjohns/Documents/C projects/csv/build/csv.build/Debug/csv.build/csv-project-headers.hmap" "-F/Users/greggjohns/Documents/C projects/csv/build/Debug" "-I/Users/greggjohns/Documents/C projects/csv/build/Debug/include" "-I/Users/greggjohns/Documents/C projects/csv/build/csv.build/Debug/csv.build/DerivedSources/x86_64" "-I/Users/greggjohns/Documents/C projects/csv/build/csv.build/Debug/csv.build/DerivedSources" -c "/Users/greggjohns/Documents/C projects/csv/arff/arff_scanner.cpp" -o "/Users/greggjohns/Documents/C projects/csv/build/csv.build/Debug/csv.build/Objects-normal/x86_64/arff_scanner.o"0#
+
+CCompileC build/csv.build/Debug/csv.build/Objects-normal/x86_64/arff_token.o "/Users/greggjohns/Documents/C projects/csv/arff/arff_token.cpp" normal x86_64 c++ com.apple.compilers.gcc.4_2
+s414827195.095437
+e414827195.769412
+r1
+xCompileC
+xbuild/csv.build/Debug/csv.build/Objects-normal/x86_64/arff_token.o
+x/Users/greggjohns/Documents/C projects/csv/arff/arff_token.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@70"Compile /Users/greggjohns/Documents/C projects/csv/arff/arff_token.cpp414827195#414827195#0(0"0(0#0#62"/Users/greggjohns/Documents/C projects/csv/arff/arff_token.cpp4483178128#1302"    cd "/Users/greggjohns/Documents/C projects/csv"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote "/Users/greggjohns/Documents/C projects/csv/build/csv.build/Debug/csv.build/csv-generated-files.hmap" "-I/Users/greggjohns/Documents/C projects/csv/build/csv.build/Debug/csv.build/csv-own-target-headers.hmap" "-I/Users/greggjohns/Documents/C projects/csv/build/csv.build/Debug/csv.build/csv-all-target-headers.hmap" -iquote "/Users/greggjohns/Documents/C projects/csv/build/csv.build/Debug/csv.build/csv-project-headers.hmap" "-F/Users/greggjohns/Documents/C projects/csv/build/Debug" "-I/Users/greggjohns/Documents/C projects/csv/build/Debug/include" "-I/Users/greggjohns/Documents/C projects/csv/build/csv.build/Debug/csv.build/DerivedSources/x86_64" "-I/Users/greggjohns/Documents/C projects/csv/build/csv.build/Debug/csv.build/DerivedSources" -c "/Users/greggjohns/Documents/C projects/csv/arff/arff_token.cpp" -o "/Users/greggjohns/Documents/C projects/csv/build/csv.build/Debug/csv.build/Objects-normal/x86_64/arff_token.o"0#
+
+CCompileC build/csv.build/Debug/csv.build/Objects-normal/x86_64/arff_utils.o "/Users/greggjohns/Documents/C projects/csv/arff/arff_utils.cpp" normal x86_64 c++ com.apple.compilers.gcc.4_2
+s414827209.900594
+e414827210.431761
+r1
+xCompileC
+xbuild/csv.build/Debug/csv.build/Objects-normal/x86_64/arff_utils.o
+x/Users/greggjohns/Documents/C projects/csv/arff/arff_utils.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@70"Compile /Users/greggjohns/Documents/C projects/csv/arff/arff_utils.cpp414827209#414827210#0(0"0(0#0#62"/Users/greggjohns/Documents/C projects/csv/arff/arff_utils.cpp4472704656#1302"    cd "/Users/greggjohns/Documents/C projects/csv"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote "/Users/greggjohns/Documents/C projects/csv/build/csv.build/Debug/csv.build/csv-generated-files.hmap" "-I/Users/greggjohns/Documents/C projects/csv/build/csv.build/Debug/csv.build/csv-own-target-headers.hmap" "-I/Users/greggjohns/Documents/C projects/csv/build/csv.build/Debug/csv.build/csv-all-target-headers.hmap" -iquote "/Users/greggjohns/Documents/C projects/csv/build/csv.build/Debug/csv.build/csv-project-headers.hmap" "-F/Users/greggjohns/Documents/C projects/csv/build/Debug" "-I/Users/greggjohns/Documents/C projects/csv/build/Debug/include" "-I/Users/greggjohns/Documents/C projects/csv/build/csv.build/Debug/csv.build/DerivedSources/x86_64" "-I/Users/greggjohns/Documents/C projects/csv/build/csv.build/Debug/csv.build/DerivedSources" -c "/Users/greggjohns/Documents/C projects/csv/arff/arff_utils.cpp" -o "/Users/greggjohns/Documents/C projects/csv/build/csv.build/Debug/csv.build/Objects-normal/x86_64/arff_utils.o"0#
+
+CCompileC build/csv.build/Debug/csv.build/Objects-normal/x86_64/arff_value.o "/Users/greggjohns/Documents/C projects/csv/arff/arff_value.cpp" normal x86_64 c++ com.apple.compilers.gcc.4_2
+s414827218.034845
+e414827218.557027
+r1
+xCompileC
+xbuild/csv.build/Debug/csv.build/Objects-normal/x86_64/arff_value.o
+x/Users/greggjohns/Documents/C projects/csv/arff/arff_value.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@70"Compile /Users/greggjohns/Documents/C projects/csv/arff/arff_value.cpp414827218#414827218#0(0"0(0#0#62"/Users/greggjohns/Documents/C projects/csv/arff/arff_value.cpp4472704656#1302"    cd "/Users/greggjohns/Documents/C projects/csv"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote "/Users/greggjohns/Documents/C projects/csv/build/csv.build/Debug/csv.build/csv-generated-files.hmap" "-I/Users/greggjohns/Documents/C projects/csv/build/csv.build/Debug/csv.build/csv-own-target-headers.hmap" "-I/Users/greggjohns/Documents/C projects/csv/build/csv.build/Debug/csv.build/csv-all-target-headers.hmap" -iquote "/Users/greggjohns/Documents/C projects/csv/build/csv.build/Debug/csv.build/csv-project-headers.hmap" "-F/Users/greggjohns/Documents/C projects/csv/build/Debug" "-I/Users/greggjohns/Documents/C projects/csv/build/Debug/include" "-I/Users/greggjohns/Documents/C projects/csv/build/csv.build/Debug/csv.build/DerivedSources/x86_64" "-I/Users/greggjohns/Documents/C projects/csv/build/csv.build/Debug/csv.build/DerivedSources" -c "/Users/greggjohns/Documents/C projects/csv/arff/arff_value.cpp" -o "/Users/greggjohns/Documents/C projects/csv/build/csv.build/Debug/csv.build/Objects-normal/x86_64/arff_value.o"0#
+
+CCompileC build/csv.build/Debug/csv.build/Objects-normal/x86_64/error.o "/Users/greggjohns/Documents/C projects/csv/error.cpp" normal x86_64 c++ com.apple.compilers.gcc.4_2
+s414878943.032763
+e414878943.573402
+r1
+xCompileC
+xbuild/csv.build/Debug/csv.build/Objects-normal/x86_64/error.o
+x/Users/greggjohns/Documents/C projects/csv/error.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@60"Compile /Users/greggjohns/Documents/C projects/csv/error.cpp414878943#414878943#0(0"0(0#0#52"/Users/greggjohns/Documents/C projects/csv/error.cpp4396367504#1287"    cd "/Users/greggjohns/Documents/C projects/csv"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote "/Users/greggjohns/Documents/C projects/csv/build/csv.build/Debug/csv.build/csv-generated-files.hmap" "-I/Users/greggjohns/Documents/C projects/csv/build/csv.build/Debug/csv.build/csv-own-target-headers.hmap" "-I/Users/greggjohns/Documents/C projects/csv/build/csv.build/Debug/csv.build/csv-all-target-headers.hmap" -iquote "/Users/greggjohns/Documents/C projects/csv/build/csv.build/Debug/csv.build/csv-project-headers.hmap" "-F/Users/greggjohns/Documents/C projects/csv/build/Debug" "-I/Users/greggjohns/Documents/C projects/csv/build/Debug/include" "-I/Users/greggjohns/Documents/C projects/csv/build/csv.build/Debug/csv.build/DerivedSources/x86_64" "-I/Users/greggjohns/Documents/C projects/csv/build/csv.build/Debug/csv.build/DerivedSources" -c "/Users/greggjohns/Documents/C projects/csv/error.cpp" -o "/Users/greggjohns/Documents/C projects/csv/build/csv.build/Debug/csv.build/Objects-normal/x86_64/error.o"0#
+
+CCompileC build/csv.build/Debug/csv.build/Objects-normal/x86_64/fos_candidate-4E7DE2C08FB27452.o "/Users/greggjohns/Documents/C projects/csv/fos_core/fos_candidate.cpp" normal x86_64 c++ com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/csv.build/Debug/csv.build/Objects-normal/x86_64/fos_candidate.o "/Users/greggjohns/Documents/C projects/csv/fos_candidate.cpp" normal x86_64 c++ com.apple.compilers.gcc.4_2
+s415055377.192472
+e415055377.857855
+r1
+xCompileC
+xbuild/csv.build/Debug/csv.build/Objects-normal/x86_64/fos_candidate.o
+x/Users/greggjohns/Documents/C projects/csv/fos_candidate.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@68"Compile /Users/greggjohns/Documents/C projects/csv/fos_candidate.cpp415055377#415055377#0(0"0(0#0#60"/Users/greggjohns/Documents/C projects/csv/fos_candidate.cpp4514746000#1303"    cd "/Users/greggjohns/Documents/C projects/csv"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote "/Users/greggjohns/Documents/C projects/csv/build/csv.build/Debug/csv.build/csv-generated-files.hmap" "-I/Users/greggjohns/Documents/C projects/csv/build/csv.build/Debug/csv.build/csv-own-target-headers.hmap" "-I/Users/greggjohns/Documents/C projects/csv/build/csv.build/Debug/csv.build/csv-all-target-headers.hmap" -iquote "/Users/greggjohns/Documents/C projects/csv/build/csv.build/Debug/csv.build/csv-project-headers.hmap" "-F/Users/greggjohns/Documents/C projects/csv/build/Debug" "-I/Users/greggjohns/Documents/C projects/csv/build/Debug/include" "-I/Users/greggjohns/Documents/C projects/csv/build/csv.build/Debug/csv.build/DerivedSources/x86_64" "-I/Users/greggjohns/Documents/C projects/csv/build/csv.build/Debug/csv.build/DerivedSources" -c "/Users/greggjohns/Documents/C projects/csv/fos_candidate.cpp" -o "/Users/greggjohns/Documents/C projects/csv/build/csv.build/Debug/csv.build/Objects-normal/x86_64/fos_candidate.o"0#
+
+CCompileC build/csv.build/Debug/csv.build/Objects-normal/x86_64/fos_candidate.o "/Users/greggjohns/Documents/C projects/csv/fos_core/fos_candidate.cpp" normal x86_64 c++ com.apple.compilers.gcc.4_2
+s415062792.730307
+e415062792.731875
+r1
+xCompileC
+xbuild/csv.build/Debug/csv.build/Objects-normal/x86_64/fos_candidate.o
+x/Users/greggjohns/Documents/C projects/csv/fos_core/fos_candidate.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@77"Compile /Users/greggjohns/Documents/C projects/csv/fos_core/fos_candidate.cpp415062792#415062792#0(0"0(0#0#69"/Users/greggjohns/Documents/C projects/csv/fos_core/fos_candidate.cpp4516175504#1312"    cd "/Users/greggjohns/Documents/C projects/csv"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote "/Users/greggjohns/Documents/C projects/csv/build/csv.build/Debug/csv.build/csv-generated-files.hmap" "-I/Users/greggjohns/Documents/C projects/csv/build/csv.build/Debug/csv.build/csv-own-target-headers.hmap" "-I/Users/greggjohns/Documents/C projects/csv/build/csv.build/Debug/csv.build/csv-all-target-headers.hmap" -iquote "/Users/greggjohns/Documents/C projects/csv/build/csv.build/Debug/csv.build/csv-project-headers.hmap" "-F/Users/greggjohns/Documents/C projects/csv/build/Debug" "-I/Users/greggjohns/Documents/C projects/csv/build/Debug/include" "-I/Users/greggjohns/Documents/C projects/csv/build/csv.build/Debug/csv.build/DerivedSources/x86_64" "-I/Users/greggjohns/Documents/C projects/csv/build/csv.build/Debug/csv.build/DerivedSources" -c "/Users/greggjohns/Documents/C projects/csv/fos_core/fos_candidate.cpp" -o "/Users/greggjohns/Documents/C projects/csv/build/csv.build/Debug/csv.build/Objects-normal/x86_64/fos_candidate.o"0#
+
+CCompileC build/csv.build/Debug/csv.build/Objects-normal/x86_64/fos_model-38B9A667E63145C.o "/Users/greggjohns/Documents/C projects/csv/fos_core/fos_model.cpp" normal x86_64 c++ com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/csv.build/Debug/csv.build/Objects-normal/x86_64/fos_model.o "/Users/greggjohns/Documents/C projects/csv/fos_core/fos_model.cpp" normal x86_64 c++ com.apple.compilers.gcc.4_2
+s415096224.222027
+e415096225.433214
+r1
+xCompileC
+xbuild/csv.build/Debug/csv.build/Objects-normal/x86_64/fos_model.o
+x/Users/greggjohns/Documents/C projects/csv/fos_core/fos_model.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@73"Compile /Users/greggjohns/Documents/C projects/csv/fos_core/fos_model.cpp415096224#415096225#0(0"0(0#0#65"/Users/greggjohns/Documents/C projects/csv/fos_core/fos_model.cpp4493160080#1304"    cd "/Users/greggjohns/Documents/C projects/csv"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote "/Users/greggjohns/Documents/C projects/csv/build/csv.build/Debug/csv.build/csv-generated-files.hmap" "-I/Users/greggjohns/Documents/C projects/csv/build/csv.build/Debug/csv.build/csv-own-target-headers.hmap" "-I/Users/greggjohns/Documents/C projects/csv/build/csv.build/Debug/csv.build/csv-all-target-headers.hmap" -iquote "/Users/greggjohns/Documents/C projects/csv/build/csv.build/Debug/csv.build/csv-project-headers.hmap" "-F/Users/greggjohns/Documents/C projects/csv/build/Debug" "-I/Users/greggjohns/Documents/C projects/csv/build/Debug/include" "-I/Users/greggjohns/Documents/C projects/csv/build/csv.build/Debug/csv.build/DerivedSources/x86_64" "-I/Users/greggjohns/Documents/C projects/csv/build/csv.build/Debug/csv.build/DerivedSources" -c "/Users/greggjohns/Documents/C projects/csv/fos_core/fos_model.cpp" -o "/Users/greggjohns/Documents/C projects/csv/build/csv.build/Debug/csv.build/Objects-normal/x86_64/fos_model.o"0#
+
+CCompileC build/csv.build/Debug/csv.build/Objects-normal/x86_64/fos_model.o "/Users/greggjohns/Documents/C projects/csv/fos_model.cpp" normal x86_64 c++ com.apple.compilers.gcc.4_2
+s415055181.793034
+e415055182.855282
+r1
+xCompileC
+xbuild/csv.build/Debug/csv.build/Objects-normal/x86_64/fos_model.o
+x/Users/greggjohns/Documents/C projects/csv/fos_model.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@64"Compile /Users/greggjohns/Documents/C projects/csv/fos_model.cpp415055181#415055182#0(0"0(0#0#56"/Users/greggjohns/Documents/C projects/csv/fos_model.cpp4515638928#1295"    cd "/Users/greggjohns/Documents/C projects/csv"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote "/Users/greggjohns/Documents/C projects/csv/build/csv.build/Debug/csv.build/csv-generated-files.hmap" "-I/Users/greggjohns/Documents/C projects/csv/build/csv.build/Debug/csv.build/csv-own-target-headers.hmap" "-I/Users/greggjohns/Documents/C projects/csv/build/csv.build/Debug/csv.build/csv-all-target-headers.hmap" -iquote "/Users/greggjohns/Documents/C projects/csv/build/csv.build/Debug/csv.build/csv-project-headers.hmap" "-F/Users/greggjohns/Documents/C projects/csv/build/Debug" "-I/Users/greggjohns/Documents/C projects/csv/build/Debug/include" "-I/Users/greggjohns/Documents/C projects/csv/build/csv.build/Debug/csv.build/DerivedSources/x86_64" "-I/Users/greggjohns/Documents/C projects/csv/build/csv.build/Debug/csv.build/DerivedSources" -c "/Users/greggjohns/Documents/C projects/csv/fos_model.cpp" -o "/Users/greggjohns/Documents/C projects/csv/build/csv.build/Debug/csv.build/Objects-normal/x86_64/fos_model.o"0#
+
+CCompileC build/csv.build/Debug/csv.build/Objects-normal/x86_64/fos_simulation-F48E58BAE153345E.o "/Users/greggjohns/Documents/C projects/csv/fos_core/fos_simulation.cpp" normal x86_64 c++ com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/csv.build/Debug/csv.build/Objects-normal/x86_64/fos_simulation.o "/Users/greggjohns/Documents/C projects/csv/fos_core/fos_simulation.cpp" normal x86_64 c++ com.apple.compilers.gcc.4_2
+s415096683.203317
+e415096684.405424
+r1
+xCompileC
+xbuild/csv.build/Debug/csv.build/Objects-normal/x86_64/fos_simulation.o
+x/Users/greggjohns/Documents/C projects/csv/fos_core/fos_simulation.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@78"Compile /Users/greggjohns/Documents/C projects/csv/fos_core/fos_simulation.cpp415096683#415096684#0(0"0(0#0#70"/Users/greggjohns/Documents/C projects/csv/fos_core/fos_simulation.cpp17212525056#1314"    cd "/Users/greggjohns/Documents/C projects/csv"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote "/Users/greggjohns/Documents/C projects/csv/build/csv.build/Debug/csv.build/csv-generated-files.hmap" "-I/Users/greggjohns/Documents/C projects/csv/build/csv.build/Debug/csv.build/csv-own-target-headers.hmap" "-I/Users/greggjohns/Documents/C projects/csv/build/csv.build/Debug/csv.build/csv-all-target-headers.hmap" -iquote "/Users/greggjohns/Documents/C projects/csv/build/csv.build/Debug/csv.build/csv-project-headers.hmap" "-F/Users/greggjohns/Documents/C projects/csv/build/Debug" "-I/Users/greggjohns/Documents/C projects/csv/build/Debug/include" "-I/Users/greggjohns/Documents/C projects/csv/build/csv.build/Debug/csv.build/DerivedSources/x86_64" "-I/Users/greggjohns/Documents/C projects/csv/build/csv.build/Debug/csv.build/DerivedSources" -c "/Users/greggjohns/Documents/C projects/csv/fos_core/fos_simulation.cpp" -o "/Users/greggjohns/Documents/C projects/csv/build/csv.build/Debug/csv.build/Objects-normal/x86_64/fos_simulation.o"0#
+
+CCompileC build/csv.build/Debug/csv.build/Objects-normal/x86_64/fos_simulation.o "/Users/greggjohns/Documents/C projects/csv/fos_simulation.cpp" normal x86_64 c++ com.apple.compilers.gcc.4_2
+s415055620.996766
+e415055621.972368
+r1
+xCompileC
+xbuild/csv.build/Debug/csv.build/Objects-normal/x86_64/fos_simulation.o
+x/Users/greggjohns/Documents/C projects/csv/fos_simulation.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@69"Compile /Users/greggjohns/Documents/C projects/csv/fos_simulation.cpp415055620#415055621#0(0"0(0#0#61"/Users/greggjohns/Documents/C projects/csv/fos_simulation.cpp4494548624#1305"    cd "/Users/greggjohns/Documents/C projects/csv"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote "/Users/greggjohns/Documents/C projects/csv/build/csv.build/Debug/csv.build/csv-generated-files.hmap" "-I/Users/greggjohns/Documents/C projects/csv/build/csv.build/Debug/csv.build/csv-own-target-headers.hmap" "-I/Users/greggjohns/Documents/C projects/csv/build/csv.build/Debug/csv.build/csv-all-target-headers.hmap" -iquote "/Users/greggjohns/Documents/C projects/csv/build/csv.build/Debug/csv.build/csv-project-headers.hmap" "-F/Users/greggjohns/Documents/C projects/csv/build/Debug" "-I/Users/greggjohns/Documents/C projects/csv/build/Debug/include" "-I/Users/greggjohns/Documents/C projects/csv/build/csv.build/Debug/csv.build/DerivedSources/x86_64" "-I/Users/greggjohns/Documents/C projects/csv/build/csv.build/Debug/csv.build/DerivedSources" -c "/Users/greggjohns/Documents/C projects/csv/fos_simulation.cpp" -o "/Users/greggjohns/Documents/C projects/csv/build/csv.build/Debug/csv.build/Objects-normal/x86_64/fos_simulation.o"0#
+
+CCompileC build/csv.build/Debug/csv.build/Objects-normal/x86_64/fos_trainer.o "/Users/greggjohns/Documents/C projects/csv/fos_trainer.cpp" normal x86_64 c++ com.apple.compilers.gcc.4_2
+s414993973.913773
+e414993973.915222
+r1
+xCompileC
+xbuild/csv.build/Debug/csv.build/Objects-normal/x86_64/fos_trainer.o
+x/Users/greggjohns/Documents/C projects/csv/fos_trainer.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@66"Compile /Users/greggjohns/Documents/C projects/csv/fos_trainer.cpp414993973#414993973#0(409"/Users/greggjohns/Documents/C projects/csv/fos_trainer.cpp: In member function 'std::vector<std::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::basic_string<char, std::char_traits<char>, std::allocator<char> > > > FosTrainer::read_equations(std::string)':/Users/greggjohns/Documents/C projects/csv/fos_trainer.cpp:46: warning: control reaches end of non-void function1(22@40"Control reaches end of non-void function414993973#296#113#0(6@58"/Users/greggjohns/Documents/C projects/csv/fos_trainer.cpp414993972#46#0#46#0#40"control reaches end of non-void function0(0#0#58"/Users/greggjohns/Documents/C projects/csv/fos_trainer.cpp4499730064#1299"    cd "/Users/greggjohns/Documents/C projects/csv"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote "/Users/greggjohns/Documents/C projects/csv/build/csv.build/Debug/csv.build/csv-generated-files.hmap" "-I/Users/greggjohns/Documents/C projects/csv/build/csv.build/Debug/csv.build/csv-own-target-headers.hmap" "-I/Users/greggjohns/Documents/C projects/csv/build/csv.build/Debug/csv.build/csv-all-target-headers.hmap" -iquote "/Users/greggjohns/Documents/C projects/csv/build/csv.build/Debug/csv.build/csv-project-headers.hmap" "-F/Users/greggjohns/Documents/C projects/csv/build/Debug" "-I/Users/greggjohns/Documents/C projects/csv/build/Debug/include" "-I/Users/greggjohns/Documents/C projects/csv/build/csv.build/Debug/csv.build/DerivedSources/x86_64" "-I/Users/greggjohns/Documents/C projects/csv/build/csv.build/Debug/csv.build/DerivedSources" -c "/Users/greggjohns/Documents/C projects/csv/fos_trainer.cpp" -o "/Users/greggjohns/Documents/C projects/csv/build/csv.build/Debug/csv.build/Objects-normal/x86_64/fos_trainer.o"0#
+
+CCompileC build/csv.build/Debug/csv.build/Objects-normal/x86_64/main.o "/Users/greggjohns/Documents/C projects/csv/main.cpp" normal x86_64 c++ com.apple.compilers.gcc.4_2
+s415096275.179142
+e415096275.588529
+r1
+xCompileC
+xbuild/csv.build/Debug/csv.build/Objects-normal/x86_64/main.o
+x/Users/greggjohns/Documents/C projects/csv/main.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@59"Compile /Users/greggjohns/Documents/C projects/csv/main.cpp415096275#415096275#0(0"0(0#0#51"/Users/greggjohns/Documents/C projects/csv/main.cpp4495769232#1285"    cd "/Users/greggjohns/Documents/C projects/csv"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote "/Users/greggjohns/Documents/C projects/csv/build/csv.build/Debug/csv.build/csv-generated-files.hmap" "-I/Users/greggjohns/Documents/C projects/csv/build/csv.build/Debug/csv.build/csv-own-target-headers.hmap" "-I/Users/greggjohns/Documents/C projects/csv/build/csv.build/Debug/csv.build/csv-all-target-headers.hmap" -iquote "/Users/greggjohns/Documents/C projects/csv/build/csv.build/Debug/csv.build/csv-project-headers.hmap" "-F/Users/greggjohns/Documents/C projects/csv/build/Debug" "-I/Users/greggjohns/Documents/C projects/csv/build/Debug/include" "-I/Users/greggjohns/Documents/C projects/csv/build/csv.build/Debug/csv.build/DerivedSources/x86_64" "-I/Users/greggjohns/Documents/C projects/csv/build/csv.build/Debug/csv.build/DerivedSources" -c "/Users/greggjohns/Documents/C projects/csv/main.cpp" -o "/Users/greggjohns/Documents/C projects/csv/build/csv.build/Debug/csv.build/Objects-normal/x86_64/main.o"0#
+
+CCompileC build/csv.build/Debug/csv.build/Objects-normal/x86_64/matrix.o "/Users/greggjohns/Documents/C projects/csv/linear_algebra/matrix.cpp" normal x86_64 c++ com.apple.compilers.gcc.4_2
+s414887745.757092
+e414887746.557694
+r0
+xCompileC
+xbuild/csv.build/Debug/csv.build/Objects-normal/x86_64/matrix.o
+x/Users/greggjohns/Documents/C projects/csv/linear_algebra/matrix.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.gcc.4_2
+o/Users/greggjohns/Documents/C projects/csv/linear_algebra/matrix.cpp:7:18: error: rand.h: No such file or directory
+o/Users/greggjohns/Documents/C projects/csv/linear_algebra/matrix.cpp:8:19: error: error.h: No such file or directory
+o/Users/greggjohns/Documents/C projects/csv/linear_algebra/matrix.cpp: In member function 'void Matrix::shuffleRows(Rand&, Matrix*)':
+o/Users/greggjohns/Documents/C projects/csv/linear_algebra/matrix.cpp:48: error: invalid use of incomplete type 'struct Rand'
+o/Users/greggjohns/Documents/C projects/csv/linear_algebra/matrix.h:13: error: forward declaration of 'struct Rand'
+o/Users/greggjohns/Documents/C projects/csv/linear_algebra/matrix.cpp:56: error: invalid use of incomplete type 'struct Rand'
+o/Users/greggjohns/Documents/C projects/csv/linear_algebra/matrix.h:13: error: forward declaration of 'struct Rand'
+o/Users/greggjohns/Documents/C projects/csv/linear_algebra/matrix.cpp: In member function 'void Matrix::copyRow(std::vector<double, std::allocator<double> >&)':
+o/Users/greggjohns/Documents/C projects/csv/linear_algebra/matrix.cpp:135: error: 'ThrowError' was not declared in this scope
+o/Users/greggjohns/Documents/C projects/csv/linear_algebra/matrix.cpp: In member function 'void Matrix::copyPart(Matrix&, size_t, size_t, size_t, size_t)':
+o/Users/greggjohns/Documents/C projects/csv/linear_algebra/matrix.cpp:142: error: 'ThrowError' was not declared in this scope
+o/Users/greggjohns/Documents/C projects/csv/linear_algebra/matrix.cpp: In member function 'void Matrix::loadARFF(std::string)':
+o/Users/greggjohns/Documents/C projects/csv/linear_algebra/matrix.cpp:188: error: 'ThrowError' was not declared in this scope
+o/Users/greggjohns/Documents/C projects/csv/linear_algebra/matrix.cpp:299: error: variable 'std::stringstream convert' has initializer but incomplete type
+o/Users/greggjohns/Documents/C projects/csv/linear_algebra/matrix.cpp:315: error: 'to_str' was not declared in this scope
+o/Users/greggjohns/Documents/C projects/csv/linear_algebra/matrix.cpp:315: error: 'ThrowError' was not declared in this scope
+o/Users/greggjohns/Documents/C projects/csv/linear_algebra/matrix.cpp:319: error: 'to_str' was not declared in this scope
+o/Users/greggjohns/Documents/C projects/csv/linear_algebra/matrix.cpp:319: error: 'ThrowError' was not declared in this scope
+o/Users/greggjohns/Documents/C projects/csv/linear_algebra/matrix.cpp:324: error: 'to_str' was not declared in this scope
+o/Users/greggjohns/Documents/C projects/csv/linear_algebra/matrix.cpp:324: error: 'ThrowError' was not declared in this scope
+o/Users/greggjohns/Documents/C projects/csv/linear_algebra/matrix.cpp: In member function 'void Matrix::checkCompatibility(Matrix&)':
+o/Users/greggjohns/Documents/C projects/csv/linear_algebra/matrix.cpp:345: error: 'ThrowError' was not declared in this scope
+o/Users/greggjohns/Documents/C projects/csv/linear_algebra/matrix.cpp:349: error: 'to_str' was not declared in this scope
+o/Users/greggjohns/Documents/C projects/csv/linear_algebra/matrix.cpp:349: error: 'ThrowError' was not declared in this scope
+lSLF07#2@76"Compile /Users/greggjohns/Documents/C projects/csv/linear_algebra/matrix.cpp414887745#414887746#0(3059"/Users/greggjohns/Documents/C projects/csv/linear_algebra/matrix.cpp:7:18: error: rand.h: No such file or directory/Users/greggjohns/Documents/C projects/csv/linear_algebra/matrix.cpp:8:19: error: error.h: No such file or directory/Users/greggjohns/Documents/C projects/csv/linear_algebra/matrix.cpp: In member function 'void Matrix::shuffleRows(Rand&, Matrix*)':/Users/greggjohns/Documents/C projects/csv/linear_algebra/matrix.cpp:48: error: invalid use of incomplete type 'struct Rand'/Users/greggjohns/Documents/C projects/csv/linear_algebra/matrix.h:13: error: forward declaration of 'struct Rand'/Users/greggjohns/Documents/C projects/csv/linear_algebra/matrix.cpp:56: error: invalid use of incomplete type 'struct Rand'/Users/greggjohns/Documents/C projects/csv/linear_algebra/matrix.h:13: error: forward declaration of 'struct Rand'/Users/greggjohns/Documents/C projects/csv/linear_algebra/matrix.cpp: In member function 'void Matrix::copyRow(std::vector<double, std::allocator<double> >&)':/Users/greggjohns/Documents/C projects/csv/linear_algebra/matrix.cpp:135: error: 'ThrowError' was not declared in this scope/Users/greggjohns/Documents/C projects/csv/linear_algebra/matrix.cpp: In member function 'void Matrix::copyPart(Matrix&, size_t, size_t, size_t, size_t)':/Users/greggjohns/Documents/C projects/csv/linear_algebra/matrix.cpp:142: error: 'ThrowError' was not declared in this scope/Users/greggjohns/Documents/C projects/csv/linear_algebra/matrix.cpp: In member function 'void Matrix::loadARFF(std::string)':/Users/greggjohns/Documents/C projects/csv/linear_algebra/matrix.cpp:188: error: 'ThrowError' was not declared in this scope/Users/greggjohns/Documents/C projects/csv/linear_algebra/matrix.cpp:299: error: variable 'std::stringstream convert' has initializer but incomplete type/Users/greggjohns/Documents/C projects/csv/linear_algebra/matrix.cpp:315: error: 'to_str' was not declared in this scope/Users/greggjohns/Documents/C projects/csv/linear_algebra/matrix.cpp:315: error: 'ThrowError' was not declared in this scope/Users/greggjohns/Documents/C projects/csv/linear_algebra/matrix.cpp:319: error: 'to_str' was not declared in this scope/Users/greggjohns/Documents/C projects/csv/linear_algebra/matrix.cpp:319: error: 'ThrowError' was not declared in this scope/Users/greggjohns/Documents/C projects/csv/linear_algebra/matrix.cpp:324: error: 'to_str' was not declared in this scope/Users/greggjohns/Documents/C projects/csv/linear_algebra/matrix.cpp:324: error: 'ThrowError' was not declared in this scope/Users/greggjohns/Documents/C projects/csv/linear_algebra/matrix.cpp: In member function 'void Matrix::checkCompatibility(Matrix&)':/Users/greggjohns/Documents/C projects/csv/linear_algebra/matrix.cpp:345: error: 'ThrowError' was not declared in this scope/Users/greggjohns/Documents/C projects/csv/linear_algebra/matrix.cpp:349: error: 'to_str' was not declared in this scope/Users/greggjohns/Documents/C projects/csv/linear_algebra/matrix.cpp:349: error: 'ThrowError' was not declared in this scope19(4@33"Rand.h: No such file or directory414887745#0#116#0(6@68"/Users/greggjohns/Documents/C projects/csv/linear_algebra/matrix.cpp351534074#7#0#7#0#28"*: No such file or directory0(4@34"Error.h: No such file or directory414887745#116#117#0(6@68"/Users/greggjohns/Documents/C projects/csv/linear_algebra/matrix.cpp351534074#8#0#8#0#28"*: No such file or directory0(4@44"Invalid use of incomplete type 'struct Rand'414887746#366#125#0(6@68"/Users/greggjohns/Documents/C projects/csv/linear_algebra/matrix.cpp351534074#48#0#48#0#0"0(4@36"Forward declaration of 'struct Rand'414887746#491#115#0(6@66"/Users/greggjohns/Documents/C projects/csv/linear_algebra/matrix.h320959006#13#0#13#0#0"0(4@44"Invalid use of incomplete type 'struct Rand'414887746#606#125#0(6@68"/Users/greggjohns/Documents/C projects/csv/linear_algebra/matrix.cpp351534074#56#0#56#0#0"0(4@36"Forward declaration of 'struct Rand'414887746#731#115#0(6@66"/Users/greggjohns/Documents/C projects/csv/linear_algebra/matrix.h320959006#13#0#13#0#0"0(4@43"'ThrowError' was not declared in this scope414887746#1006#125#0(6@68"/Users/greggjohns/Documents/C projects/csv/linear_algebra/matrix.cpp351534074#135#0#135#0#34"'*' was not declared in this scope0(4@43"'ThrowError' was not declared in this scope414887746#1286#125#0(6@68"/Users/greggjohns/Documents/C projects/csv/linear_algebra/matrix.cpp351534074#142#0#142#0#34"'*' was not declared in this scope0(4@43"'ThrowError' was not declared in this scope414887746#1538#125#0(6@68"/Users/greggjohns/Documents/C projects/csv/linear_algebra/matrix.cpp351534074#188#0#188#0#34"'*' was not declared in this scope0(4@72"Variable 'std::stringstream convert' has initializer but incomplete type414887746#1663#154#0(6@68"/Users/greggjohns/Documents/C projects/csv/linear_algebra/matrix.cpp351534074#299#0#299#0#0"0(4@39"'to_str' was not declared in this scope414887746#1817#121#0(6@68"/Users/greggjohns/Documents/C projects/csv/linear_algebra/matrix.cpp351534074#315#0#315#0#34"'*' was not declared in this scope0(4@43"'ThrowError' was not declared in this scope414887746#1938#125#0(6@68"/Users/greggjohns/Documents/C projects/csv/linear_algebra/matrix.cpp351534074#315#0#315#0#34"'*' was not declared in this scope0(4@39"'to_str' was not declared in this scope414887746#2063#121#0(6@68"/Users/greggjohns/Documents/C projects/csv/linear_algebra/matrix.cpp351534074#319#0#319#0#34"'*' was not declared in this scope0(4@43"'ThrowError' was not declared in this scope414887746#2184#125#0(6@68"/Users/greggjohns/Documents/C projects/csv/linear_algebra/matrix.cpp351534074#319#0#319#0#34"'*' was not declared in this scope0(4@39"'to_str' was not declared in this scope414887746#2309#121#0(6@68"/Users/greggjohns/Documents/C projects/csv/linear_algebra/matrix.cpp351534074#324#0#324#0#34"'*' was not declared in this scope0(4@43"'ThrowError' was not declared in this scope414887746#2430#125#0(6@68"/Users/greggjohns/Documents/C projects/csv/linear_algebra/matrix.cpp351534074#324#0#324#0#34"'*' was not declared in this scope0(4@43"'ThrowError' was not declared in this scope414887746#2688#125#0(6@68"/Users/greggjohns/Documents/C projects/csv/linear_algebra/matrix.cpp351534074#345#0#345#0#34"'*' was not declared in this scope0(4@39"'to_str' was not declared in this scope414887746#2813#121#0(6@68"/Users/greggjohns/Documents/C projects/csv/linear_algebra/matrix.cpp351534074#349#0#349#0#34"'*' was not declared in this scope0(4@43"'ThrowError' was not declared in this scope414887746#2934#125#0(6@68"/Users/greggjohns/Documents/C projects/csv/linear_algebra/matrix.cpp351534074#349#0#349#0#34"'*' was not declared in this scope0(0#0#68"/Users/greggjohns/Documents/C projects/csv/linear_algebra/matrix.cpp4505902736#1304"    cd "/Users/greggjohns/Documents/C projects/csv"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote "/Users/greggjohns/Documents/C projects/csv/build/csv.build/Debug/csv.build/csv-generated-files.hmap" "-I/Users/greggjohns/Documents/C projects/csv/build/csv.build/Debug/csv.build/csv-own-target-headers.hmap" "-I/Users/greggjohns/Documents/C projects/csv/build/csv.build/Debug/csv.build/csv-all-target-headers.hmap" -iquote "/Users/greggjohns/Documents/C projects/csv/build/csv.build/Debug/csv.build/csv-project-headers.hmap" "-F/Users/greggjohns/Documents/C projects/csv/build/Debug" "-I/Users/greggjohns/Documents/C projects/csv/build/Debug/include" "-I/Users/greggjohns/Documents/C projects/csv/build/csv.build/Debug/csv.build/DerivedSources/x86_64" "-I/Users/greggjohns/Documents/C projects/csv/build/csv.build/Debug/csv.build/DerivedSources" -c "/Users/greggjohns/Documents/C projects/csv/linear_algebra/matrix.cpp" -o "/Users/greggjohns/Documents/C projects/csv/build/csv.build/Debug/csv.build/Objects-normal/x86_64/matrix.o"1#
+
+CCompileC build/csv.build/Debug/csv.build/Objects-normal/x86_64/matrix.o "/Users/greggjohns/Documents/C projects/csv/matrix.cpp" normal x86_64 c++ com.apple.compilers.gcc.4_2
+s414878943.039403
+e414878944.647481
+r1
+xCompileC
+xbuild/csv.build/Debug/csv.build/Objects-normal/x86_64/matrix.o
+x/Users/greggjohns/Documents/C projects/csv/matrix.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@61"Compile /Users/greggjohns/Documents/C projects/csv/matrix.cpp414878943#414878944#0(0"0(0#0#53"/Users/greggjohns/Documents/C projects/csv/matrix.cpp4396367504#1289"    cd "/Users/greggjohns/Documents/C projects/csv"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote "/Users/greggjohns/Documents/C projects/csv/build/csv.build/Debug/csv.build/csv-generated-files.hmap" "-I/Users/greggjohns/Documents/C projects/csv/build/csv.build/Debug/csv.build/csv-own-target-headers.hmap" "-I/Users/greggjohns/Documents/C projects/csv/build/csv.build/Debug/csv.build/csv-all-target-headers.hmap" -iquote "/Users/greggjohns/Documents/C projects/csv/build/csv.build/Debug/csv.build/csv-project-headers.hmap" "-F/Users/greggjohns/Documents/C projects/csv/build/Debug" "-I/Users/greggjohns/Documents/C projects/csv/build/Debug/include" "-I/Users/greggjohns/Documents/C projects/csv/build/csv.build/Debug/csv.build/DerivedSources/x86_64" "-I/Users/greggjohns/Documents/C projects/csv/build/csv.build/Debug/csv.build/DerivedSources" -c "/Users/greggjohns/Documents/C projects/csv/matrix.cpp" -o "/Users/greggjohns/Documents/C projects/csv/build/csv.build/Debug/csv.build/Objects-normal/x86_64/matrix.o"0#
+
+CCompileC build/csv.build/Debug/csv.build/Objects-normal/x86_64/muParser.o "/Users/greggjohns/Documents/C projects/csv/muparser/muParser.cpp" normal x86_64 c++ com.apple.compilers.gcc.4_2
+s414887745.777006
+e414887746.758120
+r1
+xCompileC
+xbuild/csv.build/Debug/csv.build/Objects-normal/x86_64/muParser.o
+x/Users/greggjohns/Documents/C projects/csv/muparser/muParser.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@72"Compile /Users/greggjohns/Documents/C projects/csv/muparser/muParser.cpp414887745#414887746#0(0"0(0#0#64"/Users/greggjohns/Documents/C projects/csv/muparser/muParser.cpp4505902736#1302"    cd "/Users/greggjohns/Documents/C projects/csv"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote "/Users/greggjohns/Documents/C projects/csv/build/csv.build/Debug/csv.build/csv-generated-files.hmap" "-I/Users/greggjohns/Documents/C projects/csv/build/csv.build/Debug/csv.build/csv-own-target-headers.hmap" "-I/Users/greggjohns/Documents/C projects/csv/build/csv.build/Debug/csv.build/csv-all-target-headers.hmap" -iquote "/Users/greggjohns/Documents/C projects/csv/build/csv.build/Debug/csv.build/csv-project-headers.hmap" "-F/Users/greggjohns/Documents/C projects/csv/build/Debug" "-I/Users/greggjohns/Documents/C projects/csv/build/Debug/include" "-I/Users/greggjohns/Documents/C projects/csv/build/csv.build/Debug/csv.build/DerivedSources/x86_64" "-I/Users/greggjohns/Documents/C projects/csv/build/csv.build/Debug/csv.build/DerivedSources" -c "/Users/greggjohns/Documents/C projects/csv/muparser/muParser.cpp" -o "/Users/greggjohns/Documents/C projects/csv/build/csv.build/Debug/csv.build/Objects-normal/x86_64/muParser.o"0#
+
+CCompileC build/csv.build/Debug/csv.build/Objects-normal/x86_64/muParserBase.o "/Users/greggjohns/Documents/C projects/csv/muparser/muParserBase.cpp" normal x86_64 c++ com.apple.compilers.gcc.4_2
+s414887746.557810
+e414887748.782478
+r1
+xCompileC
+xbuild/csv.build/Debug/csv.build/Objects-normal/x86_64/muParserBase.o
+x/Users/greggjohns/Documents/C projects/csv/muparser/muParserBase.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@76"Compile /Users/greggjohns/Documents/C projects/csv/muparser/muParserBase.cpp414887746#414887748#0(0"0(0#0#68"/Users/greggjohns/Documents/C projects/csv/muparser/muParserBase.cpp4505902736#1310"    cd "/Users/greggjohns/Documents/C projects/csv"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote "/Users/greggjohns/Documents/C projects/csv/build/csv.build/Debug/csv.build/csv-generated-files.hmap" "-I/Users/greggjohns/Documents/C projects/csv/build/csv.build/Debug/csv.build/csv-own-target-headers.hmap" "-I/Users/greggjohns/Documents/C projects/csv/build/csv.build/Debug/csv.build/csv-all-target-headers.hmap" -iquote "/Users/greggjohns/Documents/C projects/csv/build/csv.build/Debug/csv.build/csv-project-headers.hmap" "-F/Users/greggjohns/Documents/C projects/csv/build/Debug" "-I/Users/greggjohns/Documents/C projects/csv/build/Debug/include" "-I/Users/greggjohns/Documents/C projects/csv/build/csv.build/Debug/csv.build/DerivedSources/x86_64" "-I/Users/greggjohns/Documents/C projects/csv/build/csv.build/Debug/csv.build/DerivedSources" -c "/Users/greggjohns/Documents/C projects/csv/muparser/muParserBase.cpp" -o "/Users/greggjohns/Documents/C projects/csv/build/csv.build/Debug/csv.build/Objects-normal/x86_64/muParserBase.o"0#
+
+CCompileC build/csv.build/Debug/csv.build/Objects-normal/x86_64/muParserBytecode.o "/Users/greggjohns/Documents/C projects/csv/muparser/muParserBytecode.cpp" normal x86_64 c++ com.apple.compilers.gcc.4_2
+s414887746.758232
+e414887747.712772
+r1
+xCompileC
+xbuild/csv.build/Debug/csv.build/Objects-normal/x86_64/muParserBytecode.o
+x/Users/greggjohns/Documents/C projects/csv/muparser/muParserBytecode.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@80"Compile /Users/greggjohns/Documents/C projects/csv/muparser/muParserBytecode.cpp414887746#414887747#0(0"0(0#0#72"/Users/greggjohns/Documents/C projects/csv/muparser/muParserBytecode.cpp4505902736#1318"    cd "/Users/greggjohns/Documents/C projects/csv"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote "/Users/greggjohns/Documents/C projects/csv/build/csv.build/Debug/csv.build/csv-generated-files.hmap" "-I/Users/greggjohns/Documents/C projects/csv/build/csv.build/Debug/csv.build/csv-own-target-headers.hmap" "-I/Users/greggjohns/Documents/C projects/csv/build/csv.build/Debug/csv.build/csv-all-target-headers.hmap" -iquote "/Users/greggjohns/Documents/C projects/csv/build/csv.build/Debug/csv.build/csv-project-headers.hmap" "-F/Users/greggjohns/Documents/C projects/csv/build/Debug" "-I/Users/greggjohns/Documents/C projects/csv/build/Debug/include" "-I/Users/greggjohns/Documents/C projects/csv/build/csv.build/Debug/csv.build/DerivedSources/x86_64" "-I/Users/greggjohns/Documents/C projects/csv/build/csv.build/Debug/csv.build/DerivedSources" -c "/Users/greggjohns/Documents/C projects/csv/muparser/muParserBytecode.cpp" -o "/Users/greggjohns/Documents/C projects/csv/build/csv.build/Debug/csv.build/Objects-normal/x86_64/muParserBytecode.o"0#
+
+CCompileC build/csv.build/Debug/csv.build/Objects-normal/x86_64/muParserCallback.o "/Users/greggjohns/Documents/C projects/csv/muparser/muParserCallback.cpp" normal x86_64 c++ com.apple.compilers.gcc.4_2
+s414887747.712911
+e414887748.295791
+r1
+xCompileC
+xbuild/csv.build/Debug/csv.build/Objects-normal/x86_64/muParserCallback.o
+x/Users/greggjohns/Documents/C projects/csv/muparser/muParserCallback.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@80"Compile /Users/greggjohns/Documents/C projects/csv/muparser/muParserCallback.cpp414887747#414887748#0(0"0(0#0#72"/Users/greggjohns/Documents/C projects/csv/muparser/muParserCallback.cpp4505902736#1318"    cd "/Users/greggjohns/Documents/C projects/csv"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote "/Users/greggjohns/Documents/C projects/csv/build/csv.build/Debug/csv.build/csv-generated-files.hmap" "-I/Users/greggjohns/Documents/C projects/csv/build/csv.build/Debug/csv.build/csv-own-target-headers.hmap" "-I/Users/greggjohns/Documents/C projects/csv/build/csv.build/Debug/csv.build/csv-all-target-headers.hmap" -iquote "/Users/greggjohns/Documents/C projects/csv/build/csv.build/Debug/csv.build/csv-project-headers.hmap" "-F/Users/greggjohns/Documents/C projects/csv/build/Debug" "-I/Users/greggjohns/Documents/C projects/csv/build/Debug/include" "-I/Users/greggjohns/Documents/C projects/csv/build/csv.build/Debug/csv.build/DerivedSources/x86_64" "-I/Users/greggjohns/Documents/C projects/csv/build/csv.build/Debug/csv.build/DerivedSources" -c "/Users/greggjohns/Documents/C projects/csv/muparser/muParserCallback.cpp" -o "/Users/greggjohns/Documents/C projects/csv/build/csv.build/Debug/csv.build/Objects-normal/x86_64/muParserCallback.o"0#
+
+CCompileC build/csv.build/Debug/csv.build/Objects-normal/x86_64/muParserDLL.o "/Users/greggjohns/Documents/C projects/csv/muparser/muParserDLL.cpp" normal x86_64 c++ com.apple.compilers.gcc.4_2
+s414887748.295894
+e414887748.326363
+r1
+xCompileC
+xbuild/csv.build/Debug/csv.build/Objects-normal/x86_64/muParserDLL.o
+x/Users/greggjohns/Documents/C projects/csv/muparser/muParserDLL.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@75"Compile /Users/greggjohns/Documents/C projects/csv/muparser/muParserDLL.cpp414887748#414887748#0(0"0(0#0#67"/Users/greggjohns/Documents/C projects/csv/muparser/muParserDLL.cpp4505902736#1308"    cd "/Users/greggjohns/Documents/C projects/csv"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote "/Users/greggjohns/Documents/C projects/csv/build/csv.build/Debug/csv.build/csv-generated-files.hmap" "-I/Users/greggjohns/Documents/C projects/csv/build/csv.build/Debug/csv.build/csv-own-target-headers.hmap" "-I/Users/greggjohns/Documents/C projects/csv/build/csv.build/Debug/csv.build/csv-all-target-headers.hmap" -iquote "/Users/greggjohns/Documents/C projects/csv/build/csv.build/Debug/csv.build/csv-project-headers.hmap" "-F/Users/greggjohns/Documents/C projects/csv/build/Debug" "-I/Users/greggjohns/Documents/C projects/csv/build/Debug/include" "-I/Users/greggjohns/Documents/C projects/csv/build/csv.build/Debug/csv.build/DerivedSources/x86_64" "-I/Users/greggjohns/Documents/C projects/csv/build/csv.build/Debug/csv.build/DerivedSources" -c "/Users/greggjohns/Documents/C projects/csv/muparser/muParserDLL.cpp" -o "/Users/greggjohns/Documents/C projects/csv/build/csv.build/Debug/csv.build/Objects-normal/x86_64/muParserDLL.o"0#
+
+CCompileC build/csv.build/Debug/csv.build/Objects-normal/x86_64/muParserError.o "/Users/greggjohns/Documents/C projects/csv/muparser/muParserError.cpp" normal x86_64 c++ com.apple.compilers.gcc.4_2
+s414887748.326474
+e414887749.134183
+r1
+xCompileC
+xbuild/csv.build/Debug/csv.build/Objects-normal/x86_64/muParserError.o
+x/Users/greggjohns/Documents/C projects/csv/muparser/muParserError.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@77"Compile /Users/greggjohns/Documents/C projects/csv/muparser/muParserError.cpp414887748#414887749#0(0"0(0#0#69"/Users/greggjohns/Documents/C projects/csv/muparser/muParserError.cpp4505902736#1312"    cd "/Users/greggjohns/Documents/C projects/csv"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote "/Users/greggjohns/Documents/C projects/csv/build/csv.build/Debug/csv.build/csv-generated-files.hmap" "-I/Users/greggjohns/Documents/C projects/csv/build/csv.build/Debug/csv.build/csv-own-target-headers.hmap" "-I/Users/greggjohns/Documents/C projects/csv/build/csv.build/Debug/csv.build/csv-all-target-headers.hmap" -iquote "/Users/greggjohns/Documents/C projects/csv/build/csv.build/Debug/csv.build/csv-project-headers.hmap" "-F/Users/greggjohns/Documents/C projects/csv/build/Debug" "-I/Users/greggjohns/Documents/C projects/csv/build/Debug/include" "-I/Users/greggjohns/Documents/C projects/csv/build/csv.build/Debug/csv.build/DerivedSources/x86_64" "-I/Users/greggjohns/Documents/C projects/csv/build/csv.build/Debug/csv.build/DerivedSources" -c "/Users/greggjohns/Documents/C projects/csv/muparser/muParserError.cpp" -o "/Users/greggjohns/Documents/C projects/csv/build/csv.build/Debug/csv.build/Objects-normal/x86_64/muParserError.o"0#
+
+CCompileC build/csv.build/Debug/csv.build/Objects-normal/x86_64/muParserInt.o "/Users/greggjohns/Documents/C projects/csv/muparser/muParserInt.cpp" normal x86_64 c++ com.apple.compilers.gcc.4_2
+s414887748.782591
+e414887749.731684
+r1
+xCompileC
+xbuild/csv.build/Debug/csv.build/Objects-normal/x86_64/muParserInt.o
+x/Users/greggjohns/Documents/C projects/csv/muparser/muParserInt.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@75"Compile /Users/greggjohns/Documents/C projects/csv/muparser/muParserInt.cpp414887748#414887749#0(0"0(0#0#67"/Users/greggjohns/Documents/C projects/csv/muparser/muParserInt.cpp4505902736#1308"    cd "/Users/greggjohns/Documents/C projects/csv"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote "/Users/greggjohns/Documents/C projects/csv/build/csv.build/Debug/csv.build/csv-generated-files.hmap" "-I/Users/greggjohns/Documents/C projects/csv/build/csv.build/Debug/csv.build/csv-own-target-headers.hmap" "-I/Users/greggjohns/Documents/C projects/csv/build/csv.build/Debug/csv.build/csv-all-target-headers.hmap" -iquote "/Users/greggjohns/Documents/C projects/csv/build/csv.build/Debug/csv.build/csv-project-headers.hmap" "-F/Users/greggjohns/Documents/C projects/csv/build/Debug" "-I/Users/greggjohns/Documents/C projects/csv/build/Debug/include" "-I/Users/greggjohns/Documents/C projects/csv/build/csv.build/Debug/csv.build/DerivedSources/x86_64" "-I/Users/greggjohns/Documents/C projects/csv/build/csv.build/Debug/csv.build/DerivedSources" -c "/Users/greggjohns/Documents/C projects/csv/muparser/muParserInt.cpp" -o "/Users/greggjohns/Documents/C projects/csv/build/csv.build/Debug/csv.build/Objects-normal/x86_64/muParserInt.o"0#
+
+CCompileC build/csv.build/Debug/csv.build/Objects-normal/x86_64/muParserTest.o "/Users/greggjohns/Documents/C projects/csv/muparser/muParserTest.cpp" normal x86_64 c++ com.apple.compilers.gcc.4_2
+s414887749.134289
+e414887751.218650
+r1
+xCompileC
+xbuild/csv.build/Debug/csv.build/Objects-normal/x86_64/muParserTest.o
+x/Users/greggjohns/Documents/C projects/csv/muparser/muParserTest.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@76"Compile /Users/greggjohns/Documents/C projects/csv/muparser/muParserTest.cpp414887749#414887751#0(0"0(0#0#68"/Users/greggjohns/Documents/C projects/csv/muparser/muParserTest.cpp4505902736#1310"    cd "/Users/greggjohns/Documents/C projects/csv"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote "/Users/greggjohns/Documents/C projects/csv/build/csv.build/Debug/csv.build/csv-generated-files.hmap" "-I/Users/greggjohns/Documents/C projects/csv/build/csv.build/Debug/csv.build/csv-own-target-headers.hmap" "-I/Users/greggjohns/Documents/C projects/csv/build/csv.build/Debug/csv.build/csv-all-target-headers.hmap" -iquote "/Users/greggjohns/Documents/C projects/csv/build/csv.build/Debug/csv.build/csv-project-headers.hmap" "-F/Users/greggjohns/Documents/C projects/csv/build/Debug" "-I/Users/greggjohns/Documents/C projects/csv/build/Debug/include" "-I/Users/greggjohns/Documents/C projects/csv/build/csv.build/Debug/csv.build/DerivedSources/x86_64" "-I/Users/greggjohns/Documents/C projects/csv/build/csv.build/Debug/csv.build/DerivedSources" -c "/Users/greggjohns/Documents/C projects/csv/muparser/muParserTest.cpp" -o "/Users/greggjohns/Documents/C projects/csv/build/csv.build/Debug/csv.build/Objects-normal/x86_64/muParserTest.o"0#
+
+CCompileC build/csv.build/Debug/csv.build/Objects-normal/x86_64/muParserTokenReader.o "/Users/greggjohns/Documents/C projects/csv/muparser/muParserTokenReader.cpp" normal x86_64 c++ com.apple.compilers.gcc.4_2
+s414887749.731830
+e414887751.002090
+r1
+xCompileC
+xbuild/csv.build/Debug/csv.build/Objects-normal/x86_64/muParserTokenReader.o
+x/Users/greggjohns/Documents/C projects/csv/muparser/muParserTokenReader.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@83"Compile /Users/greggjohns/Documents/C projects/csv/muparser/muParserTokenReader.cpp414887749#414887751#0(0"0(0#0#75"/Users/greggjohns/Documents/C projects/csv/muparser/muParserTokenReader.cpp4505902736#1324"    cd "/Users/greggjohns/Documents/C projects/csv"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote "/Users/greggjohns/Documents/C projects/csv/build/csv.build/Debug/csv.build/csv-generated-files.hmap" "-I/Users/greggjohns/Documents/C projects/csv/build/csv.build/Debug/csv.build/csv-own-target-headers.hmap" "-I/Users/greggjohns/Documents/C projects/csv/build/csv.build/Debug/csv.build/csv-all-target-headers.hmap" -iquote "/Users/greggjohns/Documents/C projects/csv/build/csv.build/Debug/csv.build/csv-project-headers.hmap" "-F/Users/greggjohns/Documents/C projects/csv/build/Debug" "-I/Users/greggjohns/Documents/C projects/csv/build/Debug/include" "-I/Users/greggjohns/Documents/C projects/csv/build/csv.build/Debug/csv.build/DerivedSources/x86_64" "-I/Users/greggjohns/Documents/C projects/csv/build/csv.build/Debug/csv.build/DerivedSources" -c "/Users/greggjohns/Documents/C projects/csv/muparser/muParserTokenReader.cpp" -o "/Users/greggjohns/Documents/C projects/csv/build/csv.build/Debug/csv.build/Objects-normal/x86_64/muParserTokenReader.o"0#
+
+CCompileC build/csv.build/Debug/csv.build/Objects-normal/x86_64/rand.o "/Users/greggjohns/Documents/C projects/csv/rand.cpp" normal x86_64 c++ com.apple.compilers.gcc.4_2
+s414878943.573514
+e414878944.113744
+r1
+xCompileC
+xbuild/csv.build/Debug/csv.build/Objects-normal/x86_64/rand.o
+x/Users/greggjohns/Documents/C projects/csv/rand.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@59"Compile /Users/greggjohns/Documents/C projects/csv/rand.cpp414878943#414878944#0(0"0(0#0#51"/Users/greggjohns/Documents/C projects/csv/rand.cpp4396367504#1285"    cd "/Users/greggjohns/Documents/C projects/csv"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote "/Users/greggjohns/Documents/C projects/csv/build/csv.build/Debug/csv.build/csv-generated-files.hmap" "-I/Users/greggjohns/Documents/C projects/csv/build/csv.build/Debug/csv.build/csv-own-target-headers.hmap" "-I/Users/greggjohns/Documents/C projects/csv/build/csv.build/Debug/csv.build/csv-all-target-headers.hmap" -iquote "/Users/greggjohns/Documents/C projects/csv/build/csv.build/Debug/csv.build/csv-project-headers.hmap" "-F/Users/greggjohns/Documents/C projects/csv/build/Debug" "-I/Users/greggjohns/Documents/C projects/csv/build/Debug/include" "-I/Users/greggjohns/Documents/C projects/csv/build/csv.build/Debug/csv.build/DerivedSources/x86_64" "-I/Users/greggjohns/Documents/C projects/csv/build/csv.build/Debug/csv.build/DerivedSources" -c "/Users/greggjohns/Documents/C projects/csv/rand.cpp" -o "/Users/greggjohns/Documents/C projects/csv/build/csv.build/Debug/csv.build/Objects-normal/x86_64/rand.o"0#
+
+CLd "/Users/greggjohns/Documents/C projects/csv/build/Debug/csv" normal x86_64
+s415096684.405537
+e415096684.634072
+r1
+xLd
+x/Users/greggjohns/Documents/C projects/csv/build/Debug/csv
+xnormal
+xx86_64
+lSLF07#2@63"Link /Users/greggjohns/Documents/C projects/csv/build/Debug/csv415096684#415096684#0(0"0(0#0#0"4493901456#512"    cd "/Users/greggjohns/Documents/C projects/csv"    setenv MACOSX_DEPLOYMENT_TARGET 10.6    /Developer/usr/bin/g++-4.2 -arch x86_64 -isysroot /Developer/SDKs/MacOSX10.6.sdk "-L/Users/greggjohns/Documents/C projects/csv/build/Debug" "-F/Users/greggjohns/Documents/C projects/csv/build/Debug" -filelist "/Users/greggjohns/Documents/C projects/csv/build/csv.build/Debug/csv.build/Objects-normal/x86_64/csv.LinkFileList" -mmacosx-version-min=10.6 -o "/Users/greggjohns/Documents/C projects/csv/build/Debug/csv"0#
+

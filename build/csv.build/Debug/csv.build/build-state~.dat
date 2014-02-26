@@ -1,0 +1,547 @@
+Tcsv
+v7
+r0
+t414826959.984158
+cCheck dependencies
+cCompileC build/csv.build/Debug/csv.build/Objects-normal/x86_64/main.o "/Users/greggjohns/Documents/C projects/csv/main.cpp" normal x86_64 c++ com.apple.compilers.gcc.4_2
+cCompileC build/csv.build/Debug/csv.build/Objects-normal/x86_64/arff_attr.o "/Users/greggjohns/Documents/C projects/csv/arff/arff_attr.cpp" normal x86_64 c++ com.apple.compilers.gcc.4_2
+cCompileC build/csv.build/Debug/csv.build/Objects-normal/x86_64/arff_data.o "/Users/greggjohns/Documents/C projects/csv/arff/arff_data.cpp" normal x86_64 c++ com.apple.compilers.gcc.4_2
+cCompileC build/csv.build/Debug/csv.build/Objects-normal/x86_64/arff_instance.o "/Users/greggjohns/Documents/C projects/csv/arff/arff_instance.cpp" normal x86_64 c++ com.apple.compilers.gcc.4_2
+cCompileC build/csv.build/Debug/csv.build/Objects-normal/x86_64/arff_lexer.o "/Users/greggjohns/Documents/C projects/csv/arff/arff_lexer.cpp" normal x86_64 c++ com.apple.compilers.gcc.4_2
+cCompileC build/csv.build/Debug/csv.build/Objects-normal/x86_64/arff_parser.o "/Users/greggjohns/Documents/C projects/csv/arff/arff_parser.cpp" normal x86_64 c++ com.apple.compilers.gcc.4_2
+cCompileC build/csv.build/Debug/csv.build/Objects-normal/x86_64/arff_scanner.o "/Users/greggjohns/Documents/C projects/csv/arff/arff_scanner.cpp" normal x86_64 c++ com.apple.compilers.gcc.4_2
+cCompileC build/csv.build/Debug/csv.build/Objects-normal/x86_64/arff_token.o "/Users/greggjohns/Documents/C projects/csv/arff/arff_token.cpp" normal x86_64 c++ com.apple.compilers.gcc.4_2
+cCompileC build/csv.build/Debug/csv.build/Objects-normal/x86_64/arff_utils.o "/Users/greggjohns/Documents/C projects/csv/arff/arff_utils.cpp" normal x86_64 c++ com.apple.compilers.gcc.4_2
+cCompileC build/csv.build/Debug/csv.build/Objects-normal/x86_64/arff_value.o "/Users/greggjohns/Documents/C projects/csv/arff/arff_value.cpp" normal x86_64 c++ com.apple.compilers.gcc.4_2
+
+N/Developer/SDKs/MacOSX10.6.sdk
+c000000004A769DAB00000000000000EE
+t1249287595
+s238
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/stdio.h
+c000000004A5C14A70000000000004174
+t1247548583
+s16756
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/lib/gcc/i686-apple-darwin10/4.2.1/include/stdarg.h
+c000000004A11EB2400000000000010DD
+t1242688292
+s4317
+
+N/Users/greggjohns/Documents/C projects/csv/arff/arff_attr.cpp
+c000000004E64D57A0000000000000116
+t1315231098
+s278
+i<arff_attr.h>
+
+N/Users/greggjohns/Documents/C projects/csv/arff/arff_attr.h
+c000000004E64D57A00000000000003A6
+t1315231098
+s934
+i<string>
+i<arff_value.h>
+
+N/Users/greggjohns/Documents/C projects/csv/arff/arff_data.cpp
+c000000004E64D57A0000000000001214
+t1315231098
+s4628
+i<arff_data.h>
+
+N/Users/greggjohns/Documents/C projects/csv/arff/arff_data.h
+c000000004E64D57A0000000000000E51
+t1315231098
+s3665
+i<string>
+i<vector>
+i<map>
+i<arff_utils.h>
+i<arff_instance.h>
+i<arff_attr.h>
+
+N/Users/greggjohns/Documents/C projects/csv/arff/arff_instance.cpp
+c000000004E64D57A000000000000025A
+t1315231098
+s602
+i<arff_instance.h>
+
+N/Users/greggjohns/Documents/C projects/csv/arff/arff_instance.h
+c000000004E64D57A00000000000004EC
+t1315231098
+s1260
+i<vector>
+i<arff_utils.h>
+i<arff_value.h>
+
+N/Users/greggjohns/Documents/C projects/csv/arff/arff_lexer.cpp
+c000000004E64D57A00000000000011C9
+t1315231098
+s4553
+i<arff_lexer.h>
+
+N/Users/greggjohns/Documents/C projects/csv/arff/arff_lexer.h
+c000000004E64D57A0000000000000E7F
+t1315231098
+s3711
+i<string>
+i<arff_utils.h>
+i<arff_scanner.h>
+i<arff_token.h>
+
+N/Users/greggjohns/Documents/C projects/csv/arff/arff_parser.cpp
+c000000004E64D57A00000000000012AF
+t1315231098
+s4783
+i<arff_parser.h>
+i<arff_token.h>
+
+N/Users/greggjohns/Documents/C projects/csv/arff/arff_parser.h
+c000000004E64D57A0000000000000541
+t1315231098
+s1345
+i<string>
+i<arff_lexer.h>
+i<arff_data.h>
+
+N/Users/greggjohns/Documents/C projects/csv/arff/arff_scanner.cpp
+c000000004E64D57A0000000000000649
+t1315231098
+s1609
+i<arff_scanner.h>
+
+N/Users/greggjohns/Documents/C projects/csv/arff/arff_scanner.h
+c000000004E64D57A000000000000091C
+t1315231098
+s2332
+i<stdio.h>
+i<string>
+i<arff_utils.h>
+
+N/Users/greggjohns/Documents/C projects/csv/arff/arff_token.cpp
+c000000004E64D57A00000000000006B4
+t1315231098
+s1716
+i<arff_token.h>
+
+N/Users/greggjohns/Documents/C projects/csv/arff/arff_token.h
+c000000004E64D57A0000000000000AA5
+t1315231098
+s2725
+i<string>
+i<arff_utils.h>
+
+N/Users/greggjohns/Documents/C projects/csv/arff/arff_utils.cpp
+c000000004E64D57A0000000000000388
+t1315231098
+s904
+i<stdexcept>
+i<arff_utils.h>
+
+N/Users/greggjohns/Documents/C projects/csv/arff/arff_utils.h
+c000000004E64D57A0000000000000771
+t1315231098
+s1905
+i<stdarg.h>
+i<string>
+i<sstream>
+
+N/Users/greggjohns/Documents/C projects/csv/arff/arff_value.cpp
+c000000004E64D57A0000000000001379
+t1315231098
+s4985
+i<arff_value.h>
+
+N/Users/greggjohns/Documents/C projects/csv/arff/arff_value.h
+c000000004E64D57A0000000000001031
+t1315231098
+s4145
+i<string>
+i<arff_utils.h>
+
+N/Users/greggjohns/Documents/C projects/csv/build/Debug/csv
+t2
+s0
+
+N/Users/greggjohns/Documents/C projects/csv/build/csv.build/Debug/csv.build/Objects-normal/x86_64/arff_attr.o
+t2
+s0
+
+N/Users/greggjohns/Documents/C projects/csv/build/csv.build/Debug/csv.build/Objects-normal/x86_64/arff_data.o
+t2
+s0
+
+N/Users/greggjohns/Documents/C projects/csv/build/csv.build/Debug/csv.build/Objects-normal/x86_64/arff_instance.o
+t2
+s0
+
+N/Users/greggjohns/Documents/C projects/csv/build/csv.build/Debug/csv.build/Objects-normal/x86_64/arff_lexer.o
+t2
+s0
+
+N/Users/greggjohns/Documents/C projects/csv/build/csv.build/Debug/csv.build/Objects-normal/x86_64/arff_parser.o
+t2
+s0
+
+N/Users/greggjohns/Documents/C projects/csv/build/csv.build/Debug/csv.build/Objects-normal/x86_64/arff_scanner.o
+t2
+s0
+
+N/Users/greggjohns/Documents/C projects/csv/build/csv.build/Debug/csv.build/Objects-normal/x86_64/arff_token.o
+t2
+s0
+
+N/Users/greggjohns/Documents/C projects/csv/build/csv.build/Debug/csv.build/Objects-normal/x86_64/arff_utils.o
+t2
+s0
+
+N/Users/greggjohns/Documents/C projects/csv/build/csv.build/Debug/csv.build/Objects-normal/x86_64/arff_value.o
+t2
+s0
+
+N/Users/greggjohns/Documents/C projects/csv/build/csv.build/Debug/csv.build/Objects-normal/x86_64/csv.LinkFileList
+c0000000053098A4E000000000000044A
+t1393134158
+s1098
+
+N/Users/greggjohns/Documents/C projects/csv/build/csv.build/Debug/csv.build/Objects-normal/x86_64/main.o
+t1393134159
+s66992
+
+N/Users/greggjohns/Documents/C projects/csv/main.cpp
+c000000005309809C000000000000008F
+t1393131676
+s143
+i<iostream>
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies414826957#414826958#0(0"0(0#1#0"4483179840#0"0#
+
+CCompileC build/csv.build/Debug/csv.build/Objects-normal/x86_64/arff_attr.o "/Users/greggjohns/Documents/C projects/csv/arff/arff_attr.cpp" normal x86_64 c++ com.apple.compilers.gcc.4_2
+s414826958.093756
+e414826958.684455
+r0
+xCompileC
+xbuild/csv.build/Debug/csv.build/Objects-normal/x86_64/arff_attr.o
+x/Users/greggjohns/Documents/C projects/csv/arff/arff_attr.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.gcc.4_2
+o/Users/greggjohns/Documents/C projects/csv/arff/arff_attr.cpp:1:23: error: arff_attr.h: No such file or directory
+o/Users/greggjohns/Documents/C projects/csv/arff/arff_attr.cpp:6: error: 'ArffAttr' has not been declared
+o/Users/greggjohns/Documents/C projects/csv/arff/arff_attr.cpp:6: error: expected unqualified-id before '&' token
+o/Users/greggjohns/Documents/C projects/csv/arff/arff_attr.cpp:6: error: expected ',' or '...' before '&' token
+o/Users/greggjohns/Documents/C projects/csv/arff/arff_attr.cpp:6: error: ISO C++ forbids declaration of 'ArffAttr' with no type
+o/Users/greggjohns/Documents/C projects/csv/arff/arff_attr.cpp: In function 'int ArffAttr()':
+o/Users/greggjohns/Documents/C projects/csv/arff/arff_attr.cpp:6: error: only constructors take base initializers
+o/Users/greggjohns/Documents/C projects/csv/arff/arff_attr.cpp:7: error: 'name' was not declared in this scope
+o/Users/greggjohns/Documents/C projects/csv/arff/arff_attr.cpp:8: error: 'type' was not declared in this scope
+o/Users/greggjohns/Documents/C projects/csv/arff/arff_attr.cpp: At global scope:
+o/Users/greggjohns/Documents/C projects/csv/arff/arff_attr.cpp:11: error: expected constructor, destructor, or type conversion before '::' token
+o/Users/greggjohns/Documents/C projects/csv/arff/arff_attr.cpp:14: error: 'string' in namespace 'std' does not name a type
+o/Users/greggjohns/Documents/C projects/csv/arff/arff_attr.cpp:18: error: 'ArffValueEnum' does not name a type
+lSLF07#2@69"Compile /Users/greggjohns/Documents/C projects/csv/arff/arff_attr.cpp414826958#414826958#0(1452"/Users/greggjohns/Documents/C projects/csv/arff/arff_attr.cpp:1:23: error: arff_attr.h: No such file or directory/Users/greggjohns/Documents/C projects/csv/arff/arff_attr.cpp:6: error: 'ArffAttr' has not been declared/Users/greggjohns/Documents/C projects/csv/arff/arff_attr.cpp:6: error: expected unqualified-id before '&' token/Users/greggjohns/Documents/C projects/csv/arff/arff_attr.cpp:6: error: expected ',' or '...' before '&' token/Users/greggjohns/Documents/C projects/csv/arff/arff_attr.cpp:6: error: ISO C++ forbids declaration of 'ArffAttr' with no type/Users/greggjohns/Documents/C projects/csv/arff/arff_attr.cpp: In function 'int ArffAttr()':/Users/greggjohns/Documents/C projects/csv/arff/arff_attr.cpp:6: error: only constructors take base initializers/Users/greggjohns/Documents/C projects/csv/arff/arff_attr.cpp:7: error: 'name' was not declared in this scope/Users/greggjohns/Documents/C projects/csv/arff/arff_attr.cpp:8: error: 'type' was not declared in this scope/Users/greggjohns/Documents/C projects/csv/arff/arff_attr.cpp: At global scope:/Users/greggjohns/Documents/C projects/csv/arff/arff_attr.cpp:11: error: expected constructor, destructor, or type conversion before '::' token/Users/greggjohns/Documents/C projects/csv/arff/arff_attr.cpp:14: error: 'string' in namespace 'std' does not name a type/Users/greggjohns/Documents/C projects/csv/arff/arff_attr.cpp:18: error: 'ArffValueEnum' does not name a type12(4@38"Arff_attr.h: No such file or directory414826958#0#114#0(6@61"/Users/greggjohns/Documents/C projects/csv/arff/arff_attr.cpp336923898#1#0#1#0#28"*: No such file or directory0(4@32"'ArffAttr' has not been declared414826958#114#105#0(6@61"/Users/greggjohns/Documents/C projects/csv/arff/arff_attr.cpp336923898#6#0#6#0#25"'*' has not been declared0(4@40"Expected unqualified-id before '&' token414826958#219#113#0(6@61"/Users/greggjohns/Documents/C projects/csv/arff/arff_attr.cpp336923898#6#0#6#0#19"expected * before *0(4@38"Expected ',' or '...' before '&' token414826958#332#111#0(6@61"/Users/greggjohns/Documents/C projects/csv/arff/arff_attr.cpp336923898#6#0#6#0#19"expected * before *0(4@54"ISO C++ forbids declaration of 'ArffAttr' with no type414826958#443#127#0(6@61"/Users/greggjohns/Documents/C projects/csv/arff/arff_attr.cpp336923898#6#0#6#0#47"ISO C++ forbids declaration of '*' with no type0(4@40"Only constructors take base initializers414826958#663#113#0(6@61"/Users/greggjohns/Documents/C projects/csv/arff/arff_attr.cpp336923898#6#0#6#0#0"0(4@37"'name' was not declared in this scope414826958#776#110#0(6@61"/Users/greggjohns/Documents/C projects/csv/arff/arff_attr.cpp336923898#7#0#7#0#34"'*' was not declared in this scope0(4@37"'type' was not declared in this scope414826958#886#110#0(6@61"/Users/greggjohns/Documents/C projects/csv/arff/arff_attr.cpp336923898#8#0#8#0#34"'*' was not declared in this scope0(23@16"At global scope:414826958#996#80#0(6@61"/Users/greggjohns/Documents/C projects/csv/arff/arff_attr.cpp336923898#0#0#0#0#0"0(4@70"Expected constructor, destructor, or type conversion before '::' token414826958#1076#144#0(6@61"/Users/greggjohns/Documents/C projects/csv/arff/arff_attr.cpp336923898#11#0#11#0#19"expected * before *0(4@48"'string' in namespace 'std' does not name a type414826958#1220#122#0(6@61"/Users/greggjohns/Documents/C projects/csv/arff/arff_attr.cpp336923898#14#0#14#0#24"'*' does not name a type0(4@36"'ArffValueEnum' does not name a type414826958#1342#110#0(6@61"/Users/greggjohns/Documents/C projects/csv/arff/arff_attr.cpp336923898#18#0#18#0#24"'*' does not name a type0(0#0#61"/Users/greggjohns/Documents/C projects/csv/arff/arff_attr.cpp4483178128#1300"    cd "/Users/greggjohns/Documents/C projects/csv"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote "/Users/greggjohns/Documents/C projects/csv/build/csv.build/Debug/csv.build/csv-generated-files.hmap" "-I/Users/greggjohns/Documents/C projects/csv/build/csv.build/Debug/csv.build/csv-own-target-headers.hmap" "-I/Users/greggjohns/Documents/C projects/csv/build/csv.build/Debug/csv.build/csv-all-target-headers.hmap" -iquote "/Users/greggjohns/Documents/C projects/csv/build/csv.build/Debug/csv.build/csv-project-headers.hmap" "-F/Users/greggjohns/Documents/C projects/csv/build/Debug" "-I/Users/greggjohns/Documents/C projects/csv/build/Debug/include" "-I/Users/greggjohns/Documents/C projects/csv/build/csv.build/Debug/csv.build/DerivedSources/x86_64" "-I/Users/greggjohns/Documents/C projects/csv/build/csv.build/Debug/csv.build/DerivedSources" -c "/Users/greggjohns/Documents/C projects/csv/arff/arff_attr.cpp" -o "/Users/greggjohns/Documents/C projects/csv/build/csv.build/Debug/csv.build/Objects-normal/x86_64/arff_attr.o"1#
+
+CCompileC build/csv.build/Debug/csv.build/Objects-normal/x86_64/arff_data.o "/Users/greggjohns/Documents/C projects/csv/arff/arff_data.cpp" normal x86_64 c++ com.apple.compilers.gcc.4_2
+s414826958.684560
+e414826958.732193
+r0
+xCompileC
+xbuild/csv.build/Debug/csv.build/Objects-normal/x86_64/arff_data.o
+x/Users/greggjohns/Documents/C projects/csv/arff/arff_data.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.gcc.4_2
+o/Users/greggjohns/Documents/C projects/csv/arff/arff_data.cpp:1:23: error: arff_data.h: No such file or directory
+o/Users/greggjohns/Documents/C projects/csv/arff/arff_data.cpp:5: error: 'ArffData' has not been declared
+o/Users/greggjohns/Documents/C projects/csv/arff/arff_data.cpp:5: error: ISO C++ forbids declaration of 'ArffData' with no type
+o/Users/greggjohns/Documents/C projects/csv/arff/arff_data.cpp: In function 'int ArffData()':
+o/Users/greggjohns/Documents/C projects/csv/arff/arff_data.cpp:5: error: only constructors take base initializers
+o/Users/greggjohns/Documents/C projects/csv/arff/arff_data.cpp: At global scope:
+o/Users/greggjohns/Documents/C projects/csv/arff/arff_data.cpp:14: error: expected constructor, destructor, or type conversion before '::' token
+lSLF07#2@69"Compile /Users/greggjohns/Documents/C projects/csv/arff/arff_data.cpp414826958#414826958#0(776"/Users/greggjohns/Documents/C projects/csv/arff/arff_data.cpp:1:23: error: arff_data.h: No such file or directory/Users/greggjohns/Documents/C projects/csv/arff/arff_data.cpp:5: error: 'ArffData' has not been declared/Users/greggjohns/Documents/C projects/csv/arff/arff_data.cpp:5: error: ISO C++ forbids declaration of 'ArffData' with no type/Users/greggjohns/Documents/C projects/csv/arff/arff_data.cpp: In function 'int ArffData()':/Users/greggjohns/Documents/C projects/csv/arff/arff_data.cpp:5: error: only constructors take base initializers/Users/greggjohns/Documents/C projects/csv/arff/arff_data.cpp: At global scope:/Users/greggjohns/Documents/C projects/csv/arff/arff_data.cpp:14: error: expected constructor, destructor, or type conversion before '::' token6(4@38"Arff_data.h: No such file or directory414826958#0#114#0(6@61"/Users/greggjohns/Documents/C projects/csv/arff/arff_data.cpp336923898#1#0#1#0#28"*: No such file or directory0(4@32"'ArffData' has not been declared414826958#114#105#0(6@61"/Users/greggjohns/Documents/C projects/csv/arff/arff_data.cpp336923898#5#0#5#0#25"'*' has not been declared0(4@54"ISO C++ forbids declaration of 'ArffData' with no type414826958#219#127#0(6@61"/Users/greggjohns/Documents/C projects/csv/arff/arff_data.cpp336923898#5#0#5#0#47"ISO C++ forbids declaration of '*' with no type0(4@40"Only constructors take base initializers414826958#439#113#0(6@61"/Users/greggjohns/Documents/C projects/csv/arff/arff_data.cpp336923898#5#0#5#0#0"0(23@16"At global scope:414826958#552#80#0(6@61"/Users/greggjohns/Documents/C projects/csv/arff/arff_data.cpp336923898#0#0#0#0#0"0(4@70"Expected constructor, destructor, or type conversion before '::' token414826958#632#144#0(6@61"/Users/greggjohns/Documents/C projects/csv/arff/arff_data.cpp336923898#14#0#14#0#19"expected * before *0(0#0#61"/Users/greggjohns/Documents/C projects/csv/arff/arff_data.cpp4483178128#1300"    cd "/Users/greggjohns/Documents/C projects/csv"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote "/Users/greggjohns/Documents/C projects/csv/build/csv.build/Debug/csv.build/csv-generated-files.hmap" "-I/Users/greggjohns/Documents/C projects/csv/build/csv.build/Debug/csv.build/csv-own-target-headers.hmap" "-I/Users/greggjohns/Documents/C projects/csv/build/csv.build/Debug/csv.build/csv-all-target-headers.hmap" -iquote "/Users/greggjohns/Documents/C projects/csv/build/csv.build/Debug/csv.build/csv-project-headers.hmap" "-F/Users/greggjohns/Documents/C projects/csv/build/Debug" "-I/Users/greggjohns/Documents/C projects/csv/build/Debug/include" "-I/Users/greggjohns/Documents/C projects/csv/build/csv.build/Debug/csv.build/DerivedSources/x86_64" "-I/Users/greggjohns/Documents/C projects/csv/build/csv.build/Debug/csv.build/DerivedSources" -c "/Users/greggjohns/Documents/C projects/csv/arff/arff_data.cpp" -o "/Users/greggjohns/Documents/C projects/csv/build/csv.build/Debug/csv.build/Objects-normal/x86_64/arff_data.o"1#
+
+CCompileC build/csv.build/Debug/csv.build/Objects-normal/x86_64/arff_instance.o "/Users/greggjohns/Documents/C projects/csv/arff/arff_instance.cpp" normal x86_64 c++ com.apple.compilers.gcc.4_2
+s414826958.732314
+e414826958.778339
+r0
+xCompileC
+xbuild/csv.build/Debug/csv.build/Objects-normal/x86_64/arff_instance.o
+x/Users/greggjohns/Documents/C projects/csv/arff/arff_instance.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.gcc.4_2
+o/Users/greggjohns/Documents/C projects/csv/arff/arff_instance.cpp:1:27: error: arff_instance.h: No such file or directory
+o/Users/greggjohns/Documents/C projects/csv/arff/arff_instance.cpp:5: error: 'ArffInstance' has not been declared
+o/Users/greggjohns/Documents/C projects/csv/arff/arff_instance.cpp:5: error: ISO C++ forbids declaration of 'ArffInstance' with no type
+o/Users/greggjohns/Documents/C projects/csv/arff/arff_instance.cpp: In function 'int ArffInstance()':
+o/Users/greggjohns/Documents/C projects/csv/arff/arff_instance.cpp:5: error: only constructors take base initializers
+o/Users/greggjohns/Documents/C projects/csv/arff/arff_instance.cpp: At global scope:
+o/Users/greggjohns/Documents/C projects/csv/arff/arff_instance.cpp:8: error: expected constructor, destructor, or type conversion before '::' token
+lSLF07#2@73"Compile /Users/greggjohns/Documents/C projects/csv/arff/arff_instance.cpp414826958#414826958#0(819"/Users/greggjohns/Documents/C projects/csv/arff/arff_instance.cpp:1:27: error: arff_instance.h: No such file or directory/Users/greggjohns/Documents/C projects/csv/arff/arff_instance.cpp:5: error: 'ArffInstance' has not been declared/Users/greggjohns/Documents/C projects/csv/arff/arff_instance.cpp:5: error: ISO C++ forbids declaration of 'ArffInstance' with no type/Users/greggjohns/Documents/C projects/csv/arff/arff_instance.cpp: In function 'int ArffInstance()':/Users/greggjohns/Documents/C projects/csv/arff/arff_instance.cpp:5: error: only constructors take base initializers/Users/greggjohns/Documents/C projects/csv/arff/arff_instance.cpp: At global scope:/Users/greggjohns/Documents/C projects/csv/arff/arff_instance.cpp:8: error: expected constructor, destructor, or type conversion before '::' token6(4@42"Arff_instance.h: No such file or directory414826958#0#122#0(6@65"/Users/greggjohns/Documents/C projects/csv/arff/arff_instance.cpp336923898#1#0#1#0#28"*: No such file or directory0(4@36"'ArffInstance' has not been declared414826958#122#113#0(6@65"/Users/greggjohns/Documents/C projects/csv/arff/arff_instance.cpp336923898#5#0#5#0#25"'*' has not been declared0(4@58"ISO C++ forbids declaration of 'ArffInstance' with no type414826958#235#135#0(6@65"/Users/greggjohns/Documents/C projects/csv/arff/arff_instance.cpp336923898#5#0#5#0#47"ISO C++ forbids declaration of '*' with no type0(4@40"Only constructors take base initializers414826958#471#117#0(6@65"/Users/greggjohns/Documents/C projects/csv/arff/arff_instance.cpp336923898#5#0#5#0#0"0(23@16"At global scope:414826958#588#84#0(6@65"/Users/greggjohns/Documents/C projects/csv/arff/arff_instance.cpp336923898#0#0#0#0#0"0(4@70"Expected constructor, destructor, or type conversion before '::' token414826958#672#147#0(6@65"/Users/greggjohns/Documents/C projects/csv/arff/arff_instance.cpp336923898#8#0#8#0#19"expected * before *0(0#0#65"/Users/greggjohns/Documents/C projects/csv/arff/arff_instance.cpp4483178128#1308"    cd "/Users/greggjohns/Documents/C projects/csv"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote "/Users/greggjohns/Documents/C projects/csv/build/csv.build/Debug/csv.build/csv-generated-files.hmap" "-I/Users/greggjohns/Documents/C projects/csv/build/csv.build/Debug/csv.build/csv-own-target-headers.hmap" "-I/Users/greggjohns/Documents/C projects/csv/build/csv.build/Debug/csv.build/csv-all-target-headers.hmap" -iquote "/Users/greggjohns/Documents/C projects/csv/build/csv.build/Debug/csv.build/csv-project-headers.hmap" "-F/Users/greggjohns/Documents/C projects/csv/build/Debug" "-I/Users/greggjohns/Documents/C projects/csv/build/Debug/include" "-I/Users/greggjohns/Documents/C projects/csv/build/csv.build/Debug/csv.build/DerivedSources/x86_64" "-I/Users/greggjohns/Documents/C projects/csv/build/csv.build/Debug/csv.build/DerivedSources" -c "/Users/greggjohns/Documents/C projects/csv/arff/arff_instance.cpp" -o "/Users/greggjohns/Documents/C projects/csv/build/csv.build/Debug/csv.build/Objects-normal/x86_64/arff_instance.o"1#
+
+CCompileC build/csv.build/Debug/csv.build/Objects-normal/x86_64/arff_lexer.o "/Users/greggjohns/Documents/C projects/csv/arff/arff_lexer.cpp" normal x86_64 c++ com.apple.compilers.gcc.4_2
+s414826958.778450
+e414826958.829900
+r0
+xCompileC
+xbuild/csv.build/Debug/csv.build/Objects-normal/x86_64/arff_lexer.o
+x/Users/greggjohns/Documents/C projects/csv/arff/arff_lexer.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.gcc.4_2
+o/Users/greggjohns/Documents/C projects/csv/arff/arff_lexer.cpp:1:24: error: arff_lexer.h: No such file or directory
+o/Users/greggjohns/Documents/C projects/csv/arff/arff_lexer.cpp:5: error: 'ArffLexer' has not been declared
+o/Users/greggjohns/Documents/C projects/csv/arff/arff_lexer.cpp:6: error: 'ArffLexer' has not been declared
+o/Users/greggjohns/Documents/C projects/csv/arff/arff_lexer.cpp:7: error: 'ArffLexer' has not been declared
+o/Users/greggjohns/Documents/C projects/csv/arff/arff_lexer.cpp:8: error: 'ArffLexer' has not been declared
+o/Users/greggjohns/Documents/C projects/csv/arff/arff_lexer.cpp:9: error: 'ArffLexer' has not been declared
+o/Users/greggjohns/Documents/C projects/csv/arff/arff_lexer.cpp:10: error: 'ArffLexer' has not been declared
+o/Users/greggjohns/Documents/C projects/csv/arff/arff_lexer.cpp:11: error: 'ArffLexer' has not been declared
+o/Users/greggjohns/Documents/C projects/csv/arff/arff_lexer.cpp:12: error: 'ArffLexer' has not been declared
+o/Users/greggjohns/Documents/C projects/csv/arff/arff_lexer.cpp:13: error: 'ArffLexer' has not been declared
+o/Users/greggjohns/Documents/C projects/csv/arff/arff_lexer.cpp:16: error: 'ArffLexer' has not been declared
+o/Users/greggjohns/Documents/C projects/csv/arff/arff_lexer.cpp:16: error: expected unqualified-id before '&' token
+o/Users/greggjohns/Documents/C projects/csv/arff/arff_lexer.cpp:16: error: expected ',' or '...' before '&' token
+o/Users/greggjohns/Documents/C projects/csv/arff/arff_lexer.cpp:16: error: ISO C++ forbids declaration of 'ArffLexer' with no type
+o/Users/greggjohns/Documents/C projects/csv/arff/arff_lexer.cpp: In function 'int ArffLexer()':
+o/Users/greggjohns/Documents/C projects/csv/arff/arff_lexer.cpp:16: error: only constructors take base initializers
+o/Users/greggjohns/Documents/C projects/csv/arff/arff_lexer.cpp:16: error: 'NULL' was not declared in this scope
+o/Users/greggjohns/Documents/C projects/csv/arff/arff_lexer.cpp:18: error: 'm_scanner' was not declared in this scope
+o/Users/greggjohns/Documents/C projects/csv/arff/arff_lexer.cpp:18: error: expected type-specifier before 'ArffScanner'
+o/Users/greggjohns/Documents/C projects/csv/arff/arff_lexer.cpp:18: error: expected `;' before 'ArffScanner'
+o/Users/greggjohns/Documents/C projects/csv/arff/arff_lexer.cpp: At global scope:
+o/Users/greggjohns/Documents/C projects/csv/arff/arff_lexer.cpp:21: error: expected constructor, destructor, or type conversion before '::' token
+lSLF07#2@70"Compile /Users/greggjohns/Documents/C projects/csv/arff/arff_lexer.cpp414826958#414826958#0(2441"/Users/greggjohns/Documents/C projects/csv/arff/arff_lexer.cpp:1:24: error: arff_lexer.h: No such file or directory/Users/greggjohns/Documents/C projects/csv/arff/arff_lexer.cpp:5: error: 'ArffLexer' has not been declared/Users/greggjohns/Documents/C projects/csv/arff/arff_lexer.cpp:6: error: 'ArffLexer' has not been declared/Users/greggjohns/Documents/C projects/csv/arff/arff_lexer.cpp:7: error: 'ArffLexer' has not been declared/Users/greggjohns/Documents/C projects/csv/arff/arff_lexer.cpp:8: error: 'ArffLexer' has not been declared/Users/greggjohns/Documents/C projects/csv/arff/arff_lexer.cpp:9: error: 'ArffLexer' has not been declared/Users/greggjohns/Documents/C projects/csv/arff/arff_lexer.cpp:10: error: 'ArffLexer' has not been declared/Users/greggjohns/Documents/C projects/csv/arff/arff_lexer.cpp:11: error: 'ArffLexer' has not been declared/Users/greggjohns/Documents/C projects/csv/arff/arff_lexer.cpp:12: error: 'ArffLexer' has not been declared/Users/greggjohns/Documents/C projects/csv/arff/arff_lexer.cpp:13: error: 'ArffLexer' has not been declared/Users/greggjohns/Documents/C projects/csv/arff/arff_lexer.cpp:16: error: 'ArffLexer' has not been declared/Users/greggjohns/Documents/C projects/csv/arff/arff_lexer.cpp:16: error: expected unqualified-id before '&' token/Users/greggjohns/Documents/C projects/csv/arff/arff_lexer.cpp:16: error: expected ',' or '...' before '&' token/Users/greggjohns/Documents/C projects/csv/arff/arff_lexer.cpp:16: error: ISO C++ forbids declaration of 'ArffLexer' with no type/Users/greggjohns/Documents/C projects/csv/arff/arff_lexer.cpp: In function 'int ArffLexer()':/Users/greggjohns/Documents/C projects/csv/arff/arff_lexer.cpp:16: error: only constructors take base initializers/Users/greggjohns/Documents/C projects/csv/arff/arff_lexer.cpp:16: error: 'NULL' was not declared in this scope/Users/greggjohns/Documents/C projects/csv/arff/arff_lexer.cpp:18: error: 'm_scanner' was not declared in this scope/Users/greggjohns/Documents/C projects/csv/arff/arff_lexer.cpp:18: error: expected type-specifier before 'ArffScanner'/Users/greggjohns/Documents/C projects/csv/arff/arff_lexer.cpp:18: error: expected `;' before 'ArffScanner'/Users/greggjohns/Documents/C projects/csv/arff/arff_lexer.cpp: At global scope:/Users/greggjohns/Documents/C projects/csv/arff/arff_lexer.cpp:21: error: expected constructor, destructor, or type conversion before '::' token21(4@39"Arff_lexer.h: No such file or directory414826958#0#116#0(6@62"/Users/greggjohns/Documents/C projects/csv/arff/arff_lexer.cpp336923898#1#0#1#0#28"*: No such file or directory0(4@33"'ArffLexer' has not been declared414826958#116#107#0(6@62"/Users/greggjohns/Documents/C projects/csv/arff/arff_lexer.cpp336923898#5#0#5#0#25"'*' has not been declared0(4@33"'ArffLexer' has not been declared414826958#223#107#0(6@62"/Users/greggjohns/Documents/C projects/csv/arff/arff_lexer.cpp336923898#6#0#6#0#25"'*' has not been declared0(4@33"'ArffLexer' has not been declared414826958#330#107#0(6@62"/Users/greggjohns/Documents/C projects/csv/arff/arff_lexer.cpp336923898#7#0#7#0#25"'*' has not been declared0(4@33"'ArffLexer' has not been declared414826958#437#107#0(6@62"/Users/greggjohns/Documents/C projects/csv/arff/arff_lexer.cpp336923898#8#0#8#0#25"'*' has not been declared0(4@33"'ArffLexer' has not been declared414826958#544#107#0(6@62"/Users/greggjohns/Documents/C projects/csv/arff/arff_lexer.cpp336923898#9#0#9#0#25"'*' has not been declared0(4@33"'ArffLexer' has not been declared414826958#651#108#0(6@62"/Users/greggjohns/Documents/C projects/csv/arff/arff_lexer.cpp336923898#10#0#10#0#25"'*' has not been declared0(4@33"'ArffLexer' has not been declared414826958#759#108#0(6@62"/Users/greggjohns/Documents/C projects/csv/arff/arff_lexer.cpp336923898#11#0#11#0#25"'*' has not been declared0(4@33"'ArffLexer' has not been declared414826958#867#108#0(6@62"/Users/greggjohns/Documents/C projects/csv/arff/arff_lexer.cpp336923898#12#0#12#0#25"'*' has not been declared0(4@33"'ArffLexer' has not been declared414826958#975#108#0(6@62"/Users/greggjohns/Documents/C projects/csv/arff/arff_lexer.cpp336923898#13#0#13#0#25"'*' has not been declared0(4@33"'ArffLexer' has not been declared414826958#1083#108#0(6@62"/Users/greggjohns/Documents/C projects/csv/arff/arff_lexer.cpp336923898#16#0#16#0#25"'*' has not been declared0(4@40"Expected unqualified-id before '&' token414826958#1191#115#0(6@62"/Users/greggjohns/Documents/C projects/csv/arff/arff_lexer.cpp336923898#16#0#16#0#19"expected * before *0(4@38"Expected ',' or '...' before '&' token414826958#1306#113#0(6@62"/Users/greggjohns/Documents/C projects/csv/arff/arff_lexer.cpp336923898#16#0#16#0#19"expected * before *0(4@55"ISO C++ forbids declaration of 'ArffLexer' with no type414826958#1419#130#0(6@62"/Users/greggjohns/Documents/C projects/csv/arff/arff_lexer.cpp336923898#16#0#16#0#47"ISO C++ forbids declaration of '*' with no type0(4@40"Only constructors take base initializers414826958#1644#115#0(6@62"/Users/greggjohns/Documents/C projects/csv/arff/arff_lexer.cpp336923898#16#0#16#0#0"0(4@37"'NULL' was not declared in this scope414826958#1759#112#0(6@62"/Users/greggjohns/Documents/C projects/csv/arff/arff_lexer.cpp336923898#16#0#16#0#34"'*' was not declared in this scope0(4@42"'m_scanner' was not declared in this scope414826958#1871#117#0(6@62"/Users/greggjohns/Documents/C projects/csv/arff/arff_lexer.cpp336923898#18#0#18#0#34"'*' was not declared in this scope0(4@44"Expected type-specifier before 'ArffScanner'414826958#1988#119#0(6@62"/Users/greggjohns/Documents/C projects/csv/arff/arff_lexer.cpp336923898#18#0#18#0#19"expected * before *0(4@33"Expected `;' before 'ArffScanner'414826958#2107#108#0(6@62"/Users/greggjohns/Documents/C projects/csv/arff/arff_lexer.cpp336923898#18#0#18#0#19"expected * before *0(23@16"At global scope:414826958#2215#81#0(6@62"/Users/greggjohns/Documents/C projects/csv/arff/arff_lexer.cpp336923898#0#0#0#0#0"0(4@70"Expected constructor, destructor, or type conversion before '::' token414826958#2296#145#0(6@62"/Users/greggjohns/Documents/C projects/csv/arff/arff_lexer.cpp336923898#21#0#21#0#19"expected * before *0(0#0#62"/Users/greggjohns/Documents/C projects/csv/arff/arff_lexer.cpp4483178128#1302"    cd "/Users/greggjohns/Documents/C projects/csv"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote "/Users/greggjohns/Documents/C projects/csv/build/csv.build/Debug/csv.build/csv-generated-files.hmap" "-I/Users/greggjohns/Documents/C projects/csv/build/csv.build/Debug/csv.build/csv-own-target-headers.hmap" "-I/Users/greggjohns/Documents/C projects/csv/build/csv.build/Debug/csv.build/csv-all-target-headers.hmap" -iquote "/Users/greggjohns/Documents/C projects/csv/build/csv.build/Debug/csv.build/csv-project-headers.hmap" "-F/Users/greggjohns/Documents/C projects/csv/build/Debug" "-I/Users/greggjohns/Documents/C projects/csv/build/Debug/include" "-I/Users/greggjohns/Documents/C projects/csv/build/csv.build/Debug/csv.build/DerivedSources/x86_64" "-I/Users/greggjohns/Documents/C projects/csv/build/csv.build/Debug/csv.build/DerivedSources" -c "/Users/greggjohns/Documents/C projects/csv/arff/arff_lexer.cpp" -o "/Users/greggjohns/Documents/C projects/csv/build/csv.build/Debug/csv.build/Objects-normal/x86_64/arff_lexer.o"1#
+
+CCompileC build/csv.build/Debug/csv.build/Objects-normal/x86_64/arff_parser.o "/Users/greggjohns/Documents/C projects/csv/arff/arff_parser.cpp" normal x86_64 c++ com.apple.compilers.gcc.4_2
+s414826958.830174
+e414826958.922889
+r0
+xCompileC
+xbuild/csv.build/Debug/csv.build/Objects-normal/x86_64/arff_parser.o
+x/Users/greggjohns/Documents/C projects/csv/arff/arff_parser.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.gcc.4_2
+o/Users/greggjohns/Documents/C projects/csv/arff/arff_parser.cpp:1:25: error: arff_parser.h: No such file or directory
+o/Users/greggjohns/Documents/C projects/csv/arff/arff_parser.cpp:2:24: error: arff_token.h: No such file or directory
+o/Users/greggjohns/Documents/C projects/csv/arff/arff_parser.cpp:6: error: 'ArffParser' has not been declared
+o/Users/greggjohns/Documents/C projects/csv/arff/arff_parser.cpp:6: error: expected unqualified-id before '&' token
+o/Users/greggjohns/Documents/C projects/csv/arff/arff_parser.cpp:6: error: expected ',' or '...' before '&' token
+o/Users/greggjohns/Documents/C projects/csv/arff/arff_parser.cpp:6: error: ISO C++ forbids declaration of 'ArffParser' with no type
+o/Users/greggjohns/Documents/C projects/csv/arff/arff_parser.cpp: In function 'int ArffParser()':
+o/Users/greggjohns/Documents/C projects/csv/arff/arff_parser.cpp:6: error: only constructors take base initializers
+o/Users/greggjohns/Documents/C projects/csv/arff/arff_parser.cpp:6: error: 'NULL' was not declared in this scope
+o/Users/greggjohns/Documents/C projects/csv/arff/arff_parser.cpp:9: error: 'm_lexer' was not declared in this scope
+o/Users/greggjohns/Documents/C projects/csv/arff/arff_parser.cpp:9: error: expected type-specifier before 'ArffLexer'
+o/Users/greggjohns/Documents/C projects/csv/arff/arff_parser.cpp:9: error: expected `;' before 'ArffLexer'
+o/Users/greggjohns/Documents/C projects/csv/arff/arff_parser.cpp: At global scope:
+o/Users/greggjohns/Documents/C projects/csv/arff/arff_parser.cpp:12: error: expected constructor, destructor, or type conversion before '::' token
+lSLF07#2@71"Compile /Users/greggjohns/Documents/C projects/csv/arff/arff_parser.cpp414826958#414826958#0(1593"/Users/greggjohns/Documents/C projects/csv/arff/arff_parser.cpp:1:25: error: arff_parser.h: No such file or directory/Users/greggjohns/Documents/C projects/csv/arff/arff_parser.cpp:2:24: error: arff_token.h: No such file or directory/Users/greggjohns/Documents/C projects/csv/arff/arff_parser.cpp:6: error: 'ArffParser' has not been declared/Users/greggjohns/Documents/C projects/csv/arff/arff_parser.cpp:6: error: expected unqualified-id before '&' token/Users/greggjohns/Documents/C projects/csv/arff/arff_parser.cpp:6: error: expected ',' or '...' before '&' token/Users/greggjohns/Documents/C projects/csv/arff/arff_parser.cpp:6: error: ISO C++ forbids declaration of 'ArffParser' with no type/Users/greggjohns/Documents/C projects/csv/arff/arff_parser.cpp: In function 'int ArffParser()':/Users/greggjohns/Documents/C projects/csv/arff/arff_parser.cpp:6: error: only constructors take base initializers/Users/greggjohns/Documents/C projects/csv/arff/arff_parser.cpp:6: error: 'NULL' was not declared in this scope/Users/greggjohns/Documents/C projects/csv/arff/arff_parser.cpp:9: error: 'm_lexer' was not declared in this scope/Users/greggjohns/Documents/C projects/csv/arff/arff_parser.cpp:9: error: expected type-specifier before 'ArffLexer'/Users/greggjohns/Documents/C projects/csv/arff/arff_parser.cpp:9: error: expected `;' before 'ArffLexer'/Users/greggjohns/Documents/C projects/csv/arff/arff_parser.cpp: At global scope:/Users/greggjohns/Documents/C projects/csv/arff/arff_parser.cpp:12: error: expected constructor, destructor, or type conversion before '::' token13(4@40"Arff_parser.h: No such file or directory414826958#0#118#0(6@63"/Users/greggjohns/Documents/C projects/csv/arff/arff_parser.cpp336923898#1#0#1#0#28"*: No such file or directory0(4@39"Arff_token.h: No such file or directory414826958#118#117#0(6@63"/Users/greggjohns/Documents/C projects/csv/arff/arff_parser.cpp336923898#2#0#2#0#28"*: No such file or directory0(4@34"'ArffParser' has not been declared414826958#235#109#0(6@63"/Users/greggjohns/Documents/C projects/csv/arff/arff_parser.cpp336923898#6#0#6#0#25"'*' has not been declared0(4@40"Expected unqualified-id before '&' token414826958#344#115#0(6@63"/Users/greggjohns/Documents/C projects/csv/arff/arff_parser.cpp336923898#6#0#6#0#19"expected * before *0(4@38"Expected ',' or '...' before '&' token414826958#459#113#0(6@63"/Users/greggjohns/Documents/C projects/csv/arff/arff_parser.cpp336923898#6#0#6#0#19"expected * before *0(4@56"ISO C++ forbids declaration of 'ArffParser' with no type414826958#572#131#0(6@63"/Users/greggjohns/Documents/C projects/csv/arff/arff_parser.cpp336923898#6#0#6#0#47"ISO C++ forbids declaration of '*' with no type0(4@40"Only constructors take base initializers414826958#800#115#0(6@63"/Users/greggjohns/Documents/C projects/csv/arff/arff_parser.cpp336923898#6#0#6#0#0"0(4@37"'NULL' was not declared in this scope414826958#915#112#0(6@63"/Users/greggjohns/Documents/C projects/csv/arff/arff_parser.cpp336923898#6#0#6#0#34"'*' was not declared in this scope0(4@40"'m_lexer' was not declared in this scope414826958#1027#115#0(6@63"/Users/greggjohns/Documents/C projects/csv/arff/arff_parser.cpp336923898#9#0#9#0#34"'*' was not declared in this scope0(4@42"Expected type-specifier before 'ArffLexer'414826958#1142#117#0(6@63"/Users/greggjohns/Documents/C projects/csv/arff/arff_parser.cpp336923898#9#0#9#0#19"expected * before *0(4@31"Expected `;' before 'ArffLexer'414826958#1259#106#0(6@63"/Users/greggjohns/Documents/C projects/csv/arff/arff_parser.cpp336923898#9#0#9#0#19"expected * before *0(23@16"At global scope:414826958#1365#82#0(6@63"/Users/greggjohns/Documents/C projects/csv/arff/arff_parser.cpp336923898#0#0#0#0#0"0(4@70"Expected constructor, destructor, or type conversion before '::' token414826958#1447#146#0(6@63"/Users/greggjohns/Documents/C projects/csv/arff/arff_parser.cpp336923898#12#0#12#0#19"expected * before *0(0#0#63"/Users/greggjohns/Documents/C projects/csv/arff/arff_parser.cpp4483178128#1304"    cd "/Users/greggjohns/Documents/C projects/csv"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote "/Users/greggjohns/Documents/C projects/csv/build/csv.build/Debug/csv.build/csv-generated-files.hmap" "-I/Users/greggjohns/Documents/C projects/csv/build/csv.build/Debug/csv.build/csv-own-target-headers.hmap" "-I/Users/greggjohns/Documents/C projects/csv/build/csv.build/Debug/csv.build/csv-all-target-headers.hmap" -iquote "/Users/greggjohns/Documents/C projects/csv/build/csv.build/Debug/csv.build/csv-project-headers.hmap" "-F/Users/greggjohns/Documents/C projects/csv/build/Debug" "-I/Users/greggjohns/Documents/C projects/csv/build/Debug/include" "-I/Users/greggjohns/Documents/C projects/csv/build/csv.build/Debug/csv.build/DerivedSources/x86_64" "-I/Users/greggjohns/Documents/C projects/csv/build/csv.build/Debug/csv.build/DerivedSources" -c "/Users/greggjohns/Documents/C projects/csv/arff/arff_parser.cpp" -o "/Users/greggjohns/Documents/C projects/csv/build/csv.build/Debug/csv.build/Objects-normal/x86_64/arff_parser.o"1#
+
+CCompileC build/csv.build/Debug/csv.build/Objects-normal/x86_64/arff_scanner.o "/Users/greggjohns/Documents/C projects/csv/arff/arff_scanner.cpp" normal x86_64 c++ com.apple.compilers.gcc.4_2
+s414826958.923145
+e414826958.959473
+r0
+xCompileC
+xbuild/csv.build/Debug/csv.build/Objects-normal/x86_64/arff_scanner.o
+x/Users/greggjohns/Documents/C projects/csv/arff/arff_scanner.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.gcc.4_2
+o/Users/greggjohns/Documents/C projects/csv/arff/arff_scanner.cpp:1:26: error: arff_scanner.h: No such file or directory
+o/Users/greggjohns/Documents/C projects/csv/arff/arff_scanner.cpp:4: error: 'ArffScanner' has not been declared
+o/Users/greggjohns/Documents/C projects/csv/arff/arff_scanner.cpp:7: error: 'ArffScanner' has not been declared
+o/Users/greggjohns/Documents/C projects/csv/arff/arff_scanner.cpp:7: error: expected unqualified-id before '&' token
+o/Users/greggjohns/Documents/C projects/csv/arff/arff_scanner.cpp:7: error: expected ',' or '...' before '&' token
+o/Users/greggjohns/Documents/C projects/csv/arff/arff_scanner.cpp:7: error: ISO C++ forbids declaration of 'ArffScanner' with no type
+o/Users/greggjohns/Documents/C projects/csv/arff/arff_scanner.cpp: In function 'int ArffScanner()':
+o/Users/greggjohns/Documents/C projects/csv/arff/arff_scanner.cpp:7: error: only constructors take base initializers
+o/Users/greggjohns/Documents/C projects/csv/arff/arff_scanner.cpp:7: error: '_file' was not declared in this scope
+o/Users/greggjohns/Documents/C projects/csv/arff/arff_scanner.cpp:8: error: 'int64' was not declared in this scope
+o/Users/greggjohns/Documents/C projects/csv/arff/arff_scanner.cpp:9: error: expected `)' before numeric constant
+o/Users/greggjohns/Documents/C projects/csv/arff/arff_scanner.cpp:12: error: 'NULL' was not declared in this scope
+o/Users/greggjohns/Documents/C projects/csv/arff/arff_scanner.cpp:13: error: 'm_fp' was not declared in this scope
+o/Users/greggjohns/Documents/C projects/csv/arff/arff_scanner.cpp:13: error: 'm_file' was not declared in this scope
+o/Users/greggjohns/Documents/C projects/csv/arff/arff_scanner.cpp:13: error: 'fopen' was not declared in this scope
+o/Users/greggjohns/Documents/C projects/csv/arff/arff_scanner.cpp:15: error: 'THROW' was not declared in this scope
+o/Users/greggjohns/Documents/C projects/csv/arff/arff_scanner.cpp: At global scope:
+o/Users/greggjohns/Documents/C projects/csv/arff/arff_scanner.cpp:19: error: expected constructor, destructor, or type conversion before '::' token
+lSLF07#2@72"Compile /Users/greggjohns/Documents/C projects/csv/arff/arff_scanner.cpp414826958#414826958#0(2064"/Users/greggjohns/Documents/C projects/csv/arff/arff_scanner.cpp:1:26: error: arff_scanner.h: No such file or directory/Users/greggjohns/Documents/C projects/csv/arff/arff_scanner.cpp:4: error: 'ArffScanner' has not been declared/Users/greggjohns/Documents/C projects/csv/arff/arff_scanner.cpp:7: error: 'ArffScanner' has not been declared/Users/greggjohns/Documents/C projects/csv/arff/arff_scanner.cpp:7: error: expected unqualified-id before '&' token/Users/greggjohns/Documents/C projects/csv/arff/arff_scanner.cpp:7: error: expected ',' or '...' before '&' token/Users/greggjohns/Documents/C projects/csv/arff/arff_scanner.cpp:7: error: ISO C++ forbids declaration of 'ArffScanner' with no type/Users/greggjohns/Documents/C projects/csv/arff/arff_scanner.cpp: In function 'int ArffScanner()':/Users/greggjohns/Documents/C projects/csv/arff/arff_scanner.cpp:7: error: only constructors take base initializers/Users/greggjohns/Documents/C projects/csv/arff/arff_scanner.cpp:7: error: '_file' was not declared in this scope/Users/greggjohns/Documents/C projects/csv/arff/arff_scanner.cpp:8: error: 'int64' was not declared in this scope/Users/greggjohns/Documents/C projects/csv/arff/arff_scanner.cpp:9: error: expected `)' before numeric constant/Users/greggjohns/Documents/C projects/csv/arff/arff_scanner.cpp:12: error: 'NULL' was not declared in this scope/Users/greggjohns/Documents/C projects/csv/arff/arff_scanner.cpp:13: error: 'm_fp' was not declared in this scope/Users/greggjohns/Documents/C projects/csv/arff/arff_scanner.cpp:13: error: 'm_file' was not declared in this scope/Users/greggjohns/Documents/C projects/csv/arff/arff_scanner.cpp:13: error: 'fopen' was not declared in this scope/Users/greggjohns/Documents/C projects/csv/arff/arff_scanner.cpp:15: error: 'THROW' was not declared in this scope/Users/greggjohns/Documents/C projects/csv/arff/arff_scanner.cpp: At global scope:/Users/greggjohns/Documents/C projects/csv/arff/arff_scanner.cpp:19: error: expected constructor, destructor, or type conversion before '::' token17(4@41"Arff_scanner.h: No such file or directory414826958#0#120#0(6@64"/Users/greggjohns/Documents/C projects/csv/arff/arff_scanner.cpp336923898#1#0#1#0#28"*: No such file or directory0(4@35"'ArffScanner' has not been declared414826958#120#111#0(6@64"/Users/greggjohns/Documents/C projects/csv/arff/arff_scanner.cpp336923898#4#0#4#0#25"'*' has not been declared0(4@35"'ArffScanner' has not been declared414826958#231#111#0(6@64"/Users/greggjohns/Documents/C projects/csv/arff/arff_scanner.cpp336923898#7#0#7#0#25"'*' has not been declared0(4@40"Expected unqualified-id before '&' token414826958#342#116#0(6@64"/Users/greggjohns/Documents/C projects/csv/arff/arff_scanner.cpp336923898#7#0#7#0#19"expected * before *0(4@38"Expected ',' or '...' before '&' token414826958#458#114#0(6@64"/Users/greggjohns/Documents/C projects/csv/arff/arff_scanner.cpp336923898#7#0#7#0#19"expected * before *0(4@57"ISO C++ forbids declaration of 'ArffScanner' with no type414826958#572#133#0(6@64"/Users/greggjohns/Documents/C projects/csv/arff/arff_scanner.cpp336923898#7#0#7#0#47"ISO C++ forbids declaration of '*' with no type0(4@40"Only constructors take base initializers414826958#804#116#0(6@64"/Users/greggjohns/Documents/C projects/csv/arff/arff_scanner.cpp336923898#7#0#7#0#0"0(4@38"'_file' was not declared in this scope414826958#920#114#0(6@64"/Users/greggjohns/Documents/C projects/csv/arff/arff_scanner.cpp336923898#7#0#7#0#34"'*' was not declared in this scope0(4@38"'int64' was not declared in this scope414826958#1034#114#0(6@64"/Users/greggjohns/Documents/C projects/csv/arff/arff_scanner.cpp336923898#8#0#8#0#34"'*' was not declared in this scope0(4@36"Expected `)' before numeric constant414826958#1148#112#0(6@64"/Users/greggjohns/Documents/C projects/csv/arff/arff_scanner.cpp336923898#9#0#9#0#19"expected * before *0(4@37"'NULL' was not declared in this scope414826958#1260#114#0(6@64"/Users/greggjohns/Documents/C projects/csv/arff/arff_scanner.cpp336923898#12#0#12#0#34"'*' was not declared in this scope0(4@37"'m_fp' was not declared in this scope414826958#1374#114#0(6@64"/Users/greggjohns/Documents/C projects/csv/arff/arff_scanner.cpp336923898#13#0#13#0#34"'*' was not declared in this scope0(4@39"'m_file' was not declared in this scope414826958#1488#116#0(6@64"/Users/greggjohns/Documents/C projects/csv/arff/arff_scanner.cpp336923898#13#0#13#0#34"'*' was not declared in this scope0(4@38"'fopen' was not declared in this scope414826958#1604#115#0(6@64"/Users/greggjohns/Documents/C projects/csv/arff/arff_scanner.cpp336923898#13#0#13#0#34"'*' was not declared in this scope0(4@38"'THROW' was not declared in this scope414826958#1719#115#0(6@64"/Users/greggjohns/Documents/C projects/csv/arff/arff_scanner.cpp336923898#15#0#15#0#34"'*' was not declared in this scope0(23@16"At global scope:414826958#1834#83#0(6@64"/Users/greggjohns/Documents/C projects/csv/arff/arff_scanner.cpp336923898#0#0#0#0#0"0(4@70"Expected constructor, destructor, or type conversion before '::' token414826958#1917#147#0(6@64"/Users/greggjohns/Documents/C projects/csv/arff/arff_scanner.cpp336923898#19#0#19#0#19"expected * before *0(0#0#64"/Users/greggjohns/Documents/C projects/csv/arff/arff_scanner.cpp4483178128#1306"    cd "/Users/greggjohns/Documents/C projects/csv"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote "/Users/greggjohns/Documents/C projects/csv/build/csv.build/Debug/csv.build/csv-generated-files.hmap" "-I/Users/greggjohns/Documents/C projects/csv/build/csv.build/Debug/csv.build/csv-own-target-headers.hmap" "-I/Users/greggjohns/Documents/C projects/csv/build/csv.build/Debug/csv.build/csv-all-target-headers.hmap" -iquote "/Users/greggjohns/Documents/C projects/csv/build/csv.build/Debug/csv.build/csv-project-headers.hmap" "-F/Users/greggjohns/Documents/C projects/csv/build/Debug" "-I/Users/greggjohns/Documents/C projects/csv/build/Debug/include" "-I/Users/greggjohns/Documents/C projects/csv/build/csv.build/Debug/csv.build/DerivedSources/x86_64" "-I/Users/greggjohns/Documents/C projects/csv/build/csv.build/Debug/csv.build/DerivedSources" -c "/Users/greggjohns/Documents/C projects/csv/arff/arff_scanner.cpp" -o "/Users/greggjohns/Documents/C projects/csv/build/csv.build/Debug/csv.build/Objects-normal/x86_64/arff_scanner.o"1#
+
+CCompileC build/csv.build/Debug/csv.build/Objects-normal/x86_64/arff_token.o "/Users/greggjohns/Documents/C projects/csv/arff/arff_token.cpp" normal x86_64 c++ com.apple.compilers.gcc.4_2
+s414826958.959575
+e414826958.990611
+r0
+xCompileC
+xbuild/csv.build/Debug/csv.build/Objects-normal/x86_64/arff_token.o
+x/Users/greggjohns/Documents/C projects/csv/arff/arff_token.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.gcc.4_2
+o/Users/greggjohns/Documents/C projects/csv/arff/arff_token.cpp:1:24: error: arff_token.h: No such file or directory
+o/Users/greggjohns/Documents/C projects/csv/arff/arff_token.cpp:5: error: 'string' in namespace 'std' does not name a type
+o/Users/greggjohns/Documents/C projects/csv/arff/arff_token.cpp:24: error: 'ArffToken' has not been declared
+o/Users/greggjohns/Documents/C projects/csv/arff/arff_token.cpp:24: error: expected unqualified-id before '&' token
+o/Users/greggjohns/Documents/C projects/csv/arff/arff_token.cpp:24: error: expected ',' or '...' before '&' token
+o/Users/greggjohns/Documents/C projects/csv/arff/arff_token.cpp:24: error: ISO C++ forbids declaration of 'ArffToken' with no type
+o/Users/greggjohns/Documents/C projects/csv/arff/arff_token.cpp: In function 'int ArffToken()':
+o/Users/greggjohns/Documents/C projects/csv/arff/arff_token.cpp:24: error: only constructors take base initializers
+o/Users/greggjohns/Documents/C projects/csv/arff/arff_token.cpp:25: error: '_str' was not declared in this scope
+o/Users/greggjohns/Documents/C projects/csv/arff/arff_token.cpp:25: error: '_token' was not declared in this scope
+o/Users/greggjohns/Documents/C projects/csv/arff/arff_token.cpp: At global scope:
+o/Users/greggjohns/Documents/C projects/csv/arff/arff_token.cpp:28: error: 'ArffToken' is not a class or namespace
+o/Users/greggjohns/Documents/C projects/csv/arff/arff_token.cpp:28: error: expected ',' or '...' before '&' token
+o/Users/greggjohns/Documents/C projects/csv/arff/arff_token.cpp:28: error: ISO C++ forbids declaration of 'ArffToken' with no type
+o/Users/greggjohns/Documents/C projects/csv/arff/arff_token.cpp:28: error: ISO C++ forbids declaration of 'ArffToken' with no type
+o/Users/greggjohns/Documents/C projects/csv/arff/arff_token.cpp: In function 'int ArffToken(int)':
+o/Users/greggjohns/Documents/C projects/csv/arff/arff_token.cpp:28: error: only constructors take base initializers
+o/Users/greggjohns/Documents/C projects/csv/arff/arff_token.cpp:29: error: '_src' was not declared in this scope
+o/Users/greggjohns/Documents/C projects/csv/arff/arff_token.cpp: At global scope:
+o/Users/greggjohns/Documents/C projects/csv/arff/arff_token.cpp:32: error: expected constructor, destructor, or type conversion before '::' token
+o/Users/greggjohns/Documents/C projects/csv/arff/arff_token.cpp:35: error: 'string' in namespace 'std' does not name a type
+o/Users/greggjohns/Documents/C projects/csv/arff/arff_token.cpp:39: error: 'ArffTokenEnum' does not name a type
+o/Users/greggjohns/Documents/C projects/csv/arff/arff_token.cpp:43: error: 'int32' does not name a type
+o/Users/greggjohns/Documents/C projects/csv/arff/arff_token.cpp:47: error: 'int64' does not name a type
+o/Users/greggjohns/Documents/C projects/csv/arff/arff_token.cpp:57: error: 'ArffToken' is not a class or namespace
+o/Users/greggjohns/Documents/C projects/csv/arff/arff_token.cpp:57: error: non-member function 'float token_float()' cannot have cv-qualifier
+o/Users/greggjohns/Documents/C projects/csv/arff/arff_token.cpp: In function 'float token_float()':
+o/Users/greggjohns/Documents/C projects/csv/arff/arff_token.cpp:58: error: 'token_double' was not declared in this scope
+o/Users/greggjohns/Documents/C projects/csv/arff/arff_token.cpp: At global scope:
+o/Users/greggjohns/Documents/C projects/csv/arff/arff_token.cpp:61: error: 'ArffToken' is not a class or namespace
+o/Users/greggjohns/Documents/C projects/csv/arff/arff_token.cpp:61: error: non-member function 'double token_double()' cannot have cv-qualifier
+o/Users/greggjohns/Documents/C projects/csv/arff/arff_token.cpp: In function 'double token_double()':
+o/Users/greggjohns/Documents/C projects/csv/arff/arff_token.cpp:62: error: 'm_enum' was not declared in this scope
+o/Users/greggjohns/Documents/C projects/csv/arff/arff_token.cpp:62: error: 'VALUE_TOKEN' was not declared in this scope
+o/Users/greggjohns/Documents/C projects/csv/arff/arff_token.cpp:64: error: 'arff_token2str' was not declared in this scope
+o/Users/greggjohns/Documents/C projects/csv/arff/arff_token.cpp:64: error: 'THROW' was not declared in this scope
+o/Users/greggjohns/Documents/C projects/csv/arff/arff_token.cpp:67: error: 'str2num' was not declared in this scope
+o/Users/greggjohns/Documents/C projects/csv/arff/arff_token.cpp:67: error: expected primary-expression before 'double'
+o/Users/greggjohns/Documents/C projects/csv/arff/arff_token.cpp:67: error: expected `;' before 'double'
+lSLF07#2@70"Compile /Users/greggjohns/Documents/C projects/csv/arff/arff_token.cpp414826958#414826958#0(4416"/Users/greggjohns/Documents/C projects/csv/arff/arff_token.cpp:1:24: error: arff_token.h: No such file or directory/Users/greggjohns/Documents/C projects/csv/arff/arff_token.cpp:5: error: 'string' in namespace 'std' does not name a type/Users/greggjohns/Documents/C projects/csv/arff/arff_token.cpp:24: error: 'ArffToken' has not been declared/Users/greggjohns/Documents/C projects/csv/arff/arff_token.cpp:24: error: expected unqualified-id before '&' token/Users/greggjohns/Documents/C projects/csv/arff/arff_token.cpp:24: error: expected ',' or '...' before '&' token/Users/greggjohns/Documents/C projects/csv/arff/arff_token.cpp:24: error: ISO C++ forbids declaration of 'ArffToken' with no type/Users/greggjohns/Documents/C projects/csv/arff/arff_token.cpp: In function 'int ArffToken()':/Users/greggjohns/Documents/C projects/csv/arff/arff_token.cpp:24: error: only constructors take base initializers/Users/greggjohns/Documents/C projects/csv/arff/arff_token.cpp:25: error: '_str' was not declared in this scope/Users/greggjohns/Documents/C projects/csv/arff/arff_token.cpp:25: error: '_token' was not declared in this scope/Users/greggjohns/Documents/C projects/csv/arff/arff_token.cpp: At global scope:/Users/greggjohns/Documents/C projects/csv/arff/arff_token.cpp:28: error: 'ArffToken' is not a class or namespace/Users/greggjohns/Documents/C projects/csv/arff/arff_token.cpp:28: error: expected ',' or '...' before '&' token/Users/greggjohns/Documents/C projects/csv/arff/arff_token.cpp:28: error: ISO C++ forbids declaration of 'ArffToken' with no type/Users/greggjohns/Documents/C projects/csv/arff/arff_token.cpp:28: error: ISO C++ forbids declaration of 'ArffToken' with no type/Users/greggjohns/Documents/C projects/csv/arff/arff_token.cpp: In function 'int ArffToken(int)':/Users/greggjohns/Documents/C projects/csv/arff/arff_token.cpp:28: error: only constructors take base initializers/Users/greggjohns/Documents/C projects/csv/arff/arff_token.cpp:29: error: '_src' was not declared in this scope/Users/greggjohns/Documents/C projects/csv/arff/arff_token.cpp: At global scope:/Users/greggjohns/Documents/C projects/csv/arff/arff_token.cpp:32: error: expected constructor, destructor, or type conversion before '::' token/Users/greggjohns/Documents/C projects/csv/arff/arff_token.cpp:35: error: 'string' in namespace 'std' does not name a type/Users/greggjohns/Documents/C projects/csv/arff/arff_token.cpp:39: error: 'ArffTokenEnum' does not name a type/Users/greggjohns/Documents/C projects/csv/arff/arff_token.cpp:43: error: 'int32' does not name a type/Users/greggjohns/Documents/C projects/csv/arff/arff_token.cpp:47: error: 'int64' does not name a type/Users/greggjohns/Documents/C projects/csv/arff/arff_token.cpp:57: error: 'ArffToken' is not a class or namespace/Users/greggjohns/Documents/C projects/csv/arff/arff_token.cpp:57: error: non-member function 'float token_float()' cannot have cv-qualifier/Users/greggjohns/Documents/C projects/csv/arff/arff_token.cpp: In function 'float token_float()':/Users/greggjohns/Documents/C projects/csv/arff/arff_token.cpp:58: error: 'token_double' was not declared in this scope/Users/greggjohns/Documents/C projects/csv/arff/arff_token.cpp: At global scope:/Users/greggjohns/Documents/C projects/csv/arff/arff_token.cpp:61: error: 'ArffToken' is not a class or namespace/Users/greggjohns/Documents/C projects/csv/arff/arff_token.cpp:61: error: non-member function 'double token_double()' cannot have cv-qualifier/Users/greggjohns/Documents/C projects/csv/arff/arff_token.cpp: In function 'double token_double()':/Users/greggjohns/Documents/C projects/csv/arff/arff_token.cpp:62: error: 'm_enum' was not declared in this scope/Users/greggjohns/Documents/C projects/csv/arff/arff_token.cpp:62: error: 'VALUE_TOKEN' was not declared in this scope/Users/greggjohns/Documents/C projects/csv/arff/arff_token.cpp:64: error: 'arff_token2str' was not declared in this scope/Users/greggjohns/Documents/C projects/csv/arff/arff_token.cpp:64: error: 'THROW' was not declared in this scope/Users/greggjohns/Documents/C projects/csv/arff/arff_token.cpp:67: error: 'str2num' was not declared in this scope/Users/greggjohns/Documents/C projects/csv/arff/arff_token.cpp:67: error: expected primary-expression before 'double'/Users/greggjohns/Documents/C projects/csv/arff/arff_token.cpp:67: error: expected `;' before 'double'35(4@39"Arff_token.h: No such file or directory414826958#0#116#0(6@62"/Users/greggjohns/Documents/C projects/csv/arff/arff_token.cpp336923898#1#0#1#0#28"*: No such file or directory0(4@48"'string' in namespace 'std' does not name a type414826958#116#122#0(6@62"/Users/greggjohns/Documents/C projects/csv/arff/arff_token.cpp336923898#5#0#5#0#24"'*' does not name a type0(4@33"'ArffToken' has not been declared414826958#238#108#0(6@62"/Users/greggjohns/Documents/C projects/csv/arff/arff_token.cpp336923898#24#0#24#0#25"'*' has not been declared0(4@40"Expected unqualified-id before '&' token414826958#346#115#0(6@62"/Users/greggjohns/Documents/C projects/csv/arff/arff_token.cpp336923898#24#0#24#0#19"expected * before *0(4@38"Expected ',' or '...' before '&' token414826958#461#113#0(6@62"/Users/greggjohns/Documents/C projects/csv/arff/arff_token.cpp336923898#24#0#24#0#19"expected * before *0(4@55"ISO C++ forbids declaration of 'ArffToken' with no type414826958#574#130#0(6@62"/Users/greggjohns/Documents/C projects/csv/arff/arff_token.cpp336923898#24#0#24#0#47"ISO C++ forbids declaration of '*' with no type0(4@40"Only constructors take base initializers414826958#799#115#0(6@62"/Users/greggjohns/Documents/C projects/csv/arff/arff_token.cpp336923898#24#0#24#0#0"0(4@37"'_str' was not declared in this scope414826958#914#112#0(6@62"/Users/greggjohns/Documents/C projects/csv/arff/arff_token.cpp336923898#25#0#25#0#34"'*' was not declared in this scope0(4@39"'_token' was not declared in this scope414826958#1026#114#0(6@62"/Users/greggjohns/Documents/C projects/csv/arff/arff_token.cpp336923898#25#0#25#0#34"'*' was not declared in this scope0(23@16"At global scope:414826958#1140#81#0(6@62"/Users/greggjohns/Documents/C projects/csv/arff/arff_token.cpp336923898#0#0#0#0#0"0(4@39"'ArffToken' is not a class or namespace414826958#1221#114#0(6@62"/Users/greggjohns/Documents/C projects/csv/arff/arff_token.cpp336923898#28#0#28#0#0"0(4@38"Expected ',' or '...' before '&' token414826958#1335#113#0(6@62"/Users/greggjohns/Documents/C projects/csv/arff/arff_token.cpp336923898#28#0#28#0#19"expected * before *0(4@55"ISO C++ forbids declaration of 'ArffToken' with no type414826958#1448#130#0(6@62"/Users/greggjohns/Documents/C projects/csv/arff/arff_token.cpp336923898#28#0#28#0#47"ISO C++ forbids declaration of '*' with no type0(4@55"ISO C++ forbids declaration of 'ArffToken' with no type414826958#1578#130#0(6@62"/Users/greggjohns/Documents/C projects/csv/arff/arff_token.cpp336923898#28#0#28#0#47"ISO C++ forbids declaration of '*' with no type0(4@40"Only constructors take base initializers414826958#1806#115#0(6@62"/Users/greggjohns/Documents/C projects/csv/arff/arff_token.cpp336923898#28#0#28#0#0"0(4@37"'_src' was not declared in this scope414826958#1921#112#0(6@62"/Users/greggjohns/Documents/C projects/csv/arff/arff_token.cpp336923898#29#0#29#0#34"'*' was not declared in this scope0(23@16"At global scope:414826958#2033#81#0(6@62"/Users/greggjohns/Documents/C projects/csv/arff/arff_token.cpp336923898#0#0#0#0#0"0(4@70"Expected constructor, destructor, or type conversion before '::' token414826958#2114#145#0(6@62"/Users/greggjohns/Documents/C projects/csv/arff/arff_token.cpp336923898#32#0#32#0#19"expected * before *0(4@48"'string' in namespace 'std' does not name a type414826958#2259#123#0(6@62"/Users/greggjohns/Documents/C projects/csv/arff/arff_token.cpp336923898#35#0#35#0#24"'*' does not name a type0(4@36"'ArffTokenEnum' does not name a type414826958#2382#111#0(6@62"/Users/greggjohns/Documents/C projects/csv/arff/arff_token.cpp336923898#39#0#39#0#24"'*' does not name a type0(4@28"'int32' does not name a type414826958#2493#103#0(6@62"/Users/greggjohns/Documents/C projects/csv/arff/arff_token.cpp336923898#43#0#43#0#24"'*' does not name a type0(4@28"'int64' does not name a type414826958#2596#103#0(6@62"/Users/greggjohns/Documents/C projects/csv/arff/arff_token.cpp336923898#47#0#47#0#24"'*' does not name a type0(4@39"'ArffToken' is not a class or namespace414826958#2699#114#0(6@62"/Users/greggjohns/Documents/C projects/csv/arff/arff_token.cpp336923898#57#0#57#0#0"0(4@66"Non-member function 'float token_float()' cannot have cv-qualifier414826958#2813#141#0(6@62"/Users/greggjohns/Documents/C projects/csv/arff/arff_token.cpp336923898#57#0#57#0#0"0(4@45"'token_double' was not declared in this scope414826958#3053#120#0(6@62"/Users/greggjohns/Documents/C projects/csv/arff/arff_token.cpp336923898#58#0#58#0#34"'*' was not declared in this scope0(23@16"At global scope:414826958#3173#81#0(6@62"/Users/greggjohns/Documents/C projects/csv/arff/arff_token.cpp336923898#0#0#0#0#0"0(4@39"'ArffToken' is not a class or namespace414826958#3254#114#0(6@62"/Users/greggjohns/Documents/C projects/csv/arff/arff_token.cpp336923898#61#0#61#0#0"0(4@68"Non-member function 'double token_double()' cannot have cv-qualifier414826958#3368#143#0(6@62"/Users/greggjohns/Documents/C projects/csv/arff/arff_token.cpp336923898#61#0#61#0#0"0(4@39"'m_enum' was not declared in this scope414826958#3612#114#0(6@62"/Users/greggjohns/Documents/C projects/csv/arff/arff_token.cpp336923898#62#0#62#0#34"'*' was not declared in this scope0(4@44"'VALUE_TOKEN' was not declared in this scope414826958#3726#119#0(6@62"/Users/greggjohns/Documents/C projects/csv/arff/arff_token.cpp336923898#62#0#62#0#34"'*' was not declared in this scope0(4@47"'arff_token2str' was not declared in this scope414826958#3845#122#0(6@62"/Users/greggjohns/Documents/C projects/csv/arff/arff_token.cpp336923898#64#0#64#0#34"'*' was not declared in this scope0(4@38"'THROW' was not declared in this scope414826958#3967#113#0(6@62"/Users/greggjohns/Documents/C projects/csv/arff/arff_token.cpp336923898#64#0#64#0#34"'*' was not declared in this scope0(4@40"'str2num' was not declared in this scope414826958#4080#115#0(6@62"/Users/greggjohns/Documents/C projects/csv/arff/arff_token.cpp336923898#67#0#67#0#34"'*' was not declared in this scope0(4@43"Expected primary-expression before 'double'414826958#4195#118#0(6@62"/Users/greggjohns/Documents/C projects/csv/arff/arff_token.cpp336923898#67#0#67#0#19"expected * before *0(4@28"Expected `;' before 'double'414826958#4313#103#0(6@62"/Users/greggjohns/Documents/C projects/csv/arff/arff_token.cpp336923898#67#0#67#0#19"expected * before *0(0#0#62"/Users/greggjohns/Documents/C projects/csv/arff/arff_token.cpp4483178128#1302"    cd "/Users/greggjohns/Documents/C projects/csv"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote "/Users/greggjohns/Documents/C projects/csv/build/csv.build/Debug/csv.build/csv-generated-files.hmap" "-I/Users/greggjohns/Documents/C projects/csv/build/csv.build/Debug/csv.build/csv-own-target-headers.hmap" "-I/Users/greggjohns/Documents/C projects/csv/build/csv.build/Debug/csv.build/csv-all-target-headers.hmap" -iquote "/Users/greggjohns/Documents/C projects/csv/build/csv.build/Debug/csv.build/csv-project-headers.hmap" "-F/Users/greggjohns/Documents/C projects/csv/build/Debug" "-I/Users/greggjohns/Documents/C projects/csv/build/Debug/include" "-I/Users/greggjohns/Documents/C projects/csv/build/csv.build/Debug/csv.build/DerivedSources/x86_64" "-I/Users/greggjohns/Documents/C projects/csv/build/csv.build/Debug/csv.build/DerivedSources" -c "/Users/greggjohns/Documents/C projects/csv/arff/arff_token.cpp" -o "/Users/greggjohns/Documents/C projects/csv/build/csv.build/Debug/csv.build/Objects-normal/x86_64/arff_token.o"1#
+
+CCompileC build/csv.build/Debug/csv.build/Objects-normal/x86_64/arff_utils.o "/Users/greggjohns/Documents/C projects/csv/arff/arff_utils.cpp" normal x86_64 c++ com.apple.compilers.gcc.4_2
+s414826958.997117
+e414826959.576898
+r0
+xCompileC
+xbuild/csv.build/Debug/csv.build/Objects-normal/x86_64/arff_utils.o
+x/Users/greggjohns/Documents/C projects/csv/arff/arff_utils.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.gcc.4_2
+o/Users/greggjohns/Documents/C projects/csv/arff/arff_utils.cpp:3:24: error: arff_utils.h: No such file or directory
+o/Users/greggjohns/Documents/C projects/csv/arff/arff_utils.cpp:8: error: 'int64' has not been declared
+o/Users/greggjohns/Documents/C projects/csv/arff/arff_utils.cpp: In function 'void throw_ex(const char*, int, const char*, ...)':
+o/Users/greggjohns/Documents/C projects/csv/arff/arff_utils.cpp:15: error: 'num2str' was not declared in this scope
+o/Users/greggjohns/Documents/C projects/csv/arff/arff_utils.cpp:15: error: 'int64' was not declared in this scope
+lSLF07#2@70"Compile /Users/greggjohns/Documents/C projects/csv/arff/arff_utils.cpp414826958#414826959#0(576"/Users/greggjohns/Documents/C projects/csv/arff/arff_utils.cpp:3:24: error: arff_utils.h: No such file or directory/Users/greggjohns/Documents/C projects/csv/arff/arff_utils.cpp:8: error: 'int64' has not been declared/Users/greggjohns/Documents/C projects/csv/arff/arff_utils.cpp: In function 'void throw_ex(const char*, int, const char*, ...)':/Users/greggjohns/Documents/C projects/csv/arff/arff_utils.cpp:15: error: 'num2str' was not declared in this scope/Users/greggjohns/Documents/C projects/csv/arff/arff_utils.cpp:15: error: 'int64' was not declared in this scope4(4@39"Arff_utils.h: No such file or directory414826959#0#116#0(6@62"/Users/greggjohns/Documents/C projects/csv/arff/arff_utils.cpp336923898#3#0#3#0#28"*: No such file or directory0(4@29"'int64' has not been declared414826959#116#103#0(6@62"/Users/greggjohns/Documents/C projects/csv/arff/arff_utils.cpp336923898#8#0#8#0#25"'*' has not been declared0(4@40"'num2str' was not declared in this scope414826959#348#115#0(6@62"/Users/greggjohns/Documents/C projects/csv/arff/arff_utils.cpp336923898#15#0#15#0#34"'*' was not declared in this scope0(4@38"'int64' was not declared in this scope414826959#463#113#0(6@62"/Users/greggjohns/Documents/C projects/csv/arff/arff_utils.cpp336923898#15#0#15#0#34"'*' was not declared in this scope0(0#0#62"/Users/greggjohns/Documents/C projects/csv/arff/arff_utils.cpp4483178128#1302"    cd "/Users/greggjohns/Documents/C projects/csv"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote "/Users/greggjohns/Documents/C projects/csv/build/csv.build/Debug/csv.build/csv-generated-files.hmap" "-I/Users/greggjohns/Documents/C projects/csv/build/csv.build/Debug/csv.build/csv-own-target-headers.hmap" "-I/Users/greggjohns/Documents/C projects/csv/build/csv.build/Debug/csv.build/csv-all-target-headers.hmap" -iquote "/Users/greggjohns/Documents/C projects/csv/build/csv.build/Debug/csv.build/csv-project-headers.hmap" "-F/Users/greggjohns/Documents/C projects/csv/build/Debug" "-I/Users/greggjohns/Documents/C projects/csv/build/Debug/include" "-I/Users/greggjohns/Documents/C projects/csv/build/csv.build/Debug/csv.build/DerivedSources/x86_64" "-I/Users/greggjohns/Documents/C projects/csv/build/csv.build/Debug/csv.build/DerivedSources" -c "/Users/greggjohns/Documents/C projects/csv/arff/arff_utils.cpp" -o "/Users/greggjohns/Documents/C projects/csv/build/csv.build/Debug/csv.build/Objects-normal/x86_64/arff_utils.o"1#
+
+CCompileC build/csv.build/Debug/csv.build/Objects-normal/x86_64/arff_value.o "/Users/greggjohns/Documents/C projects/csv/arff/arff_value.cpp" normal x86_64 c++ com.apple.compilers.gcc.4_2
+s414826959.576998
+e414826959.617622
+r0
+xCompileC
+xbuild/csv.build/Debug/csv.build/Objects-normal/x86_64/arff_value.o
+x/Users/greggjohns/Documents/C projects/csv/arff/arff_value.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.gcc.4_2
+o/Users/greggjohns/Documents/C projects/csv/arff/arff_value.cpp:1:24: error: arff_value.h: No such file or directory
+o/Users/greggjohns/Documents/C projects/csv/arff/arff_value.cpp:4: error: 'string' in namespace 'std' does not name a type
+o/Users/greggjohns/Documents/C projects/csv/arff/arff_value.cpp:19: error: 'ArffValue' has not been declared
+o/Users/greggjohns/Documents/C projects/csv/arff/arff_value.cpp:19: error: expected constructor, destructor, or type conversion before '(' token
+o/Users/greggjohns/Documents/C projects/csv/arff/arff_value.cpp:26: error: 'ArffValue' has not been declared
+o/Users/greggjohns/Documents/C projects/csv/arff/arff_value.cpp:26: error: ISO C++ forbids declaration of 'ArffValue' with no type
+o/Users/greggjohns/Documents/C projects/csv/arff/arff_value.cpp: In function 'int ArffValue(float)':
+o/Users/greggjohns/Documents/C projects/csv/arff/arff_value.cpp:26: error: only constructors take base initializers
+o/Users/greggjohns/Documents/C projects/csv/arff/arff_value.cpp:29: error: 'FLOAT' was not declared in this scope
+o/Users/greggjohns/Documents/C projects/csv/arff/arff_value.cpp: At global scope:
+o/Users/greggjohns/Documents/C projects/csv/arff/arff_value.cpp:33: error: 'ArffValue' is not a class or namespace
+o/Users/greggjohns/Documents/C projects/csv/arff/arff_value.cpp:33: error: expected unqualified-id before '&' token
+o/Users/greggjohns/Documents/C projects/csv/arff/arff_value.cpp:33: error: expected ',' or '...' before '&' token
+o/Users/greggjohns/Documents/C projects/csv/arff/arff_value.cpp:34: error: ISO C++ forbids declaration of 'ArffValue' with no type
+o/Users/greggjohns/Documents/C projects/csv/arff/arff_value.cpp: In function 'int ArffValue()':
+o/Users/greggjohns/Documents/C projects/csv/arff/arff_value.cpp:34: error: only constructors take base initializers
+o/Users/greggjohns/Documents/C projects/csv/arff/arff_value.cpp:36: error: 'str' was not declared in this scope
+o/Users/greggjohns/Documents/C projects/csv/arff/arff_value.cpp:38: error: 'm_type' was not declared in this scope
+o/Users/greggjohns/Documents/C projects/csv/arff/arff_value.cpp:38: error: 'is_date' was not declared in this scope
+o/Users/greggjohns/Documents/C projects/csv/arff/arff_value.cpp:38: error: 'DATE' was not declared in this scope
+o/Users/greggjohns/Documents/C projects/csv/arff/arff_value.cpp:38: error: 'STRING' was not declared in this scope
+o/Users/greggjohns/Documents/C projects/csv/arff/arff_value.cpp:39: error: 'convert' was not declared in this scope
+o/Users/greggjohns/Documents/C projects/csv/arff/arff_value.cpp:43: error: 'str2num' was not declared in this scope
+o/Users/greggjohns/Documents/C projects/csv/arff/arff_value.cpp:43: error: expected primary-expression before 'float'
+o/Users/greggjohns/Documents/C projects/csv/arff/arff_value.cpp:43: error: expected `;' before 'float'
+o/Users/greggjohns/Documents/C projects/csv/arff/arff_value.cpp:44: error: 'FLOAT' was not declared in this scope
+o/Users/greggjohns/Documents/C projects/csv/arff/arff_value.cpp:45: error: 'm_float' was not declared in this scope
+o/Users/greggjohns/Documents/C projects/csv/arff/arff_value.cpp: At global scope:
+o/Users/greggjohns/Documents/C projects/csv/arff/arff_value.cpp:53: error: 'ArffValue' is not a class or namespace
+o/Users/greggjohns/Documents/C projects/csv/arff/arff_value.cpp:53: error: expected ',' or '...' before '&' token
+o/Users/greggjohns/Documents/C projects/csv/arff/arff_value.cpp:53: error: ISO C++ forbids declaration of 'ArffValue' with no type
+o/Users/greggjohns/Documents/C projects/csv/arff/arff_value.cpp:53: error: ISO C++ forbids declaration of 'ArffValue' with no type
+o/Users/greggjohns/Documents/C projects/csv/arff/arff_value.cpp: In function 'int ArffValue(int)':
+o/Users/greggjohns/Documents/C projects/csv/arff/arff_value.cpp:53: error: only constructors take base initializers
+o/Users/greggjohns/Documents/C projects/csv/arff/arff_value.cpp:53: error: 'src' was not declared in this scope
+o/Users/greggjohns/Documents/C projects/csv/arff/arff_value.cpp: At global scope:
+o/Users/greggjohns/Documents/C projects/csv/arff/arff_value.cpp:60: error: 'ArffValue' is not a class or namespace
+o/Users/greggjohns/Documents/C projects/csv/arff/arff_value.cpp:60: error: expected constructor, destructor, or type conversion before '(' token
+o/Users/greggjohns/Documents/C projects/csv/arff/arff_value.cpp:67: error: expected constructor, destructor, or type conversion before '::' token
+o/Users/greggjohns/Documents/C projects/csv/arff/arff_value.cpp:70: error: 'ArffValueEnum' does not name a type
+o/Users/greggjohns/Documents/C projects/csv/arff/arff_value.cpp:74: error: 'ArffValue' is not a class or namespace
+o/Users/greggjohns/Documents/C projects/csv/arff/arff_value.cpp:74: error: variable or field 'set' declared void
+o/Users/greggjohns/Documents/C projects/csv/arff/arff_value.cpp:74: error: 'int32' was not declared in this scope
+o/Users/greggjohns/Documents/C projects/csv/arff/arff_value.cpp:79: error: 'ArffValue' is not a class or namespace
+o/Users/greggjohns/Documents/C projects/csv/arff/arff_value.cpp: In function 'void set(float)':
+o/Users/greggjohns/Documents/C projects/csv/arff/arff_value.cpp:80: error: 'm_type' was not declared in this scope
+o/Users/greggjohns/Documents/C projects/csv/arff/arff_value.cpp:80: error: 'FLOAT' was not declared in this scope
+o/Users/greggjohns/Documents/C projects/csv/arff/arff_value.cpp:81: error: 'm_float' was not declared in this scope
+o/Users/greggjohns/Documents/C projects/csv/arff/arff_value.cpp: At global scope:
+o/Users/greggjohns/Documents/C projects/csv/arff/arff_value.cpp:84: error: 'ArffValue' is not a class or namespace
+o/Users/greggjohns/Documents/C projects/csv/arff/arff_value.cpp:84: error: expected unqualified-id before '&' token
+o/Users/greggjohns/Documents/C projects/csv/arff/arff_value.cpp:84: error: expected ',' or '...' before '&' token
+o/Users/greggjohns/Documents/C projects/csv/arff/arff_value.cpp: In function 'void set()':
+o/Users/greggjohns/Documents/C projects/csv/arff/arff_value.cpp:85: error: 'e' was not declared in this scope
+o/Users/greggjohns/Documents/C projects/csv/arff/arff_value.cpp:85: error: 'DATE' was not declared in this scope
+o/Users/greggjohns/Documents/C projects/csv/arff/arff_value.cpp:85: error: 'STRING' was not declared in this scope
+o/Users/greggjohns/Documents/C projects/csv/arff/arff_value.cpp:87: error: 'arff_value2str' was not declared in this scope
+o/Users/greggjohns/Documents/C projects/csv/arff/arff_value.cpp:87: error: 'THROW' was not declared in this scope
+o/Users/greggjohns/Documents/C projects/csv/arff/arff_value.cpp:89: error: 'm_type' was not declared in this scope
+o/Users/greggjohns/Documents/C projects/csv/arff/arff_value.cpp:89: error: 'e' was not declared in this scope
+o/Users/greggjohns/Documents/C projects/csv/arff/arff_value.cpp:90: error: 'm_str' was not declared in this scope
+o/Users/greggjohns/Documents/C projects/csv/arff/arff_value.cpp:90: error: 'str' was not declared in this scope
+o/Users/greggjohns/Documents/C projects/csv/arff/arff_value.cpp: At global scope:
+o/Users/greggjohns/Documents/C projects/csv/arff/arff_value.cpp:93: error: 'ArffValue' is not a class or namespace
+o/Users/greggjohns/Documents/C projects/csv/arff/arff_value.cpp:93: error: non-member function 'bool missing()' cannot have cv-qualifier
+o/Users/greggjohns/Documents/C projects/csv/arff/arff_value.cpp: In function 'bool missing()':
+o/Users/greggjohns/Documents/C projects/csv/arff/arff_value.cpp:94: error: 'm_missing' was not declared in this scope
+o/Users/greggjohns/Documents/C projects/csv/arff/arff_value.cpp: At global scope:
+o/Users/greggjohns/Documents/C projects/csv/arff/arff_value.cpp:97: error: 'ArffValue' is not a class or namespace
+o/Users/greggjohns/Documents/C projects/csv/arff/arff_value.cpp:97: error: expected type-specifier before 'int32'
+lSLF07#2@70"Compile /Users/greggjohns/Documents/C projects/csv/arff/arff_value.cpp414826959#414826959#0(7819"/Users/greggjohns/Documents/C projects/csv/arff/arff_value.cpp:1:24: error: arff_value.h: No such file or directory/Users/greggjohns/Documents/C projects/csv/arff/arff_value.cpp:4: error: 'string' in namespace 'std' does not name a type/Users/greggjohns/Documents/C projects/csv/arff/arff_value.cpp:19: error: 'ArffValue' has not been declared/Users/greggjohns/Documents/C projects/csv/arff/arff_value.cpp:19: error: expected constructor, destructor, or type conversion before '(' token/Users/greggjohns/Documents/C projects/csv/arff/arff_value.cpp:26: error: 'ArffValue' has not been declared/Users/greggjohns/Documents/C projects/csv/arff/arff_value.cpp:26: error: ISO C++ forbids declaration of 'ArffValue' with no type/Users/greggjohns/Documents/C projects/csv/arff/arff_value.cpp: In function 'int ArffValue(float)':/Users/greggjohns/Documents/C projects/csv/arff/arff_value.cpp:26: error: only constructors take base initializers/Users/greggjohns/Documents/C projects/csv/arff/arff_value.cpp:29: error: 'FLOAT' was not declared in this scope/Users/greggjohns/Documents/C projects/csv/arff/arff_value.cpp: At global scope:/Users/greggjohns/Documents/C projects/csv/arff/arff_value.cpp:33: error: 'ArffValue' is not a class or namespace/Users/greggjohns/Documents/C projects/csv/arff/arff_value.cpp:33: error: expected unqualified-id before '&' token/Users/greggjohns/Documents/C projects/csv/arff/arff_value.cpp:33: error: expected ',' or '...' before '&' token/Users/greggjohns/Documents/C projects/csv/arff/arff_value.cpp:34: error: ISO C++ forbids declaration of 'ArffValue' with no type/Users/greggjohns/Documents/C projects/csv/arff/arff_value.cpp: In function 'int ArffValue()':/Users/greggjohns/Documents/C projects/csv/arff/arff_value.cpp:34: error: only constructors take base initializers/Users/greggjohns/Documents/C projects/csv/arff/arff_value.cpp:36: error: 'str' was not declared in this scope/Users/greggjohns/Documents/C projects/csv/arff/arff_value.cpp:38: error: 'm_type' was not declared in this scope/Users/greggjohns/Documents/C projects/csv/arff/arff_value.cpp:38: error: 'is_date' was not declared in this scope/Users/greggjohns/Documents/C projects/csv/arff/arff_value.cpp:38: error: 'DATE' was not declared in this scope/Users/greggjohns/Documents/C projects/csv/arff/arff_value.cpp:38: error: 'STRING' was not declared in this scope/Users/greggjohns/Documents/C projects/csv/arff/arff_value.cpp:39: error: 'convert' was not declared in this scope/Users/greggjohns/Documents/C projects/csv/arff/arff_value.cpp:43: error: 'str2num' was not declared in this scope/Users/greggjohns/Documents/C projects/csv/arff/arff_value.cpp:43: error: expected primary-expression before 'float'/Users/greggjohns/Documents/C projects/csv/arff/arff_value.cpp:43: error: expected `;' before 'float'/Users/greggjohns/Documents/C projects/csv/arff/arff_value.cpp:44: error: 'FLOAT' was not declared in this scope/Users/greggjohns/Documents/C projects/csv/arff/arff_value.cpp:45: error: 'm_float' was not declared in this scope/Users/greggjohns/Documents/C projects/csv/arff/arff_value.cpp: At global scope:/Users/greggjohns/Documents/C projects/csv/arff/arff_value.cpp:53: error: 'ArffValue' is not a class or namespace/Users/greggjohns/Documents/C projects/csv/arff/arff_value.cpp:53: error: expected ',' or '...' before '&' token/Users/greggjohns/Documents/C projects/csv/arff/arff_value.cpp:53: error: ISO C++ forbids declaration of 'ArffValue' with no type/Users/greggjohns/Documents/C projects/csv/arff/arff_value.cpp:53: error: ISO C++ forbids declaration of 'ArffValue' with no type/Users/greggjohns/Documents/C projects/csv/arff/arff_value.cpp: In function 'int ArffValue(int)':/Users/greggjohns/Documents/C projects/csv/arff/arff_value.cpp:53: error: only constructors take base initializers/Users/greggjohns/Documents/C projects/csv/arff/arff_value.cpp:53: error: 'src' was not declared in this scope/Users/greggjohns/Documents/C projects/csv/arff/arff_value.cpp: At global scope:/Users/greggjohns/Documents/C projects/csv/arff/arff_value.cpp:60: error: 'ArffValue' is not a class or namespace/Users/greggjohns/Documents/C projects/csv/arff/arff_value.cpp:60: error: expected constructor, destructor, or type conversion before '(' token/Users/greggjohns/Documents/C projects/csv/arff/arff_value.cpp:67: error: expected constructor, destructor, or type conversion before '::' token/Users/greggjohns/Documents/C projects/csv/arff/arff_value.cpp:70: error: 'ArffValueEnum' does not name a type/Users/greggjohns/Documents/C projects/csv/arff/arff_value.cpp:74: error: 'ArffValue' is not a class or namespace/Users/greggjohns/Documents/C projects/csv/arff/arff_value.cpp:74: error: variable or field 'set' declared void/Users/greggjohns/Documents/C projects/csv/arff/arff_value.cpp:74: error: 'int32' was not declared in this scope/Users/greggjohns/Documents/C projects/csv/arff/arff_value.cpp:79: error: 'ArffValue' is not a class or namespace/Users/greggjohns/Documents/C projects/csv/arff/arff_value.cpp: In function 'void set(float)':/Users/greggjohns/Documents/C projects/csv/arff/arff_value.cpp:80: error: 'm_type' was not declared in this scope/Users/greggjohns/Documents/C projects/csv/arff/arff_value.cpp:80: error: 'FLOAT' was not declared in this scope/Users/greggjohns/Documents/C projects/csv/arff/arff_value.cpp:81: error: 'm_float' was not declared in this scope/Users/greggjohns/Documents/C projects/csv/arff/arff_value.cpp: At global scope:/Users/greggjohns/Documents/C projects/csv/arff/arff_value.cpp:84: error: 'ArffValue' is not a class or namespace/Users/greggjohns/Documents/C projects/csv/arff/arff_value.cpp:84: error: expected unqualified-id before '&' token/Users/greggjohns/Documents/C projects/csv/arff/arff_value.cpp:84: error: expected ',' or '...' before '&' token/Users/greggjohns/Documents/C projects/csv/arff/arff_value.cpp: In function 'void set()':/Users/greggjohns/Documents/C projects/csv/arff/arff_value.cpp:85: error: 'e' was not declared in this scope/Users/greggjohns/Documents/C projects/csv/arff/arff_value.cpp:85: error: 'DATE' was not declared in this scope/Users/greggjohns/Documents/C projects/csv/arff/arff_value.cpp:85: error: 'STRING' was not declared in this scope/Users/greggjohns/Documents/C projects/csv/arff/arff_value.cpp:87: error: 'arff_value2str' was not declared in this scope/Users/greggjohns/Documents/C projects/csv/arff/arff_value.cpp:87: error: 'THROW' was not declared in this scope/Users/greggjohns/Documents/C projects/csv/arff/arff_value.cpp:89: error: 'm_type' was not declared in this scope/Users/greggjohns/Documents/C projects/csv/arff/arff_value.cpp:89: error: 'e' was not declared in this scope/Users/greggjohns/Documents/C projects/csv/arff/arff_value.cpp:90: error: 'm_str' was not declared in this scope/Users/greggjohns/Documents/C projects/csv/arff/arff_value.cpp:90: error: 'str' was not declared in this scope/Users/greggjohns/Documents/C projects/csv/arff/arff_value.cpp: At global scope:/Users/greggjohns/Documents/C projects/csv/arff/arff_value.cpp:93: error: 'ArffValue' is not a class or namespace/Users/greggjohns/Documents/C projects/csv/arff/arff_value.cpp:93: error: non-member function 'bool missing()' cannot have cv-qualifier/Users/greggjohns/Documents/C projects/csv/arff/arff_value.cpp: In function 'bool missing()':/Users/greggjohns/Documents/C projects/csv/arff/arff_value.cpp:94: error: 'm_missing' was not declared in this scope/Users/greggjohns/Documents/C projects/csv/arff/arff_value.cpp: At global scope:/Users/greggjohns/Documents/C projects/csv/arff/arff_value.cpp:97: error: 'ArffValue' is not a class or namespace/Users/greggjohns/Documents/C projects/csv/arff/arff_value.cpp:97: error: expected type-specifier before 'int32'64(4@39"Arff_value.h: No such file or directory414826959#0#116#0(6@62"/Users/greggjohns/Documents/C projects/csv/arff/arff_value.cpp336923898#1#0#1#0#28"*: No such file or directory0(4@48"'string' in namespace 'std' does not name a type414826959#116#122#0(6@62"/Users/greggjohns/Documents/C projects/csv/arff/arff_value.cpp336923898#4#0#4#0#24"'*' does not name a type0(4@33"'ArffValue' has not been declared414826959#238#108#0(6@62"/Users/greggjohns/Documents/C projects/csv/arff/arff_value.cpp336923898#19#0#19#0#25"'*' has not been declared0(4@69"Expected constructor, destructor, or type conversion before '(' token414826959#346#144#0(6@62"/Users/greggjohns/Documents/C projects/csv/arff/arff_value.cpp336923898#19#0#19#0#19"expected * before *0(4@33"'ArffValue' has not been declared414826959#490#108#0(6@62"/Users/greggjohns/Documents/C projects/csv/arff/arff_value.cpp336923898#26#0#26#0#25"'*' has not been declared0(4@55"ISO C++ forbids declaration of 'ArffValue' with no type414826959#598#130#0(6@62"/Users/greggjohns/Documents/C projects/csv/arff/arff_value.cpp336923898#26#0#26#0#47"ISO C++ forbids declaration of '*' with no type0(4@40"Only constructors take base initializers414826959#828#115#0(6@62"/Users/greggjohns/Documents/C projects/csv/arff/arff_value.cpp336923898#26#0#26#0#0"0(4@38"'FLOAT' was not declared in this scope414826959#943#113#0(6@62"/Users/greggjohns/Documents/C projects/csv/arff/arff_value.cpp336923898#29#0#29#0#34"'*' was not declared in this scope0(23@16"At global scope:414826959#1056#81#0(6@62"/Users/greggjohns/Documents/C projects/csv/arff/arff_value.cpp336923898#0#0#0#0#0"0(4@39"'ArffValue' is not a class or namespace414826959#1137#114#0(6@62"/Users/greggjohns/Documents/C projects/csv/arff/arff_value.cpp336923898#33#0#33#0#0"0(4@40"Expected unqualified-id before '&' token414826959#1251#115#0(6@62"/Users/greggjohns/Documents/C projects/csv/arff/arff_value.cpp336923898#33#0#33#0#19"expected * before *0(4@38"Expected ',' or '...' before '&' token414826959#1366#113#0(6@62"/Users/greggjohns/Documents/C projects/csv/arff/arff_value.cpp336923898#33#0#33#0#19"expected * before *0(4@55"ISO C++ forbids declaration of 'ArffValue' with no type414826959#1479#130#0(6@62"/Users/greggjohns/Documents/C projects/csv/arff/arff_value.cpp336923898#34#0#34#0#47"ISO C++ forbids declaration of '*' with no type0(4@40"Only constructors take base initializers414826959#1704#115#0(6@62"/Users/greggjohns/Documents/C projects/csv/arff/arff_value.cpp336923898#34#0#34#0#0"0(4@36"'str' was not declared in this scope414826959#1819#111#0(6@62"/Users/greggjohns/Documents/C projects/csv/arff/arff_value.cpp336923898#36#0#36#0#34"'*' was not declared in this scope0(4@39"'m_type' was not declared in this scope414826959#1930#114#0(6@62"/Users/greggjohns/Documents/C projects/csv/arff/arff_value.cpp336923898#38#0#38#0#34"'*' was not declared in this scope0(4@40"'is_date' was not declared in this scope414826959#2044#115#0(6@62"/Users/greggjohns/Documents/C projects/csv/arff/arff_value.cpp336923898#38#0#38#0#34"'*' was not declared in this scope0(4@37"'DATE' was not declared in this scope414826959#2159#112#0(6@62"/Users/greggjohns/Documents/C projects/csv/arff/arff_value.cpp336923898#38#0#38#0#34"'*' was not declared in this scope0(4@39"'STRING' was not declared in this scope414826959#2271#114#0(6@62"/Users/greggjohns/Documents/C projects/csv/arff/arff_value.cpp336923898#38#0#38#0#34"'*' was not declared in this scope0(4@40"'convert' was not declared in this scope414826959#2385#115#0(6@62"/Users/greggjohns/Documents/C projects/csv/arff/arff_value.cpp336923898#39#0#39#0#34"'*' was not declared in this scope0(4@40"'str2num' was not declared in this scope414826959#2500#115#0(6@62"/Users/greggjohns/Documents/C projects/csv/arff/arff_value.cpp336923898#43#0#43#0#34"'*' was not declared in this scope0(4@42"Expected primary-expression before 'float'414826959#2615#117#0(6@62"/Users/greggjohns/Documents/C projects/csv/arff/arff_value.cpp336923898#43#0#43#0#19"expected * before *0(4@27"Expected `;' before 'float'414826959#2732#102#0(6@62"/Users/greggjohns/Documents/C projects/csv/arff/arff_value.cpp336923898#43#0#43#0#19"expected * before *0(4@38"'FLOAT' was not declared in this scope414826959#2834#113#0(6@62"/Users/greggjohns/Documents/C projects/csv/arff/arff_value.cpp336923898#44#0#44#0#34"'*' was not declared in this scope0(4@40"'m_float' was not declared in this scope414826959#2947#115#0(6@62"/Users/greggjohns/Documents/C projects/csv/arff/arff_value.cpp336923898#45#0#45#0#34"'*' was not declared in this scope0(23@16"At global scope:414826959#3062#81#0(6@62"/Users/greggjohns/Documents/C projects/csv/arff/arff_value.cpp336923898#0#0#0#0#0"0(4@39"'ArffValue' is not a class or namespace414826959#3143#114#0(6@62"/Users/greggjohns/Documents/C projects/csv/arff/arff_value.cpp336923898#53#0#53#0#0"0(4@38"Expected ',' or '...' before '&' token414826959#3257#113#0(6@62"/Users/greggjohns/Documents/C projects/csv/arff/arff_value.cpp336923898#53#0#53#0#19"expected * before *0(4@55"ISO C++ forbids declaration of 'ArffValue' with no type414826959#3370#130#0(6@62"/Users/greggjohns/Documents/C projects/csv/arff/arff_value.cpp336923898#53#0#53#0#47"ISO C++ forbids declaration of '*' with no type0(4@55"ISO C++ forbids declaration of 'ArffValue' with no type414826959#3500#130#0(6@62"/Users/greggjohns/Documents/C projects/csv/arff/arff_value.cpp336923898#53#0#53#0#47"ISO C++ forbids declaration of '*' with no type0(4@40"Only constructors take base initializers414826959#3728#115#0(6@62"/Users/greggjohns/Documents/C projects/csv/arff/arff_value.cpp336923898#53#0#53#0#0"0(4@36"'src' was not declared in this scope414826959#3843#111#0(6@62"/Users/greggjohns/Documents/C projects/csv/arff/arff_value.cpp336923898#53#0#53#0#34"'*' was not declared in this scope0(23@16"At global scope:414826959#3954#81#0(6@62"/Users/greggjohns/Documents/C projects/csv/arff/arff_value.cpp336923898#0#0#0#0#0"0(4@39"'ArffValue' is not a class or namespace414826959#4035#114#0(6@62"/Users/greggjohns/Documents/C projects/csv/arff/arff_value.cpp336923898#60#0#60#0#0"0(4@69"Expected constructor, destructor, or type conversion before '(' token414826959#4149#144#0(6@62"/Users/greggjohns/Documents/C projects/csv/arff/arff_value.cpp336923898#60#0#60#0#19"expected * before *0(4@70"Expected constructor, destructor, or type conversion before '::' token414826959#4293#145#0(6@62"/Users/greggjohns/Documents/C projects/csv/arff/arff_value.cpp336923898#67#0#67#0#19"expected * before *0(4@36"'ArffValueEnum' does not name a type414826959#4438#111#0(6@62"/Users/greggjohns/Documents/C projects/csv/arff/arff_value.cpp336923898#70#0#70#0#24"'*' does not name a type0(4@39"'ArffValue' is not a class or namespace414826959#4549#114#0(6@62"/Users/greggjohns/Documents/C projects/csv/arff/arff_value.cpp336923898#74#0#74#0#0"0(4@37"Variable or field 'set' declared void414826959#4663#112#0(6@62"/Users/greggjohns/Documents/C projects/csv/arff/arff_value.cpp336923898#74#0#74#0#0"0(4@38"'int32' was not declared in this scope414826959#4775#113#0(6@62"/Users/greggjohns/Documents/C projects/csv/arff/arff_value.cpp336923898#74#0#74#0#34"'*' was not declared in this scope0(4@39"'ArffValue' is not a class or namespace414826959#4888#114#0(6@62"/Users/greggjohns/Documents/C projects/csv/arff/arff_value.cpp336923898#79#0#79#0#0"0(4@39"'m_type' was not declared in this scope414826959#5097#114#0(6@62"/Users/greggjohns/Documents/C projects/csv/arff/arff_value.cpp336923898#80#0#80#0#34"'*' was not declared in this scope0(4@38"'FLOAT' was not declared in this scope414826959#5211#113#0(6@62"/Users/greggjohns/Documents/C projects/csv/arff/arff_value.cpp336923898#80#0#80#0#34"'*' was not declared in this scope0(4@40"'m_float' was not declared in this scope414826959#5324#115#0(6@62"/Users/greggjohns/Documents/C projects/csv/arff/arff_value.cpp336923898#81#0#81#0#34"'*' was not declared in this scope0(23@16"At global scope:414826959#5439#81#0(6@62"/Users/greggjohns/Documents/C projects/csv/arff/arff_value.cpp336923898#0#0#0#0#0"0(4@39"'ArffValue' is not a class or namespace414826959#5520#114#0(6@62"/Users/greggjohns/Documents/C projects/csv/arff/arff_value.cpp336923898#84#0#84#0#0"0(4@40"Expected unqualified-id before '&' token414826959#5634#115#0(6@62"/Users/greggjohns/Documents/C projects/csv/arff/arff_value.cpp336923898#84#0#84#0#19"expected * before *0(4@38"Expected ',' or '...' before '&' token414826959#5749#113#0(6@62"/Users/greggjohns/Documents/C projects/csv/arff/arff_value.cpp336923898#84#0#84#0#19"expected * before *0(4@34"'e' was not declared in this scope414826959#5952#109#0(6@62"/Users/greggjohns/Documents/C projects/csv/arff/arff_value.cpp336923898#85#0#85#0#34"'*' was not declared in this scope0(4@37"'DATE' was not declared in this scope414826959#6061#112#0(6@62"/Users/greggjohns/Documents/C projects/csv/arff/arff_value.cpp336923898#85#0#85#0#34"'*' was not declared in this scope0(4@39"'STRING' was not declared in this scope414826959#6173#114#0(6@62"/Users/greggjohns/Documents/C projects/csv/arff/arff_value.cpp336923898#85#0#85#0#34"'*' was not declared in this scope0(4@47"'arff_value2str' was not declared in this scope414826959#6287#122#0(6@62"/Users/greggjohns/Documents/C projects/csv/arff/arff_value.cpp336923898#87#0#87#0#34"'*' was not declared in this scope0(4@38"'THROW' was not declared in this scope414826959#6409#113#0(6@62"/Users/greggjohns/Documents/C projects/csv/arff/arff_value.cpp336923898#87#0#87#0#34"'*' was not declared in this scope0(4@39"'m_type' was not declared in this scope414826959#6522#114#0(6@62"/Users/greggjohns/Documents/C projects/csv/arff/arff_value.cpp336923898#89#0#89#0#34"'*' was not declared in this scope0(4@34"'e' was not declared in this scope414826959#6636#109#0(6@62"/Users/greggjohns/Documents/C projects/csv/arff/arff_value.cpp336923898#89#0#89#0#34"'*' was not declared in this scope0(4@38"'m_str' was not declared in this scope414826959#6745#113#0(6@62"/Users/greggjohns/Documents/C projects/csv/arff/arff_value.cpp336923898#90#0#90#0#34"'*' was not declared in this scope0(4@36"'str' was not declared in this scope414826959#6858#111#0(6@62"/Users/greggjohns/Documents/C projects/csv/arff/arff_value.cpp336923898#90#0#90#0#34"'*' was not declared in this scope0(23@16"At global scope:414826959#6969#81#0(6@62"/Users/greggjohns/Documents/C projects/csv/arff/arff_value.cpp336923898#0#0#0#0#0"0(4@39"'ArffValue' is not a class or namespace414826959#7050#114#0(6@62"/Users/greggjohns/Documents/C projects/csv/arff/arff_value.cpp336923898#93#0#93#0#0"0(4@61"Non-member function 'bool missing()' cannot have cv-qualifier414826959#7164#136#0(6@62"/Users/greggjohns/Documents/C projects/csv/arff/arff_value.cpp336923898#93#0#93#0#0"0(4@42"'m_missing' was not declared in this scope414826959#7394#117#0(6@62"/Users/greggjohns/Documents/C projects/csv/arff/arff_value.cpp336923898#94#0#94#0#34"'*' was not declared in this scope0(23@16"At global scope:414826959#7511#81#0(6@62"/Users/greggjohns/Documents/C projects/csv/arff/arff_value.cpp336923898#0#0#0#0#0"0(4@39"'ArffValue' is not a class or namespace414826959#7592#114#0(6@62"/Users/greggjohns/Documents/C projects/csv/arff/arff_value.cpp336923898#97#0#97#0#0"0(4@38"Expected type-specifier before 'int32'414826959#7706#113#0(6@62"/Users/greggjohns/Documents/C projects/csv/arff/arff_value.cpp336923898#97#0#97#0#19"expected * before *0(0#0#62"/Users/greggjohns/Documents/C projects/csv/arff/arff_value.cpp4483178128#1302"    cd "/Users/greggjohns/Documents/C projects/csv"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote "/Users/greggjohns/Documents/C projects/csv/build/csv.build/Debug/csv.build/csv-generated-files.hmap" "-I/Users/greggjohns/Documents/C projects/csv/build/csv.build/Debug/csv.build/csv-own-target-headers.hmap" "-I/Users/greggjohns/Documents/C projects/csv/build/csv.build/Debug/csv.build/csv-all-target-headers.hmap" -iquote "/Users/greggjohns/Documents/C projects/csv/build/csv.build/Debug/csv.build/csv-project-headers.hmap" "-F/Users/greggjohns/Documents/C projects/csv/build/Debug" "-I/Users/greggjohns/Documents/C projects/csv/build/Debug/include" "-I/Users/greggjohns/Documents/C projects/csv/build/csv.build/Debug/csv.build/DerivedSources/x86_64" "-I/Users/greggjohns/Documents/C projects/csv/build/csv.build/Debug/csv.build/DerivedSources" -c "/Users/greggjohns/Documents/C projects/csv/arff/arff_value.cpp" -o "/Users/greggjohns/Documents/C projects/csv/build/csv.build/Debug/csv.build/Objects-normal/x86_64/arff_value.o"1#
+
+CCompileC build/csv.build/Debug/csv.build/Objects-normal/x86_64/main.o "/Users/greggjohns/Documents/C projects/csv/main.cpp" normal x86_64 c++ com.apple.compilers.gcc.4_2
+s414826958.080597
+e414826959.984075
+r1
+xCompileC
+xbuild/csv.build/Debug/csv.build/Objects-normal/x86_64/main.o
+x/Users/greggjohns/Documents/C projects/csv/main.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@59"Compile /Users/greggjohns/Documents/C projects/csv/main.cpp414826958#414826960#0(0"0(0#0#51"/Users/greggjohns/Documents/C projects/csv/main.cpp4483178128#1285"    cd "/Users/greggjohns/Documents/C projects/csv"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote "/Users/greggjohns/Documents/C projects/csv/build/csv.build/Debug/csv.build/csv-generated-files.hmap" "-I/Users/greggjohns/Documents/C projects/csv/build/csv.build/Debug/csv.build/csv-own-target-headers.hmap" "-I/Users/greggjohns/Documents/C projects/csv/build/csv.build/Debug/csv.build/csv-all-target-headers.hmap" -iquote "/Users/greggjohns/Documents/C projects/csv/build/csv.build/Debug/csv.build/csv-project-headers.hmap" "-F/Users/greggjohns/Documents/C projects/csv/build/Debug" "-I/Users/greggjohns/Documents/C projects/csv/build/Debug/include" "-I/Users/greggjohns/Documents/C projects/csv/build/csv.build/Debug/csv.build/DerivedSources/x86_64" "-I/Users/greggjohns/Documents/C projects/csv/build/csv.build/Debug/csv.build/DerivedSources" -c "/Users/greggjohns/Documents/C projects/csv/main.cpp" -o "/Users/greggjohns/Documents/C projects/csv/build/csv.build/Debug/csv.build/Objects-normal/x86_64/main.o"0#
+
+CLd "/Users/greggjohns/Documents/C projects/csv/build/Debug/csv" normal x86_64
+r0
+
