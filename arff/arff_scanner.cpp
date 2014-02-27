@@ -1,6 +1,7 @@
 #include "arff_scanner.h"
 
-
+using namespace std;
+#include <iostream>
 const char ArffScanner::NEWLINE = '\n';
 
 
@@ -12,6 +13,7 @@ ArffScanner::ArffScanner(const std::string& _file): m_file(_file),
                                             m_fp(NULL) {
     m_fp = fopen(m_file.c_str(), "r");
     if(m_fp == NULL) {
+		std::cout << "Could not open file:" << m_file <<".\n";
         THROW("ArffScanner: failed to open the file '%s'!", m_file.c_str());
     }
 }

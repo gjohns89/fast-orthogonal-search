@@ -9,15 +9,22 @@
 
 #include "fos_simulation.h"
 
-FosSimulation::FosSimulation(string system_putput, string equ_path, string train_path, string test_path, string output_path):
-equ_path(equ_path), train_path(train_path), test_path(test_path), output_path(output_path), x(0), y(0),system_output(system_putput){
+FosSimulation::FosSimulation(string system_output, string equ_path, string train_path, vector<string> test_path):
+equ_path(equ_path), train_path(train_path), test_path(test_path), x(0), y(0),
+system_output(system_output), result_returned(0){
 	
+	result = new FosResult();
+	result->set_test_file(test_path);
+	result->add_train_file(train_path);	
 }
 
 FosSimulation::~FosSimulation(){
 	free_data();
 	free_ground_truth();
 	delete_candidates();
+	
+	if (!result_returned)
+		delete result;
 }
 
 void FosSimulation::delete_candidates(){
@@ -85,14 +92,24 @@ void FosSimulation::init_simulation(){
 	std::cout << "Loading training data.\n";
 	
 	//read the training arff into memory, initialize parser variable bindings.
-	load_data(train_path);
+	
+	try{
+		load_data(train_path);
+	}catch (int e){
+		std::cout << "ARFF file at " << train_path << " could not be loaded.\n";
+		exit(-1);
+	}
+		
+		
+	std::cout << "Trainind data loaded.\n";
 	
 	//read the equations into memory from file at path equ_path.
 	read_equations();
 		
-	std::cout << "Initialize candidate functions.\n";
+	std::cout << "Initializing candidate functions.\n";
 	train_candidates();
 	free_data();
+		
 }
 
 void FosSimulation::free_data(){
@@ -123,9 +140,12 @@ void FosSimulation::load_data(string path){
 	int gt_index;
 	const char* tmp;
 	ArffAttr* attr;
-	ArffParser arff_parser(path);
-	ArffData* data = arff_parser.parse();
 	ArffInstance * instance;
+	ArffParser arff_parser(path);
+	ArffData* data;
+		
+	data = arff_parser.parse();
+	
 
 	num_attributes = data->num_attributes();
 	num_instances = data->num_instances();
@@ -192,19 +212,6 @@ void FosSimulation::read_equations(){
 	else cout << "Unable to open file"; 	
 }
 
-void FosSimulation::set_training_arff(string training_arff){
-	this->training_arff = training_arff;
-
-}
-
-void FosSimulation::add_testing_arff(string testing_arff){
-	this->testing_arff.push_back(testing_arff);
-}	
-
-void FosSimulation::set_output_path(string output_path){
-	this->output_path = output_path;
-}
-
 value_type inline FosSimulation::time_average(value_type *y, int N)
 {
 	int n;
@@ -228,7 +235,60 @@ value_type inline FosSimulation::multiply_time_average(value_type *x, value_type
 
 	return avg;
 }
+
+value_type FosSimulation::calculate_mean_squared_error(value_type *y_bar, value_type *y, int N){
+	value_type mse = 0;
+	int n;
+	
+	for (n=0; n<N; n++){
+		mse += (y_bar[n] - y[n])*(y_bar[n]-y[n])/N;
+	}
+	return mse;
+}
+
+value_type FosSimulation::calculate_relative_mean_squared_error(value_type *y_bar, value_type *y, int N){
+	value_type pmse = 0, tmp = 0;
+	int n;
+	
+	value_type mean = time_average(y, N);
+	
+	for (n=0; n<N; n++){
+		pmse += (y_bar[n] - y[n])*(y_bar[n]-y[n])/N;
+		tmp += (mean-y[n])*(mean-y[n]);
+	}
+	return pmse/tmp;
+}
+
+value_type FosSimulation::calculate_correlation_coefficient(value_type *x, value_type *y, int N){
+	value_type cc = 0, tmp_x = 0, tmp_y=0;
+	int n;
+	
+	value_type x_mu, y_mu;
+	
+	x_mu = time_average(x, N);
+	y_mu = time_average(y, N);
+	
+	for (n=0; n<N; n++){
+		cc += (x[n]-x_mu)*(y[n]-y_mu);
+		tmp_x += (x[n]-x_mu)*(x[n]-x_mu);
+		tmp_y += (y[n]-y_mu)*(y[n]-y_mu);
+	}
+	
+	cc = cc/(sqrt(tmp_x)*sqrt(tmp_y));
+	
+	return cc;
+}
  
+value_type FosSimulation::calculate_average_absolute_error(value_type *y_bar, value_type *y, int N){
+	value_type aae = 0;
+	int n;
+	
+	for (n=0; n<N; n++){
+		aae += fabs((y_bar[n] - y[n]))/N;
+	}
+	return aae;
+}
+
 value_type FosSimulation::variance(value_type *x, int N){
 	value_type mu;
 	value_type var;
@@ -246,8 +306,71 @@ value_type FosSimulation::variance(value_type *x, int N){
 	return var;
 }
 
-FosModel* FosSimulation::train(int MAX_ORDER){
+FosResult* FosSimulation::run(int MAX_ORDER){
+	FosModel *model;
+	int i, j, k, N;
+	value_type* response, *input, tmp;
+	
 	init_simulation();
+	
+	//train the fos model.
+	model = train(MAX_ORDER);
+	
+	free_ground_truth();
+	
+	//initialize
+	model->init_pt_by_pt();
+	
+	//now to do the testing. 
+
+	for (i=0; i<test_path.size(); i++){
+		//data is now loaded in x wich is n_attributes x n_instances.
+		load_data(test_path.at(i));
+		
+		input = new value_type[num_attributes];
+		
+		response = new value_type[num_instances];
+		
+		N = num_instances;
+		
+		//get the response from the model pt-by-pt
+		for (j=0; j<num_instances; j++){
+			//copy one feature vector into input.
+			for (k=0; k<num_attributes; k++){
+				input[k] = x[k][j];
+			}
+			
+			response[j] = model->pt_by_pt(input);
+		}
+		
+		result->add_response_data(response,N);
+		
+		tmp = calculate_average_absolute_error(response, y, N);
+		result->add_average_absolute_error(tmp);
+		
+		tmp = calculate_mean_squared_error(response, y, N);
+		result->add_mean_squared_error(tmp);
+		
+		tmp = calculate_relative_mean_squared_error(response, y, N);
+		result->add_relative_mean_squared_error(tmp);
+		
+		tmp = calculate_correlation_coefficient(response, y, N);
+		result->add_correlation_coefficient(tmp);
+		
+		delete []input;
+		free_data();
+		free_ground_truth();
+	}
+	
+	result->set_fos_model(model);
+	
+	result_returned = 1;
+
+	return result;
+	
+}
+
+FosModel* FosSimulation::train(int MAX_ORDER){
 		
 	FosModel *model;
 	
@@ -290,12 +413,12 @@ FosModel* FosSimulation::train(int MAX_ORDER){
 	
 	//cannot exceed the maximum order.
 	while(M <= MAX_ORDER){
-		std::cout << "Finding term " << M << ".\n";
+		//std::cout << "Finding term " << M << ".\n";
 		
 		//iterate through all of the candidates.
 		for (c=0; c<candidates.size(); c++){		
 			
-			std::cout << "Trying candidate " << c << "\n";
+			//std::cout << "Trying candidate " << c << "\n";
 			
 			/*if that candidate has already been selected
 			  as a model term, then we simply go to the next one.*/
@@ -329,12 +452,12 @@ FosModel* FosSimulation::train(int MAX_ORDER){
 			
 			C[M] += cand->get_ytime_average();
 			
-			std::cout << "C=" << C[M] << "\n";
-			std::cout << "D=" << D[M][M] << "\n";
+			//std::cout << "C=" << C[M] << "\n";
+			//std::cout << "D=" << D[M][M] << "\n";
 			
 			gm[M] = C[M] / D[M][M];
 			
-			std::cout << "G=" << gm[M] << "\n"; 
+			//std::cout << "G=" << gm[M] << "\n"; 
 			
 			if ((D[M][M] > D_THRESHOLD) && (gm[M] > G_THRESHOLD)){
 				cand->set_q(gm[M] * gm[M] * D[M][M]);
@@ -343,7 +466,7 @@ FosModel* FosSimulation::train(int MAX_ORDER){
 				cand->set_q(0);
 			}
 			
-			std::cout << "Q=" << cand->get_q() << "\n";
+			//std::cout << "Q=" << cand->get_q() << "\n";
 			
 			/*maxQ is init to zero, first iteration is pointless but oh well */
 			if (flag){
@@ -404,8 +527,8 @@ FosModel* FosSimulation::train(int MAX_ORDER){
 		pmse = (mse / var_y) * 100;
 		
 		if ((max->get_q() < MSE_REDUCTION_THRESHOLD)) /*|| (pmse < PMSE_THRESHOLD) || (fabs(prev_pmse - pmse) < PMSE_CHANGE_THRESHOLD))*/{
-			std::cout << "Stop criteria met at M=" << M << ".\n";
-			std::cout << "Q=" << max->get_q() << "\n";
+			//std::cout << "Stop criteria met at M=" << M << ".\n";
+			//std::cout << "Q=" << max->get_q() << "\n";
 			//std::cout << "PMSE="<< pmse << "\n";
 			//std::cout << "dPMSE=" << (fabs(prev_pmse - pmse)) << "\n";
 			break;
@@ -421,7 +544,7 @@ FosModel* FosSimulation::train(int MAX_ORDER){
 		M--;
 	}
 	
-	std::cout << "Calculating model coeffients.\n";
+	//std::cout << "Calculating model coeffients.\n";
 	
 	for (m = 0; m <= M; m++){
 		a = 0;
@@ -449,11 +572,11 @@ FosModel* FosSimulation::train(int MAX_ORDER){
 			a = 0;
 		}
 		
-		std::cout << "Adding a[" << m << "]=" << a << " to model.\n";
+		//std::cout << "Adding a[" << m << "]=" << a << " to model.\n";
 		model->add_coefficient(a);		
 	}
 	
-	std::cout << "Setting model order to " << M << ".\n";
+	//std::cout << "Setting model order to " << M << ".\n";
 	
 	model->set_model_order(M);
 	

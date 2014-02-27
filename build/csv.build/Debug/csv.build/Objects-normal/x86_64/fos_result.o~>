@@ -1,0 +1,1 @@
+/Users/greggjohns/Documents/C projects/fast-orthogonal-search/fos_result.cpp:38: error: no 'void FosResult::add_correlation_coefficient(mu::value_type)' member function declared in class 'FosResult'

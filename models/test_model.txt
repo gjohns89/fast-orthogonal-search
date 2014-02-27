@@ -1,0 +1,3 @@
+force
+sepallength*2+petalwidth
+force

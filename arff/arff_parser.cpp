@@ -3,7 +3,7 @@
 
 
 
-ArffParser::ArffParser(const std::string& _file) : m_lexer(NULL),
+ArffParser::ArffParser(const std::string& _file)  : m_lexer(NULL),
                                                    m_parsed(false),
                                                    m_data(NULL) {
     m_lexer = new ArffLexer(_file);

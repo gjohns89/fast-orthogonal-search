@@ -31,6 +31,7 @@
 #include "arff_attr.h"
 #include "muParser.h"
 #include "fos_config.h"
+#include "fos_result.h"
 
 #ifndef M_PI
 #define M_PI 3.14159265358979323846
@@ -39,27 +40,22 @@
 using namespace std;
 using namespace mu;
 
-
 class FosSimulation{
 	public:
-	FosSimulation(string,string,string,string,string);
+	FosSimulation(string,string,string,vector<string>);
 	~FosSimulation();
-	
-	void set_training_arff(string);
-	void add_testing_arff(string);
-	value_type variance(value_type *, int );
-
-	
-	FosModel* train(int);
-	void set_output_path(string);
+	 	
+	FosResult* run(int );
 		
 	private: 
 	void init_simulation();
-	string training_arff;
-	vector<string> testing_arff;
-	double inline time_average(double *, int );
-	double inline multiply_time_average(double*,double*, int);
-
+	value_type inline time_average(value_type *, int );
+	value_type inline multiply_time_average(value_type*,value_type*, int);
+	value_type calculate_mean_squared_error(value_type*, value_type*, int);
+	value_type calculate_relative_mean_squared_error(value_type*, value_type*, int);
+	value_type calculate_average_absolute_error(value_type*, value_type*, int);
+	value_type calculate_correlation_coefficient(value_type*, value_type*, int);
+	
 	//equation parsing functions.
 	void read_equations();
 	void load_data(string);
@@ -67,16 +63,15 @@ class FosSimulation{
 	void train_candidates();
 	void delete_candidates();
 	void free_ground_truth();
-
+	FosModel* train(int);
+	value_type variance(value_type *, int );
+	
 	string system_output;
 	string equ_path;
 	string train_path;
-	string test_path;
-	string output_path;
-	
+	vector<string> test_path;
 	int num_attributes; 
 	int num_instances;
-		
 	mu::Parser equ_parser;
 	vector<string> equations;
 	vector<string> variables;
@@ -87,7 +82,9 @@ class FosSimulation{
 	
 	//ground truth array
 	value_type *y;
-
+	
+	FosResult * result;
+	int result_returned;
 };
 
 #endif

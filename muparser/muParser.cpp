@@ -44,11 +44,9 @@ using namespace std;
 */
 
 
-
 /** \brief Namespace for mathematical applications. */
 namespace mu
 {
-
 
   //---------------------------------------------------------------------------
   // Trigonometric function

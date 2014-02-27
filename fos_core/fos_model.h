@@ -14,9 +14,10 @@
 #include <vector>
 
 #include "fos_candidate.h"
-
-
 #include "muParser.h"
+
+#include <iostream>
+#include <fstream>
 
 using namespace std;
 using namespace mu;
@@ -25,6 +26,8 @@ class FosModel{
 	
 	public:
 	FosModel(vector <string>, string);
+	FosModel(string);
+
 	~FosModel();
 	void add_candidate(FosCandidate*);
 	vector<FosCandidate*> get_candidates();
@@ -37,8 +40,13 @@ class FosModel{
 	string get_model_equation();
 	string get_system_output();
 	void set_system_output(string);
+	void save_model(string);
+	void load_model(string);
 	
 	private:
+
+	vector<string> read_file(string );	
+	
 	value_type *x; 
 	string system_output;
 	

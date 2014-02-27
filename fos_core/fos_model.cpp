@@ -15,8 +15,125 @@ system_output(system_output),M(0){
 
 }
 
+FosModel::FosModel(string base_path){
+	load_model(base_path);
+}
+
 FosModel::~FosModel(){
+	int i;
+	
 	delete []x;
+	
+	for (i=0; i<p.size(); i++)
+		delete p.at(i);
+}
+
+vector<string> FosModel::read_file(string path){
+	
+	string line;
+	vector <string> data;
+	
+	ifstream myfile (path.c_str());
+	
+	//clear the old equation.
+	data.clear();
+	
+	if (myfile.is_open()){
+		while ( getline (myfile,line)){
+			data.push_back(line);
+		}
+		myfile.close();
+	}
+	else cout << "Unable to open file: " << path << "\n";
+	
+	return data;
+}
+
+void FosModel::load_model(string base_path){
+	stringstream stream;
+	vector <string> tmp;
+	int i;
+	
+	stream << base_path << "_constants.txt";
+	
+ 	tmp = read_file(stream.str());
+	
+	for (i=0; i<tmp.size(); i++){
+		double dval = atof(tmp.at(i).c_str());
+		a.push_back((value_type)dval);
+	}
+	
+	stream.str( std::string());
+	stream.clear();
+	
+	stream << base_path << "_var.txt";
+	
+	variables = read_file(stream.str());
+	
+	stream.str( std::string() );
+	stream.clear();	
+	
+	//read the candidate function equations.
+	stream << base_path << ".txt";
+
+	tmp = read_file(stream.str());
+	
+	//first equation is system output.
+	system_output = tmp.at(0);
+	
+	for (i=1; i<tmp.size(); i++){
+		FosCandidate *cand = new FosCandidate(tmp.at(i));
+		p.push_back(cand);
+	}
+	
+	M = tmp.size()-1;
+}
+
+void FosModel::save_model(string base_path){
+	stringstream path;
+	ofstream myfile;
+	int m;
+	
+	//first write all the model coefficients to file.
+	path << base_path << "_constants.txt";
+		
+	myfile.open (path.str().c_str());
+	
+	for (m=0; m<M;m++){
+		myfile << a.at(m) << "\n";
+	}
+	
+	myfile.close();
+	
+	path.str( std::string() );
+	path.clear();
+
+	path << base_path << ".txt";
+	
+	myfile.open (path.str().c_str());
+	
+	myfile << system_output << "\n";
+	
+	for (m=0; m<M;m++){
+		myfile << p.at(m)->get_equ() << "\n";
+	}
+	
+	myfile.close();
+	
+	path.str( std::string() );
+	path.clear();	
+	
+	path << base_path << "_var.txt"; 
+	
+	myfile.open (path.str().c_str());
+	
+	for (m=0; m< variables.size();m++){
+		myfile << variables.at(m) << "\n";
+	}
+	
+	myfile.close();
+	
+	
 }
 
 void FosModel::set_system_output(string system_output){
@@ -77,7 +194,7 @@ void FosModel::init_pt_by_pt(){
 	
 }
 
-//x is a vector of the 
+//x is a vector of the base attributes, it must match that width regardless.
 value_type  FosModel::pt_by_pt(value_type* x_in){
 	int N = variables.size();
 	int i;
@@ -101,11 +218,6 @@ value_type  FosModel::pt_by_pt(value_type* x_in){
 	
 	return y;
 }
-
-/*void FosModel::response(value_type *y, value_type **x_in, int N){
-	
-}*/
-
 
 void FosModel::add_candidate(FosCandidate *c){
 	
