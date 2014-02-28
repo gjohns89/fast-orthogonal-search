@@ -1,7 +1,7 @@
 Tcsv
 v7
 r0
-t415228186.732593
+t415266402.594685
 cCheck dependencies
 cCompileC build/csv.build/Debug/csv.build/Objects-normal/x86_64/main.o "/Users/greggjohns/Documents/C projects/fast-orthogonal-search/main.cpp" normal x86_64 c++ com.apple.compilers.gcc.4_2
 cCompileC build/csv.build/Debug/csv.build/Objects-normal/x86_64/arff_attr.o "/Users/greggjohns/Documents/C projects/fast-orthogonal-search/arff/arff_attr.cpp" normal x86_64 c++ com.apple.compilers.gcc.4_2
@@ -25,7 +25,7 @@ cCompileC build/csv.build/Debug/csv.build/Objects-normal/x86_64/muParserTokenRea
 cCompileC build/csv.build/Debug/csv.build/Objects-normal/x86_64/fos_candidate.o "/Users/greggjohns/Documents/C projects/fast-orthogonal-search/fos_core/fos_candidate.cpp" normal x86_64 c++ com.apple.compilers.gcc.4_2
 cCompileC build/csv.build/Debug/csv.build/Objects-normal/x86_64/fos_model.o "/Users/greggjohns/Documents/C projects/fast-orthogonal-search/fos_core/fos_model.cpp" normal x86_64 c++ com.apple.compilers.gcc.4_2
 cCompileC build/csv.build/Debug/csv.build/Objects-normal/x86_64/fos_simulation.o "/Users/greggjohns/Documents/C projects/fast-orthogonal-search/fos_core/fos_simulation.cpp" normal x86_64 c++ com.apple.compilers.gcc.4_2
-cCompileC build/csv.build/Debug/csv.build/Objects-normal/x86_64/fos_result.o "/Users/greggjohns/Documents/C projects/fast-orthogonal-search/fos_result.cpp" normal x86_64 c++ com.apple.compilers.gcc.4_2
+cCompileC build/csv.build/Debug/csv.build/Objects-normal/x86_64/fos_result.o "/Users/greggjohns/Documents/C projects/fast-orthogonal-search/fos_core/fos_result.cpp" normal x86_64 c++ com.apple.compilers.gcc.4_2
 cLd "/Users/greggjohns/Documents/C projects/fast-orthogonal-search/build/Debug/csv" normal x86_64
 
 N/Developer/SDKs/MacOSX10.6.sdk
@@ -910,8 +910,8 @@ i<string>
 i"arff_utils.h"
 
 N/Users/greggjohns/Documents/C projects/fast-orthogonal-search/build/Debug/csv
-t1393535386
-s1129752
+t1393573602
+s1130272
 
 N/Users/greggjohns/Documents/C projects/fast-orthogonal-search/build/csv.build/Debug/csv.build/Objects-normal/x86_64/arff_attr.o
 t1393134279
@@ -963,16 +963,16 @@ t1393524520
 s417464
 
 N/Users/greggjohns/Documents/C projects/fast-orthogonal-search/build/csv.build/Debug/csv.build/Objects-normal/x86_64/fos_result.o
-t1393535386
-s450632
+t1393560432
+s450408
 
 N/Users/greggjohns/Documents/C projects/fast-orthogonal-search/build/csv.build/Debug/csv.build/Objects-normal/x86_64/fos_simulation.o
-t1393535375
-s434372
+t1393573601
+s437988
 
 N/Users/greggjohns/Documents/C projects/fast-orthogonal-search/build/csv.build/Debug/csv.build/Objects-normal/x86_64/main.o
-t1393535375
-s282708
+t1393569653
+s318212
 
 N/Users/greggjohns/Documents/C projects/fast-orthogonal-search/build/csv.build/Debug/csv.build/Objects-normal/x86_64/muParser.o
 t1393523597
@@ -1045,10 +1045,23 @@ i"muParser.h"
 i<iostream>
 i<fstream>
 
+N/Users/greggjohns/Documents/C projects/fast-orthogonal-search/fos_core/fos_result.cpp
+c00000000530FA9B000000000000008E5
+t1393535408
+s2277
+i"fos_result.h"
+
+N/Users/greggjohns/Documents/C projects/fast-orthogonal-search/fos_core/fos_result.h
+c00000000530FA9B50000000000000536
+t1393535413
+s1334
+i"muParser.h"
+i"fos_model.h"
+
 N/Users/greggjohns/Documents/C projects/fast-orthogonal-search/fos_core/fos_simulation.cpp
-c00000000530F82DD0000000000003094
-t1393525469
-s12436
+c0000000053103EDC000000000000337D
+t1393573596
+s13181
 i"fos_simulation.h"
 
 N/Users/greggjohns/Documents/C projects/fast-orthogonal-search/fos_core/fos_simulation.h
@@ -1076,20 +1089,22 @@ i"fos_config.h"
 i"fos_result.h"
 
 N/Users/greggjohns/Documents/C projects/fast-orthogonal-search/fos_result.cpp
-c00000000530FA9980000000000000900
-t1393535384
-s2304
+c00000000530FA9B000000000000008E5
+t1393535408
+s2277
 i"fos_result.h"
 
 N/Users/greggjohns/Documents/C projects/fast-orthogonal-search/fos_result.h
-c00000000530FA98D0000000000000534
-t1393535373
-s1332
+c00000000530FA9B50000000000000536
+t1393535413
+s1334
+i"muParser.h"
+i"fos_model.h"
 
 N/Users/greggjohns/Documents/C projects/fast-orthogonal-search/main.cpp
-c00000000530FA70B0000000000000A20
-t1393534731
-s2592
+c0000000053102F720000000000000C03
+t1393569650
+s3075
 i"muParserTest.h"
 i<stdlib.h>
 i<crtdbg.h>
@@ -1342,7 +1357,7 @@ i"muParserToken.h"
 
 CCheck dependencies
 r0
-lSLF07#2@18"Check dependencies415228185#415228185#0(0"0(0#1#0"4490437952#0"0#
+lSLF07#2@18"Check dependencies415266397#415266397#0(0"0(0#1#0"4511499584#0"0#
 
 CCompileC build/csv.build/Debug/csv.build/Objects-normal/x86_64/arff_attr.o "/Users/greggjohns/Documents/C projects/csv/arff/arff_attr.cpp" normal x86_64 c++ com.apple.compilers.gcc.4_2
 s414827078.660158
@@ -1605,9 +1620,22 @@ xc++
 xcom.apple.compilers.gcc.4_2
 lSLF07#2@92"Compile /Users/greggjohns/Documents/C projects/fast-orthogonal-search/fos_core/fos_model.cpp415217318#415217320#0(0"0(0#0#84"/Users/greggjohns/Documents/C projects/fast-orthogonal-search/fos_core/fos_model.cpp4492246672#1513"    cd "/Users/greggjohns/Documents/C projects/fast-orthogonal-search"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote "/Users/greggjohns/Documents/C projects/fast-orthogonal-search/build/csv.build/Debug/csv.build/csv-generated-files.hmap" "-I/Users/greggjohns/Documents/C projects/fast-orthogonal-search/build/csv.build/Debug/csv.build/csv-own-target-headers.hmap" "-I/Users/greggjohns/Documents/C projects/fast-orthogonal-search/build/csv.build/Debug/csv.build/csv-all-target-headers.hmap" -iquote "/Users/greggjohns/Documents/C projects/fast-orthogonal-search/build/csv.build/Debug/csv.build/csv-project-headers.hmap" "-F/Users/greggjohns/Documents/C projects/fast-orthogonal-search/build/Debug" "-I/Users/greggjohns/Documents/C projects/fast-orthogonal-search/build/Debug/include" "-I/Users/greggjohns/Documents/C projects/fast-orthogonal-search/build/csv.build/Debug/csv.build/DerivedSources/x86_64" "-I/Users/greggjohns/Documents/C projects/fast-orthogonal-search/build/csv.build/Debug/csv.build/DerivedSources" -c "/Users/greggjohns/Documents/C projects/fast-orthogonal-search/fos_core/fos_model.cpp" -o "/Users/greggjohns/Documents/C projects/fast-orthogonal-search/build/csv.build/Debug/csv.build/Objects-normal/x86_64/fos_model.o"0#
 
+CCompileC build/csv.build/Debug/csv.build/Objects-normal/x86_64/fos_result.o "/Users/greggjohns/Documents/C projects/fast-orthogonal-search/fos_core/fos_result.cpp" normal x86_64 c++ com.apple.compilers.gcc.4_2
+s415253230.654054
+e415253232.972661
+r1
+xCompileC
+xbuild/csv.build/Debug/csv.build/Objects-normal/x86_64/fos_result.o
+x/Users/greggjohns/Documents/C projects/fast-orthogonal-search/fos_core/fos_result.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@93"Compile /Users/greggjohns/Documents/C projects/fast-orthogonal-search/fos_core/fos_result.cpp415253230#415253232#0(0"0(0#0#85"/Users/greggjohns/Documents/C projects/fast-orthogonal-search/fos_core/fos_result.cpp17241393664#1515"    cd "/Users/greggjohns/Documents/C projects/fast-orthogonal-search"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote "/Users/greggjohns/Documents/C projects/fast-orthogonal-search/build/csv.build/Debug/csv.build/csv-generated-files.hmap" "-I/Users/greggjohns/Documents/C projects/fast-orthogonal-search/build/csv.build/Debug/csv.build/csv-own-target-headers.hmap" "-I/Users/greggjohns/Documents/C projects/fast-orthogonal-search/build/csv.build/Debug/csv.build/csv-all-target-headers.hmap" -iquote "/Users/greggjohns/Documents/C projects/fast-orthogonal-search/build/csv.build/Debug/csv.build/csv-project-headers.hmap" "-F/Users/greggjohns/Documents/C projects/fast-orthogonal-search/build/Debug" "-I/Users/greggjohns/Documents/C projects/fast-orthogonal-search/build/Debug/include" "-I/Users/greggjohns/Documents/C projects/fast-orthogonal-search/build/csv.build/Debug/csv.build/DerivedSources/x86_64" "-I/Users/greggjohns/Documents/C projects/fast-orthogonal-search/build/csv.build/Debug/csv.build/DerivedSources" -c "/Users/greggjohns/Documents/C projects/fast-orthogonal-search/fos_core/fos_result.cpp" -o "/Users/greggjohns/Documents/C projects/fast-orthogonal-search/build/csv.build/Debug/csv.build/Objects-normal/x86_64/fos_result.o"0#
+
 CCompileC build/csv.build/Debug/csv.build/Objects-normal/x86_64/fos_result.o "/Users/greggjohns/Documents/C projects/fast-orthogonal-search/fos_result.cpp" normal x86_64 c++ com.apple.compilers.gcc.4_2
-s415228185.310564
-e415228186.350796
+s415252719.554188
+e415252720.751399
 r1
 xCompileC
 xbuild/csv.build/Debug/csv.build/Objects-normal/x86_64/fos_result.o
@@ -1616,7 +1644,7 @@ xnormal
 xx86_64
 xc++
 xcom.apple.compilers.gcc.4_2
-lSLF07#2@84"Compile /Users/greggjohns/Documents/C projects/fast-orthogonal-search/fos_result.cpp415228185#415228186#0(0"0(0#0#76"/Users/greggjohns/Documents/C projects/fast-orthogonal-search/fos_result.cpp4490436240#1506"    cd "/Users/greggjohns/Documents/C projects/fast-orthogonal-search"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote "/Users/greggjohns/Documents/C projects/fast-orthogonal-search/build/csv.build/Debug/csv.build/csv-generated-files.hmap" "-I/Users/greggjohns/Documents/C projects/fast-orthogonal-search/build/csv.build/Debug/csv.build/csv-own-target-headers.hmap" "-I/Users/greggjohns/Documents/C projects/fast-orthogonal-search/build/csv.build/Debug/csv.build/csv-all-target-headers.hmap" -iquote "/Users/greggjohns/Documents/C projects/fast-orthogonal-search/build/csv.build/Debug/csv.build/csv-project-headers.hmap" "-F/Users/greggjohns/Documents/C projects/fast-orthogonal-search/build/Debug" "-I/Users/greggjohns/Documents/C projects/fast-orthogonal-search/build/Debug/include" "-I/Users/greggjohns/Documents/C projects/fast-orthogonal-search/build/csv.build/Debug/csv.build/DerivedSources/x86_64" "-I/Users/greggjohns/Documents/C projects/fast-orthogonal-search/build/csv.build/Debug/csv.build/DerivedSources" -c "/Users/greggjohns/Documents/C projects/fast-orthogonal-search/fos_result.cpp" -o "/Users/greggjohns/Documents/C projects/fast-orthogonal-search/build/csv.build/Debug/csv.build/Objects-normal/x86_64/fos_result.o"0#
+lSLF07#2@84"Compile /Users/greggjohns/Documents/C projects/fast-orthogonal-search/fos_result.cpp415252719#415252720#0(0"0(0#0#76"/Users/greggjohns/Documents/C projects/fast-orthogonal-search/fos_result.cpp4503854736#1506"    cd "/Users/greggjohns/Documents/C projects/fast-orthogonal-search"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote "/Users/greggjohns/Documents/C projects/fast-orthogonal-search/build/csv.build/Debug/csv.build/csv-generated-files.hmap" "-I/Users/greggjohns/Documents/C projects/fast-orthogonal-search/build/csv.build/Debug/csv.build/csv-own-target-headers.hmap" "-I/Users/greggjohns/Documents/C projects/fast-orthogonal-search/build/csv.build/Debug/csv.build/csv-all-target-headers.hmap" -iquote "/Users/greggjohns/Documents/C projects/fast-orthogonal-search/build/csv.build/Debug/csv.build/csv-project-headers.hmap" "-F/Users/greggjohns/Documents/C projects/fast-orthogonal-search/build/Debug" "-I/Users/greggjohns/Documents/C projects/fast-orthogonal-search/build/Debug/include" "-I/Users/greggjohns/Documents/C projects/fast-orthogonal-search/build/csv.build/Debug/csv.build/DerivedSources/x86_64" "-I/Users/greggjohns/Documents/C projects/fast-orthogonal-search/build/csv.build/Debug/csv.build/DerivedSources" -c "/Users/greggjohns/Documents/C projects/fast-orthogonal-search/fos_result.cpp" -o "/Users/greggjohns/Documents/C projects/fast-orthogonal-search/build/csv.build/Debug/csv.build/Objects-normal/x86_64/fos_result.o"0#
 
 CCompileC build/csv.build/Debug/csv.build/Objects-normal/x86_64/fos_simulation-F48E58BAE153345E.o "/Users/greggjohns/Documents/C projects/csv/fos_core/fos_simulation.cpp" normal x86_64 c++ com.apple.compilers.gcc.4_2
 r0
@@ -1648,8 +1676,8 @@ xcom.apple.compilers.gcc.4_2
 lSLF07#2@69"Compile /Users/greggjohns/Documents/C projects/csv/fos_simulation.cpp415055620#415055621#0(0"0(0#0#61"/Users/greggjohns/Documents/C projects/csv/fos_simulation.cpp4494548624#1305"    cd "/Users/greggjohns/Documents/C projects/csv"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote "/Users/greggjohns/Documents/C projects/csv/build/csv.build/Debug/csv.build/csv-generated-files.hmap" "-I/Users/greggjohns/Documents/C projects/csv/build/csv.build/Debug/csv.build/csv-own-target-headers.hmap" "-I/Users/greggjohns/Documents/C projects/csv/build/csv.build/Debug/csv.build/csv-all-target-headers.hmap" -iquote "/Users/greggjohns/Documents/C projects/csv/build/csv.build/Debug/csv.build/csv-project-headers.hmap" "-F/Users/greggjohns/Documents/C projects/csv/build/Debug" "-I/Users/greggjohns/Documents/C projects/csv/build/Debug/include" "-I/Users/greggjohns/Documents/C projects/csv/build/csv.build/Debug/csv.build/DerivedSources/x86_64" "-I/Users/greggjohns/Documents/C projects/csv/build/csv.build/Debug/csv.build/DerivedSources" -c "/Users/greggjohns/Documents/C projects/csv/fos_simulation.cpp" -o "/Users/greggjohns/Documents/C projects/csv/build/csv.build/Debug/csv.build/Objects-normal/x86_64/fos_simulation.o"0#
 
 CCompileC build/csv.build/Debug/csv.build/Objects-normal/x86_64/fos_simulation.o "/Users/greggjohns/Documents/C projects/fast-orthogonal-search/fos_core/fos_simulation.cpp" normal x86_64 c++ com.apple.compilers.gcc.4_2
-s415228174.435869
-e415228175.919941
+s415266397.526904
+e415266401.562118
 r1
 xCompileC
 xbuild/csv.build/Debug/csv.build/Objects-normal/x86_64/fos_simulation.o
@@ -1658,7 +1686,7 @@ xnormal
 xx86_64
 xc++
 xcom.apple.compilers.gcc.4_2
-lSLF07#2@97"Compile /Users/greggjohns/Documents/C projects/fast-orthogonal-search/fos_core/fos_simulation.cpp415228174#415228175#0(0"0(0#0#89"/Users/greggjohns/Documents/C projects/fast-orthogonal-search/fos_core/fos_simulation.cpp4503318160#1523"    cd "/Users/greggjohns/Documents/C projects/fast-orthogonal-search"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote "/Users/greggjohns/Documents/C projects/fast-orthogonal-search/build/csv.build/Debug/csv.build/csv-generated-files.hmap" "-I/Users/greggjohns/Documents/C projects/fast-orthogonal-search/build/csv.build/Debug/csv.build/csv-own-target-headers.hmap" "-I/Users/greggjohns/Documents/C projects/fast-orthogonal-search/build/csv.build/Debug/csv.build/csv-all-target-headers.hmap" -iquote "/Users/greggjohns/Documents/C projects/fast-orthogonal-search/build/csv.build/Debug/csv.build/csv-project-headers.hmap" "-F/Users/greggjohns/Documents/C projects/fast-orthogonal-search/build/Debug" "-I/Users/greggjohns/Documents/C projects/fast-orthogonal-search/build/Debug/include" "-I/Users/greggjohns/Documents/C projects/fast-orthogonal-search/build/csv.build/Debug/csv.build/DerivedSources/x86_64" "-I/Users/greggjohns/Documents/C projects/fast-orthogonal-search/build/csv.build/Debug/csv.build/DerivedSources" -c "/Users/greggjohns/Documents/C projects/fast-orthogonal-search/fos_core/fos_simulation.cpp" -o "/Users/greggjohns/Documents/C projects/fast-orthogonal-search/build/csv.build/Debug/csv.build/Objects-normal/x86_64/fos_simulation.o"0#
+lSLF07#2@97"Compile /Users/greggjohns/Documents/C projects/fast-orthogonal-search/fos_core/fos_simulation.cpp415266397#415266401#0(0"0(0#0#89"/Users/greggjohns/Documents/C projects/fast-orthogonal-search/fos_core/fos_simulation.cpp4511497872#1523"    cd "/Users/greggjohns/Documents/C projects/fast-orthogonal-search"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote "/Users/greggjohns/Documents/C projects/fast-orthogonal-search/build/csv.build/Debug/csv.build/csv-generated-files.hmap" "-I/Users/greggjohns/Documents/C projects/fast-orthogonal-search/build/csv.build/Debug/csv.build/csv-own-target-headers.hmap" "-I/Users/greggjohns/Documents/C projects/fast-orthogonal-search/build/csv.build/Debug/csv.build/csv-all-target-headers.hmap" -iquote "/Users/greggjohns/Documents/C projects/fast-orthogonal-search/build/csv.build/Debug/csv.build/csv-project-headers.hmap" "-F/Users/greggjohns/Documents/C projects/fast-orthogonal-search/build/Debug" "-I/Users/greggjohns/Documents/C projects/fast-orthogonal-search/build/Debug/include" "-I/Users/greggjohns/Documents/C projects/fast-orthogonal-search/build/csv.build/Debug/csv.build/DerivedSources/x86_64" "-I/Users/greggjohns/Documents/C projects/fast-orthogonal-search/build/csv.build/Debug/csv.build/DerivedSources" -c "/Users/greggjohns/Documents/C projects/fast-orthogonal-search/fos_core/fos_simulation.cpp" -o "/Users/greggjohns/Documents/C projects/fast-orthogonal-search/build/csv.build/Debug/csv.build/Objects-normal/x86_64/fos_simulation.o"0#
 
 CCompileC build/csv.build/Debug/csv.build/Objects-normal/x86_64/fos_trainer.o "/Users/greggjohns/Documents/C projects/csv/fos_trainer.cpp" normal x86_64 c++ com.apple.compilers.gcc.4_2
 s414993973.913773
@@ -1687,8 +1715,8 @@ xcom.apple.compilers.gcc.4_2
 lSLF07#2@59"Compile /Users/greggjohns/Documents/C projects/csv/main.cpp415096275#415096275#0(0"0(0#0#51"/Users/greggjohns/Documents/C projects/csv/main.cpp4495769232#1285"    cd "/Users/greggjohns/Documents/C projects/csv"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote "/Users/greggjohns/Documents/C projects/csv/build/csv.build/Debug/csv.build/csv-generated-files.hmap" "-I/Users/greggjohns/Documents/C projects/csv/build/csv.build/Debug/csv.build/csv-own-target-headers.hmap" "-I/Users/greggjohns/Documents/C projects/csv/build/csv.build/Debug/csv.build/csv-all-target-headers.hmap" -iquote "/Users/greggjohns/Documents/C projects/csv/build/csv.build/Debug/csv.build/csv-project-headers.hmap" "-F/Users/greggjohns/Documents/C projects/csv/build/Debug" "-I/Users/greggjohns/Documents/C projects/csv/build/Debug/include" "-I/Users/greggjohns/Documents/C projects/csv/build/csv.build/Debug/csv.build/DerivedSources/x86_64" "-I/Users/greggjohns/Documents/C projects/csv/build/csv.build/Debug/csv.build/DerivedSources" -c "/Users/greggjohns/Documents/C projects/csv/main.cpp" -o "/Users/greggjohns/Documents/C projects/csv/build/csv.build/Debug/csv.build/Objects-normal/x86_64/main.o"0#
 
 CCompileC build/csv.build/Debug/csv.build/Objects-normal/x86_64/main.o "/Users/greggjohns/Documents/C projects/fast-orthogonal-search/main.cpp" normal x86_64 c++ com.apple.compilers.gcc.4_2
-s415228174.433035
-e415228175.809454
+s415262452.175291
+e415262453.516230
 r1
 xCompileC
 xbuild/csv.build/Debug/csv.build/Objects-normal/x86_64/main.o
@@ -1697,7 +1725,7 @@ xnormal
 xx86_64
 xc++
 xcom.apple.compilers.gcc.4_2
-lSLF07#2@78"Compile /Users/greggjohns/Documents/C projects/fast-orthogonal-search/main.cpp415228174#415228175#0(0"0(0#0#70"/Users/greggjohns/Documents/C projects/fast-orthogonal-search/main.cpp4503318160#1494"    cd "/Users/greggjohns/Documents/C projects/fast-orthogonal-search"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote "/Users/greggjohns/Documents/C projects/fast-orthogonal-search/build/csv.build/Debug/csv.build/csv-generated-files.hmap" "-I/Users/greggjohns/Documents/C projects/fast-orthogonal-search/build/csv.build/Debug/csv.build/csv-own-target-headers.hmap" "-I/Users/greggjohns/Documents/C projects/fast-orthogonal-search/build/csv.build/Debug/csv.build/csv-all-target-headers.hmap" -iquote "/Users/greggjohns/Documents/C projects/fast-orthogonal-search/build/csv.build/Debug/csv.build/csv-project-headers.hmap" "-F/Users/greggjohns/Documents/C projects/fast-orthogonal-search/build/Debug" "-I/Users/greggjohns/Documents/C projects/fast-orthogonal-search/build/Debug/include" "-I/Users/greggjohns/Documents/C projects/fast-orthogonal-search/build/csv.build/Debug/csv.build/DerivedSources/x86_64" "-I/Users/greggjohns/Documents/C projects/fast-orthogonal-search/build/csv.build/Debug/csv.build/DerivedSources" -c "/Users/greggjohns/Documents/C projects/fast-orthogonal-search/main.cpp" -o "/Users/greggjohns/Documents/C projects/fast-orthogonal-search/build/csv.build/Debug/csv.build/Objects-normal/x86_64/main.o"0#
+lSLF07#2@78"Compile /Users/greggjohns/Documents/C projects/fast-orthogonal-search/main.cpp415262452#415262453#0(0"0(0#0#70"/Users/greggjohns/Documents/C projects/fast-orthogonal-search/main.cpp4503854736#1494"    cd "/Users/greggjohns/Documents/C projects/fast-orthogonal-search"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote "/Users/greggjohns/Documents/C projects/fast-orthogonal-search/build/csv.build/Debug/csv.build/csv-generated-files.hmap" "-I/Users/greggjohns/Documents/C projects/fast-orthogonal-search/build/csv.build/Debug/csv.build/csv-own-target-headers.hmap" "-I/Users/greggjohns/Documents/C projects/fast-orthogonal-search/build/csv.build/Debug/csv.build/csv-all-target-headers.hmap" -iquote "/Users/greggjohns/Documents/C projects/fast-orthogonal-search/build/csv.build/Debug/csv.build/csv-project-headers.hmap" "-F/Users/greggjohns/Documents/C projects/fast-orthogonal-search/build/Debug" "-I/Users/greggjohns/Documents/C projects/fast-orthogonal-search/build/Debug/include" "-I/Users/greggjohns/Documents/C projects/fast-orthogonal-search/build/csv.build/Debug/csv.build/DerivedSources/x86_64" "-I/Users/greggjohns/Documents/C projects/fast-orthogonal-search/build/csv.build/Debug/csv.build/DerivedSources" -c "/Users/greggjohns/Documents/C projects/fast-orthogonal-search/main.cpp" -o "/Users/greggjohns/Documents/C projects/fast-orthogonal-search/build/csv.build/Debug/csv.build/Objects-normal/x86_64/main.o"0#
 
 CCompileC build/csv.build/Debug/csv.build/Objects-normal/x86_64/matrix.o "/Users/greggjohns/Documents/C projects/csv/linear_algebra/matrix.cpp" normal x86_64 c++ com.apple.compilers.gcc.4_2
 s414887745.757092
@@ -1927,12 +1955,12 @@ xx86_64
 lSLF07#2@63"Link /Users/greggjohns/Documents/C projects/csv/build/Debug/csv415096684#415096684#0(0"0(0#0#0"4493901456#512"    cd "/Users/greggjohns/Documents/C projects/csv"    setenv MACOSX_DEPLOYMENT_TARGET 10.6    /Developer/usr/bin/g++-4.2 -arch x86_64 -isysroot /Developer/SDKs/MacOSX10.6.sdk "-L/Users/greggjohns/Documents/C projects/csv/build/Debug" "-F/Users/greggjohns/Documents/C projects/csv/build/Debug" -filelist "/Users/greggjohns/Documents/C projects/csv/build/csv.build/Debug/csv.build/Objects-normal/x86_64/csv.LinkFileList" -mmacosx-version-min=10.6 -o "/Users/greggjohns/Documents/C projects/csv/build/Debug/csv"0#
 
 CLd "/Users/greggjohns/Documents/C projects/fast-orthogonal-search/build/Debug/csv" normal x86_64
-s415228186.350903
-e415228186.732539
+s415266401.562543
+e415266402.594632
 r1
 xLd
 x/Users/greggjohns/Documents/C projects/fast-orthogonal-search/build/Debug/csv
 xnormal
 xx86_64
-lSLF07#2@82"Link /Users/greggjohns/Documents/C projects/fast-orthogonal-search/build/Debug/csv415228186#415228186#0(0"0(0#0#0"4490436240#607"    cd "/Users/greggjohns/Documents/C projects/fast-orthogonal-search"    setenv MACOSX_DEPLOYMENT_TARGET 10.6    /Developer/usr/bin/g++-4.2 -arch x86_64 -isysroot /Developer/SDKs/MacOSX10.6.sdk "-L/Users/greggjohns/Documents/C projects/fast-orthogonal-search/build/Debug" "-F/Users/greggjohns/Documents/C projects/fast-orthogonal-search/build/Debug" -filelist "/Users/greggjohns/Documents/C projects/fast-orthogonal-search/build/csv.build/Debug/csv.build/Objects-normal/x86_64/csv.LinkFileList" -mmacosx-version-min=10.6 -o "/Users/greggjohns/Documents/C projects/fast-orthogonal-search/build/Debug/csv"0#
+lSLF07#2@82"Link /Users/greggjohns/Documents/C projects/fast-orthogonal-search/build/Debug/csv415266401#415266402#0(0"0(0#0#0"4511497872#607"    cd "/Users/greggjohns/Documents/C projects/fast-orthogonal-search"    setenv MACOSX_DEPLOYMENT_TARGET 10.6    /Developer/usr/bin/g++-4.2 -arch x86_64 -isysroot /Developer/SDKs/MacOSX10.6.sdk "-L/Users/greggjohns/Documents/C projects/fast-orthogonal-search/build/Debug" "-F/Users/greggjohns/Documents/C projects/fast-orthogonal-search/build/Debug" -filelist "/Users/greggjohns/Documents/C projects/fast-orthogonal-search/build/csv.build/Debug/csv.build/Objects-normal/x86_64/csv.LinkFileList" -mmacosx-version-min=10.6 -o "/Users/greggjohns/Documents/C projects/fast-orthogonal-search/build/Debug/csv"0#
 

@@ -1,0 +1,378 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8DD76F650486A84900D96B5E /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 08FB7796FE84155DC02AAC07 /* main.cpp */; settings = {ATTRIBUTES = (); }; };
+		8DD76F6A0486A84900D96B5E /* csv.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = C6859E8B029090EE04C91782 /* csv.1 */; };
+		B10407C818BA8F0800980714 /* arff_attr.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B10407B618BA8F0800980714 /* arff_attr.cpp */; };
+		B10407C918BA8F0800980714 /* arff_data.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B10407B818BA8F0800980714 /* arff_data.cpp */; };
+		B10407CA18BA8F0800980714 /* arff_instance.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B10407BA18BA8F0800980714 /* arff_instance.cpp */; };
+		B10407CB18BA8F0800980714 /* arff_lexer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B10407BC18BA8F0800980714 /* arff_lexer.cpp */; };
+		B10407CC18BA8F0800980714 /* arff_parser.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B10407BE18BA8F0800980714 /* arff_parser.cpp */; };
+		B10407CD18BA8F0800980714 /* arff_scanner.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B10407C018BA8F0800980714 /* arff_scanner.cpp */; };
+		B10407CE18BA8F0800980714 /* arff_token.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B10407C218BA8F0800980714 /* arff_token.cpp */; };
+		B10407CF18BA8F0800980714 /* arff_utils.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B10407C418BA8F0800980714 /* arff_utils.cpp */; };
+		B10407D018BA8F0800980714 /* arff_value.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B10407C618BA8F0800980714 /* arff_value.cpp */; };
+		B104086018BAAF3C00980714 /* muParser.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B104084918BAAF3C00980714 /* muParser.cpp */; };
+		B104086118BAAF3C00980714 /* muParserBase.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B104084B18BAAF3C00980714 /* muParserBase.cpp */; };
+		B104086218BAAF3C00980714 /* muParserBytecode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B104084D18BAAF3C00980714 /* muParserBytecode.cpp */; };
+		B104086318BAAF3C00980714 /* muParserCallback.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B104084F18BAAF3C00980714 /* muParserCallback.cpp */; };
+		B104086418BAAF3C00980714 /* muParserDLL.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B104085218BAAF3C00980714 /* muParserDLL.cpp */; };
+		B104086518BAAF3C00980714 /* muParserError.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B104085418BAAF3C00980714 /* muParserError.cpp */; };
+		B104086618BAAF3C00980714 /* muParserInt.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B104085718BAAF3C00980714 /* muParserInt.cpp */; };
+		B104086718BAAF3C00980714 /* muParserTest.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B104085B18BAAF3C00980714 /* muParserTest.cpp */; };
+		B104086818BAAF3C00980714 /* muParserTokenReader.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B104085E18BAAF3C00980714 /* muParserTokenReader.cpp */; };
+		B1040EF818BD4CD700980714 /* fos_candidate.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B1040EF218BD4CD700980714 /* fos_candidate.cpp */; };
+		B1040EF918BD4CD700980714 /* fos_model.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B1040EF418BD4CD700980714 /* fos_model.cpp */; };
+		B1040EFA18BD4CD700980714 /* fos_simulation.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B1040EF618BD4CD700980714 /* fos_simulation.cpp */; };
+		B1DEAABB18C042EB00041240 /* fos_result.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B1DEAAB918C042EB00041240 /* fos_result.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		8DD76F690486A84900D96B5E /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 8;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+				8DD76F6A0486A84900D96B5E /* csv.1 in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		08FB7796FE84155DC02AAC07 /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		8DD76F6C0486A84900D96B5E /* csv */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = csv; sourceTree = BUILT_PRODUCTS_DIR; };
+		B10407B618BA8F0800980714 /* arff_attr.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = arff_attr.cpp; path = arff/arff_attr.cpp; sourceTree = "<group>"; };
+		B10407B718BA8F0800980714 /* arff_attr.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = arff_attr.h; path = arff/arff_attr.h; sourceTree = "<group>"; };
+		B10407B818BA8F0800980714 /* arff_data.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = arff_data.cpp; path = arff/arff_data.cpp; sourceTree = "<group>"; };
+		B10407B918BA8F0800980714 /* arff_data.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = arff_data.h; path = arff/arff_data.h; sourceTree = "<group>"; };
+		B10407BA18BA8F0800980714 /* arff_instance.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = arff_instance.cpp; path = arff/arff_instance.cpp; sourceTree = "<group>"; };
+		B10407BB18BA8F0800980714 /* arff_instance.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = arff_instance.h; path = arff/arff_instance.h; sourceTree = "<group>"; };
+		B10407BC18BA8F0800980714 /* arff_lexer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = arff_lexer.cpp; path = arff/arff_lexer.cpp; sourceTree = "<group>"; };
+		B10407BD18BA8F0800980714 /* arff_lexer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = arff_lexer.h; path = arff/arff_lexer.h; sourceTree = "<group>"; };
+		B10407BE18BA8F0800980714 /* arff_parser.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = arff_parser.cpp; path = arff/arff_parser.cpp; sourceTree = "<group>"; };
+		B10407BF18BA8F0800980714 /* arff_parser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = arff_parser.h; path = arff/arff_parser.h; sourceTree = "<group>"; };
+		B10407C018BA8F0800980714 /* arff_scanner.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = arff_scanner.cpp; path = arff/arff_scanner.cpp; sourceTree = "<group>"; };
+		B10407C118BA8F0800980714 /* arff_scanner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = arff_scanner.h; path = arff/arff_scanner.h; sourceTree = "<group>"; };
+		B10407C218BA8F0800980714 /* arff_token.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = arff_token.cpp; path = arff/arff_token.cpp; sourceTree = "<group>"; };
+		B10407C318BA8F0800980714 /* arff_token.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = arff_token.h; path = arff/arff_token.h; sourceTree = "<group>"; };
+		B10407C418BA8F0800980714 /* arff_utils.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = arff_utils.cpp; path = arff/arff_utils.cpp; sourceTree = "<group>"; };
+		B10407C518BA8F0800980714 /* arff_utils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = arff_utils.h; path = arff/arff_utils.h; sourceTree = "<group>"; };
+		B10407C618BA8F0800980714 /* arff_value.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = arff_value.cpp; path = arff/arff_value.cpp; sourceTree = "<group>"; };
+		B10407C718BA8F0800980714 /* arff_value.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = arff_value.h; path = arff/arff_value.h; sourceTree = "<group>"; };
+		B104084918BAAF3C00980714 /* muParser.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = muParser.cpp; path = muparser/muParser.cpp; sourceTree = "<group>"; };
+		B104084A18BAAF3C00980714 /* muParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = muParser.h; path = muparser/muParser.h; sourceTree = "<group>"; };
+		B104084B18BAAF3C00980714 /* muParserBase.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = muParserBase.cpp; path = muparser/muParserBase.cpp; sourceTree = "<group>"; };
+		B104084C18BAAF3C00980714 /* muParserBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = muParserBase.h; path = muparser/muParserBase.h; sourceTree = "<group>"; };
+		B104084D18BAAF3C00980714 /* muParserBytecode.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = muParserBytecode.cpp; path = muparser/muParserBytecode.cpp; sourceTree = "<group>"; };
+		B104084E18BAAF3C00980714 /* muParserBytecode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = muParserBytecode.h; path = muparser/muParserBytecode.h; sourceTree = "<group>"; };
+		B104084F18BAAF3C00980714 /* muParserCallback.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = muParserCallback.cpp; path = muparser/muParserCallback.cpp; sourceTree = "<group>"; };
+		B104085018BAAF3C00980714 /* muParserCallback.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = muParserCallback.h; path = muparser/muParserCallback.h; sourceTree = "<group>"; };
+		B104085118BAAF3C00980714 /* muParserDef.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = muParserDef.h; path = muparser/muParserDef.h; sourceTree = "<group>"; };
+		B104085218BAAF3C00980714 /* muParserDLL.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = muParserDLL.cpp; path = muparser/muParserDLL.cpp; sourceTree = "<group>"; };
+		B104085318BAAF3C00980714 /* muParserDLL.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = muParserDLL.h; path = muparser/muParserDLL.h; sourceTree = "<group>"; };
+		B104085418BAAF3C00980714 /* muParserError.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = muParserError.cpp; path = muparser/muParserError.cpp; sourceTree = "<group>"; };
+		B104085518BAAF3C00980714 /* muParserError.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = muParserError.h; path = muparser/muParserError.h; sourceTree = "<group>"; };
+		B104085618BAAF3C00980714 /* muParserFixes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = muParserFixes.h; path = muparser/muParserFixes.h; sourceTree = "<group>"; };
+		B104085718BAAF3C00980714 /* muParserInt.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = muParserInt.cpp; path = muparser/muParserInt.cpp; sourceTree = "<group>"; };
+		B104085818BAAF3C00980714 /* muParserInt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = muParserInt.h; path = muparser/muParserInt.h; sourceTree = "<group>"; };
+		B104085918BAAF3C00980714 /* muParserStack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = muParserStack.h; path = muparser/muParserStack.h; sourceTree = "<group>"; };
+		B104085A18BAAF3C00980714 /* muParserTemplateMagic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = muParserTemplateMagic.h; path = muparser/muParserTemplateMagic.h; sourceTree = "<group>"; };
+		B104085B18BAAF3C00980714 /* muParserTest.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = muParserTest.cpp; path = muparser/muParserTest.cpp; sourceTree = "<group>"; };
+		B104085C18BAAF3C00980714 /* muParserTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = muParserTest.h; path = muparser/muParserTest.h; sourceTree = "<group>"; };
+		B104085D18BAAF3C00980714 /* muParserToken.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = muParserToken.h; path = muparser/muParserToken.h; sourceTree = "<group>"; };
+		B104085E18BAAF3C00980714 /* muParserTokenReader.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = muParserTokenReader.cpp; path = muparser/muParserTokenReader.cpp; sourceTree = "<group>"; };
+		B104085F18BAAF3C00980714 /* muParserTokenReader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = muParserTokenReader.h; path = muparser/muParserTokenReader.h; sourceTree = "<group>"; };
+		B1040ED418BD4BEC00980714 /* fos_config.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = fos_config.h; path = fos_core/fos_config.h; sourceTree = "<group>"; };
+		B1040EF218BD4CD700980714 /* fos_candidate.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = fos_candidate.cpp; path = fos_core/fos_candidate.cpp; sourceTree = "<group>"; };
+		B1040EF318BD4CD700980714 /* fos_candidate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = fos_candidate.h; path = fos_core/fos_candidate.h; sourceTree = "<group>"; };
+		B1040EF418BD4CD700980714 /* fos_model.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = fos_model.cpp; path = fos_core/fos_model.cpp; sourceTree = "<group>"; };
+		B1040EF518BD4CD700980714 /* fos_model.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = fos_model.h; path = fos_core/fos_model.h; sourceTree = "<group>"; };
+		B1040EF618BD4CD700980714 /* fos_simulation.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = fos_simulation.cpp; path = fos_core/fos_simulation.cpp; sourceTree = "<group>"; };
+		B1040EF718BD4CD700980714 /* fos_simulation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = fos_simulation.h; path = fos_core/fos_simulation.h; sourceTree = "<group>"; };
+		B1DEAAB918C042EB00041240 /* fos_result.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = fos_result.cpp; path = fos_core/fos_result.cpp; sourceTree = "<group>"; };
+		B1DEAABA18C042EB00041240 /* fos_result.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = fos_result.h; path = fos_core/fos_result.h; sourceTree = "<group>"; };
+		C6859E8B029090EE04C91782 /* csv.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = csv.1; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8DD76F660486A84900D96B5E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		08FB7794FE84155DC02AAC07 /* csv */ = {
+			isa = PBXGroup;
+			children = (
+				B1040ED418BD4BEC00980714 /* fos_config.h */,
+				08FB7795FE84155DC02AAC07 /* Source */,
+				C6859E8C029090F304C91782 /* Documentation */,
+				1AB674ADFE9D54B511CA2CBB /* Products */,
+			);
+			name = csv;
+			sourceTree = "<group>";
+		};
+		08FB7795FE84155DC02AAC07 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				B10409EB18BBE29300980714 /* FOS */,
+				B104084818BAAF1A00980714 /* Muparser */,
+				08FB7796FE84155DC02AAC07 /* main.cpp */,
+				B10407D118BA8F0E00980714 /* ARFF */,
+			);
+			name = Source;
+			sourceTree = "<group>";
+		};
+		1AB674ADFE9D54B511CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8DD76F6C0486A84900D96B5E /* csv */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B10407D118BA8F0E00980714 /* ARFF */ = {
+			isa = PBXGroup;
+			children = (
+				B10407B618BA8F0800980714 /* arff_attr.cpp */,
+				B10407B718BA8F0800980714 /* arff_attr.h */,
+				B10407B818BA8F0800980714 /* arff_data.cpp */,
+				B10407B918BA8F0800980714 /* arff_data.h */,
+				B10407BA18BA8F0800980714 /* arff_instance.cpp */,
+				B10407BB18BA8F0800980714 /* arff_instance.h */,
+				B10407BC18BA8F0800980714 /* arff_lexer.cpp */,
+				B10407BD18BA8F0800980714 /* arff_lexer.h */,
+				B10407BE18BA8F0800980714 /* arff_parser.cpp */,
+				B10407BF18BA8F0800980714 /* arff_parser.h */,
+				B10407C018BA8F0800980714 /* arff_scanner.cpp */,
+				B10407C118BA8F0800980714 /* arff_scanner.h */,
+				B10407C218BA8F0800980714 /* arff_token.cpp */,
+				B10407C318BA8F0800980714 /* arff_token.h */,
+				B10407C418BA8F0800980714 /* arff_utils.cpp */,
+				B10407C518BA8F0800980714 /* arff_utils.h */,
+				B10407C618BA8F0800980714 /* arff_value.cpp */,
+				B10407C718BA8F0800980714 /* arff_value.h */,
+			);
+			name = ARFF;
+			sourceTree = "<group>";
+		};
+		B104084818BAAF1A00980714 /* Muparser */ = {
+			isa = PBXGroup;
+			children = (
+				B104084918BAAF3C00980714 /* muParser.cpp */,
+				B104084A18BAAF3C00980714 /* muParser.h */,
+				B104084B18BAAF3C00980714 /* muParserBase.cpp */,
+				B104084C18BAAF3C00980714 /* muParserBase.h */,
+				B104084D18BAAF3C00980714 /* muParserBytecode.cpp */,
+				B104084E18BAAF3C00980714 /* muParserBytecode.h */,
+				B104084F18BAAF3C00980714 /* muParserCallback.cpp */,
+				B104085018BAAF3C00980714 /* muParserCallback.h */,
+				B104085118BAAF3C00980714 /* muParserDef.h */,
+				B104085218BAAF3C00980714 /* muParserDLL.cpp */,
+				B104085318BAAF3C00980714 /* muParserDLL.h */,
+				B104085418BAAF3C00980714 /* muParserError.cpp */,
+				B104085518BAAF3C00980714 /* muParserError.h */,
+				B104085618BAAF3C00980714 /* muParserFixes.h */,
+				B104085718BAAF3C00980714 /* muParserInt.cpp */,
+				B104085818BAAF3C00980714 /* muParserInt.h */,
+				B104085918BAAF3C00980714 /* muParserStack.h */,
+				B104085A18BAAF3C00980714 /* muParserTemplateMagic.h */,
+				B104085B18BAAF3C00980714 /* muParserTest.cpp */,
+				B104085C18BAAF3C00980714 /* muParserTest.h */,
+				B104085D18BAAF3C00980714 /* muParserToken.h */,
+				B104085E18BAAF3C00980714 /* muParserTokenReader.cpp */,
+				B104085F18BAAF3C00980714 /* muParserTokenReader.h */,
+			);
+			name = Muparser;
+			sourceTree = "<group>";
+		};
+		B10409EB18BBE29300980714 /* FOS */ = {
+			isa = PBXGroup;
+			children = (
+				B1DEAAB918C042EB00041240 /* fos_result.cpp */,
+				B1DEAABA18C042EB00041240 /* fos_result.h */,
+				B1040EF218BD4CD700980714 /* fos_candidate.cpp */,
+				B1040EF318BD4CD700980714 /* fos_candidate.h */,
+				B1040EF418BD4CD700980714 /* fos_model.cpp */,
+				B1040EF518BD4CD700980714 /* fos_model.h */,
+				B1040EF618BD4CD700980714 /* fos_simulation.cpp */,
+				B1040EF718BD4CD700980714 /* fos_simulation.h */,
+			);
+			name = FOS;
+			sourceTree = "<group>";
+		};
+		C6859E8C029090F304C91782 /* Documentation */ = {
+			isa = PBXGroup;
+			children = (
+				C6859E8B029090EE04C91782 /* csv.1 */,
+			);
+			name = Documentation;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8DD76F620486A84900D96B5E /* csv */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1DEB923108733DC60010E9CD /* Build configuration list for PBXNativeTarget "csv" */;
+			buildPhases = (
+				8DD76F640486A84900D96B5E /* Sources */,
+				8DD76F660486A84900D96B5E /* Frameworks */,
+				8DD76F690486A84900D96B5E /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = csv;
+			productInstallPath = "$(HOME)/bin";
+			productName = csv;
+			productReference = 8DD76F6C0486A84900D96B5E /* csv */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		08FB7793FE84155DC02AAC07 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 1DEB923508733DC60010E9CD /* Build configuration list for PBXProject "csv" */;
+			compatibilityVersion = "Xcode 3.1";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = 08FB7794FE84155DC02AAC07 /* csv */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8DD76F620486A84900D96B5E /* csv */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8DD76F640486A84900D96B5E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8DD76F650486A84900D96B5E /* main.cpp in Sources */,
+				B10407C818BA8F0800980714 /* arff_attr.cpp in Sources */,
+				B10407C918BA8F0800980714 /* arff_data.cpp in Sources */,
+				B10407CA18BA8F0800980714 /* arff_instance.cpp in Sources */,
+				B10407CB18BA8F0800980714 /* arff_lexer.cpp in Sources */,
+				B10407CC18BA8F0800980714 /* arff_parser.cpp in Sources */,
+				B10407CD18BA8F0800980714 /* arff_scanner.cpp in Sources */,
+				B10407CE18BA8F0800980714 /* arff_token.cpp in Sources */,
+				B10407CF18BA8F0800980714 /* arff_utils.cpp in Sources */,
+				B10407D018BA8F0800980714 /* arff_value.cpp in Sources */,
+				B104086018BAAF3C00980714 /* muParser.cpp in Sources */,
+				B104086118BAAF3C00980714 /* muParserBase.cpp in Sources */,
+				B104086218BAAF3C00980714 /* muParserBytecode.cpp in Sources */,
+				B104086318BAAF3C00980714 /* muParserCallback.cpp in Sources */,
+				B104086418BAAF3C00980714 /* muParserDLL.cpp in Sources */,
+				B104086518BAAF3C00980714 /* muParserError.cpp in Sources */,
+				B104086618BAAF3C00980714 /* muParserInt.cpp in Sources */,
+				B104086718BAAF3C00980714 /* muParserTest.cpp in Sources */,
+				B104086818BAAF3C00980714 /* muParserTokenReader.cpp in Sources */,
+				B1040EF818BD4CD700980714 /* fos_candidate.cpp in Sources */,
+				B1040EF918BD4CD700980714 /* fos_model.cpp in Sources */,
+				B1040EFA18BD4CD700980714 /* fos_simulation.cpp in Sources */,
+				B1DEAABB18C042EB00041240 /* fos_result.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1DEB923208733DC60010E9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				INSTALL_PATH = /usr/local/bin;
+				PRODUCT_NAME = csv;
+			};
+			name = Debug;
+		};
+		1DEB923308733DC60010E9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_MODEL_TUNING = G5;
+				INSTALL_PATH = /usr/local/bin;
+				PRODUCT_NAME = csv;
+			};
+			name = Release;
+		};
+		1DEB923608733DC60010E9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PREBINDING = NO;
+				SDKROOT = macosx10.6;
+			};
+			name = Debug;
+		};
+		1DEB923708733DC60010E9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = macosx10.6;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1DEB923108733DC60010E9CD /* Build configuration list for PBXNativeTarget "csv" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEB923208733DC60010E9CD /* Debug */,
+				1DEB923308733DC60010E9CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1DEB923508733DC60010E9CD /* Build configuration list for PBXProject "csv" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEB923608733DC60010E9CD /* Debug */,
+				1DEB923708733DC60010E9CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 08FB7793FE84155DC02AAC07 /* Project object */;
+}

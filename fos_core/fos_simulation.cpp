@@ -49,7 +49,9 @@ void FosSimulation::train_candidates(){
 	for (i=0; i<num_candidates; i++){
 		equ = equations.at(i);
 		
+#ifdef DEBUG
 		std::cout << "Training candidate " << equ << "\n";
+#endif
 		
 		c = new FosCandidate(equations.at(i));
 		
@@ -89,7 +91,6 @@ void FosSimulation::train_candidates(){
 //as the equations from file. It will generate the candidate functions 
 //with the required training data.
 void FosSimulation::init_simulation(){
-	std::cout << "Loading training data.\n";
 	
 	//read the training arff into memory, initialize parser variable bindings.
 	
@@ -100,13 +101,8 @@ void FosSimulation::init_simulation(){
 		exit(-1);
 	}
 		
-		
-	std::cout << "Trainind data loaded.\n";
-	
 	//read the equations into memory from file at path equ_path.
 	read_equations();
-		
-	std::cout << "Initializing candidate functions.\n";
 	train_candidates();
 	free_data();
 		
@@ -241,7 +237,7 @@ value_type FosSimulation::calculate_mean_squared_error(value_type *y_bar, value_
 	int n;
 	
 	for (n=0; n<N; n++){
-		mse += (y_bar[n] - y[n])*(y_bar[n]-y[n])/N;
+		mse += ((y_bar[n] - y[n])*(y_bar[n]-y[n]))/N;
 	}
 	return mse;
 }
@@ -250,11 +246,12 @@ value_type FosSimulation::calculate_relative_mean_squared_error(value_type *y_ba
 	value_type pmse = 0, tmp = 0;
 	int n;
 	
-	value_type mean = time_average(y, N);
+//	value_type mean = time_average(y, N);
 	
 	for (n=0; n<N; n++){
 		pmse += (y_bar[n] - y[n])*(y_bar[n]-y[n])/N;
-		tmp += (mean-y[n])*(mean-y[n]);
+		
+		tmp += (y[n])*(y[n]);
 	}
 	return pmse/tmp;
 }
@@ -400,6 +397,7 @@ FosModel* FosSimulation::train(int MAX_ORDER){
 	value_type maxAlpha[MAX_ORDER + 1];
 	value_type maxD[MAX_ORDER + 1];
 	value_type v[MAX_ORDER + 1];
+	
 
 	ta_yy = multiply_time_average(y,y,num_instances);
 	var_y = variance(y, num_instances);
@@ -413,13 +411,11 @@ FosModel* FosSimulation::train(int MAX_ORDER){
 	
 	//cannot exceed the maximum order.
 	while(M <= MAX_ORDER){
-		//std::cout << "Finding term " << M << ".\n";
+		std::cout << "Finding term " << M << ".\n";
 		
 		//iterate through all of the candidates.
 		for (c=0; c<candidates.size(); c++){		
-			
-			//std::cout << "Trying candidate " << c << "\n";
-			
+			 
 			/*if that candidate has already been selected
 			  as a model term, then we simply go to the next one.*/
 			if ((candidates.at(c))->get_selected()){
@@ -428,21 +424,40 @@ FosModel* FosSimulation::train(int MAX_ORDER){
 			
 			cand = candidates.at(c);
 			
+			std::cout << "Trying candidate: " << cand->get_equ() << "\n";
+			
 			//get a pointer to the training data for candidate c.
 			pm[M] = cand->get_training_data();
 			
-			D[M][0] = cand->get_time_average();
+			//this is the problem, this isn't no longer just time average if theres no 
+			//constant term.
 			
-			//must init to zero since C[M] is computed recursively.
+			D[M][0] = multiply_time_average(pm[M], pm[0], num_instances);//cand->get_time_average()*time_average(pm[M], num_instances);
+			
+			//this is the old line.
+			//D[M][0] = cand->get_time_average();
+		
+			std::cout << "D[" << M << "][0]=" << D[M][0] << "\n";
+			
+			//must init to zero since C[M] is computed interatively.
 			C[M] = 0;
 			
-			for (r=0; r<= (M-1); r++){
+			for (r=0; r< M; r++){
+				std::cout << "R!\n";
 				//calculate projection coefficent alpha.
 				alpha[M][r] = (D[M][r]) / (D[r][r]);
+				
+				std::cout << "alpha[" << M << "][" << r << "]=" << alpha[M][r] << "\n";
+				
 				D[M][r + 1] = 0;
+				
+				std::cout << "Init D[" << M << "][" << r+1 << "]=0\n";
 				
 				for (i = 0; i <= (r); i++){
 					D[M][r + 1] -= alpha[r + 1][i] * D[M][i];
+					char buffer[200];
+					sprintf(buffer, "D[%d][%d] -= alpha[%d][%d]*D[%d][%d]\n", M, r+1, r+1, i, M, i);
+					printf("%s", buffer);
 				}
 				
 				D[M][r + 1] += multiply_time_average(pm[M], pm[r + 1], num_instances);
@@ -451,22 +466,24 @@ FosModel* FosSimulation::train(int MAX_ORDER){
 			}
 			
 			C[M] += cand->get_ytime_average();
+						
+			std::cout << "C[M]=" << C[M] << "\n";
+			std::cout << "D[" << M << "][" << M <<"]=" << D[M][M] << "\n";
 			
-			//std::cout << "C=" << C[M] << "\n";
-			//std::cout << "D=" << D[M][M] << "\n";
-			
+			//this is true for m=0,...,M.
 			gm[M] = C[M] / D[M][M];
 			
-			//std::cout << "G=" << gm[M] << "\n"; 
+			std::cout << "G[" << M << "]=" << gm[M] << "\n"; 
 			
-			if ((D[M][M] > D_THRESHOLD) && (gm[M] > G_THRESHOLD)){
+			//@TODO: Check if fabs is okay to use here.
+			if ((fabs(D[M][M]) > D_THRESHOLD) && (fabs(gm[M]) > G_THRESHOLD)){
 				cand->set_q(gm[M] * gm[M] * D[M][M]);
 			}
 			else{
 				cand->set_q(0);
 			}
 			
-			//std::cout << "Q=" << cand->get_q() << "\n";
+			std::cout << "Q=" << cand->get_q() << "\n";
 			
 			/*maxQ is init to zero, first iteration is pointless but oh well */
 			if (flag){
@@ -502,6 +519,8 @@ FosModel* FosSimulation::train(int MAX_ORDER){
 		
 		max->set_selected(1);
 		
+		std::cout << "\nSelecting candidate " << max->get_equ() << "\n\n";
+		
 		//add that candidate to the model
 		model->add_candidate(max);
 		
@@ -527,10 +546,10 @@ FosModel* FosSimulation::train(int MAX_ORDER){
 		pmse = (mse / var_y) * 100;
 		
 		if ((max->get_q() < MSE_REDUCTION_THRESHOLD)) /*|| (pmse < PMSE_THRESHOLD) || (fabs(prev_pmse - pmse) < PMSE_CHANGE_THRESHOLD))*/{
-			//std::cout << "Stop criteria met at M=" << M << ".\n";
-			//std::cout << "Q=" << max->get_q() << "\n";
-			//std::cout << "PMSE="<< pmse << "\n";
-			//std::cout << "dPMSE=" << (fabs(prev_pmse - pmse)) << "\n";
+			std::cout << "Stop criteria met at M=" << M << ".\n";
+			std::cout << "Q=" << max->get_q() << "\n";
+			std::cout << "PMSE="<< pmse << "\n";
+			std::cout << "dPMSE=" << (fabs(prev_pmse - pmse)) << "\n";
 			break;
 		}
 		
@@ -543,6 +562,8 @@ FosModel* FosSimulation::train(int MAX_ORDER){
 	if (M > MAX_ORDER){
 		M--;
 	}
+	
+	std::cout << "M: " << M << "\n";
 	
 	//std::cout << "Calculating model coeffients.\n";
 	
