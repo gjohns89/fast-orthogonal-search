@@ -36,20 +36,47 @@ class FosModel{
 	void set_model_order(value_type);
 	value_type get_model_order();
 	void init_pt_by_pt();
-	value_type pt_by_pt(value_type *);
 	string get_model_equation();
 	string get_system_output();
 	void set_system_output(string);
 	void save_model(string);
 	void load_model(string);
 	
-	private:
-
-	vector<string> read_file(string );	
+	value_type calculate_mean_squared_error(value_type*, value_type*,int);
+	value_type calculate_relative_mean_squared_error(value_type*, value_type*,int);
+	value_type calculate_correlation_coefficient(value_type *, value_type *,int);
+	value_type calculate_average_absolute_error(value_type*, value_type*, int);	
 	
+	//x is a vector of the base attributes, it must match that width regardless.
+	value_type  pt_by_pt(value_type* x_in){
+		int N = variables.size();
+		int i;
+		value_type y = 0;
+		
+		value_type *v; 
+		
+		//copy input data to variable bindings.
+		for (i=0; i<N; i++){
+			x[i] = x_in[i];
+		}
+		
+		//get output from parser - there should be M expressions.
+		v = parser.Eval(M);	
+		
+		//calcualate actual model output :)
+		for (i=0; i<M; i++){
+			y+= a.at(0)*v[i];
+		}
+		
+		return y;
+	}
+
+	
+	private:
+	
+	vector<string> read_file(string );	
 	value_type *x; 
 	string system_output;
-	
 	vector<string> variables;
 	
 	//model term coefficients.
@@ -62,6 +89,7 @@ class FosModel{
 	int M; 
 	
 	mu::Parser parser;	
+	int initialized;
 };
 
 #endif

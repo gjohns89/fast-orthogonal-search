@@ -7,11 +7,18 @@
  *
  */
 
+/*
+ * 
+ * @TODO: change the equation parser to only create variables for the used candidates
+ *        and print out variable binding map for programming dynamic models.
+ *
+ *
+ */
 #include "fos_model.h"
 
 
 FosModel::FosModel(vector <string> variables, string system_output):variables(variables), 
-system_output(system_output),M(0){
+system_output(system_output),M(0), initialized(0){
 
 }
 
@@ -26,6 +33,62 @@ FosModel::~FosModel(){
 	
 	for (i=0; i<p.size(); i++)
 		delete p.at(i);
+}
+
+value_type FosModel::calculate_mean_squared_error(value_type *y_bar, value_type *y, int N){
+	value_type mse = 0;
+	int n;
+	
+	for (n=0; n<N; n++){
+		mse += ((y_bar[n] - y[n])*(y_bar[n]-y[n]))/N;
+	}
+	return mse;
+}
+
+value_type FosModel::calculate_relative_mean_squared_error(value_type *y_bar, value_type *y, int N){
+	value_type pmse = 0, tmp = 0;
+	int n;
+	
+	//	value_type mean = time_average(y, N);
+	
+	for (n=0; n<N; n++){
+		pmse += (y_bar[n] - y[n])*(y_bar[n]-y[n])/N;
+		
+		tmp += (y[n])*(y[n]);
+	}
+	return pmse/tmp;
+}
+
+value_type FosModel::calculate_correlation_coefficient(value_type *x, value_type *y, int N){
+	value_type cc = 0, tmp_x = 0, tmp_y=0;
+	int n;
+	
+	value_type x_mu=0, y_mu=0;
+	
+	for (n=0; n<N; n++){
+		x_mu += x[n]/N;
+		y_mu += y[n]/N;
+	}
+	
+	for (n=0; n<N; n++){
+		cc += (x[n]-x_mu)*(y[n]-y_mu);
+		tmp_x += (x[n]-x_mu)*(x[n]-x_mu);
+		tmp_y += (y[n]-y_mu)*(y[n]-y_mu);
+	}
+	
+	cc = cc/(sqrt(tmp_x)*sqrt(tmp_y));
+	
+	return cc;
+}
+
+value_type FosModel::calculate_average_absolute_error(value_type *y_bar, value_type *y, int N){
+	value_type aae = 0;
+	int n;
+	
+	for (n=0; n<N; n++){
+		aae += fabs((y_bar[n] - y[n]))/N;
+	}
+	return aae;
 }
 
 vector<string> FosModel::read_file(string path){
@@ -171,6 +234,12 @@ string FosModel::get_model_equation(){
 void FosModel::init_pt_by_pt(){
 	int m, i;
 	
+	
+	if (initialized)
+		return; 
+	
+	initialized = 1;
+	
 	stringstream model_equ;
 	
 	//allocate size for variable bindings.
@@ -192,31 +261,6 @@ void FosModel::init_pt_by_pt(){
 
 	parser.SetExpr(model_equ.str());
 	
-}
-
-//x is a vector of the base attributes, it must match that width regardless.
-value_type  FosModel::pt_by_pt(value_type* x_in){
-	int N = variables.size();
-	int i;
-	value_type y = 0;
-	
-	value_type *v; 
-
-	
-	//copy input data to variable bindings.
-	for (i=0; i<N; i++){
-		x[i] = x_in[i];
-	}
-	
-	//get output from parser - there should be M expressions.
-	v = parser.Eval(M);	
-	
-	//calcualate actual model output :)
-	for (i=0; i<M; i++){
-		y+= a.at(0)*v[i];
-	}
-	
-	return y;
 }
 
 void FosModel::add_candidate(FosCandidate *c){

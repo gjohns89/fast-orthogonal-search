@@ -29,7 +29,9 @@
 #include "muParser.h"
 #include "arff_parser.h"
 #include "arff_attr.h"
-#include "fos_simulation.h"
+#include "fos_regressor.h"
+
+#include "fos_spectrum.h"
 
 using namespace std;
 using namespace mu;
@@ -77,49 +79,14 @@ void get_paths(){
 int main(int, char**)
 {
 	vector <string> test_paths;
-	FosModel *model;
+	//FosModel *model;
 	
 	//actual model equation is force = exp(input) + sin(input);
 	string train_path = "/Users/greggjohns/Documents/C projects/fast-orthogonal-search/case4.arff";
 	string equ_path = "/Users/greggjohns/Documents/C projects/fast-orthogonal-search/equations.txt";
 	string save = "/Users/greggjohns/Documents/C projects/fast-orthogonal-search/models/test_model";
 	
-	test_paths.push_back(train_path);
-	
-	FosSimulation sim("force", equ_path, train_path, test_paths);
-		
-	FosResult* result = sim.run(1);
-		
-	std::cout << result->to_string();
-	
-	model = result->get_fos_model();
-	
-	std::cout << model->get_model_equation() << "\n";
-	
-	vector<value_type*> response = result->get_response_data();
-	vector<int> sizes = result->get_response_size();
-
-	ofstream myfile;
-	myfile.open ("response.txt");
-	
-	int N = sizes.at(0);
-	value_type* y_bar = response.at(0);
-	
-	for (int n=0; n<N; n++){
-		myfile << y_bar[n] << "\n";
-	}
-	
-	
-	myfile.close();
-	
-	
-	delete result;
-	
-
-	
-	//std::cout << model->get_model_equation() << "\n";
-	
-	//model->save_model(save);
+	FosSpectralAnalyzer(500, 0.1, 1024);
 	
 	return 0;
 }

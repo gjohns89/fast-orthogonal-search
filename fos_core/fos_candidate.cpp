@@ -62,7 +62,6 @@ void FosCandidate::set_time_average(value_type ta){
 
 void FosCandidate::set_ytime_average(value_type y_ta){
 	this->y_ta = y_ta;
-	
 }
 
 void FosCandidate::set_q(value_type Q){
@@ -77,7 +76,6 @@ void FosCandidate::set_training_data(value_type *x, int N){
 	for(i=0; i<N; i++){
 		this->x[i] = x[i];
 	}
-	
 }
 
 double* FosCandidate::get_training_data(){

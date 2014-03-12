@@ -1,0 +1,983 @@
+Tfast-orthogonal-search
+v7
+r0
+t416115854.082936
+cCheck dependencies
+cCompileC build/fast-orthogonal-search.build/Debug/fast-orthogonal-search.build/Objects-normal/x86_64/main.o "/Users/greggjohns/Documents/C projects/fast-orthogonal-search/main.cpp" normal x86_64 c++ com.apple.compilers.gcc.4_2
+cCompileC build/fast-orthogonal-search.build/Debug/fast-orthogonal-search.build/Objects-normal/x86_64/arff_attr.o "/Users/greggjohns/Documents/C projects/fast-orthogonal-search/arff/arff_attr.cpp" normal x86_64 c++ com.apple.compilers.gcc.4_2
+cCompileC build/fast-orthogonal-search.build/Debug/fast-orthogonal-search.build/Objects-normal/x86_64/arff_data.o "/Users/greggjohns/Documents/C projects/fast-orthogonal-search/arff/arff_data.cpp" normal x86_64 c++ com.apple.compilers.gcc.4_2
+cCompileC build/fast-orthogonal-search.build/Debug/fast-orthogonal-search.build/Objects-normal/x86_64/arff_instance.o "/Users/greggjohns/Documents/C projects/fast-orthogonal-search/arff/arff_instance.cpp" normal x86_64 c++ com.apple.compilers.gcc.4_2
+cCompileC build/fast-orthogonal-search.build/Debug/fast-orthogonal-search.build/Objects-normal/x86_64/arff_lexer.o "/Users/greggjohns/Documents/C projects/fast-orthogonal-search/arff/arff_lexer.cpp" normal x86_64 c++ com.apple.compilers.gcc.4_2
+cCompileC build/fast-orthogonal-search.build/Debug/fast-orthogonal-search.build/Objects-normal/x86_64/arff_parser.o "/Users/greggjohns/Documents/C projects/fast-orthogonal-search/arff/arff_parser.cpp" normal x86_64 c++ com.apple.compilers.gcc.4_2
+cCompileC build/fast-orthogonal-search.build/Debug/fast-orthogonal-search.build/Objects-normal/x86_64/arff_scanner.o "/Users/greggjohns/Documents/C projects/fast-orthogonal-search/arff/arff_scanner.cpp" normal x86_64 c++ com.apple.compilers.gcc.4_2
+cCompileC build/fast-orthogonal-search.build/Debug/fast-orthogonal-search.build/Objects-normal/x86_64/arff_token.o "/Users/greggjohns/Documents/C projects/fast-orthogonal-search/arff/arff_token.cpp" normal x86_64 c++ com.apple.compilers.gcc.4_2
+cCompileC build/fast-orthogonal-search.build/Debug/fast-orthogonal-search.build/Objects-normal/x86_64/arff_utils.o "/Users/greggjohns/Documents/C projects/fast-orthogonal-search/arff/arff_utils.cpp" normal x86_64 c++ com.apple.compilers.gcc.4_2
+cCompileC build/fast-orthogonal-search.build/Debug/fast-orthogonal-search.build/Objects-normal/x86_64/arff_value.o "/Users/greggjohns/Documents/C projects/fast-orthogonal-search/arff/arff_value.cpp" normal x86_64 c++ com.apple.compilers.gcc.4_2
+cCompileC build/fast-orthogonal-search.build/Debug/fast-orthogonal-search.build/Objects-normal/x86_64/muParser.o "/Users/greggjohns/Documents/C projects/fast-orthogonal-search/muparser/muParser.cpp" normal x86_64 c++ com.apple.compilers.gcc.4_2
+cCompileC build/fast-orthogonal-search.build/Debug/fast-orthogonal-search.build/Objects-normal/x86_64/muParserBase.o "/Users/greggjohns/Documents/C projects/fast-orthogonal-search/muparser/muParserBase.cpp" normal x86_64 c++ com.apple.compilers.gcc.4_2
+cCompileC build/fast-orthogonal-search.build/Debug/fast-orthogonal-search.build/Objects-normal/x86_64/muParserBytecode.o "/Users/greggjohns/Documents/C projects/fast-orthogonal-search/muparser/muParserBytecode.cpp" normal x86_64 c++ com.apple.compilers.gcc.4_2
+cCompileC build/fast-orthogonal-search.build/Debug/fast-orthogonal-search.build/Objects-normal/x86_64/muParserCallback.o "/Users/greggjohns/Documents/C projects/fast-orthogonal-search/muparser/muParserCallback.cpp" normal x86_64 c++ com.apple.compilers.gcc.4_2
+cCompileC build/fast-orthogonal-search.build/Debug/fast-orthogonal-search.build/Objects-normal/x86_64/muParserDLL.o "/Users/greggjohns/Documents/C projects/fast-orthogonal-search/muparser/muParserDLL.cpp" normal x86_64 c++ com.apple.compilers.gcc.4_2
+cCompileC build/fast-orthogonal-search.build/Debug/fast-orthogonal-search.build/Objects-normal/x86_64/muParserError.o "/Users/greggjohns/Documents/C projects/fast-orthogonal-search/muparser/muParserError.cpp" normal x86_64 c++ com.apple.compilers.gcc.4_2
+cCompileC build/fast-orthogonal-search.build/Debug/fast-orthogonal-search.build/Objects-normal/x86_64/muParserInt.o "/Users/greggjohns/Documents/C projects/fast-orthogonal-search/muparser/muParserInt.cpp" normal x86_64 c++ com.apple.compilers.gcc.4_2
+cCompileC build/fast-orthogonal-search.build/Debug/fast-orthogonal-search.build/Objects-normal/x86_64/muParserTest.o "/Users/greggjohns/Documents/C projects/fast-orthogonal-search/muparser/muParserTest.cpp" normal x86_64 c++ com.apple.compilers.gcc.4_2
+cCompileC build/fast-orthogonal-search.build/Debug/fast-orthogonal-search.build/Objects-normal/x86_64/muParserTokenReader.o "/Users/greggjohns/Documents/C projects/fast-orthogonal-search/muparser/muParserTokenReader.cpp" normal x86_64 c++ com.apple.compilers.gcc.4_2
+cCompileC build/fast-orthogonal-search.build/Debug/fast-orthogonal-search.build/Objects-normal/x86_64/fos_candidate.o "/Users/greggjohns/Documents/C projects/fast-orthogonal-search/fos_core/fos_candidate.cpp" normal x86_64 c++ com.apple.compilers.gcc.4_2
+cCompileC build/fast-orthogonal-search.build/Debug/fast-orthogonal-search.build/Objects-normal/x86_64/fos_model.o "/Users/greggjohns/Documents/C projects/fast-orthogonal-search/fos_core/fos_model.cpp" normal x86_64 c++ com.apple.compilers.gcc.4_2
+cCompileC build/fast-orthogonal-search.build/Debug/fast-orthogonal-search.build/Objects-normal/x86_64/fos_simulation.o "/Users/greggjohns/Documents/C projects/fast-orthogonal-search/fos_core/fos_simulation.cpp" normal x86_64 c++ com.apple.compilers.gcc.4_2
+cCompileC build/fast-orthogonal-search.build/Debug/fast-orthogonal-search.build/Objects-normal/x86_64/fos_result.o "/Users/greggjohns/Documents/C projects/fast-orthogonal-search/fos_core/fos_result.cpp" normal x86_64 c++ com.apple.compilers.gcc.4_2
+cCompileC build/fast-orthogonal-search.build/Debug/fast-orthogonal-search.build/Objects-normal/x86_64/fos_core.o "/Users/greggjohns/Documents/C projects/fast-orthogonal-search/fos_core.cpp" normal x86_64 c++ com.apple.compilers.gcc.4_2
+cCompileC build/fast-orthogonal-search.build/Debug/fast-orthogonal-search.build/Objects-normal/x86_64/fos_regressor.o "/Users/greggjohns/Documents/C projects/fast-orthogonal-search/fos_regressor.cpp" normal x86_64 c++ com.apple.compilers.gcc.4_2
+
+N/Developer/SDKs/MacOSX10.6.sdk
+c000000004A769DAB00000000000000EE
+t1249287595
+s238
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/stdio.h
+c000000004A5C14A70000000000004174
+t1247548583
+s16756
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/stdlib.h
+c000000004A5C14A70000000000002DF5
+t1247548583
+s11765
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/lib/gcc/i686-apple-darwin10/4.2.1/include/omp.h
+c000000004A1199040000000000000AE9
+t1242667268
+s2793
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/lib/gcc/i686-apple-darwin10/4.2.1/include/stdarg.h
+c000000004A11EB2400000000000010DD
+t1242688292
+s4317
+
+N/Users/greggjohns/Documents/C projects/fast-orthogonal-search/arff/arff_attr.cpp
+c0000000053098A8F0000000000000116
+t1393134223
+s278
+i"arff_attr.h"
+
+N/Users/greggjohns/Documents/C projects/fast-orthogonal-search/arff/arff_attr.h
+c0000000053098A9D00000000000003A6
+t1393134237
+s934
+i<string>
+i"arff_value.h"
+
+N/Users/greggjohns/Documents/C projects/fast-orthogonal-search/arff/arff_data.cpp
+c00000000530A6FA80000000000001215
+t1393192872
+s4629
+i"arff_data.h"
+
+N/Users/greggjohns/Documents/C projects/fast-orthogonal-search/arff/arff_data.h
+c0000000053098AD50000000000000E51
+t1393134293
+s3665
+i<string>
+i<vector>
+i<map>
+i"arff_utils.h"
+i"arff_instance.h"
+i"arff_attr.h"
+
+N/Users/greggjohns/Documents/C projects/fast-orthogonal-search/arff/arff_instance.cpp
+c0000000053098ABC000000000000025A
+t1393134268
+s602
+i"arff_instance.h"
+
+N/Users/greggjohns/Documents/C projects/fast-orthogonal-search/arff/arff_instance.h
+c0000000053098AE300000000000004EC
+t1393134307
+s1260
+i<vector>
+i"arff_utils.h"
+i"arff_value.h"
+
+N/Users/greggjohns/Documents/C projects/fast-orthogonal-search/arff/arff_lexer.cpp
+c0000000053098AC600000000000011C9
+t1393134278
+s4553
+i"arff_lexer.h"
+
+N/Users/greggjohns/Documents/C projects/fast-orthogonal-search/arff/arff_lexer.h
+c0000000053098AF50000000000000E7F
+t1393134325
+s3711
+i<string>
+i"arff_utils.h"
+i"arff_scanner.h"
+i"arff_token.h"
+
+N/Users/greggjohns/Documents/C projects/fast-orthogonal-search/arff/arff_parser.cpp
+c00000000530E72E700000000000012B0
+t1393455847
+s4784
+i"arff_parser.h"
+i"arff_token.h"
+
+N/Users/greggjohns/Documents/C projects/fast-orthogonal-search/arff/arff_parser.h
+c0000000053098B230000000000000541
+t1393134371
+s1345
+i<string>
+i"arff_lexer.h"
+i"arff_data.h"
+
+N/Users/greggjohns/Documents/C projects/fast-orthogonal-search/arff/arff_scanner.cpp
+c00000000530E744E00000000000006AA
+t1393456206
+s1706
+i"arff_scanner.h"
+i<iostream>
+
+N/Users/greggjohns/Documents/C projects/fast-orthogonal-search/arff/arff_scanner.h
+c0000000053098AFF000000000000091C
+t1393134335
+s2332
+i<stdio.h>
+i<string>
+i"arff_utils.h"
+
+N/Users/greggjohns/Documents/C projects/fast-orthogonal-search/arff/arff_token.cpp
+c0000000053098B3A00000000000006B4
+t1393134394
+s1716
+i"arff_token.h"
+
+N/Users/greggjohns/Documents/C projects/fast-orthogonal-search/arff/arff_token.h
+c0000000053098B160000000000000AA5
+t1393134358
+s2725
+i<string>
+i"arff_utils.h"
+
+N/Users/greggjohns/Documents/C projects/fast-orthogonal-search/arff/arff_utils.cpp
+c0000000053098B470000000000000388
+t1393134407
+s904
+i<stdexcept>
+i"arff_utils.h"
+
+N/Users/greggjohns/Documents/C projects/fast-orthogonal-search/arff/arff_utils.h
+c000000004E64D57A0000000000000771
+t1315231098
+s1905
+i<stdarg.h>
+i<string>
+i<sstream>
+
+N/Users/greggjohns/Documents/C projects/fast-orthogonal-search/arff/arff_value.cpp
+c0000000053098B510000000000001379
+t1393134417
+s4985
+i"arff_value.h"
+
+N/Users/greggjohns/Documents/C projects/fast-orthogonal-search/arff/arff_value.h
+c0000000053098AA50000000000001031
+t1393134245
+s4145
+i<string>
+i"arff_utils.h"
+
+N/Users/greggjohns/Documents/C projects/fast-orthogonal-search/build/Debug/fast-orthogonal-search
+t2
+s0
+
+N/Users/greggjohns/Documents/C projects/fast-orthogonal-search/build/fast-orthogonal-search.build/Debug/fast-orthogonal-search.build/Objects-normal/x86_64/arff_attr.o
+t1394423031
+s44016
+
+N/Users/greggjohns/Documents/C projects/fast-orthogonal-search/build/fast-orthogonal-search.build/Debug/fast-orthogonal-search.build/Objects-normal/x86_64/arff_data.o
+t1394423035
+s444880
+
+N/Users/greggjohns/Documents/C projects/fast-orthogonal-search/build/fast-orthogonal-search.build/Debug/fast-orthogonal-search.build/Objects-normal/x86_64/arff_instance.o
+t1394423036
+s89952
+
+N/Users/greggjohns/Documents/C projects/fast-orthogonal-search/build/fast-orthogonal-search.build/Debug/fast-orthogonal-search.build/Objects-normal/x86_64/arff_lexer.o
+t1394423036
+s59872
+
+N/Users/greggjohns/Documents/C projects/fast-orthogonal-search/build/fast-orthogonal-search.build/Debug/fast-orthogonal-search.build/Objects-normal/x86_64/arff_parser.o
+t1394423038
+s126536
+
+N/Users/greggjohns/Documents/C projects/fast-orthogonal-search/build/fast-orthogonal-search.build/Debug/fast-orthogonal-search.build/Objects-normal/x86_64/arff_scanner.o
+t1394423038
+s85832
+
+N/Users/greggjohns/Documents/C projects/fast-orthogonal-search/build/fast-orthogonal-search.build/Debug/fast-orthogonal-search.build/Objects-normal/x86_64/arff_token.o
+t1394423039
+s82652
+
+N/Users/greggjohns/Documents/C projects/fast-orthogonal-search/build/fast-orthogonal-search.build/Debug/fast-orthogonal-search.build/Objects-normal/x86_64/arff_utils.o
+t1394423039
+s77944
+
+N/Users/greggjohns/Documents/C projects/fast-orthogonal-search/build/fast-orthogonal-search.build/Debug/fast-orthogonal-search.build/Objects-normal/x86_64/arff_value.o
+t1394423040
+s97324
+
+N/Users/greggjohns/Documents/C projects/fast-orthogonal-search/build/fast-orthogonal-search.build/Debug/fast-orthogonal-search.build/Objects-normal/x86_64/fast-orthogonal-search.LinkFileList
+c00000000531D34F50000000000001070
+t1394423029
+s4208
+
+N/Users/greggjohns/Documents/C projects/fast-orthogonal-search/build/fast-orthogonal-search.build/Debug/fast-orthogonal-search.build/Objects-normal/x86_64/fos_candidate.o
+t1394423050
+s92748
+
+N/Users/greggjohns/Documents/C projects/fast-orthogonal-search/build/fast-orthogonal-search.build/Debug/fast-orthogonal-search.build/Objects-normal/x86_64/fos_core.o
+t1394423053
+s3944
+
+N/Users/greggjohns/Documents/C projects/fast-orthogonal-search/build/fast-orthogonal-search.build/Debug/fast-orthogonal-search.build/Objects-normal/x86_64/fos_model.o
+t1394423052
+s417464
+
+N/Users/greggjohns/Documents/C projects/fast-orthogonal-search/build/fast-orthogonal-search.build/Debug/fast-orthogonal-search.build/Objects-normal/x86_64/fos_regressor.o
+t2
+s0
+
+N/Users/greggjohns/Documents/C projects/fast-orthogonal-search/build/fast-orthogonal-search.build/Debug/fast-orthogonal-search.build/Objects-normal/x86_64/fos_result.o
+t1394423054
+s450408
+
+N/Users/greggjohns/Documents/C projects/fast-orthogonal-search/build/fast-orthogonal-search.build/Debug/fast-orthogonal-search.build/Objects-normal/x86_64/fos_simulation.o
+t1394423053
+s434284
+
+N/Users/greggjohns/Documents/C projects/fast-orthogonal-search/build/fast-orthogonal-search.build/Debug/fast-orthogonal-search.build/Objects-normal/x86_64/main.o
+t1394423035
+s318212
+
+N/Users/greggjohns/Documents/C projects/fast-orthogonal-search/build/fast-orthogonal-search.build/Debug/fast-orthogonal-search.build/Objects-normal/x86_64/muParser.o
+t1394423041
+s258084
+
+N/Users/greggjohns/Documents/C projects/fast-orthogonal-search/build/fast-orthogonal-search.build/Debug/fast-orthogonal-search.build/Objects-normal/x86_64/muParserBase.o
+t1394423044
+s1002772
+
+N/Users/greggjohns/Documents/C projects/fast-orthogonal-search/build/fast-orthogonal-search.build/Debug/fast-orthogonal-search.build/Objects-normal/x86_64/muParserBytecode.o
+t1394423043
+s252180
+
+N/Users/greggjohns/Documents/C projects/fast-orthogonal-search/build/fast-orthogonal-search.build/Debug/fast-orthogonal-search.build/Objects-normal/x86_64/muParserCallback.o
+t1394423044
+s114624
+
+N/Users/greggjohns/Documents/C projects/fast-orthogonal-search/build/fast-orthogonal-search.build/Debug/fast-orthogonal-search.build/Objects-normal/x86_64/muParserDLL.o
+t1394423044
+s1456
+
+N/Users/greggjohns/Documents/C projects/fast-orthogonal-search/build/fast-orthogonal-search.build/Debug/fast-orthogonal-search.build/Objects-normal/x86_64/muParserError.o
+t1394423045
+s176744
+
+N/Users/greggjohns/Documents/C projects/fast-orthogonal-search/build/fast-orthogonal-search.build/Debug/fast-orthogonal-search.build/Objects-normal/x86_64/muParserInt.o
+t1394423046
+s253472
+
+N/Users/greggjohns/Documents/C projects/fast-orthogonal-search/build/fast-orthogonal-search.build/Debug/fast-orthogonal-search.build/Objects-normal/x86_64/muParserTest.o
+t1394423050
+s679484
+
+N/Users/greggjohns/Documents/C projects/fast-orthogonal-search/build/fast-orthogonal-search.build/Debug/fast-orthogonal-search.build/Objects-normal/x86_64/muParserTokenReader.o
+t1394423049
+s609348
+
+N/Users/greggjohns/Documents/C projects/fast-orthogonal-search/fos_core.cpp
+c00000000531D349100000000000000E3
+t1394422929
+s227
+i"fos_core.h"
+
+N/Users/greggjohns/Documents/C projects/fast-orthogonal-search/fos_core.h
+c00000000531D348900000000000000D2
+t1394422921
+s210
+
+N/Users/greggjohns/Documents/C projects/fast-orthogonal-search/fos_core/fos_candidate.cpp
+c00000000530EC4240000000000000525
+t1393476644
+s1317
+i"fos_candidate.h"
+
+N/Users/greggjohns/Documents/C projects/fast-orthogonal-search/fos_core/fos_candidate.h
+c00000000530D23300000000000000362
+t1393369904
+s866
+i<string>
+i"muParser.h"
+
+N/Users/greggjohns/Documents/C projects/fast-orthogonal-search/fos_core/fos_config.h
+c00000000530D8021000000000000017F
+t1393393697
+s383
+
+N/Users/greggjohns/Documents/C projects/fast-orthogonal-search/fos_core/fos_model.cpp
+c00000000530F7F1B0000000000001060
+t1393524507
+s4192
+i"fos_model.h"
+
+N/Users/greggjohns/Documents/C projects/fast-orthogonal-search/fos_core/fos_model.h
+c00000000530EF0B300000000000004A5
+t1393488051
+s1189
+i<string>
+i<vector>
+i"fos_candidate.h"
+i"muParser.h"
+i<iostream>
+i<fstream>
+
+N/Users/greggjohns/Documents/C projects/fast-orthogonal-search/fos_core/fos_result.cpp
+c000000005310422C00000000000008E6
+t1393574444
+s2278
+i"fos_result.h"
+
+N/Users/greggjohns/Documents/C projects/fast-orthogonal-search/fos_core/fos_result.h
+c00000000530FA9B50000000000000536
+t1393535413
+s1334
+i"muParser.h"
+i"fos_model.h"
+
+N/Users/greggjohns/Documents/C projects/fast-orthogonal-search/fos_core/fos_simulation.cpp
+c0000000053129A30000000000000319B
+t1393728048
+s12699
+i"fos_simulation.h"
+
+N/Users/greggjohns/Documents/C projects/fast-orthogonal-search/fos_core/fos_simulation.h
+c0000000053116AD7000000000000079C
+t1393650391
+s1948
+i<string>
+i<vector>
+i<cstdlib>
+i<cstring>
+i<cmath>
+i<iostream>
+i<locale>
+i<limits>
+i<ios>
+i<iomanip>
+i<numeric>
+i<fstream>
+i"fos_model.h"
+i"fos_candidate.h"
+i"arff_parser.h"
+i"arff_attr.h"
+i"muParser.h"
+i"fos_config.h"
+i"fos_result.h"
+
+N/Users/greggjohns/Documents/C projects/fast-orthogonal-search/fos_regressor.cpp
+c00000000531D34F30000000000000103
+t1394423027
+s259
+i"fos_regressor.h"
+
+N/Users/greggjohns/Documents/C projects/fast-orthogonal-search/fos_regressor.h
+c00000000531D34E000000000000000F9
+t1394423008
+s249
+
+N/Users/greggjohns/Documents/C projects/fast-orthogonal-search/main.cpp
+c0000000053102F720000000000000C03
+t1393569650
+s3075
+i"muParserTest.h"
+i<stdlib.h>
+i<crtdbg.h>
+i<cstdlib>
+i<cstring>
+i<cmath>
+i<string>
+i<iostream>
+i<locale>
+i<limits>
+i<ios>
+i<iomanip>
+i<numeric>
+i<fstream>
+i"muParser.h"
+i"arff_parser.h"
+i"arff_attr.h"
+i"fos_simulation.h"
+
+N/Users/greggjohns/Documents/C projects/fast-orthogonal-search/muparser/muParser.cpp
+c00000000530F7B8D00000000000036B1
+t1393523597
+s14001
+i"muParser.h"
+i"muParserTemplateMagic.h"
+i<cmath>
+i<algorithm>
+i<numeric>
+
+N/Users/greggjohns/Documents/C projects/fast-orthogonal-search/muparser/muParser.h
+c0000000050D5F22E000000000000114F
+t1356198446
+s4431
+i<vector>
+i"muParserBase.h"
+i"muParserTemplateMagic.h"
+
+N/Users/greggjohns/Documents/C projects/fast-orthogonal-search/muparser/muParserBase.cpp
+c0000000050D5F22E000000000000FF9B
+t1356198446
+s65435
+i"muParserBase.h"
+i"muParserTemplateMagic.h"
+i<cassert>
+i<cmath>
+i<memory>
+i<vector>
+i<deque>
+i<sstream>
+i<locale>
+i<omp.h>
+
+N/Users/greggjohns/Documents/C projects/fast-orthogonal-search/muparser/muParserBase.h
+c0000000050D5F22E0000000000002E4F
+t1356198446
+s11855
+i<cmath>
+i<string>
+i<iostream>
+i<map>
+i<memory>
+i<locale>
+i"muParserDef.h"
+i"muParserStack.h"
+i"muParserTokenReader.h"
+i"muParserBytecode.h"
+i"muParserError.h"
+
+N/Users/greggjohns/Documents/C projects/fast-orthogonal-search/muparser/muParserBytecode.cpp
+c0000000050D5F22E00000000000052F1
+t1356198446
+s21233
+i"muParserBytecode.h"
+i<cassert>
+i<string>
+i<stack>
+i<vector>
+i<iostream>
+i"muParserDef.h"
+i"muParserError.h"
+i"muParserToken.h"
+i"muParserStack.h"
+i"muParserTemplateMagic.h"
+
+N/Users/greggjohns/Documents/C projects/fast-orthogonal-search/muparser/muParserBytecode.h
+c0000000050D5F22E000000000000117E
+t1356198446
+s4478
+i<cassert>
+i<string>
+i<stack>
+i<vector>
+i"muParserDef.h"
+i"muParserError.h"
+i"muParserToken.h"
+
+N/Users/greggjohns/Documents/C projects/fast-orthogonal-search/muparser/muParserCallback.cpp
+c000000004F1C9EC20000000000003814
+t1327275714
+s14356
+i"muParserCallback.h"
+
+N/Users/greggjohns/Documents/C projects/fast-orthogonal-search/muparser/muParserCallback.h
+c000000004F1C9EF400000000000014AE
+t1327275764
+s5294
+i"muParserDef.h"
+
+N/Users/greggjohns/Documents/C projects/fast-orthogonal-search/muparser/muParserDLL.cpp
+c000000004F1C9EC2000000000000898E
+t1327275714
+s35214
+i<windows.h>
+i"muParserDLL.h"
+i"muParser.h"
+i"muParserInt.h"
+i"muParserError.h"
+
+N/Users/greggjohns/Documents/C projects/fast-orthogonal-search/muparser/muParserDLL.h
+c00000000506138060000000000003642
+t1348548614
+s13890
+
+N/Users/greggjohns/Documents/C projects/fast-orthogonal-search/muparser/muParserDef.h
+c0000000050D5F22E0000000000003917
+t1356198446
+s14615
+i<iostream>
+i<string>
+i<sstream>
+i<map>
+i"muParserFixes.h"
+
+N/Users/greggjohns/Documents/C projects/fast-orthogonal-search/muparser/muParserError.cpp
+c0000000050D5F22E0000000000003599
+t1356198446
+s13721
+i"muParserError.h"
+
+N/Users/greggjohns/Documents/C projects/fast-orthogonal-search/muparser/muParserError.h
+c0000000050D5F22E0000000000001CFA
+t1356198446
+s7418
+i<cassert>
+i<stdexcept>
+i<string>
+i<sstream>
+i<vector>
+i<memory>
+i"muParserDef.h"
+
+N/Users/greggjohns/Documents/C projects/fast-orthogonal-search/muparser/muParserFixes.h
+c0000000050D5F22E0000000000000992
+t1356198446
+s2450
+
+N/Users/greggjohns/Documents/C projects/fast-orthogonal-search/muparser/muParserInt.cpp
+c000000004F1C9EC200000000000027A8
+t1327275714
+s10152
+i"muParserInt.h"
+i<cmath>
+i<algorithm>
+i<numeric>
+
+N/Users/greggjohns/Documents/C projects/fast-orthogonal-search/muparser/muParserInt.h
+c0000000050D5F22E000000000000147C
+t1356198446
+s5244
+i"muParserBase.h"
+i<vector>
+
+N/Users/greggjohns/Documents/C projects/fast-orthogonal-search/muparser/muParserStack.h
+c000000004F1C9EC2000000000000100C
+t1327275714
+s4108
+i<cassert>
+i<string>
+i<stack>
+i<vector>
+i"muParserError.h"
+i"muParserToken.h"
+
+N/Users/greggjohns/Documents/C projects/fast-orthogonal-search/muparser/muParserTemplateMagic.h
+c0000000050D5F22E0000000000001676
+t1356198446
+s5750
+i<cmath>
+i"muParserError.h"
+
+N/Users/greggjohns/Documents/C projects/fast-orthogonal-search/muparser/muParserTest.cpp
+c0000000050D5F22E000000000000F6A7
+t1356198446
+s63143
+i"muParserTest.h"
+i<cstdio>
+i<cmath>
+i<iostream>
+i<limits>
+
+N/Users/greggjohns/Documents/C projects/fast-orthogonal-search/muparser/muParserTest.h
+c0000000050D5F22E0000000000001FC7
+t1356198446
+s8135
+i<string>
+i<cstdlib>
+i<numeric>
+i"muParser.h"
+i"muParserInt.h"
+
+N/Users/greggjohns/Documents/C projects/fast-orthogonal-search/muparser/muParserToken.h
+c0000000050D5F22E0000000000003304
+t1356198446
+s13060
+i<cassert>
+i<string>
+i<stack>
+i<vector>
+i<memory>
+i"muParserError.h"
+i"muParserCallback.h"
+
+N/Users/greggjohns/Documents/C projects/fast-orthogonal-search/muparser/muParserTokenReader.cpp
+c0000000050D5F22E00000000000085A4
+t1356198446
+s34212
+i<cassert>
+i<cstdio>
+i<cstring>
+i<map>
+i<stack>
+i<string>
+i"muParserTokenReader.h"
+i"muParserBase.h"
+
+N/Users/greggjohns/Documents/C projects/fast-orthogonal-search/muparser/muParserTokenReader.h
+c0000000050D5F22E000000000000180C
+t1356198446
+s6156
+i<cassert>
+i<cstdio>
+i<cstring>
+i<list>
+i<map>
+i<memory>
+i<stack>
+i<string>
+i"muParserDef.h"
+i"muParserToken.h"
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies416115828#416115829#0(0"0(0#1#0"17211553792#0"0#
+
+CCompileC build/fast-orthogonal-search.build/Debug/fast-orthogonal-search.build/Objects-normal/x86_64/arff_attr.o "/Users/greggjohns/Documents/C projects/fast-orthogonal-search/arff/arff_attr.cpp" normal x86_64 c++ com.apple.compilers.gcc.4_2
+s416115829.675896
+e416115832.080041
+r1
+xCompileC
+xbuild/fast-orthogonal-search.build/Debug/fast-orthogonal-search.build/Objects-normal/x86_64/arff_attr.o
+x/Users/greggjohns/Documents/C projects/fast-orthogonal-search/arff/arff_attr.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@88"Compile /Users/greggjohns/Documents/C projects/fast-orthogonal-search/arff/arff_attr.cpp416115829#416115832#0(0"0(0#0#80"/Users/greggjohns/Documents/C projects/fast-orthogonal-search/arff/arff_attr.cpp4486655632#1851"    cd "/Users/greggjohns/Documents/C projects/fast-orthogonal-search"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote "/Users/greggjohns/Documents/C projects/fast-orthogonal-search/build/fast-orthogonal-search.build/Debug/fast-orthogonal-search.build/fast-orthogonal-search-generated-files.hmap" "-I/Users/greggjohns/Documents/C projects/fast-orthogonal-search/build/fast-orthogonal-search.build/Debug/fast-orthogonal-search.build/fast-orthogonal-search-own-target-headers.hmap" "-I/Users/greggjohns/Documents/C projects/fast-orthogonal-search/build/fast-orthogonal-search.build/Debug/fast-orthogonal-search.build/fast-orthogonal-search-all-target-headers.hmap" -iquote "/Users/greggjohns/Documents/C projects/fast-orthogonal-search/build/fast-orthogonal-search.build/Debug/fast-orthogonal-search.build/fast-orthogonal-search-project-headers.hmap" "-F/Users/greggjohns/Documents/C projects/fast-orthogonal-search/build/Debug" "-I/Users/greggjohns/Documents/C projects/fast-orthogonal-search/build/Debug/include" "-I/Users/greggjohns/Documents/C projects/fast-orthogonal-search/build/fast-orthogonal-search.build/Debug/fast-orthogonal-search.build/DerivedSources/x86_64" "-I/Users/greggjohns/Documents/C projects/fast-orthogonal-search/build/fast-orthogonal-search.build/Debug/fast-orthogonal-search.build/DerivedSources" -c "/Users/greggjohns/Documents/C projects/fast-orthogonal-search/arff/arff_attr.cpp" -o "/Users/greggjohns/Documents/C projects/fast-orthogonal-search/build/fast-orthogonal-search.build/Debug/fast-orthogonal-search.build/Objects-normal/x86_64/arff_attr.o"0#
+
+CCompileC build/fast-orthogonal-search.build/Debug/fast-orthogonal-search.build/Objects-normal/x86_64/arff_data.o "/Users/greggjohns/Documents/C projects/fast-orthogonal-search/arff/arff_data.cpp" normal x86_64 c++ com.apple.compilers.gcc.4_2
+s416115832.081214
+e416115835.663227
+r1
+xCompileC
+xbuild/fast-orthogonal-search.build/Debug/fast-orthogonal-search.build/Objects-normal/x86_64/arff_data.o
+x/Users/greggjohns/Documents/C projects/fast-orthogonal-search/arff/arff_data.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@88"Compile /Users/greggjohns/Documents/C projects/fast-orthogonal-search/arff/arff_data.cpp416115832#416115835#0(0"0(0#0#80"/Users/greggjohns/Documents/C projects/fast-orthogonal-search/arff/arff_data.cpp4486655632#1851"    cd "/Users/greggjohns/Documents/C projects/fast-orthogonal-search"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote "/Users/greggjohns/Documents/C projects/fast-orthogonal-search/build/fast-orthogonal-search.build/Debug/fast-orthogonal-search.build/fast-orthogonal-search-generated-files.hmap" "-I/Users/greggjohns/Documents/C projects/fast-orthogonal-search/build/fast-orthogonal-search.build/Debug/fast-orthogonal-search.build/fast-orthogonal-search-own-target-headers.hmap" "-I/Users/greggjohns/Documents/C projects/fast-orthogonal-search/build/fast-orthogonal-search.build/Debug/fast-orthogonal-search.build/fast-orthogonal-search-all-target-headers.hmap" -iquote "/Users/greggjohns/Documents/C projects/fast-orthogonal-search/build/fast-orthogonal-search.build/Debug/fast-orthogonal-search.build/fast-orthogonal-search-project-headers.hmap" "-F/Users/greggjohns/Documents/C projects/fast-orthogonal-search/build/Debug" "-I/Users/greggjohns/Documents/C projects/fast-orthogonal-search/build/Debug/include" "-I/Users/greggjohns/Documents/C projects/fast-orthogonal-search/build/fast-orthogonal-search.build/Debug/fast-orthogonal-search.build/DerivedSources/x86_64" "-I/Users/greggjohns/Documents/C projects/fast-orthogonal-search/build/fast-orthogonal-search.build/Debug/fast-orthogonal-search.build/DerivedSources" -c "/Users/greggjohns/Documents/C projects/fast-orthogonal-search/arff/arff_data.cpp" -o "/Users/greggjohns/Documents/C projects/fast-orthogonal-search/build/fast-orthogonal-search.build/Debug/fast-orthogonal-search.build/Objects-normal/x86_64/arff_data.o"0#
+
+CCompileC build/fast-orthogonal-search.build/Debug/fast-orthogonal-search.build/Objects-normal/x86_64/arff_instance.o "/Users/greggjohns/Documents/C projects/fast-orthogonal-search/arff/arff_instance.cpp" normal x86_64 c++ com.apple.compilers.gcc.4_2
+s416115835.173144
+e416115836.752604
+r1
+xCompileC
+xbuild/fast-orthogonal-search.build/Debug/fast-orthogonal-search.build/Objects-normal/x86_64/arff_instance.o
+x/Users/greggjohns/Documents/C projects/fast-orthogonal-search/arff/arff_instance.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@92"Compile /Users/greggjohns/Documents/C projects/fast-orthogonal-search/arff/arff_instance.cpp416115835#416115837#0(0"0(0#0#84"/Users/greggjohns/Documents/C projects/fast-orthogonal-search/arff/arff_instance.cpp4486655632#1859"    cd "/Users/greggjohns/Documents/C projects/fast-orthogonal-search"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote "/Users/greggjohns/Documents/C projects/fast-orthogonal-search/build/fast-orthogonal-search.build/Debug/fast-orthogonal-search.build/fast-orthogonal-search-generated-files.hmap" "-I/Users/greggjohns/Documents/C projects/fast-orthogonal-search/build/fast-orthogonal-search.build/Debug/fast-orthogonal-search.build/fast-orthogonal-search-own-target-headers.hmap" "-I/Users/greggjohns/Documents/C projects/fast-orthogonal-search/build/fast-orthogonal-search.build/Debug/fast-orthogonal-search.build/fast-orthogonal-search-all-target-headers.hmap" -iquote "/Users/greggjohns/Documents/C projects/fast-orthogonal-search/build/fast-orthogonal-search.build/Debug/fast-orthogonal-search.build/fast-orthogonal-search-project-headers.hmap" "-F/Users/greggjohns/Documents/C projects/fast-orthogonal-search/build/Debug" "-I/Users/greggjohns/Documents/C projects/fast-orthogonal-search/build/Debug/include" "-I/Users/greggjohns/Documents/C projects/fast-orthogonal-search/build/fast-orthogonal-search.build/Debug/fast-orthogonal-search.build/DerivedSources/x86_64" "-I/Users/greggjohns/Documents/C projects/fast-orthogonal-search/build/fast-orthogonal-search.build/Debug/fast-orthogonal-search.build/DerivedSources" -c "/Users/greggjohns/Documents/C projects/fast-orthogonal-search/arff/arff_instance.cpp" -o "/Users/greggjohns/Documents/C projects/fast-orthogonal-search/build/fast-orthogonal-search.build/Debug/fast-orthogonal-search.build/Objects-normal/x86_64/arff_instance.o"0#
+
+CCompileC build/fast-orthogonal-search.build/Debug/fast-orthogonal-search.build/Objects-normal/x86_64/arff_lexer.o "/Users/greggjohns/Documents/C projects/fast-orthogonal-search/arff/arff_lexer.cpp" normal x86_64 c++ com.apple.compilers.gcc.4_2
+s416115835.663346
+e416115836.643114
+r1
+xCompileC
+xbuild/fast-orthogonal-search.build/Debug/fast-orthogonal-search.build/Objects-normal/x86_64/arff_lexer.o
+x/Users/greggjohns/Documents/C projects/fast-orthogonal-search/arff/arff_lexer.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@89"Compile /Users/greggjohns/Documents/C projects/fast-orthogonal-search/arff/arff_lexer.cpp416115835#416115836#0(0"0(0#0#81"/Users/greggjohns/Documents/C projects/fast-orthogonal-search/arff/arff_lexer.cpp4486655632#1853"    cd "/Users/greggjohns/Documents/C projects/fast-orthogonal-search"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote "/Users/greggjohns/Documents/C projects/fast-orthogonal-search/build/fast-orthogonal-search.build/Debug/fast-orthogonal-search.build/fast-orthogonal-search-generated-files.hmap" "-I/Users/greggjohns/Documents/C projects/fast-orthogonal-search/build/fast-orthogonal-search.build/Debug/fast-orthogonal-search.build/fast-orthogonal-search-own-target-headers.hmap" "-I/Users/greggjohns/Documents/C projects/fast-orthogonal-search/build/fast-orthogonal-search.build/Debug/fast-orthogonal-search.build/fast-orthogonal-search-all-target-headers.hmap" -iquote "/Users/greggjohns/Documents/C projects/fast-orthogonal-search/build/fast-orthogonal-search.build/Debug/fast-orthogonal-search.build/fast-orthogonal-search-project-headers.hmap" "-F/Users/greggjohns/Documents/C projects/fast-orthogonal-search/build/Debug" "-I/Users/greggjohns/Documents/C projects/fast-orthogonal-search/build/Debug/include" "-I/Users/greggjohns/Documents/C projects/fast-orthogonal-search/build/fast-orthogonal-search.build/Debug/fast-orthogonal-search.build/DerivedSources/x86_64" "-I/Users/greggjohns/Documents/C projects/fast-orthogonal-search/build/fast-orthogonal-search.build/Debug/fast-orthogonal-search.build/DerivedSources" -c "/Users/greggjohns/Documents/C projects/fast-orthogonal-search/arff/arff_lexer.cpp" -o "/Users/greggjohns/Documents/C projects/fast-orthogonal-search/build/fast-orthogonal-search.build/Debug/fast-orthogonal-search.build/Objects-normal/x86_64/arff_lexer.o"0#
+
+CCompileC build/fast-orthogonal-search.build/Debug/fast-orthogonal-search.build/Objects-normal/x86_64/arff_parser.o "/Users/greggjohns/Documents/C projects/fast-orthogonal-search/arff/arff_parser.cpp" normal x86_64 c++ com.apple.compilers.gcc.4_2
+s416115836.643226
+e416115838.304634
+r1
+xCompileC
+xbuild/fast-orthogonal-search.build/Debug/fast-orthogonal-search.build/Objects-normal/x86_64/arff_parser.o
+x/Users/greggjohns/Documents/C projects/fast-orthogonal-search/arff/arff_parser.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@90"Compile /Users/greggjohns/Documents/C projects/fast-orthogonal-search/arff/arff_parser.cpp416115836#416115838#0(0"0(0#0#82"/Users/greggjohns/Documents/C projects/fast-orthogonal-search/arff/arff_parser.cpp4486655632#1855"    cd "/Users/greggjohns/Documents/C projects/fast-orthogonal-search"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote "/Users/greggjohns/Documents/C projects/fast-orthogonal-search/build/fast-orthogonal-search.build/Debug/fast-orthogonal-search.build/fast-orthogonal-search-generated-files.hmap" "-I/Users/greggjohns/Documents/C projects/fast-orthogonal-search/build/fast-orthogonal-search.build/Debug/fast-orthogonal-search.build/fast-orthogonal-search-own-target-headers.hmap" "-I/Users/greggjohns/Documents/C projects/fast-orthogonal-search/build/fast-orthogonal-search.build/Debug/fast-orthogonal-search.build/fast-orthogonal-search-all-target-headers.hmap" -iquote "/Users/greggjohns/Documents/C projects/fast-orthogonal-search/build/fast-orthogonal-search.build/Debug/fast-orthogonal-search.build/fast-orthogonal-search-project-headers.hmap" "-F/Users/greggjohns/Documents/C projects/fast-orthogonal-search/build/Debug" "-I/Users/greggjohns/Documents/C projects/fast-orthogonal-search/build/Debug/include" "-I/Users/greggjohns/Documents/C projects/fast-orthogonal-search/build/fast-orthogonal-search.build/Debug/fast-orthogonal-search.build/DerivedSources/x86_64" "-I/Users/greggjohns/Documents/C projects/fast-orthogonal-search/build/fast-orthogonal-search.build/Debug/fast-orthogonal-search.build/DerivedSources" -c "/Users/greggjohns/Documents/C projects/fast-orthogonal-search/arff/arff_parser.cpp" -o "/Users/greggjohns/Documents/C projects/fast-orthogonal-search/build/fast-orthogonal-search.build/Debug/fast-orthogonal-search.build/Objects-normal/x86_64/arff_parser.o"0#
+
+CCompileC build/fast-orthogonal-search.build/Debug/fast-orthogonal-search.build/Objects-normal/x86_64/arff_scanner.o "/Users/greggjohns/Documents/C projects/fast-orthogonal-search/arff/arff_scanner.cpp" normal x86_64 c++ com.apple.compilers.gcc.4_2
+s416115836.752929
+e416115838.131746
+r1
+xCompileC
+xbuild/fast-orthogonal-search.build/Debug/fast-orthogonal-search.build/Objects-normal/x86_64/arff_scanner.o
+x/Users/greggjohns/Documents/C projects/fast-orthogonal-search/arff/arff_scanner.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@91"Compile /Users/greggjohns/Documents/C projects/fast-orthogonal-search/arff/arff_scanner.cpp416115836#416115838#0(0"0(0#0#83"/Users/greggjohns/Documents/C projects/fast-orthogonal-search/arff/arff_scanner.cpp4486655632#1857"    cd "/Users/greggjohns/Documents/C projects/fast-orthogonal-search"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote "/Users/greggjohns/Documents/C projects/fast-orthogonal-search/build/fast-orthogonal-search.build/Debug/fast-orthogonal-search.build/fast-orthogonal-search-generated-files.hmap" "-I/Users/greggjohns/Documents/C projects/fast-orthogonal-search/build/fast-orthogonal-search.build/Debug/fast-orthogonal-search.build/fast-orthogonal-search-own-target-headers.hmap" "-I/Users/greggjohns/Documents/C projects/fast-orthogonal-search/build/fast-orthogonal-search.build/Debug/fast-orthogonal-search.build/fast-orthogonal-search-all-target-headers.hmap" -iquote "/Users/greggjohns/Documents/C projects/fast-orthogonal-search/build/fast-orthogonal-search.build/Debug/fast-orthogonal-search.build/fast-orthogonal-search-project-headers.hmap" "-F/Users/greggjohns/Documents/C projects/fast-orthogonal-search/build/Debug" "-I/Users/greggjohns/Documents/C projects/fast-orthogonal-search/build/Debug/include" "-I/Users/greggjohns/Documents/C projects/fast-orthogonal-search/build/fast-orthogonal-search.build/Debug/fast-orthogonal-search.build/DerivedSources/x86_64" "-I/Users/greggjohns/Documents/C projects/fast-orthogonal-search/build/fast-orthogonal-search.build/Debug/fast-orthogonal-search.build/DerivedSources" -c "/Users/greggjohns/Documents/C projects/fast-orthogonal-search/arff/arff_scanner.cpp" -o "/Users/greggjohns/Documents/C projects/fast-orthogonal-search/build/fast-orthogonal-search.build/Debug/fast-orthogonal-search.build/Objects-normal/x86_64/arff_scanner.o"0#
+
+CCompileC build/fast-orthogonal-search.build/Debug/fast-orthogonal-search.build/Objects-normal/x86_64/arff_token.o "/Users/greggjohns/Documents/C projects/fast-orthogonal-search/arff/arff_token.cpp" normal x86_64 c++ com.apple.compilers.gcc.4_2
+s416115838.131868
+e416115839.380555
+r1
+xCompileC
+xbuild/fast-orthogonal-search.build/Debug/fast-orthogonal-search.build/Objects-normal/x86_64/arff_token.o
+x/Users/greggjohns/Documents/C projects/fast-orthogonal-search/arff/arff_token.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@89"Compile /Users/greggjohns/Documents/C projects/fast-orthogonal-search/arff/arff_token.cpp416115838#416115839#0(0"0(0#0#81"/Users/greggjohns/Documents/C projects/fast-orthogonal-search/arff/arff_token.cpp4486655632#1853"    cd "/Users/greggjohns/Documents/C projects/fast-orthogonal-search"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote "/Users/greggjohns/Documents/C projects/fast-orthogonal-search/build/fast-orthogonal-search.build/Debug/fast-orthogonal-search.build/fast-orthogonal-search-generated-files.hmap" "-I/Users/greggjohns/Documents/C projects/fast-orthogonal-search/build/fast-orthogonal-search.build/Debug/fast-orthogonal-search.build/fast-orthogonal-search-own-target-headers.hmap" "-I/Users/greggjohns/Documents/C projects/fast-orthogonal-search/build/fast-orthogonal-search.build/Debug/fast-orthogonal-search.build/fast-orthogonal-search-all-target-headers.hmap" -iquote "/Users/greggjohns/Documents/C projects/fast-orthogonal-search/build/fast-orthogonal-search.build/Debug/fast-orthogonal-search.build/fast-orthogonal-search-project-headers.hmap" "-F/Users/greggjohns/Documents/C projects/fast-orthogonal-search/build/Debug" "-I/Users/greggjohns/Documents/C projects/fast-orthogonal-search/build/Debug/include" "-I/Users/greggjohns/Documents/C projects/fast-orthogonal-search/build/fast-orthogonal-search.build/Debug/fast-orthogonal-search.build/DerivedSources/x86_64" "-I/Users/greggjohns/Documents/C projects/fast-orthogonal-search/build/fast-orthogonal-search.build/Debug/fast-orthogonal-search.build/DerivedSources" -c "/Users/greggjohns/Documents/C projects/fast-orthogonal-search/arff/arff_token.cpp" -o "/Users/greggjohns/Documents/C projects/fast-orthogonal-search/build/fast-orthogonal-search.build/Debug/fast-orthogonal-search.build/Objects-normal/x86_64/arff_token.o"0#
+
+CCompileC build/fast-orthogonal-search.build/Debug/fast-orthogonal-search.build/Objects-normal/x86_64/arff_utils.o "/Users/greggjohns/Documents/C projects/fast-orthogonal-search/arff/arff_utils.cpp" normal x86_64 c++ com.apple.compilers.gcc.4_2
+s416115838.304780
+e416115839.391061
+r1
+xCompileC
+xbuild/fast-orthogonal-search.build/Debug/fast-orthogonal-search.build/Objects-normal/x86_64/arff_utils.o
+x/Users/greggjohns/Documents/C projects/fast-orthogonal-search/arff/arff_utils.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@89"Compile /Users/greggjohns/Documents/C projects/fast-orthogonal-search/arff/arff_utils.cpp416115838#416115839#0(0"0(0#0#81"/Users/greggjohns/Documents/C projects/fast-orthogonal-search/arff/arff_utils.cpp4486655632#1853"    cd "/Users/greggjohns/Documents/C projects/fast-orthogonal-search"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote "/Users/greggjohns/Documents/C projects/fast-orthogonal-search/build/fast-orthogonal-search.build/Debug/fast-orthogonal-search.build/fast-orthogonal-search-generated-files.hmap" "-I/Users/greggjohns/Documents/C projects/fast-orthogonal-search/build/fast-orthogonal-search.build/Debug/fast-orthogonal-search.build/fast-orthogonal-search-own-target-headers.hmap" "-I/Users/greggjohns/Documents/C projects/fast-orthogonal-search/build/fast-orthogonal-search.build/Debug/fast-orthogonal-search.build/fast-orthogonal-search-all-target-headers.hmap" -iquote "/Users/greggjohns/Documents/C projects/fast-orthogonal-search/build/fast-orthogonal-search.build/Debug/fast-orthogonal-search.build/fast-orthogonal-search-project-headers.hmap" "-F/Users/greggjohns/Documents/C projects/fast-orthogonal-search/build/Debug" "-I/Users/greggjohns/Documents/C projects/fast-orthogonal-search/build/Debug/include" "-I/Users/greggjohns/Documents/C projects/fast-orthogonal-search/build/fast-orthogonal-search.build/Debug/fast-orthogonal-search.build/DerivedSources/x86_64" "-I/Users/greggjohns/Documents/C projects/fast-orthogonal-search/build/fast-orthogonal-search.build/Debug/fast-orthogonal-search.build/DerivedSources" -c "/Users/greggjohns/Documents/C projects/fast-orthogonal-search/arff/arff_utils.cpp" -o "/Users/greggjohns/Documents/C projects/fast-orthogonal-search/build/fast-orthogonal-search.build/Debug/fast-orthogonal-search.build/Objects-normal/x86_64/arff_utils.o"0#
+
+CCompileC build/fast-orthogonal-search.build/Debug/fast-orthogonal-search.build/Objects-normal/x86_64/arff_value.o "/Users/greggjohns/Documents/C projects/fast-orthogonal-search/arff/arff_value.cpp" normal x86_64 c++ com.apple.compilers.gcc.4_2
+s416115839.380835
+e416115840.579384
+r1
+xCompileC
+xbuild/fast-orthogonal-search.build/Debug/fast-orthogonal-search.build/Objects-normal/x86_64/arff_value.o
+x/Users/greggjohns/Documents/C projects/fast-orthogonal-search/arff/arff_value.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@89"Compile /Users/greggjohns/Documents/C projects/fast-orthogonal-search/arff/arff_value.cpp416115839#416115840#0(0"0(0#0#81"/Users/greggjohns/Documents/C projects/fast-orthogonal-search/arff/arff_value.cpp4486655632#1853"    cd "/Users/greggjohns/Documents/C projects/fast-orthogonal-search"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote "/Users/greggjohns/Documents/C projects/fast-orthogonal-search/build/fast-orthogonal-search.build/Debug/fast-orthogonal-search.build/fast-orthogonal-search-generated-files.hmap" "-I/Users/greggjohns/Documents/C projects/fast-orthogonal-search/build/fast-orthogonal-search.build/Debug/fast-orthogonal-search.build/fast-orthogonal-search-own-target-headers.hmap" "-I/Users/greggjohns/Documents/C projects/fast-orthogonal-search/build/fast-orthogonal-search.build/Debug/fast-orthogonal-search.build/fast-orthogonal-search-all-target-headers.hmap" -iquote "/Users/greggjohns/Documents/C projects/fast-orthogonal-search/build/fast-orthogonal-search.build/Debug/fast-orthogonal-search.build/fast-orthogonal-search-project-headers.hmap" "-F/Users/greggjohns/Documents/C projects/fast-orthogonal-search/build/Debug" "-I/Users/greggjohns/Documents/C projects/fast-orthogonal-search/build/Debug/include" "-I/Users/greggjohns/Documents/C projects/fast-orthogonal-search/build/fast-orthogonal-search.build/Debug/fast-orthogonal-search.build/DerivedSources/x86_64" "-I/Users/greggjohns/Documents/C projects/fast-orthogonal-search/build/fast-orthogonal-search.build/Debug/fast-orthogonal-search.build/DerivedSources" -c "/Users/greggjohns/Documents/C projects/fast-orthogonal-search/arff/arff_value.cpp" -o "/Users/greggjohns/Documents/C projects/fast-orthogonal-search/build/fast-orthogonal-search.build/Debug/fast-orthogonal-search.build/Objects-normal/x86_64/arff_value.o"0#
+
+CCompileC build/fast-orthogonal-search.build/Debug/fast-orthogonal-search.build/Objects-normal/x86_64/fos_candidate.o "/Users/greggjohns/Documents/C projects/fast-orthogonal-search/fos_core/fos_candidate.cpp" normal x86_64 c++ com.apple.compilers.gcc.4_2
+s416115849.361267
+e416115850.835414
+r1
+xCompileC
+xbuild/fast-orthogonal-search.build/Debug/fast-orthogonal-search.build/Objects-normal/x86_64/fos_candidate.o
+x/Users/greggjohns/Documents/C projects/fast-orthogonal-search/fos_core/fos_candidate.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@96"Compile /Users/greggjohns/Documents/C projects/fast-orthogonal-search/fos_core/fos_candidate.cpp416115849#416115850#0(0"0(0#0#88"/Users/greggjohns/Documents/C projects/fast-orthogonal-search/fos_core/fos_candidate.cpp4486655632#1863"    cd "/Users/greggjohns/Documents/C projects/fast-orthogonal-search"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote "/Users/greggjohns/Documents/C projects/fast-orthogonal-search/build/fast-orthogonal-search.build/Debug/fast-orthogonal-search.build/fast-orthogonal-search-generated-files.hmap" "-I/Users/greggjohns/Documents/C projects/fast-orthogonal-search/build/fast-orthogonal-search.build/Debug/fast-orthogonal-search.build/fast-orthogonal-search-own-target-headers.hmap" "-I/Users/greggjohns/Documents/C projects/fast-orthogonal-search/build/fast-orthogonal-search.build/Debug/fast-orthogonal-search.build/fast-orthogonal-search-all-target-headers.hmap" -iquote "/Users/greggjohns/Documents/C projects/fast-orthogonal-search/build/fast-orthogonal-search.build/Debug/fast-orthogonal-search.build/fast-orthogonal-search-project-headers.hmap" "-F/Users/greggjohns/Documents/C projects/fast-orthogonal-search/build/Debug" "-I/Users/greggjohns/Documents/C projects/fast-orthogonal-search/build/Debug/include" "-I/Users/greggjohns/Documents/C projects/fast-orthogonal-search/build/fast-orthogonal-search.build/Debug/fast-orthogonal-search.build/DerivedSources/x86_64" "-I/Users/greggjohns/Documents/C projects/fast-orthogonal-search/build/fast-orthogonal-search.build/Debug/fast-orthogonal-search.build/DerivedSources" -c "/Users/greggjohns/Documents/C projects/fast-orthogonal-search/fos_core/fos_candidate.cpp" -o "/Users/greggjohns/Documents/C projects/fast-orthogonal-search/build/fast-orthogonal-search.build/Debug/fast-orthogonal-search.build/Objects-normal/x86_64/fos_candidate.o"0#
+
+CCompileC build/fast-orthogonal-search.build/Debug/fast-orthogonal-search.build/Objects-normal/x86_64/fos_core.o "/Users/greggjohns/Documents/C projects/fast-orthogonal-search/fos_core.cpp" normal x86_64 c++ com.apple.compilers.gcc.4_2
+s416115853.037977
+e416115853.077925
+r1
+xCompileC
+xbuild/fast-orthogonal-search.build/Debug/fast-orthogonal-search.build/Objects-normal/x86_64/fos_core.o
+x/Users/greggjohns/Documents/C projects/fast-orthogonal-search/fos_core.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@82"Compile /Users/greggjohns/Documents/C projects/fast-orthogonal-search/fos_core.cpp416115853#416115853#0(0"0(0#0#74"/Users/greggjohns/Documents/C projects/fast-orthogonal-search/fos_core.cpp4486655632#1844"    cd "/Users/greggjohns/Documents/C projects/fast-orthogonal-search"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote "/Users/greggjohns/Documents/C projects/fast-orthogonal-search/build/fast-orthogonal-search.build/Debug/fast-orthogonal-search.build/fast-orthogonal-search-generated-files.hmap" "-I/Users/greggjohns/Documents/C projects/fast-orthogonal-search/build/fast-orthogonal-search.build/Debug/fast-orthogonal-search.build/fast-orthogonal-search-own-target-headers.hmap" "-I/Users/greggjohns/Documents/C projects/fast-orthogonal-search/build/fast-orthogonal-search.build/Debug/fast-orthogonal-search.build/fast-orthogonal-search-all-target-headers.hmap" -iquote "/Users/greggjohns/Documents/C projects/fast-orthogonal-search/build/fast-orthogonal-search.build/Debug/fast-orthogonal-search.build/fast-orthogonal-search-project-headers.hmap" "-F/Users/greggjohns/Documents/C projects/fast-orthogonal-search/build/Debug" "-I/Users/greggjohns/Documents/C projects/fast-orthogonal-search/build/Debug/include" "-I/Users/greggjohns/Documents/C projects/fast-orthogonal-search/build/fast-orthogonal-search.build/Debug/fast-orthogonal-search.build/DerivedSources/x86_64" "-I/Users/greggjohns/Documents/C projects/fast-orthogonal-search/build/fast-orthogonal-search.build/Debug/fast-orthogonal-search.build/DerivedSources" -c "/Users/greggjohns/Documents/C projects/fast-orthogonal-search/fos_core.cpp" -o "/Users/greggjohns/Documents/C projects/fast-orthogonal-search/build/fast-orthogonal-search.build/Debug/fast-orthogonal-search.build/Objects-normal/x86_64/fos_core.o"0#
+
+CCompileC build/fast-orthogonal-search.build/Debug/fast-orthogonal-search.build/Objects-normal/x86_64/fos_model.o "/Users/greggjohns/Documents/C projects/fast-orthogonal-search/fos_core/fos_model.cpp" normal x86_64 c++ com.apple.compilers.gcc.4_2
+s416115850.673993
+e416115852.492380
+r1
+xCompileC
+xbuild/fast-orthogonal-search.build/Debug/fast-orthogonal-search.build/Objects-normal/x86_64/fos_model.o
+x/Users/greggjohns/Documents/C projects/fast-orthogonal-search/fos_core/fos_model.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@92"Compile /Users/greggjohns/Documents/C projects/fast-orthogonal-search/fos_core/fos_model.cpp416115850#416115852#0(0"0(0#0#84"/Users/greggjohns/Documents/C projects/fast-orthogonal-search/fos_core/fos_model.cpp4486655632#1855"    cd "/Users/greggjohns/Documents/C projects/fast-orthogonal-search"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote "/Users/greggjohns/Documents/C projects/fast-orthogonal-search/build/fast-orthogonal-search.build/Debug/fast-orthogonal-search.build/fast-orthogonal-search-generated-files.hmap" "-I/Users/greggjohns/Documents/C projects/fast-orthogonal-search/build/fast-orthogonal-search.build/Debug/fast-orthogonal-search.build/fast-orthogonal-search-own-target-headers.hmap" "-I/Users/greggjohns/Documents/C projects/fast-orthogonal-search/build/fast-orthogonal-search.build/Debug/fast-orthogonal-search.build/fast-orthogonal-search-all-target-headers.hmap" -iquote "/Users/greggjohns/Documents/C projects/fast-orthogonal-search/build/fast-orthogonal-search.build/Debug/fast-orthogonal-search.build/fast-orthogonal-search-project-headers.hmap" "-F/Users/greggjohns/Documents/C projects/fast-orthogonal-search/build/Debug" "-I/Users/greggjohns/Documents/C projects/fast-orthogonal-search/build/Debug/include" "-I/Users/greggjohns/Documents/C projects/fast-orthogonal-search/build/fast-orthogonal-search.build/Debug/fast-orthogonal-search.build/DerivedSources/x86_64" "-I/Users/greggjohns/Documents/C projects/fast-orthogonal-search/build/fast-orthogonal-search.build/Debug/fast-orthogonal-search.build/DerivedSources" -c "/Users/greggjohns/Documents/C projects/fast-orthogonal-search/fos_core/fos_model.cpp" -o "/Users/greggjohns/Documents/C projects/fast-orthogonal-search/build/fast-orthogonal-search.build/Debug/fast-orthogonal-search.build/Objects-normal/x86_64/fos_model.o"0#
+
+CCompileC build/fast-orthogonal-search.build/Debug/fast-orthogonal-search.build/Objects-normal/x86_64/fos_regressor.o "/Users/greggjohns/Documents/C projects/fast-orthogonal-search/fos_regressor.cpp" normal x86_64 c++ com.apple.compilers.gcc.4_2
+s416115853.078165
+e416115853.183153
+r0
+xCompileC
+xbuild/fast-orthogonal-search.build/Debug/fast-orthogonal-search.build/Objects-normal/x86_64/fos_regressor.o
+x/Users/greggjohns/Documents/C projects/fast-orthogonal-search/fos_regressor.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.gcc.4_2
+oIn file included from /Users/greggjohns/Documents/C projects/fast-orthogonal-search/fos_regressor.cpp:10:
+o/Users/greggjohns/Documents/C projects/fast-orthogonal-search/fos_regressor.h:10: error: expected class-name before '{' token
+lSLF07#2@87"Compile /Users/greggjohns/Documents/C projects/fast-orthogonal-search/fos_regressor.cpp416115853#416115853#0(232"In file included from /Users/greggjohns/Documents/C projects/fast-orthogonal-search/fos_regressor.cpp:10:/Users/greggjohns/Documents/C projects/fast-orthogonal-search/fos_regressor.h:10: error: expected class-name before '{' token1(4@36"Expected class-name before '{' token416115853#106#126#2(7@101"In file included from /Users/greggjohns/Documents/C projects/fast-orthogonal-search/fos_regressor.cpp416115853#18446744073709551615#0#0(6@79"/Users/greggjohns/Documents/C projects/fast-orthogonal-search/fos_regressor.cpp416115827#10#0#10#0#0"0(13@117"Expected class-name before '{' token in /Users/greggjohns/Documents/C projects/fast-orthogonal-search/fos_regressor.h416115853#18446744073709551615#0#0(6@77"/Users/greggjohns/Documents/C projects/fast-orthogonal-search/fos_regressor.h416115808#10#0#10#0#0"0(6@77"/Users/greggjohns/Documents/C projects/fast-orthogonal-search/fos_regressor.h416115808#10#0#10#0#19"expected * before *0(0#0#79"/Users/greggjohns/Documents/C projects/fast-orthogonal-search/fos_regressor.cpp4486655632#1854"    cd "/Users/greggjohns/Documents/C projects/fast-orthogonal-search"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote "/Users/greggjohns/Documents/C projects/fast-orthogonal-search/build/fast-orthogonal-search.build/Debug/fast-orthogonal-search.build/fast-orthogonal-search-generated-files.hmap" "-I/Users/greggjohns/Documents/C projects/fast-orthogonal-search/build/fast-orthogonal-search.build/Debug/fast-orthogonal-search.build/fast-orthogonal-search-own-target-headers.hmap" "-I/Users/greggjohns/Documents/C projects/fast-orthogonal-search/build/fast-orthogonal-search.build/Debug/fast-orthogonal-search.build/fast-orthogonal-search-all-target-headers.hmap" -iquote "/Users/greggjohns/Documents/C projects/fast-orthogonal-search/build/fast-orthogonal-search.build/Debug/fast-orthogonal-search.build/fast-orthogonal-search-project-headers.hmap" "-F/Users/greggjohns/Documents/C projects/fast-orthogonal-search/build/Debug" "-I/Users/greggjohns/Documents/C projects/fast-orthogonal-search/build/Debug/include" "-I/Users/greggjohns/Documents/C projects/fast-orthogonal-search/build/fast-orthogonal-search.build/Debug/fast-orthogonal-search.build/DerivedSources/x86_64" "-I/Users/greggjohns/Documents/C projects/fast-orthogonal-search/build/fast-orthogonal-search.build/Debug/fast-orthogonal-search.build/DerivedSources" -c "/Users/greggjohns/Documents/C projects/fast-orthogonal-search/fos_regressor.cpp" -o "/Users/greggjohns/Documents/C projects/fast-orthogonal-search/build/fast-orthogonal-search.build/Debug/fast-orthogonal-search.build/Objects-normal/x86_64/fos_regressor.o"1#
+
+CCompileC build/fast-orthogonal-search.build/Debug/fast-orthogonal-search.build/Objects-normal/x86_64/fos_result.o "/Users/greggjohns/Documents/C projects/fast-orthogonal-search/fos_core/fos_result.cpp" normal x86_64 c++ com.apple.compilers.gcc.4_2
+s416115852.492542
+e416115854.082774
+r1
+xCompileC
+xbuild/fast-orthogonal-search.build/Debug/fast-orthogonal-search.build/Objects-normal/x86_64/fos_result.o
+x/Users/greggjohns/Documents/C projects/fast-orthogonal-search/fos_core/fos_result.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@93"Compile /Users/greggjohns/Documents/C projects/fast-orthogonal-search/fos_core/fos_result.cpp416115852#416115854#0(0"0(0#0#85"/Users/greggjohns/Documents/C projects/fast-orthogonal-search/fos_core/fos_result.cpp4486655632#1857"    cd "/Users/greggjohns/Documents/C projects/fast-orthogonal-search"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote "/Users/greggjohns/Documents/C projects/fast-orthogonal-search/build/fast-orthogonal-search.build/Debug/fast-orthogonal-search.build/fast-orthogonal-search-generated-files.hmap" "-I/Users/greggjohns/Documents/C projects/fast-orthogonal-search/build/fast-orthogonal-search.build/Debug/fast-orthogonal-search.build/fast-orthogonal-search-own-target-headers.hmap" "-I/Users/greggjohns/Documents/C projects/fast-orthogonal-search/build/fast-orthogonal-search.build/Debug/fast-orthogonal-search.build/fast-orthogonal-search-all-target-headers.hmap" -iquote "/Users/greggjohns/Documents/C projects/fast-orthogonal-search/build/fast-orthogonal-search.build/Debug/fast-orthogonal-search.build/fast-orthogonal-search-project-headers.hmap" "-F/Users/greggjohns/Documents/C projects/fast-orthogonal-search/build/Debug" "-I/Users/greggjohns/Documents/C projects/fast-orthogonal-search/build/Debug/include" "-I/Users/greggjohns/Documents/C projects/fast-orthogonal-search/build/fast-orthogonal-search.build/Debug/fast-orthogonal-search.build/DerivedSources/x86_64" "-I/Users/greggjohns/Documents/C projects/fast-orthogonal-search/build/fast-orthogonal-search.build/Debug/fast-orthogonal-search.build/DerivedSources" -c "/Users/greggjohns/Documents/C projects/fast-orthogonal-search/fos_core/fos_result.cpp" -o "/Users/greggjohns/Documents/C projects/fast-orthogonal-search/build/fast-orthogonal-search.build/Debug/fast-orthogonal-search.build/Objects-normal/x86_64/fos_result.o"0#
+
+CCompileC build/fast-orthogonal-search.build/Debug/fast-orthogonal-search.build/Objects-normal/x86_64/fos_simulation.o "/Users/greggjohns/Documents/C projects/fast-orthogonal-search/fos_core/fos_simulation.cpp" normal x86_64 c++ com.apple.compilers.gcc.4_2
+s416115850.835778
+e416115853.037859
+r1
+xCompileC
+xbuild/fast-orthogonal-search.build/Debug/fast-orthogonal-search.build/Objects-normal/x86_64/fos_simulation.o
+x/Users/greggjohns/Documents/C projects/fast-orthogonal-search/fos_core/fos_simulation.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@97"Compile /Users/greggjohns/Documents/C projects/fast-orthogonal-search/fos_core/fos_simulation.cpp416115850#416115853#0(0"0(0#0#89"/Users/greggjohns/Documents/C projects/fast-orthogonal-search/fos_core/fos_simulation.cpp4486655632#1865"    cd "/Users/greggjohns/Documents/C projects/fast-orthogonal-search"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote "/Users/greggjohns/Documents/C projects/fast-orthogonal-search/build/fast-orthogonal-search.build/Debug/fast-orthogonal-search.build/fast-orthogonal-search-generated-files.hmap" "-I/Users/greggjohns/Documents/C projects/fast-orthogonal-search/build/fast-orthogonal-search.build/Debug/fast-orthogonal-search.build/fast-orthogonal-search-own-target-headers.hmap" "-I/Users/greggjohns/Documents/C projects/fast-orthogonal-search/build/fast-orthogonal-search.build/Debug/fast-orthogonal-search.build/fast-orthogonal-search-all-target-headers.hmap" -iquote "/Users/greggjohns/Documents/C projects/fast-orthogonal-search/build/fast-orthogonal-search.build/Debug/fast-orthogonal-search.build/fast-orthogonal-search-project-headers.hmap" "-F/Users/greggjohns/Documents/C projects/fast-orthogonal-search/build/Debug" "-I/Users/greggjohns/Documents/C projects/fast-orthogonal-search/build/Debug/include" "-I/Users/greggjohns/Documents/C projects/fast-orthogonal-search/build/fast-orthogonal-search.build/Debug/fast-orthogonal-search.build/DerivedSources/x86_64" "-I/Users/greggjohns/Documents/C projects/fast-orthogonal-search/build/fast-orthogonal-search.build/Debug/fast-orthogonal-search.build/DerivedSources" -c "/Users/greggjohns/Documents/C projects/fast-orthogonal-search/fos_core/fos_simulation.cpp" -o "/Users/greggjohns/Documents/C projects/fast-orthogonal-search/build/fast-orthogonal-search.build/Debug/fast-orthogonal-search.build/Objects-normal/x86_64/fos_simulation.o"0#
+
+CCompileC build/fast-orthogonal-search.build/Debug/fast-orthogonal-search.build/Objects-normal/x86_64/main.o "/Users/greggjohns/Documents/C projects/fast-orthogonal-search/main.cpp" normal x86_64 c++ com.apple.compilers.gcc.4_2
+s416115829.581218
+e416115835.172991
+r1
+xCompileC
+xbuild/fast-orthogonal-search.build/Debug/fast-orthogonal-search.build/Objects-normal/x86_64/main.o
+x/Users/greggjohns/Documents/C projects/fast-orthogonal-search/main.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@78"Compile /Users/greggjohns/Documents/C projects/fast-orthogonal-search/main.cpp416115829#416115835#0(0"0(0#0#70"/Users/greggjohns/Documents/C projects/fast-orthogonal-search/main.cpp17211597312#1836"    cd "/Users/greggjohns/Documents/C projects/fast-orthogonal-search"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote "/Users/greggjohns/Documents/C projects/fast-orthogonal-search/build/fast-orthogonal-search.build/Debug/fast-orthogonal-search.build/fast-orthogonal-search-generated-files.hmap" "-I/Users/greggjohns/Documents/C projects/fast-orthogonal-search/build/fast-orthogonal-search.build/Debug/fast-orthogonal-search.build/fast-orthogonal-search-own-target-headers.hmap" "-I/Users/greggjohns/Documents/C projects/fast-orthogonal-search/build/fast-orthogonal-search.build/Debug/fast-orthogonal-search.build/fast-orthogonal-search-all-target-headers.hmap" -iquote "/Users/greggjohns/Documents/C projects/fast-orthogonal-search/build/fast-orthogonal-search.build/Debug/fast-orthogonal-search.build/fast-orthogonal-search-project-headers.hmap" "-F/Users/greggjohns/Documents/C projects/fast-orthogonal-search/build/Debug" "-I/Users/greggjohns/Documents/C projects/fast-orthogonal-search/build/Debug/include" "-I/Users/greggjohns/Documents/C projects/fast-orthogonal-search/build/fast-orthogonal-search.build/Debug/fast-orthogonal-search.build/DerivedSources/x86_64" "-I/Users/greggjohns/Documents/C projects/fast-orthogonal-search/build/fast-orthogonal-search.build/Debug/fast-orthogonal-search.build/DerivedSources" -c "/Users/greggjohns/Documents/C projects/fast-orthogonal-search/main.cpp" -o "/Users/greggjohns/Documents/C projects/fast-orthogonal-search/build/fast-orthogonal-search.build/Debug/fast-orthogonal-search.build/Objects-normal/x86_64/main.o"0#
+
+CCompileC build/fast-orthogonal-search.build/Debug/fast-orthogonal-search.build/Objects-normal/x86_64/muParser.o "/Users/greggjohns/Documents/C projects/fast-orthogonal-search/muparser/muParser.cpp" normal x86_64 c++ com.apple.compilers.gcc.4_2
+s416115839.391182
+e416115841.260191
+r1
+xCompileC
+xbuild/fast-orthogonal-search.build/Debug/fast-orthogonal-search.build/Objects-normal/x86_64/muParser.o
+x/Users/greggjohns/Documents/C projects/fast-orthogonal-search/muparser/muParser.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@91"Compile /Users/greggjohns/Documents/C projects/fast-orthogonal-search/muparser/muParser.cpp416115839#416115841#0(0"0(0#0#83"/Users/greggjohns/Documents/C projects/fast-orthogonal-search/muparser/muParser.cpp4486655632#1853"    cd "/Users/greggjohns/Documents/C projects/fast-orthogonal-search"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote "/Users/greggjohns/Documents/C projects/fast-orthogonal-search/build/fast-orthogonal-search.build/Debug/fast-orthogonal-search.build/fast-orthogonal-search-generated-files.hmap" "-I/Users/greggjohns/Documents/C projects/fast-orthogonal-search/build/fast-orthogonal-search.build/Debug/fast-orthogonal-search.build/fast-orthogonal-search-own-target-headers.hmap" "-I/Users/greggjohns/Documents/C projects/fast-orthogonal-search/build/fast-orthogonal-search.build/Debug/fast-orthogonal-search.build/fast-orthogonal-search-all-target-headers.hmap" -iquote "/Users/greggjohns/Documents/C projects/fast-orthogonal-search/build/fast-orthogonal-search.build/Debug/fast-orthogonal-search.build/fast-orthogonal-search-project-headers.hmap" "-F/Users/greggjohns/Documents/C projects/fast-orthogonal-search/build/Debug" "-I/Users/greggjohns/Documents/C projects/fast-orthogonal-search/build/Debug/include" "-I/Users/greggjohns/Documents/C projects/fast-orthogonal-search/build/fast-orthogonal-search.build/Debug/fast-orthogonal-search.build/DerivedSources/x86_64" "-I/Users/greggjohns/Documents/C projects/fast-orthogonal-search/build/fast-orthogonal-search.build/Debug/fast-orthogonal-search.build/DerivedSources" -c "/Users/greggjohns/Documents/C projects/fast-orthogonal-search/muparser/muParser.cpp" -o "/Users/greggjohns/Documents/C projects/fast-orthogonal-search/build/fast-orthogonal-search.build/Debug/fast-orthogonal-search.build/Objects-normal/x86_64/muParser.o"0#
+
+CCompileC build/fast-orthogonal-search.build/Debug/fast-orthogonal-search.build/Objects-normal/x86_64/muParserBase.o "/Users/greggjohns/Documents/C projects/fast-orthogonal-search/muparser/muParserBase.cpp" normal x86_64 c++ com.apple.compilers.gcc.4_2
+s416115840.579532
+e416115844.709087
+r1
+xCompileC
+xbuild/fast-orthogonal-search.build/Debug/fast-orthogonal-search.build/Objects-normal/x86_64/muParserBase.o
+x/Users/greggjohns/Documents/C projects/fast-orthogonal-search/muparser/muParserBase.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@95"Compile /Users/greggjohns/Documents/C projects/fast-orthogonal-search/muparser/muParserBase.cpp416115840#416115844#0(0"0(0#0#87"/Users/greggjohns/Documents/C projects/fast-orthogonal-search/muparser/muParserBase.cpp4486655632#1861"    cd "/Users/greggjohns/Documents/C projects/fast-orthogonal-search"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote "/Users/greggjohns/Documents/C projects/fast-orthogonal-search/build/fast-orthogonal-search.build/Debug/fast-orthogonal-search.build/fast-orthogonal-search-generated-files.hmap" "-I/Users/greggjohns/Documents/C projects/fast-orthogonal-search/build/fast-orthogonal-search.build/Debug/fast-orthogonal-search.build/fast-orthogonal-search-own-target-headers.hmap" "-I/Users/greggjohns/Documents/C projects/fast-orthogonal-search/build/fast-orthogonal-search.build/Debug/fast-orthogonal-search.build/fast-orthogonal-search-all-target-headers.hmap" -iquote "/Users/greggjohns/Documents/C projects/fast-orthogonal-search/build/fast-orthogonal-search.build/Debug/fast-orthogonal-search.build/fast-orthogonal-search-project-headers.hmap" "-F/Users/greggjohns/Documents/C projects/fast-orthogonal-search/build/Debug" "-I/Users/greggjohns/Documents/C projects/fast-orthogonal-search/build/Debug/include" "-I/Users/greggjohns/Documents/C projects/fast-orthogonal-search/build/fast-orthogonal-search.build/Debug/fast-orthogonal-search.build/DerivedSources/x86_64" "-I/Users/greggjohns/Documents/C projects/fast-orthogonal-search/build/fast-orthogonal-search.build/Debug/fast-orthogonal-search.build/DerivedSources" -c "/Users/greggjohns/Documents/C projects/fast-orthogonal-search/muparser/muParserBase.cpp" -o "/Users/greggjohns/Documents/C projects/fast-orthogonal-search/build/fast-orthogonal-search.build/Debug/fast-orthogonal-search.build/Objects-normal/x86_64/muParserBase.o"0#
+
+CCompileC build/fast-orthogonal-search.build/Debug/fast-orthogonal-search.build/Objects-normal/x86_64/muParserBytecode.o "/Users/greggjohns/Documents/C projects/fast-orthogonal-search/muparser/muParserBytecode.cpp" normal x86_64 c++ com.apple.compilers.gcc.4_2
+s416115841.260441
+e416115843.261017
+r1
+xCompileC
+xbuild/fast-orthogonal-search.build/Debug/fast-orthogonal-search.build/Objects-normal/x86_64/muParserBytecode.o
+x/Users/greggjohns/Documents/C projects/fast-orthogonal-search/muparser/muParserBytecode.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@99"Compile /Users/greggjohns/Documents/C projects/fast-orthogonal-search/muparser/muParserBytecode.cpp416115841#416115843#0(0"0(0#0#91"/Users/greggjohns/Documents/C projects/fast-orthogonal-search/muparser/muParserBytecode.cpp4486655632#1869"    cd "/Users/greggjohns/Documents/C projects/fast-orthogonal-search"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote "/Users/greggjohns/Documents/C projects/fast-orthogonal-search/build/fast-orthogonal-search.build/Debug/fast-orthogonal-search.build/fast-orthogonal-search-generated-files.hmap" "-I/Users/greggjohns/Documents/C projects/fast-orthogonal-search/build/fast-orthogonal-search.build/Debug/fast-orthogonal-search.build/fast-orthogonal-search-own-target-headers.hmap" "-I/Users/greggjohns/Documents/C projects/fast-orthogonal-search/build/fast-orthogonal-search.build/Debug/fast-orthogonal-search.build/fast-orthogonal-search-all-target-headers.hmap" -iquote "/Users/greggjohns/Documents/C projects/fast-orthogonal-search/build/fast-orthogonal-search.build/Debug/fast-orthogonal-search.build/fast-orthogonal-search-project-headers.hmap" "-F/Users/greggjohns/Documents/C projects/fast-orthogonal-search/build/Debug" "-I/Users/greggjohns/Documents/C projects/fast-orthogonal-search/build/Debug/include" "-I/Users/greggjohns/Documents/C projects/fast-orthogonal-search/build/fast-orthogonal-search.build/Debug/fast-orthogonal-search.build/DerivedSources/x86_64" "-I/Users/greggjohns/Documents/C projects/fast-orthogonal-search/build/fast-orthogonal-search.build/Debug/fast-orthogonal-search.build/DerivedSources" -c "/Users/greggjohns/Documents/C projects/fast-orthogonal-search/muparser/muParserBytecode.cpp" -o "/Users/greggjohns/Documents/C projects/fast-orthogonal-search/build/fast-orthogonal-search.build/Debug/fast-orthogonal-search.build/Objects-normal/x86_64/muParserBytecode.o"0#
+
+CCompileC build/fast-orthogonal-search.build/Debug/fast-orthogonal-search.build/Objects-normal/x86_64/muParserCallback.o "/Users/greggjohns/Documents/C projects/fast-orthogonal-search/muparser/muParserCallback.cpp" normal x86_64 c++ com.apple.compilers.gcc.4_2
+s416115843.261168
+e416115844.378219
+r1
+xCompileC
+xbuild/fast-orthogonal-search.build/Debug/fast-orthogonal-search.build/Objects-normal/x86_64/muParserCallback.o
+x/Users/greggjohns/Documents/C projects/fast-orthogonal-search/muparser/muParserCallback.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@99"Compile /Users/greggjohns/Documents/C projects/fast-orthogonal-search/muparser/muParserCallback.cpp416115843#416115844#0(0"0(0#0#91"/Users/greggjohns/Documents/C projects/fast-orthogonal-search/muparser/muParserCallback.cpp4486655632#1869"    cd "/Users/greggjohns/Documents/C projects/fast-orthogonal-search"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote "/Users/greggjohns/Documents/C projects/fast-orthogonal-search/build/fast-orthogonal-search.build/Debug/fast-orthogonal-search.build/fast-orthogonal-search-generated-files.hmap" "-I/Users/greggjohns/Documents/C projects/fast-orthogonal-search/build/fast-orthogonal-search.build/Debug/fast-orthogonal-search.build/fast-orthogonal-search-own-target-headers.hmap" "-I/Users/greggjohns/Documents/C projects/fast-orthogonal-search/build/fast-orthogonal-search.build/Debug/fast-orthogonal-search.build/fast-orthogonal-search-all-target-headers.hmap" -iquote "/Users/greggjohns/Documents/C projects/fast-orthogonal-search/build/fast-orthogonal-search.build/Debug/fast-orthogonal-search.build/fast-orthogonal-search-project-headers.hmap" "-F/Users/greggjohns/Documents/C projects/fast-orthogonal-search/build/Debug" "-I/Users/greggjohns/Documents/C projects/fast-orthogonal-search/build/Debug/include" "-I/Users/greggjohns/Documents/C projects/fast-orthogonal-search/build/fast-orthogonal-search.build/Debug/fast-orthogonal-search.build/DerivedSources/x86_64" "-I/Users/greggjohns/Documents/C projects/fast-orthogonal-search/build/fast-orthogonal-search.build/Debug/fast-orthogonal-search.build/DerivedSources" -c "/Users/greggjohns/Documents/C projects/fast-orthogonal-search/muparser/muParserCallback.cpp" -o "/Users/greggjohns/Documents/C projects/fast-orthogonal-search/build/fast-orthogonal-search.build/Debug/fast-orthogonal-search.build/Objects-normal/x86_64/muParserCallback.o"0#
+
+CCompileC build/fast-orthogonal-search.build/Debug/fast-orthogonal-search.build/Objects-normal/x86_64/muParserDLL.o "/Users/greggjohns/Documents/C projects/fast-orthogonal-search/muparser/muParserDLL.cpp" normal x86_64 c++ com.apple.compilers.gcc.4_2
+s416115844.378372
+e416115844.496907
+r1
+xCompileC
+xbuild/fast-orthogonal-search.build/Debug/fast-orthogonal-search.build/Objects-normal/x86_64/muParserDLL.o
+x/Users/greggjohns/Documents/C projects/fast-orthogonal-search/muparser/muParserDLL.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@94"Compile /Users/greggjohns/Documents/C projects/fast-orthogonal-search/muparser/muParserDLL.cpp416115844#416115844#0(0"0(0#0#86"/Users/greggjohns/Documents/C projects/fast-orthogonal-search/muparser/muParserDLL.cpp4486655632#1859"    cd "/Users/greggjohns/Documents/C projects/fast-orthogonal-search"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote "/Users/greggjohns/Documents/C projects/fast-orthogonal-search/build/fast-orthogonal-search.build/Debug/fast-orthogonal-search.build/fast-orthogonal-search-generated-files.hmap" "-I/Users/greggjohns/Documents/C projects/fast-orthogonal-search/build/fast-orthogonal-search.build/Debug/fast-orthogonal-search.build/fast-orthogonal-search-own-target-headers.hmap" "-I/Users/greggjohns/Documents/C projects/fast-orthogonal-search/build/fast-orthogonal-search.build/Debug/fast-orthogonal-search.build/fast-orthogonal-search-all-target-headers.hmap" -iquote "/Users/greggjohns/Documents/C projects/fast-orthogonal-search/build/fast-orthogonal-search.build/Debug/fast-orthogonal-search.build/fast-orthogonal-search-project-headers.hmap" "-F/Users/greggjohns/Documents/C projects/fast-orthogonal-search/build/Debug" "-I/Users/greggjohns/Documents/C projects/fast-orthogonal-search/build/Debug/include" "-I/Users/greggjohns/Documents/C projects/fast-orthogonal-search/build/fast-orthogonal-search.build/Debug/fast-orthogonal-search.build/DerivedSources/x86_64" "-I/Users/greggjohns/Documents/C projects/fast-orthogonal-search/build/fast-orthogonal-search.build/Debug/fast-orthogonal-search.build/DerivedSources" -c "/Users/greggjohns/Documents/C projects/fast-orthogonal-search/muparser/muParserDLL.cpp" -o "/Users/greggjohns/Documents/C projects/fast-orthogonal-search/build/fast-orthogonal-search.build/Debug/fast-orthogonal-search.build/Objects-normal/x86_64/muParserDLL.o"0#
+
+CCompileC build/fast-orthogonal-search.build/Debug/fast-orthogonal-search.build/Objects-normal/x86_64/muParserError.o "/Users/greggjohns/Documents/C projects/fast-orthogonal-search/muparser/muParserError.cpp" normal x86_64 c++ com.apple.compilers.gcc.4_2
+s416115844.497141
+e416115845.983503
+r1
+xCompileC
+xbuild/fast-orthogonal-search.build/Debug/fast-orthogonal-search.build/Objects-normal/x86_64/muParserError.o
+x/Users/greggjohns/Documents/C projects/fast-orthogonal-search/muparser/muParserError.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@96"Compile /Users/greggjohns/Documents/C projects/fast-orthogonal-search/muparser/muParserError.cpp416115844#416115845#0(0"0(0#0#88"/Users/greggjohns/Documents/C projects/fast-orthogonal-search/muparser/muParserError.cpp4486655632#1863"    cd "/Users/greggjohns/Documents/C projects/fast-orthogonal-search"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote "/Users/greggjohns/Documents/C projects/fast-orthogonal-search/build/fast-orthogonal-search.build/Debug/fast-orthogonal-search.build/fast-orthogonal-search-generated-files.hmap" "-I/Users/greggjohns/Documents/C projects/fast-orthogonal-search/build/fast-orthogonal-search.build/Debug/fast-orthogonal-search.build/fast-orthogonal-search-own-target-headers.hmap" "-I/Users/greggjohns/Documents/C projects/fast-orthogonal-search/build/fast-orthogonal-search.build/Debug/fast-orthogonal-search.build/fast-orthogonal-search-all-target-headers.hmap" -iquote "/Users/greggjohns/Documents/C projects/fast-orthogonal-search/build/fast-orthogonal-search.build/Debug/fast-orthogonal-search.build/fast-orthogonal-search-project-headers.hmap" "-F/Users/greggjohns/Documents/C projects/fast-orthogonal-search/build/Debug" "-I/Users/greggjohns/Documents/C projects/fast-orthogonal-search/build/Debug/include" "-I/Users/greggjohns/Documents/C projects/fast-orthogonal-search/build/fast-orthogonal-search.build/Debug/fast-orthogonal-search.build/DerivedSources/x86_64" "-I/Users/greggjohns/Documents/C projects/fast-orthogonal-search/build/fast-orthogonal-search.build/Debug/fast-orthogonal-search.build/DerivedSources" -c "/Users/greggjohns/Documents/C projects/fast-orthogonal-search/muparser/muParserError.cpp" -o "/Users/greggjohns/Documents/C projects/fast-orthogonal-search/build/fast-orthogonal-search.build/Debug/fast-orthogonal-search.build/Objects-normal/x86_64/muParserError.o"0#
+
+CCompileC build/fast-orthogonal-search.build/Debug/fast-orthogonal-search.build/Objects-normal/x86_64/muParserInt.o "/Users/greggjohns/Documents/C projects/fast-orthogonal-search/muparser/muParserInt.cpp" normal x86_64 c++ com.apple.compilers.gcc.4_2
+s416115844.709199
+e416115846.391189
+r1
+xCompileC
+xbuild/fast-orthogonal-search.build/Debug/fast-orthogonal-search.build/Objects-normal/x86_64/muParserInt.o
+x/Users/greggjohns/Documents/C projects/fast-orthogonal-search/muparser/muParserInt.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@94"Compile /Users/greggjohns/Documents/C projects/fast-orthogonal-search/muparser/muParserInt.cpp416115844#416115846#0(0"0(0#0#86"/Users/greggjohns/Documents/C projects/fast-orthogonal-search/muparser/muParserInt.cpp4486655632#1859"    cd "/Users/greggjohns/Documents/C projects/fast-orthogonal-search"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote "/Users/greggjohns/Documents/C projects/fast-orthogonal-search/build/fast-orthogonal-search.build/Debug/fast-orthogonal-search.build/fast-orthogonal-search-generated-files.hmap" "-I/Users/greggjohns/Documents/C projects/fast-orthogonal-search/build/fast-orthogonal-search.build/Debug/fast-orthogonal-search.build/fast-orthogonal-search-own-target-headers.hmap" "-I/Users/greggjohns/Documents/C projects/fast-orthogonal-search/build/fast-orthogonal-search.build/Debug/fast-orthogonal-search.build/fast-orthogonal-search-all-target-headers.hmap" -iquote "/Users/greggjohns/Documents/C projects/fast-orthogonal-search/build/fast-orthogonal-search.build/Debug/fast-orthogonal-search.build/fast-orthogonal-search-project-headers.hmap" "-F/Users/greggjohns/Documents/C projects/fast-orthogonal-search/build/Debug" "-I/Users/greggjohns/Documents/C projects/fast-orthogonal-search/build/Debug/include" "-I/Users/greggjohns/Documents/C projects/fast-orthogonal-search/build/fast-orthogonal-search.build/Debug/fast-orthogonal-search.build/DerivedSources/x86_64" "-I/Users/greggjohns/Documents/C projects/fast-orthogonal-search/build/fast-orthogonal-search.build/Debug/fast-orthogonal-search.build/DerivedSources" -c "/Users/greggjohns/Documents/C projects/fast-orthogonal-search/muparser/muParserInt.cpp" -o "/Users/greggjohns/Documents/C projects/fast-orthogonal-search/build/fast-orthogonal-search.build/Debug/fast-orthogonal-search.build/Objects-normal/x86_64/muParserInt.o"0#
+
+CCompileC build/fast-orthogonal-search.build/Debug/fast-orthogonal-search.build/Objects-normal/x86_64/muParserTest.o "/Users/greggjohns/Documents/C projects/fast-orthogonal-search/muparser/muParserTest.cpp" normal x86_64 c++ com.apple.compilers.gcc.4_2
+s416115845.983655
+e416115850.673883
+r1
+xCompileC
+xbuild/fast-orthogonal-search.build/Debug/fast-orthogonal-search.build/Objects-normal/x86_64/muParserTest.o
+x/Users/greggjohns/Documents/C projects/fast-orthogonal-search/muparser/muParserTest.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@95"Compile /Users/greggjohns/Documents/C projects/fast-orthogonal-search/muparser/muParserTest.cpp416115845#416115850#0(0"0(0#0#87"/Users/greggjohns/Documents/C projects/fast-orthogonal-search/muparser/muParserTest.cpp4486655632#1861"    cd "/Users/greggjohns/Documents/C projects/fast-orthogonal-search"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote "/Users/greggjohns/Documents/C projects/fast-orthogonal-search/build/fast-orthogonal-search.build/Debug/fast-orthogonal-search.build/fast-orthogonal-search-generated-files.hmap" "-I/Users/greggjohns/Documents/C projects/fast-orthogonal-search/build/fast-orthogonal-search.build/Debug/fast-orthogonal-search.build/fast-orthogonal-search-own-target-headers.hmap" "-I/Users/greggjohns/Documents/C projects/fast-orthogonal-search/build/fast-orthogonal-search.build/Debug/fast-orthogonal-search.build/fast-orthogonal-search-all-target-headers.hmap" -iquote "/Users/greggjohns/Documents/C projects/fast-orthogonal-search/build/fast-orthogonal-search.build/Debug/fast-orthogonal-search.build/fast-orthogonal-search-project-headers.hmap" "-F/Users/greggjohns/Documents/C projects/fast-orthogonal-search/build/Debug" "-I/Users/greggjohns/Documents/C projects/fast-orthogonal-search/build/Debug/include" "-I/Users/greggjohns/Documents/C projects/fast-orthogonal-search/build/fast-orthogonal-search.build/Debug/fast-orthogonal-search.build/DerivedSources/x86_64" "-I/Users/greggjohns/Documents/C projects/fast-orthogonal-search/build/fast-orthogonal-search.build/Debug/fast-orthogonal-search.build/DerivedSources" -c "/Users/greggjohns/Documents/C projects/fast-orthogonal-search/muparser/muParserTest.cpp" -o "/Users/greggjohns/Documents/C projects/fast-orthogonal-search/build/fast-orthogonal-search.build/Debug/fast-orthogonal-search.build/Objects-normal/x86_64/muParserTest.o"0#
+
+CCompileC build/fast-orthogonal-search.build/Debug/fast-orthogonal-search.build/Objects-normal/x86_64/muParserTokenReader.o "/Users/greggjohns/Documents/C projects/fast-orthogonal-search/muparser/muParserTokenReader.cpp" normal x86_64 c++ com.apple.compilers.gcc.4_2
+s416115846.391422
+e416115849.361120
+r1
+xCompileC
+xbuild/fast-orthogonal-search.build/Debug/fast-orthogonal-search.build/Objects-normal/x86_64/muParserTokenReader.o
+x/Users/greggjohns/Documents/C projects/fast-orthogonal-search/muparser/muParserTokenReader.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@102"Compile /Users/greggjohns/Documents/C projects/fast-orthogonal-search/muparser/muParserTokenReader.cpp416115846#416115849#0(0"0(0#0#94"/Users/greggjohns/Documents/C projects/fast-orthogonal-search/muparser/muParserTokenReader.cpp4486655632#1875"    cd "/Users/greggjohns/Documents/C projects/fast-orthogonal-search"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote "/Users/greggjohns/Documents/C projects/fast-orthogonal-search/build/fast-orthogonal-search.build/Debug/fast-orthogonal-search.build/fast-orthogonal-search-generated-files.hmap" "-I/Users/greggjohns/Documents/C projects/fast-orthogonal-search/build/fast-orthogonal-search.build/Debug/fast-orthogonal-search.build/fast-orthogonal-search-own-target-headers.hmap" "-I/Users/greggjohns/Documents/C projects/fast-orthogonal-search/build/fast-orthogonal-search.build/Debug/fast-orthogonal-search.build/fast-orthogonal-search-all-target-headers.hmap" -iquote "/Users/greggjohns/Documents/C projects/fast-orthogonal-search/build/fast-orthogonal-search.build/Debug/fast-orthogonal-search.build/fast-orthogonal-search-project-headers.hmap" "-F/Users/greggjohns/Documents/C projects/fast-orthogonal-search/build/Debug" "-I/Users/greggjohns/Documents/C projects/fast-orthogonal-search/build/Debug/include" "-I/Users/greggjohns/Documents/C projects/fast-orthogonal-search/build/fast-orthogonal-search.build/Debug/fast-orthogonal-search.build/DerivedSources/x86_64" "-I/Users/greggjohns/Documents/C projects/fast-orthogonal-search/build/fast-orthogonal-search.build/Debug/fast-orthogonal-search.build/DerivedSources" -c "/Users/greggjohns/Documents/C projects/fast-orthogonal-search/muparser/muParserTokenReader.cpp" -o "/Users/greggjohns/Documents/C projects/fast-orthogonal-search/build/fast-orthogonal-search.build/Debug/fast-orthogonal-search.build/Objects-normal/x86_64/muParserTokenReader.o"0#
+
+CLd "/Users/greggjohns/Documents/C projects/fast-orthogonal-search/build/Debug/fast-orthogonal-search" normal x86_64
+r0
+

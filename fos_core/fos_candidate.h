@@ -28,12 +28,11 @@ class FosCandidate{
 	double get_ytime_average();
 	double get_q();
 	int get_selected();
-	
 	void set_selected(int);
 	void set_time_average(value_type);
 	void set_ytime_average(value_type);
 	void set_q(value_type);
-	
+
 	FosCandidate* clone();
 	
 	void set_training_data(value_type*, int);

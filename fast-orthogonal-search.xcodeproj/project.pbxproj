@@ -29,7 +29,9 @@
 		B104086818BAAF3C00980714 /* muParserTokenReader.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B104085E18BAAF3C00980714 /* muParserTokenReader.cpp */; };
 		B1040EF818BD4CD700980714 /* fos_candidate.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B1040EF218BD4CD700980714 /* fos_candidate.cpp */; };
 		B1040EF918BD4CD700980714 /* fos_model.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B1040EF418BD4CD700980714 /* fos_model.cpp */; };
-		B1040EFA18BD4CD700980714 /* fos_simulation.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B1040EF618BD4CD700980714 /* fos_simulation.cpp */; };
+		B10CDB7618CD6A5500BB1811 /* fos_core.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B10CDB7518CD6A5500BB1811 /* fos_core.cpp */; };
+		B10CDB7B18CD6BA200BB1811 /* fos_regressor.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B10CDB7A18CD6BA200BB1811 /* fos_regressor.cpp */; };
+		B17CB58B18D0E01200D31E7A /* fos_spectrum.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B17CB58A18D0E01200D31E7A /* fos_spectrum.cpp */; };
 		B1DEAABB18C042EB00041240 /* fos_result.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B1DEAAB918C042EB00041240 /* fos_result.cpp */; };
 /* End PBXBuildFile section */
 
@@ -48,7 +50,7 @@
 
 /* Begin PBXFileReference section */
 		08FB7796FE84155DC02AAC07 /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
-		8DD76F6C0486A84900D96B5E /* csv */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = csv; sourceTree = BUILT_PRODUCTS_DIR; };
+		8DD76F6C0486A84900D96B5E /* fast-orthogonal-search */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "fast-orthogonal-search"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B10407B618BA8F0800980714 /* arff_attr.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = arff_attr.cpp; path = arff/arff_attr.cpp; sourceTree = "<group>"; };
 		B10407B718BA8F0800980714 /* arff_attr.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = arff_attr.h; path = arff/arff_attr.h; sourceTree = "<group>"; };
 		B10407B818BA8F0800980714 /* arff_data.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = arff_data.cpp; path = arff/arff_data.cpp; sourceTree = "<group>"; };
@@ -95,8 +97,12 @@
 		B1040EF318BD4CD700980714 /* fos_candidate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = fos_candidate.h; path = fos_core/fos_candidate.h; sourceTree = "<group>"; };
 		B1040EF418BD4CD700980714 /* fos_model.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = fos_model.cpp; path = fos_core/fos_model.cpp; sourceTree = "<group>"; };
 		B1040EF518BD4CD700980714 /* fos_model.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = fos_model.h; path = fos_core/fos_model.h; sourceTree = "<group>"; };
-		B1040EF618BD4CD700980714 /* fos_simulation.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = fos_simulation.cpp; path = fos_core/fos_simulation.cpp; sourceTree = "<group>"; };
-		B1040EF718BD4CD700980714 /* fos_simulation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = fos_simulation.h; path = fos_core/fos_simulation.h; sourceTree = "<group>"; };
+		B10CDB7418CD6A5500BB1811 /* fos_core.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = fos_core.h; sourceTree = "<group>"; };
+		B10CDB7518CD6A5500BB1811 /* fos_core.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = fos_core.cpp; sourceTree = "<group>"; };
+		B10CDB7918CD6BA200BB1811 /* fos_regressor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = fos_regressor.h; sourceTree = "<group>"; };
+		B10CDB7A18CD6BA200BB1811 /* fos_regressor.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = fos_regressor.cpp; sourceTree = "<group>"; };
+		B17CB58918D0E01200D31E7A /* fos_spectrum.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = fos_spectrum.h; sourceTree = "<group>"; };
+		B17CB58A18D0E01200D31E7A /* fos_spectrum.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = fos_spectrum.cpp; sourceTree = "<group>"; };
 		B1DEAAB918C042EB00041240 /* fos_result.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = fos_result.cpp; path = fos_core/fos_result.cpp; sourceTree = "<group>"; };
 		B1DEAABA18C042EB00041240 /* fos_result.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = fos_result.h; path = fos_core/fos_result.h; sourceTree = "<group>"; };
 		C6859E8B029090EE04C91782 /* csv.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = csv.1; sourceTree = "<group>"; };
@@ -138,7 +144,7 @@
 		1AB674ADFE9D54B511CA2CBB /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				8DD76F6C0486A84900D96B5E /* csv */,
+				8DD76F6C0486A84900D96B5E /* fast-orthogonal-search */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -207,8 +213,12 @@
 				B1040EF318BD4CD700980714 /* fos_candidate.h */,
 				B1040EF418BD4CD700980714 /* fos_model.cpp */,
 				B1040EF518BD4CD700980714 /* fos_model.h */,
-				B1040EF618BD4CD700980714 /* fos_simulation.cpp */,
-				B1040EF718BD4CD700980714 /* fos_simulation.h */,
+				B10CDB7418CD6A5500BB1811 /* fos_core.h */,
+				B10CDB7918CD6BA200BB1811 /* fos_regressor.h */,
+				B17CB58918D0E01200D31E7A /* fos_spectrum.h */,
+				B17CB58A18D0E01200D31E7A /* fos_spectrum.cpp */,
+				B10CDB7A18CD6BA200BB1811 /* fos_regressor.cpp */,
+				B10CDB7518CD6A5500BB1811 /* fos_core.cpp */,
 			);
 			name = FOS;
 			sourceTree = "<group>";
@@ -224,9 +234,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		8DD76F620486A84900D96B5E /* csv */ = {
+		8DD76F620486A84900D96B5E /* fast-orthogonal-search */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1DEB923108733DC60010E9CD /* Build configuration list for PBXNativeTarget "csv" */;
+			buildConfigurationList = 1DEB923108733DC60010E9CD /* Build configuration list for PBXNativeTarget "fast-orthogonal-search" */;
 			buildPhases = (
 				8DD76F640486A84900D96B5E /* Sources */,
 				8DD76F660486A84900D96B5E /* Frameworks */,
@@ -236,10 +246,10 @@
 			);
 			dependencies = (
 			);
-			name = csv;
+			name = "fast-orthogonal-search";
 			productInstallPath = "$(HOME)/bin";
 			productName = csv;
-			productReference = 8DD76F6C0486A84900D96B5E /* csv */;
+			productReference = 8DD76F6C0486A84900D96B5E /* fast-orthogonal-search */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
@@ -247,7 +257,7 @@
 /* Begin PBXProject section */
 		08FB7793FE84155DC02AAC07 /* Project object */ = {
 			isa = PBXProject;
-			buildConfigurationList = 1DEB923508733DC60010E9CD /* Build configuration list for PBXProject "csv" */;
+			buildConfigurationList = 1DEB923508733DC60010E9CD /* Build configuration list for PBXProject "fast-orthogonal-search" */;
 			compatibilityVersion = "Xcode 3.1";
 			developmentRegion = English;
 			hasScannedForEncodings = 1;
@@ -261,7 +271,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				8DD76F620486A84900D96B5E /* csv */,
+				8DD76F620486A84900D96B5E /* fast-orthogonal-search */,
 			);
 		};
 /* End PBXProject section */
@@ -292,8 +302,10 @@
 				B104086818BAAF3C00980714 /* muParserTokenReader.cpp in Sources */,
 				B1040EF818BD4CD700980714 /* fos_candidate.cpp in Sources */,
 				B1040EF918BD4CD700980714 /* fos_model.cpp in Sources */,
-				B1040EFA18BD4CD700980714 /* fos_simulation.cpp in Sources */,
 				B1DEAABB18C042EB00041240 /* fos_result.cpp in Sources */,
+				B10CDB7618CD6A5500BB1811 /* fos_core.cpp in Sources */,
+				B10CDB7B18CD6BA200BB1811 /* fos_regressor.cpp in Sources */,
+				B17CB58B18D0E01200D31E7A /* fos_spectrum.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -310,7 +322,7 @@
 				GCC_MODEL_TUNING = G5;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				INSTALL_PATH = /usr/local/bin;
-				PRODUCT_NAME = csv;
+				PRODUCT_NAME = "fast-orthogonal-search";
 			};
 			name = Debug;
 		};
@@ -321,7 +333,7 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				GCC_MODEL_TUNING = G5;
 				INSTALL_PATH = /usr/local/bin;
-				PRODUCT_NAME = csv;
+				PRODUCT_NAME = "fast-orthogonal-search";
 			};
 			name = Release;
 		};
@@ -354,7 +366,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		1DEB923108733DC60010E9CD /* Build configuration list for PBXNativeTarget "csv" */ = {
+		1DEB923108733DC60010E9CD /* Build configuration list for PBXNativeTarget "fast-orthogonal-search" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				1DEB923208733DC60010E9CD /* Debug */,
@@ -363,7 +375,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		1DEB923508733DC60010E9CD /* Build configuration list for PBXProject "csv" */ = {
+		1DEB923508733DC60010E9CD /* Build configuration list for PBXProject "fast-orthogonal-search" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				1DEB923608733DC60010E9CD /* Debug */,

@@ -1,0 +1,1 @@
+/Users/greggjohns/Documents/C projects/fast-orthogonal-search/fos_simulation_manager.cpp:24: error: no 'void FosSimManager::run(int, int)' member function declared in class 'FosSimManager'

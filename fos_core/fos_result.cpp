@@ -9,7 +9,7 @@
 
 #include "fos_result.h"
 
-FosResult::FosResult():response(0), model(0){
+FosResult::FosResult():response(0){
 	
 }
 
@@ -18,26 +18,23 @@ FosResult::~FosResult(){
 	
 	for (i=0; i<response.size(); i++)
 		delete [] response.at(i);
-	
-	if (model)
-		delete model;
-} 
+	} 
+
+void FosResult::set_model(FosModel* model){
+	this->model = model;
+}
 
 string FosResult::to_string(){
 	int n,N;
 	stringstream stream;
 	N = mse.size();
 	
-	for (n=0; n<train_file.size(); n++){
-		stream << "Training file: " << train_file.at(n) << "\n";
-	}
-	
 	for (n=0; n<N; n++){
 		stream << "Test File: " << test_file.at(n) << "\n";
 		stream << "MSE: " << mse.at(n) << "\n";
 		stream << "RMSE: " << rmse.at(n) << "\n";
 		stream << "AAE: " << aae.at(n) << "\n";
-		stream << "R2: " << cc.at(n)*cc.at(n) << "\n";
+		stream << "R^2: " << cc.at(n)*cc.at(n) << "\n";
 		stream << "CC: " << cc.at(n) << "\n\n";
 	}
 		
@@ -66,18 +63,6 @@ void FosResult::add_test_file(string test_file){
 
 void FosResult::set_test_file(vector <string> test_file){
 	this->test_file = test_file;
-}
-
-FosModel* FosResult::get_fos_model(){
-	return model;
-}
-
-void FosResult::set_fos_model(FosModel* model){
-	this->model = model;
-}
-
-void FosResult::add_train_file(string train_file){
-	this->train_file.push_back(train_file);
 }
 
 void FosResult::add_response_data(value_type * response, int N){
